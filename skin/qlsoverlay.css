@@ -1,0 +1,41 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/*make menu/menuitems iconic*/
+#mCavemanQLS
+{-moz-binding:url("chrome://global/content/bindings/menu.xml#menu-iconic")}
+#CavemanQLS>menuitem
+{-moz-binding:url("chrome://global/content/bindings/menu.xml#menuitem-iconic")}
+#mCavemanQLS>.menu-iconic-left,
+#CavemanQLS>menuitem>.menu-iconic-left{-moz-appearance:menuimage}
+
+/*toolbarbutton*/
+toolbar[iconsize="large"]>#wrapper-tbtnCavemanQLS>#tbtnCavemanQLS,
+toolbar[iconsize="large"]>#tbtnCavemanQLS
+{list-style-image:url("qls_24x24.png");-moz-image-region:auto}
+
+toolbar[iconsize="small"]>#wrapper-tbtnCavemanQLS>#tbtnCavemanQLS,
+toolbar[iconsize="small"]>#tbtnCavemanQLS,
+#tbtnCavemanQLS[cui-areatype="toolbar"],
+/*menuitem*/
+#mCavemanQLS
+{list-style-image:url("qls_16x16.png");-moz-image-region:auto}
+
+/*customize dialog*/
+#tbtnCavemanQLS
+{list-style-image:url("qls_32x32.png");-moz-image-region:auto}
+
+#statusbar-tooltip-QLS-locale{color:rgb(247,113,23)}
+#statusbar-tooltip-QLS-contentlocale{color:rgb(100,135,220)}
+#statusbar-QLS[mode="text"]>.statusbarpanel-icon,
+#statusbar-QLS[mode="icon"]>.statusbarpanel-text{display:none}
+
+/*flatten images to 16x11*/
+menuitem[flagitem="true"]>.menu-iconic-left>.menu-iconic-icon,
+#CavemanQLS>menuitem>.menu-iconic-left>.menu-iconic-icon{max-height:11px!important}
+
+menuitem[ui_checked="true"][oncommand="QLSOverlay.ChangeLocale(this.id);"],
+menuitem[ui_checked="true"][oncommand="QLSOverlay.ChangeLocale(this.getAttribute('clocale'));"]
+{font-weight:bold;color:rgb(247,113,23)}
+menuitem[content_checked="true"][oncommand="QLSOverlay.ChangeLocale(this.id);"],
+menuitem[content_checked="true"][oncommand="QLSOverlay.ChangeLocale(this.getAttribute('clocale'));"]
+{font-weight:bold;color:rgb(100,135,220)}

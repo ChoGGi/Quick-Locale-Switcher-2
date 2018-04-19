@@ -1,0 +1,69 @@
+content qls	content/
+skin qls classic/1.0 skin/
+
+locale  qls	ar	  locale/ar/
+locale  qls	be-BY	locale/be-BY/
+locale  qls	bg-BG	locale/bg-BG/
+locale  qls	ca-AD	locale/ca-AD/
+locale  qls	cs-CZ	locale/cs-CZ/
+locale  qls	da	  locale/da/
+locale  qls	de	  locale/de/
+locale  qls	dsb	  locale/dsb/
+locale  qls	el	  locale/el/
+locale  qls	en-US locale/en-US/
+locale  qls	eo	  locale/eo/
+locale  qls	es-AR	locale/es-AR/
+locale  qls	es-ES	locale/es-ES/
+locale  qls	fa-IR	locale/fa-IR/
+locale  qls	fi	  locale/fi/
+locale  qls	fr	  locale/fr/
+locale  qls	fy-NL	locale/fy-NL/
+locale  qls	gd	  locale/gd/
+locale  qls	gl-ES	locale/gl-ES/
+locale  qls	he-IL	locale/he-IL/
+locale  qls	hr-HR	locale/hr-HR/
+locale  qls	hsb	  locale/hsb/
+locale  qls	hu-HU	locale/hu-HU/
+locale  qls	is-IS	locale/is-IS/
+locale  qls	it	  locale/it/
+locale  qls	ja	  locale/ja/
+locale  qls	km-KH	locale/km-KH/
+locale  qls	ko-KR	locale/ko-KR/
+locale  qls	lt-LT	locale/lt-LT/
+locale  qls	mk-MK	locale/mk-MK/
+locale  qls	ml-IN	locale/ml-IN/
+locale  qls	nb-NO	locale/nb-NO/
+locale  qls	nl    locale/nl/
+locale  qls	nn-NO	locale/nn-NO/
+locale  qls	pl	  locale/pl/
+locale  qls	pt-BR	locale/pt-BR/
+locale  qls	pt-PT	locale/pt-PT/
+locale  qls	ro-RO	locale/ro-RO/
+locale  qls	ru-RU	locale/ru-RU/
+locale  qls	sk-SK	locale/sk-SK/
+locale  qls	sl-SI	locale/sl-SI/
+locale  qls	sq-AL	locale/sq-AL/
+locale  qls	sr	  locale/sr/
+locale  qls	sv-SE	locale/sv-SE/
+locale  qls	tr	  locale/tr/
+locale  qls	uk-UA	locale/uk-UA/
+locale  qls	vi	  locale/vi/
+locale  qls	wa-BE	locale/wa-BE/
+locale  qls	zh-CN	locale/zh-CN/
+locale  qls	zh-TW	locale/zh-TW/
+
+overlay chrome://browser/content/browser.xul  chrome://qls/content/qlsoverlay.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul	chrome://qls/content/qlsoverlay.xul
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://qls/content/qlsoverlay.xul
+overlay	chrome://navigator/content/navigator.xul	chrome://qls/content/qlsoverlay.xul
+overlay	chrome://editor/content/editor.xul	chrome://qls/content/qlsoverlay.xul
+overlay	chrome://calendar/content/calendar.xul	chrome://qls/content/qlsoverlay.xul
+overlay	chrome://mozapps/content/extensions/about.xul	chrome://qls/content/qlsAboutOverlay.xul
+
+#style chrome://browser/content/browser.xul	chrome://qls/skin/qls.css
+#style	chrome://messenger/content/mailWindowOverlay.xul	chrome://qls/skin/qls.css	application={3550f703-e582-4d05-9a08-453d09bdfdc6}
+style	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://qls/skin/qls.css	application={3550f703-e582-4d05-9a08-453d09bdfdc6}
+#style	chrome://navigator/content/navigator.xul	chrome://qls/skin/qls.css
+#style	chrome://editor/content/navigator.xul	chrome://qls/skin/qls.css
+#style	chrome://calendar/content/calendar.xul	chrome://qls/skin/qls.css
+style	chrome://global/content/customizeToolbar.xul	chrome://qls/skin/qlsoverlay.css

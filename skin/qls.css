@@ -1,0 +1,380 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#sbpqlssettings,#tbqlssettings,menuitem#qlssettings
+{list-style-image:url("qls_options.png")}
+
+menuitem[flagitem="true"],listitem[flagitem="true"],#statusbar-QLS
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 16px 11px 0)}
+
+#sbp_af-ZA,[ccode="af-ZA"],#af-ZA,#tb_af-ZA,
+#sbp_xh-ZA,[ccode="xh-ZA"],#xh-ZA,#tb_xh-ZA,
+#sbp_tn-ZA,[ccode="tn-ZA"],#tn-ZA,#tb_tn-ZA,
+#sbp_nso-ZA,[ccode="nso-ZA"],#nso-ZA,#tb_nso-ZA,
+#sbp_en-ZA,[ccode="en-ZA"],#en-ZA,#tb_en-ZA,
+#sbp_zu-ZA,[ccode="zu-ZA"],#zu-ZA,#tb_zu-ZA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(99px 16px 110px 0)!important}
+#sbp_am-ET,[ccode="am-ET"],#am-ET,#tb_am-ET
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 32px 11px 16px)!important}
+#sbp_ar-AE,[ccode="ar-AE"],#ar-AE,#tb_ar-AE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 48px 11px 32px)!important}
+#sbp_ar-BH,[ccode="ar-BH"],#ar-BH,#tb_ar-BH
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 64px 11px 48px)!important}
+#sbp_ar-DZ,[ccode="ar-DZ"],#ar-DZ,#tb_ar-DZ,
+#sbp_ber-DZ,[ccode="ber-DZ"],#ber-DZ,#tb_ber-DZ
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 80px 11px 64px)!important}
+#sbp_ar-EG,[ccode="ar-EG"],#ar-EG,#tb_ar-EG
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 96px 11px 80px)!important}
+#sbp_ar-IQ,[ccode="ar-IQ"],#ar-IQ,#tb_ar-IQ
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 112px 11px 96px)!important}
+#sbp_ar-JO,[ccode="ar-JO"],#ar-JO,#tb_ar-JO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 128px 11px 112px)!important}
+#sbp_ar-KW,[ccode="ar-KW"],#ar-KW,#tb_ar-KW
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 144px 11px 128px)!important}
+#sbp_ar-LB,[ccode="ar-LB"],#ar-LB,#tb_ar-LB
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 160px 11px 144px)!important}
+#sbp_ar-LY,[ccode="ar-LY"],#ar-LY,#tb_ar-LY
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 176px 11px 160px)!important}
+#sbp_ar-MA,[ccode="ar-MA"],#ar-MA,#tb_ar-MA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 192px 11px 176px)!important}
+#sbp_ar-OM,[ccode="ar-OM"],#ar-OM,#tb_ar-OM
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 208px 11px 192px)!important}
+#sbp_ar-QA,[ccode="ar-QA"],#ar-QA,#tb_ar-QA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 224px 11px 208px)!important}
+#sbp_ar-SA,[ccode="ar-SA"],#ar-SA,#tb_ar-SA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 240px 11px 224px)!important}
+#sbp_ar-SY,[ccode="ar-SY"],#ar-SY,#tb_ar-SY,
+#sbp_syr-SY,[ccode="syr-SY"],#syr-SY,#tb_syr-SY
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 224px 88px 208px)!important}
+#sbp_ar-TN,[ccode="ar-TN"],#ar-TN,#tb_ar-TN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(0 256px 11px 240px)!important}
+#sbp_ar-YE,[ccode="ar-YE"],#ar-YE,#tb_ar-YE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 16px 22px 0)!important}
+#sbp_arn-CL,[ccode="arn-CL"],#arn-CL,#tb_arn-CL,
+#sbp_es-CL,[ccode="es-CL"],#es-CL,#tb_es-CL
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 32px 22px 16px)!important}
+#sbp_as-IN,[ccode="as-IN"],#as-IN,#tb_as-IN,
+#sbp_ur-IN,[ccode="ur-IN"],#ur-IN,#tb_ur-IN,
+#sbp_ta-IN,[ccode="ta-IN"],#ta-IN,#tb_ta-IN,
+#sbp_te-IN,[ccode="te-IN"],#te-IN,#tb_te-IN,
+#sbp_sa-IN,[ccode="sa-IN"],#sa-IN,#tb_sa-IN,
+#sbp_pa-IN,[ccode="pa-IN"],#pa-IN,#tb_pa-IN,
+#sbp_or-IN,[ccode="or-IN"],#or-IN,#tb_or-IN,
+#sbp_mr-IN,[ccode="mr-IN"],#mr-IN,#tb_mr-IN,
+#sbp_ml-IN,[ccode="ml-IN"],#ml-IN,#tb_ml-IN,
+#sbp_kok-IN,[ccode="kok-IN"],#kok-IN,#tb_kok-IN,
+#sbp_kn-IN,[ccode="kn-IN"],#kn-IN,#tb_kn-IN,
+#sbp_hi-IN,[ccode="hi-IN"],#hi-IN,#tb_hi-IN,
+#sbp_gu-IN,[ccode="gu-IN"],#gu-IN,#tb_gu-IN,
+#sbp_en-IN,[ccode="en-IN"],#en-IN,#tb_en-IN,
+#sbp_bn-IN,[ccode="bn-IN"],#bn-IN,#tb_bn-IN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 80px 99px 64px)!important}
+#sbp_ast-ES,[ccode="ast-ES"],#ast-ES,#tb_ast-ES
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 48px 22px 32px)!important}
+#sbp_az-AZ-Cyrl,[ccode="az-AZ-Cyrl"],#az-AZ-Cyrl,#tb_az-AZ-Cyrl,
+#sbp_az-AZ-Latn,[ccode="az-AZ-Latn"],#az-AZ-Latn,#tb_az-AZ-Latn
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 64px 22px 48px)!important}
+#sbp_ba-RU,[ccode="ba-RU"],#ba-RU,#tb_ba-RU,
+#sbp_ru-English,[ccode="ru-English"],#ru-English,#tb_ru-English,
+#sbp_ru-RU,[ccode="ru-RU"],#ru-RU,#tb_ru-RU,
+#sbp_tt-RU,[ccode="tt-RU"],#tt-RU,#tb_tt-RU,
+#sbp_sah-RU,[ccode="sah-RU"],#sah-RU,#tb_sah-RU
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 80px 22px 64px)!important}
+#sbp_be-BY,[ccode="be-BY"],#be-BY,#tb_be-BY
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 96px 22px 80px)!important}
+#sbp_bg-BG,[ccode="bg-BG"],#bg-BG,#tb_bg-BG
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 112px 22px 96px)!important}
+#sbp_bn-BD,[ccode="bn-BD"],#bn-BD,#tb_bn-BD
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 128px 22px 112px)!important}
+#sbp_bo-BT,[ccode="bo-BT"],#bo-BT,#tb_bo-BT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 144px 22px 128px)!important}
+#sbp_bo-CN,[ccode="bo-CN"],#bo-CN,#tb_bo-CN,
+#sbp_zh-CN,[ccode="zh-CN"],#zh-CN,#tb_zh-CN,
+#sbp_ug-CN,[ccode="ug-CN"],#ug-CN,#tb_ug-CN,
+#sbp_mn-CN,[ccode="mn-CN"],#mn-CN,#tb_mn-CN,
+#sbp_zh-cht,[ccode="zh-cht"],#zh-cht,#tb_zh-cht,
+#sbp_zh-chs,[ccode="zh-chs"],#zh-chs,#tb_zh-chs,
+#sbp_ii-CN,[ccode="ii-CN"],#ii-CN,#tb_ii-CN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 192px 99px 176px)!important}
+#sbp_br-FR,[ccode="br-FR"],#br-FR,#tb_br-FR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 160px 22px 144px)!important}
+#sbp_bs-BA-Cyrl,[ccode="bs-BA-Cyrl"],#bs-BA-Cyrl,#tb_bs-BA-Cyrl,
+#sbp_bs-BA-Latn,[ccode="bs-BA-Latn"],#bs-BA-Latn,#tb_bs-BA-Latn,
+#sbp_sr-BA-Cyrl,[ccode="sr-BA-Cyrl"],#sr-BA-Cyrl,#tb_sr-BA-Cyrl,
+#sbp_sr-BA-Latn,[ccode="sr-BA-Latn"],#sr-BA-Latn,#tb_sr-BA-Latn,
+#sbp_hr-BA,[ccode="hr-BA"],#hr-BA,#tb_hr-BA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 176px 22px 160px)!important}
+#sbp_ca-AD,[ccode="ca-AD"],#ca-AD,#tb_ca-AD
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 192px 22px 176px)!important}
+#sbp_ca-valencia,[ccode="ca-valencia"],#ca-valencia,#tb_ca-valencia,
+#sbp_ca-ES,[ccode="ca-ES"],#ca-ES,#tb_ca-ES
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 208px 22px 192px)!important}
+#sbp_ca-FR,[ccode="ca-FR"],#ca-FR,#tb_ca-FR,
+#sbp_gsw-FR,[ccode="gsw-FR"],#gsw-FR,#tb_gsw-FR,
+#sbp_fr-FR,[ccode="fr-FR"],#fr-FR,#tb_fr-FR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 160px 55px 144px)!important}
+#sbp_co-FR,[ccode="co-FR"],#co-FR,#tb_co-FR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 224px 22px 208px)!important}
+#sbp_cs-CZ,[ccode="cs-CZ"],#cs-CZ,#tb_cs-CZ
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 240px 22px 224px)!important}
+#sbp_cy-GB,[ccode="cy-GB"],#cy-GB,#tb_cy-GB
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(11px 256px 22px 240px)!important}
+#sbp_da-DK,[ccode="da-DK"],#da-DK,#tb_da-DK
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 16px 33px 0)!important}
+#sbp_de-AT,[ccode="de-AT"],#de-AT,#tb_de-AT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 32px 33px 16px)!important}
+#sbp_de-CH,[ccode="de-CH"],#de-CH,#tb_de-CH,
+#sbp_rm-CH,[ccode="rm-CH"],#rm-CH,#tb_rm-CH,
+#sbp_it-CH,[ccode="it-CH"],#it-CH,#tb_it-CH,
+#sbp_fr-CH,[ccode="fr-CH"],#fr-CH,#tb_fr-CH
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(99px 47px 110px 32px)!important}
+#sbp_de-DE,[ccode="de-DE"],#de-DE,#tb_de-DE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 48px 33px 32px)!important}
+#sbp_de-LI,[ccode="de-LI"],#de-LI,#tb_de-LI
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 64px 33px 48px)!important}
+#sbp_de-LU,[ccode="de-LU"],#de-LU,#tb_de-LU,
+#sbp_lb-LU,[ccode="lb-LU"],#lb-LU,#tb_lb-LU,
+#sbp_fr-LU,[ccode="fr-LU"],#fr-LU,#tb_fr-LU
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 176px 55px 160px)!important}
+#sbp_div-MV,[ccode="div-MV"],#div-MV,#tb_div-MV
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 80px 33px 64px)!important}
+#sbp_el-GR,[ccode="el-GR"],#el-GR,#tb_el-GR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 112px 33px 96px)!important}
+#sbp_en-AU,[ccode="en-AU"],#en-AU,#tb_en-AU
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 128px 33px 112px)!important}
+#sbp_en-BZ,[ccode="en-BZ"],#en-BZ,#tb_en-BZ
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 144px 33px 128px)!important}
+#sbp_en-CA,[ccode="en-CA"],#en-CA,#tb_en-CA,
+#sbp_fr-CA,[ccode="fr-CA"],#fr-CA,#tb_fr-CA,
+#sbp_moh-CA,[ccode="moh-CA"],#moh-CA,#tb_moh-CA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 112px 77px 96px)!important}
+#sbp_en-GB,[ccode="en-GB"],#en-GB,#tb_en-GB
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 160px 33px 144px)!important}
+#sbp_en-IE,[ccode="en-IE"],#en-IE,#tb_en-IE,
+#sbp_ga-IE,[ccode="ga-IE"],#ga-IE,#tb_ga-IE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 176px 33px 160px)!important}
+#sbp_en-CB,[ccode="en-CB"],#en-CB,#tb_en-CB
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(99px 32px 110px 16px)!important}
+#sbp_en-JM,[ccode="en-JM"],#en-JM,#tb_en-JM,
+#sbp_en-JA,[ccode="en-JA"],#en-JA,#tb_en-JA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 192px 33px 176px)!important}
+#sbp_en-MY,[ccode="en-MY"],#en-MY,#tb_en-MY,
+#sbp_ms-MY,[ccode="ms-MY"],#ms-MY,#tb_ms-MY
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 208px 33px 192px)!important}
+#sbp_en-NZ,[ccode="en-NZ"],#en-NZ,#tb_en-NZ,
+#sbp_mi-NZ,[ccode="mi-NZ"],#mi-NZ,#tb_mi-NZ
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 224px 33px 208px)!important}
+#sbp_en-PH,[ccode="en-PH"],#en-PH,#tb_en-PH,
+#sbp_fil-PH,[ccode="fil-PH"],#fil-PH,#tb_fil-PH
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 240px 33px 224px)!important}
+#sbp_en-SG,[ccode="en-SG"],#en-SG,#tb_en-SG,
+#sbp_zh-SG,[ccode="zh-SG"],#zh-SG,#tb_zh-SG
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 240px 99px 224px)!important}
+#sbp_en-TT,[ccode="en-TT"],#en-TT,#tb_en-TT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 256px 33px 240px)!important}
+#sbp_en-US,[ccode="en-US"],#en-US,#tb_en-US,
+#sbp_es-US,[ccode="es-US"],#es-US,#tb_es-US
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 48px 55px 32px)!important}
+#sbp_en-ZW,[ccode="en-ZW"],#en-ZW,#tb_en-ZW
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 16px 44px 0)!important}
+#sbp_eo-EO,[ccode="eo-EO"],#eo-EO,#tb_eo-EO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 32px 44px 16px)!important}
+#sbp_es-AR,[ccode="es-AR"],#es-AR,#tb_es-AR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 48px 44px 32px)!important}
+#sbp_es-BO,[ccode="es-BO"],#es-BO,#tb_es-BO,
+#sbp_quz-BO,[ccode="quz-BO"],#quz-BO,#tb_quz-BO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 256px 77px 240px)!important}
+#sbp_es-CO,[ccode="es-CO"],#es-CO,#tb_es-CO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 64px 44px 48px)!important}
+#sbp_es-CU,[ccode="es-CU"],#es-CU,#tb_es-CU
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 96px 44px 80px)!important}
+#sbp_es-CR,[ccode="es-CR"],#es-CR,#tb_es-CR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 80px 44px 64px)!important}
+#sbp_es-DO,[ccode="es-DO"],#es-DO,#tb_es-DO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 112px 44px 96px)!important}
+#sbp_es-EC,[ccode="es-EC"],#es-EC,#tb_es-EC
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 128px 44px 112px)!important}
+#sbp_es-ES-ts,[ccode="es-ES-ts"],#es-ES-ts,#tb_es-ES-ts,
+#sbp_es-ES,[ccode="es-ES"],#es-ES,#tb_es-ES
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 144px 44px 128px)!important}
+#sbp_es-GT,[ccode="es-GT"],#es-GT,#tb_es-GT,
+#sbp_qut-GT,[ccode="qut-GT"],#qut-GT,#tb_qut-GT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 160px 44px 144px)!important}
+#sbp_es-HN,[ccode="es-HN"],#es-HN,#tb_es-HN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 176px 44px 160px)!important}
+#sbp_es-MX,[ccode="es-MX"],#es-MX,#tb_es-MX
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 192px 44px 176px)!important}
+#sbp_es-NI,[ccode="es-NI"],#es-NI,#tb_es-NI
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 208px 44px 192px)!important}
+#sbp_es-PA,[ccode="es-PA"],#es-PA,#tb_es-PA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 224px 44px 208px)!important}
+#sbp_es-PE,[ccode="es-PE"],#es-PE,#tb_es-PE,
+#sbp_quz-PE,[ccode="quz-PE"],#quz-PE,#tb_quz-PE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 240px 44px 224px)!important}
+#sbp_es-PR,[ccode="es-PR"],#es-PR,#tb_es-PR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(33px 256px 44px 240px)!important}
+#sbp_es-PY,[ccode="es-PY"],#es-PY,#tb_es-PY
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 16px 55px 0)!important}
+#sbp_es-SV,[ccode="es-SV"],#es-SV,#tb_es-SV
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 32px 55px 16px)!important}
+#sbp_es-UY,[ccode="es-UY"],#es-UY,#tb_es-UY
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 64px 55px 48px)!important}
+#sbp_es-VE,[ccode="es-VE"],#es-VE,#tb_es-VE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 80px 55px 64px)!important}
+#sbp_et-EE,[ccode="et-EE"],#et-EE,#tb_et-EE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 96px 55px 80px)!important}
+#sbp_eu-ES,[ccode="eu-ES"],#eu-ES,#tb_eu-ES
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 112px 55px 96px)!important}
+#sbp_fa-IR,[ccode="fa-IR"],#fa-IR,#tb_fa-IR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 128px 55px 112px)!important}
+#sbp_fo-FO,[ccode="fo-FO"],#fo-FO,#tb_fo-FO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 144px 55px 128px)!important}
+#sbp_fr-BE,[ccode="fr-BE"],#fr-BE,#tb_fr-BE,
+#sbp_nl-BE,[ccode="nl-BE"],#nl-BE,#tb_nl-BE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 160px 77px 144px)!important}
+#sbp_fr-MC,[ccode="fr-MC"],#fr-MC,#tb_fr-MC
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 192px 55px 176px)!important}
+#sbp_fur-IT,[ccode="fur-IT"],#fur-IT,#tb_fur-IT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(99px 63px 110px 48px)!important}
+#sbp_fy-NL,[ccode="fy-NL"],#fy-NL,#tb_fy-NL
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 208px 55px 192px)!important}
+#sbp_gbz-AF,[ccode="gbz-AF"],#gbz-AF,#tb_gbz-AF,
+#sbp_ps-AF,[ccode="ps-AF"],#ps-AF,#tb_ps-AF
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 224px 55px 208px)!important}
+#sbp_gd-GB,[ccode="gd-GB"],#gd-GB,#tb_gd-GB
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 240px 55px 224px)!important}
+#sbp_gl-ES,[ccode="gl-ES"],#gl-ES,#tb_gl-ES
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(44px 256px 55px 240px)!important}
+#sbp_ha-NG-Latn,[ccode="ha-NG-Latn"],#ha-NG-Latn,#tb_ha-NG-Latn,
+#sbp_yo-NG,[ccode="yo-NG"],#yo-NG,#tb_yo-NG
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 16px 66px 0)!important}
+#sbp_he-IL,[ccode="he-IL"],#he-IL,#tb_he-IL
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 32px 66px 16px)!important}
+#sbp_hr-HR,[ccode="hr-HR"],#hr-HR,#tb_hr-HR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 48px 66px 32px)!important}
+#sbp_hu-HU,[ccode="hu-HU"],#hu-HU,#tb_hu-HU
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 64px 66px 48px)!important}
+#sbp_hy-AM,[ccode="hy-AM"],#hy-AM,#tb_hy-AM
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 80px 66px 64px)!important}
+#sbp_id-ID,[ccode="id-ID"],#id-ID,#tb_id-ID
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 96px 66px 80px)!important}
+#sbp_is-IS,[ccode="is-IS"],#is-IS,#tb_is-IS
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 112px 66px 96px)!important}
+#sbp_it-IT,[ccode="it-IT"],#it-IT,#tb_it-IT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 128px 66px 112px)!important}
+#sbp_iu-CA-Cans,[ccode="iu-CA-Cans"],#iu-CA-Cans,#tb_iu-CA-Cans,
+#sbp_iu-CA-Latn,[ccode="iu-CA-Latn"],#iu-CA-Latn,#tb_iu-CA-Latn
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 144px 66px 128px)!important}
+#sbp_ja-JP-mac,[ccode="ja-JP-mac"],#ja-JP-mac,#tb_ja-JP-mac,
+#sbp_ja-JP,[ccode="ja-JP"],#ja-JP,#tb_ja-JP
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 160px 66px 144px)!important}
+#sbp_ka-GE,[ccode="ka-GE"],#ka-GE,#tb_ka-GE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 176px 66px 160px)!important}
+#sbp_kk-KZ,[ccode="kk-KZ"],#kk-KZ,#tb_kk-KZ
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 208px 66px 192px)!important}
+#sbp_kl-GL,[ccode="kl-GL"],#kl-GL,#tb_kl-GL
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 224px 66px 208px)!important}
+#sbp_km-KH,[ccode="km-KH"],#km-KH,#tb_km-KH,
+#sbp_kh-KH,[ccode="kh-KH"],#kh-KH,#tb_kh-KH
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 192px 66px 176px)!important}
+#sbp_ko-KR,[ccode="ko-KR"],#ko-KR,#tb_ko-KR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 240px 66px 224px)!important}
+#sbp_ky-KG,[ccode="ky-KG"],#ky-KG,#tb_ky-KG
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(55px 256px 66px 240px)!important}
+#sbp_lo-LA,[ccode="lo-LA"],#lo-LA,#tb_lo-LA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 16px 77px 0)!important}
+#sbp_lt-LT,[ccode="lt-LT"],#lt-LT,#tb_lt-LT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 32px 77px 16px)!important}
+#sbp_lug-UG,[ccode="lug-UG"],#lug-UG,#tb_lug-UG
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 48px 77px 32px)!important}
+#sbp_lv-LV,[ccode="lv-LV"],#lv-LV,#tb_lv-LV
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 64px 77px 48px)!important}
+#sbp_mk-MK,[ccode="mk-MK"],#mk-MK,#tb_mk-MK
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 80px 77px 64px)!important}
+#sbp_mn-MN,[ccode="mn-MN"],#mn-MN,#tb_mn-MN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 96px 77px 80px)!important}
+#sbp_ms-BN,[ccode="ms-BN"],#ms-BN,#tb_ms-BN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 128px 77px 112px)!important}
+#sbp_mt-MT,[ccode="mt-MT"],#mt-MT,#tb_mt-MT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 144px 77px 128px)!important}
+#sbp_nb-NO,[ccode="nb-NO"],#nb-NO,#tb_nb-NO,
+#sbp_smj-NO,[ccode="smj-NO"],#smj-NO,#tb_smj-NO,
+#sbp_sma-NO,[ccode="sma-NO"],#sma-NO,#tb_sma-NO,
+#sbp_nn-NO,[ccode="nn-NO"],#nn-NO,#tb_nn-NO,
+#sbp_se-NO,[ccode="se-NO"],#se-NO,#tb_se-NO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 112px 88px 96px)!important}
+#sbp_ne-NP,[ccode="ne-NP"],#ne-NP,#tb_ne-NP
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(99px 73px 110px 64px)!important}
+#sbp_nl-NL,[ccode="nl-NL"],#nl-NL,#tb_nl-NL
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 176px 77px 160px)!important}
+#sbp_oc-FR,[ccode="oc-FR"],#oc-FR,#tb_oc-FR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 192px 77px 176px)!important}
+#sbp_pl-PL,[ccode="pl-PL"],#pl-PL,#tb_pl-PL
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 208px 77px 192px)!important}
+#sbp_pt-BR,[ccode="pt-BR"],#pt-BR,#tb_pt-BR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 224px 77px 208px)!important}
+#sbp_pt-PT,[ccode="pt-PT"],#pt-PT,#tb_pt-PT
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(66px 240px 77px 224px)!important}
+#sbp_quz-EC,[ccode="quz-EC"],#quz-EC,#tb_quz-EC
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 16px 88px 0)!important}
+#sbp_ro-RO,[ccode="ro-RO"],#ro-RO,#tb_ro-RO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 32px 88px 16px)!important}
+#sbp_rw-RW,[ccode="rw-RW"],#rw-RW,#tb_rw-RW
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 48px 88px 32px)!important}
+#sbp_se-SE,[ccode="se-SE"],#se-SE,#tb_se-SE,
+#sbp_sv-SE,[ccode="sv-SE"],#sv-SE,#tb_sv-SE,
+#sbp_sma-SE,[ccode="sma-SE"],#sma-SE,#tb_sma-SE,
+#sbp_smj-SE,[ccode="smj-SE"],#smj-SE,#tb_smj-SE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 192px 88px 176px)!important}
+#sbp_si-LK,[ccode="si-LK"],#si-LK,#tb_si-LK,
+#sbp_ta-LK,[ccode="ta-LK"],#ta-LK,#tb_ta-LK
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 64px 88px 48px)!important}
+#sbp_sk-SK,[ccode="sk-SK"],#sk-SK,#tb_sk-SK
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 80px 88px 64px)!important}
+#sbp_sl-SI,[ccode="sl-SI"],#sl-SI,#tb_sl-SI
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 96px 88px 80px)!important}
+#sbp_smn-FI,[ccode="smn-FI"],#smn-FI,#tb_smn-FI,
+#sbp_sms-FI,[ccode="sms-FI"],#sms-FI,#tb_sms-FI,
+#sbp_se-FI,[ccode="se-FI"],#se-FI,#tb_se-FI,
+#sbp_fi-FI,[ccode="fi-FI"],#fi-FI,#tb_fi-FI,
+#sbp_sv-FI,[ccode="sv-FI"],#sv-FI,#tb_sv-FI
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 176px 88px 160px)!important}
+#sbp_son-NE,[ccode="son-NE"],#son-NE,#tb_son-NE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 128px 88px 112px)!important}
+#sbp_sq-AL,[ccode="sq-AL"],#sq-AL,#tb_sq-AL
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 144px 88px 128px)!important}
+#sbp_sr-ME,[ccode="sr-ME"],#sr-ME,#tb_sr-ME
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 48px 99px 32px)!important}
+#sbp_sr-RS,[ccode="sr-RS"],#sr-RS,#tb_sr-RS
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 160px 88px 144px)!important}
+#sbp_sw-KE,[ccode="sw-KE"],#sw-KE,#tb_sw-KE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 208px 88px 192px)!important}
+#sbp_tg-TJ-Cyrl,[ccode="tg-TJ-Cyrl"],#tg-TJ-Cyrl,#tb_tg-TJ-Cyrl
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 240px 88px 224px)!important}
+#sbp_th-TH,[ccode="th-TH"],#th-TH,#tb_th-TH
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(77px 256px 88px 240px)!important}
+#sbp_tk-TM,[ccode="tk-TM"],#tk-TM,#tb_tk-TM
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 16px 99px 0)!important}
+#sbp_tr-TR,[ccode="tr-TR"],#tr-TR,#tb_tr-TR
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 32px 99px 16px)!important}
+#sbp_uk-UA,[ccode="uk-UA"],#uk-UA,#tb_uk-UA
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 64px 99px 48px)!important}
+#sbp_ur-PK,[ccode="ur-PK"],#ur-PK,#tb_ur-PK
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 96px 99px 80px)!important}
+#sbp_uz-UZ-Cyrl,[ccode="uz-UZ-Cyrl"],#uz-UZ-Cyrl,#tb_uz-UZ-Cyrl,
+#sbp_uz-UZ-Latn,[ccode="uz-UZ-Latn"],#uz-UZ-Latn,#tb_uz-UZ-Latn
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 112px 99px 96px)!important}
+#sbp_vi-VN,[ccode="vi-VN"],#vi-VN,#tb_vi-VN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 128px 99px 112px)!important}
+#sbp_wa-BE,[ccode="wa-BE"],#wa-BE,#tb_wa-BE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 144px 99px 128px)!important}
+#sbp_dsb-DE,[ccode="dsb-DE"],#dsb-DE,#tb_dsb-DE,
+#sbp_hsb-DE,[ccode="hsb-DE"],#hsb-DE,#hsb-DE
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(22px 96px 33px 80px)!important}
+#sbp_wo-SN,[ccode="wo-SN"],#wo-SN,#tb_wo-SN
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 176px 99px 160px)!important}
+#sbp_zh-HK,[ccode="zh-HK"],#zh-HK,#tb_zh-HK
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 208px 99px 192px)!important}
+#sbp_zh-MO,[ccode="zh-MO"],#zh-MO,#tb_zh-MO
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 224px 99px 208px)!important}
+#sbp_zh-TW,[ccode="zh-TW"],#zh-TW,#tb_zh-TW
+{list-style-image:url("mosaic_flags.png")!important;-moz-image-region:rect(88px 256px 99px 240px)!important}

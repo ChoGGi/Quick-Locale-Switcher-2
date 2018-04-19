@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Discandjî d&apos; locåle">
+<!ENTITY qls.description "Candjî abeye et åjheymint l&apos; locåle di l&apos; eterface (tchuze «general.useragent.locale»).">
+<!ENTITY qls.createdby "Fwait pa:">
+<!ENTITY qls.restoredefault "Rimete li prémetowe locåle">
+<!ENTITY qls.notifyrestart "Èn pus håyner ci messaedje ci.">
+<!ENTITY qls.restartmessage "Li locåle a stî candjeye. Vos dvrîz motoit renonder l&apos; betchteu po vey les candjmints.">
+<!ENTITY qls.askrestartmessage "Li locåle a stî candjeye. Voloz vs renonder l&apos; betchteu asteure po vey les candjmints?">
+<!ENTITY qls.pleasewait "Metant en ouve li nouve locåle...">
+<!ENTITY qls.settings "Tchuzes...">
+<!ENTITY qls.settings.title "Tchuzes do discandjeu d&apos; locåles">
+<!ENTITY qls.settings.apply "Mete en ouve">
+<!ENTITY qls.settings.description "Radjouter des locåles da vosse å menu. (eg en-US-mac ou de-FY)">
+<!ENTITY qls.settings.locale "Locåle">
+<!ENTITY qls.settings.label "Discrijhaedje">
+<!ENTITY qls.settings.pane.general "Djenerå">
+<!ENTITY qls.settings.pane.locales "Locåles">
+<!ENTITY qls.settings.pane.autoswitch "Discandje otomatike">
+<!ENTITY qls.settings.visiblemenuitems "Tchoezixhoz les locåles ki vos vloz håyner e menu">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Tchoezi totes les locåles">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Distchoezi totes les locåles">
+<!ENTITY qls.settings.switchwhat "Apliker l&apos; discandje di locåle åzès tchuzes shuvantes">
+<!ENTITY qls.settings.switch.gulocale "Lingaedje di l&apos; eterface («general.useragent.locale»)">
+<!ENTITY qls.settings.switch.contentlocale "Lingaedje pol contnou des pådjes (pol coridjrece eyet les lingaedjes dimandés å sierveu)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Never switch my accept languages header">
+<!ENTITY qls.settings.switch.alwaysask "Tofer mi dmander kénès tchuzes dji vou discandjî">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Ritcherdjî l&apos; pådje do moumint après discandjî l&apos; lingaedje pol contnou">
+<!ENTITY qls.settings.restartreload "Renonder / Ritcherdjî les tchuzes">
+<!ENTITY qls.settings.autorestart.ask "M&apos; advierti divant d&apos; renonder l&apos; programe">
+<!ENTITY qls.statusbar.main "Locåle tchoezeye avou l&apos; discandjeu d&apos; locåles k&apos; est en alaedje pol moumint:">
+<!ENTITY qls.statusbar.tooltip.content "Contnou: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Eterface do programe: &#37;1">
+<!ENTITY qls.useautoswitch.title "Discandjî otomaticmint">
+<!ENTITY qls.useautoswitch "Wårder otomaticmint vos preferences pol contnou eyet l&apos; coridjrece po tchaeke waibe">
+<!ENTITY qls.useautoswitch.tldbased "Discandjî otomaticmint sorlon l&apos; dominne di prumî livea (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "Netyî les waibes otomatikes">
+<!ENTITY qls.useautoswitch.open "Manaedjî les waibes otomatikes">
+<!ENTITY qls.autoswitch.filter "Cweri">
+<!ENTITY qls.autoswitch.clearfilter "Netyî">
+<!ENTITY qls.autoswitch.title "Waibes avou discandje di locåle otomatike">
+<!ENTITY qls.autoswitch.site "Waibe (locåle)">
+<!ENTITY qls.autoswitch.remove "Oister waibes otomatikes tchoezeyes">
+<!ENTITY qls.autoswitch.removeall "Oister totes les waibes otomatikes">
+<!ENTITY qls.autoswitch.close "Clôre">
+<!ENTITY qls-askswitchsettings-title "Discandje di locåle po les tchuzes shuvantes">
+<!ENTITY qls.visiblemenuitems.search "Cweri">
+<!ENTITY qls.settings.display "Tchuzes di håynaedje">
+<!ENTITY qls.settings.display.hide_tools "Catchî l&apos; intrêye e menu «Usteyes»">
+<!ENTITY qls.settings.display.hide_statusbar "Catchî l&apos; imådjete del bår d&apos; estat">
+<!ENTITY qls.settings.display.statusbarmode "Môde pol bår d&apos; estat">
+<!ENTITY qls.settings.display.statusbarmode.icon "Imådjete">
+<!ENTITY qls.settings.display.statusbarmode.text "Tecse">
+<!ENTITY qls.settings.display.statusbarmode.full "Imådjete et tecse">
+<!ENTITY qls.settings.getlanguagepacks "Des ôtes pacaedjes di lingaedje">
+<!ENTITY qls.settings.getdictionaries "Des ôtes diccionaires">
+<!ENTITY af-ZA "af-ZA - Afrikaans (Nonne Afrike)">
+<!ENTITY am-ET "am-ET - Amarike (Etiopeye)">
+<!ENTITY ar-AE "ar-AE - Arabe (Emirats Arabes Unis)">
+<!ENTITY ar-BH "ar-BH - Arabe (Bareyn)">
+<!ENTITY ar-DZ "ar-DZ - Arabe (Aldjereye)">
+<!ENTITY ar-EG "ar-EG - Arabe (Edjipe)">
+<!ENTITY ar-IQ "ar-IQ - Arabe (Irak)">
+<!ENTITY ar-JO "ar-JO - Arabe (Djordan)">
+<!ENTITY ar-KW "ar-KW - Arabe (Kuweyt)">
+<!ENTITY ar-LB "ar-LB - Arabe (Liban)">
+<!ENTITY ar-LY "ar-LY - Arabe (Libeye)">
+<!ENTITY ar-MA "ar-MA - Arabe (Marok)">
+<!ENTITY ar-OM "ar-OM - Arabe (Oman)">
+<!ENTITY ar-QA "ar-QA - Arabe (Katar)">
+<!ENTITY ar-SA "ar-SA - Arabe (Arabeye Sawoudite)">
+<!ENTITY ar-SY "ar-SY - Arabe (Sireye)">
+<!ENTITY ar-TN "ar-TN - Arabe (Tunizeye)">
+<!ENTITY ar-YE "ar-YE - Arabe (Yemen)">
+<!ENTITY arn-CL "arn-CL - Mapudungun (Tchili)">
+<!ENTITY as-IN "as-IN - Assamès (Inde)">
+<!ENTITY ast-ES "ast-ES - Asturyian (Espagne)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Azeri (Azerbaidjan, Cirilike)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Azeri (Azerbaydjan, Latén)">
+<!ENTITY ba-RU "ba-RU - Bashkir (Rûsseye)">
+<!ENTITY be-BY "be-BY - Belarûsse (Belarûsseye)">
+<!ENTITY ber-DZ "ber-DZ - Amazir (Aldjereye, Latén)">
+<!ENTITY bg-BG "bg-BG - Bulgåre (Bulgåreye)">
+<!ENTITY bn-BD "bn-BD - Bengali (Bengladesh)">
+<!ENTITY bn-IN "bn-IN - Bengali (Inde)">
+<!ENTITY bo-BT "bo-BT - Tibetin (Boutan)">
+<!ENTITY bo-CN "bo-CN - Tibetin (Chine)">
+<!ENTITY br-FR "br-FR - Burton (France)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Bosnyin (Bosneye et Herzegovine, Cirilike)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Bosnyin (Bosneye et Herzegovine, Latén)">
+<!ENTITY ca-AD "ca-AD - Catalan (Andore)">
+<!ENTITY ca-ES "ca-ES - Catalan (Espagne)">
+<!ENTITY ca-FR "ca-FR - Catalan (France)">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR - Corse (France)">
+<!ENTITY cs-CZ "cs-CZ - Tcheke (Tchekeye)">
+<!ENTITY cy-GB "cy-GB - Walès (Rweyåme Uni)">
+<!ENTITY da-DK "da-DK - Daenwès (Daenmåtche)">
+<!ENTITY de-AT "de-AT - Almand (Otriche)">
+<!ENTITY de-CH "de-CH - Almand (Swisse)">
+<!ENTITY de-DE "de-DE - Almand (Almagne)">
+<!ENTITY de-LI "de-LI - Almand (Lîchtensteyn)">
+<!ENTITY de-LU "de-LU - Almand (Lussimbork)">
+<!ENTITY div-MV "div-MV - Divehi (Maldives)">
+<!ENTITY el-GR "el-GR - Grek (Grece)">
+<!ENTITY en-AU "en-AU - Inglès (Ostraleye)">
+<!ENTITY en-BZ "en-BZ - Inglès (Belize)">
+<!ENTITY en-CA "en-CA - Inglès (Canada)">
+<!ENTITY en-CB "en-CB - Inglès (Carayibes)">
+<!ENTITY en-GB "en-GB - Inglès (Rweyåme Uni)">
+<!ENTITY en-IE "en-IE - Inglès (Irelande)">
+<!ENTITY en-IN "en-IN - Inglès (Inde)">
+<!ENTITY en-JA "en-JA - Inglès (Djamayike)">
+<!ENTITY en-MY "en-MY - Inglès (Malaizeye)">
+<!ENTITY en-NZ "en-NZ - Inglès (Nouve Zelande)">
+<!ENTITY en-PH "en-PH - Inglès (Filipenes)">
+<!ENTITY en-SG "en-SG - Inglès (Singapour)">
+<!ENTITY en-TT "en-TT - Inglès (Trinité et Tobago)">
+<!ENTITY en-US "en-US - Inglès (Estats Unis)">
+<!ENTITY en-ZA "en-ZA - Inglès (Nonne Afrike)">
+<!ENTITY en-ZW "en-ZW - Inglès (Zimbabwè)">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR - Castiyan (Årdjintene)">
+<!ENTITY es-BO "es-BO - Castiyan (Boliveye)">
+<!ENTITY es-CL "es-CL - Castiyan (Tchili)">
+<!ENTITY es-CU "es-CU - Castiyan (Cuba)">
+<!ENTITY es-CO "es-CO - Castiyan (Colombeye)">
+<!ENTITY es-CR "es-CR - Castiyan (Costa Rica)">
+<!ENTITY es-DO "es-DO - Castiyan (Republike Dominikinne)">
+<!ENTITY es-EC "es-EC - Castiyan (Ecwåteur)">
+<!ENTITY es-ES "es-ES - Castiyan (Espagne)">
+<!ENTITY es-ES-ts "es-ES-ts - Castiyan (Espagne, Rélijhaedje tradicionel)">
+<!ENTITY es-GT "es-GT - Castiyan (Gwatemala)">
+<!ENTITY es-HN "es-HN - Castiyan (Honduras)">
+<!ENTITY es-MX "es-MX - Castiyan (Mecsike)">
+<!ENTITY es-NI "es-NI - Castiyan (Nicaragwa)">
+<!ENTITY es-PA "es-PA - Castiyan (Panama)">
+<!ENTITY es-PE "es-PE - Castiyan (Perou)">
+<!ENTITY es-PR "es-PR - Castiyan (Porto Rico)">
+<!ENTITY es-PY "es-PY - Castiyan (Paragway)">
+<!ENTITY es-SV "es-SV - Castiyan (El Salvador)">
+<!ENTITY es-UY "es-UY - Castiyan (Ourougway)">
+<!ENTITY es-US "es-US - Castiyan (Estats Unis)">
+<!ENTITY es-VE "es-VE - Castiyan (Venezwela)">
+<!ENTITY et-EE "et-EE - Estonian (Estoneye)">
+<!ENTITY eu-ES "eu-ES - Euscara (Espagne)">
+<!ENTITY fa-IR "fa-IR - Farsi (Iran)">
+<!ENTITY fi-FI "fi-FI - Finwès (Finlande)">
+<!ENTITY fil-PH "fil-PH - Filipin (Filipenes)">
+<!ENTITY fo-FO "fo-FO - Faeroyès (Iyes Faeroyè)">
+<!ENTITY fr-BE "fr-BE - Francès (Beldjike)">
+<!ENTITY fr-CA "fr-CA - Francès (Canada)">
+<!ENTITY fr-CH "fr-CH - Francès (Swisse)">
+<!ENTITY fr-FR "fr-FR - Francès (France)">
+<!ENTITY fr-LU "fr-LU - Francès (Lussimbork)">
+<!ENTITY fr-MC "fr-MC - Francès (Monaco)">
+<!ENTITY fur-IT "fur-IT - Furlan (Itåleye)">
+<!ENTITY fy-NL "fy-NL - Frizon (Bas Payis)">
+<!ENTITY ga-IE "ga-IE - Irlandès (Irlande)">
+<!ENTITY gbz-AF "gbz-AF - Dari (Afganistan)">
+<!ENTITY gd-GB "gd-GB - Gayelike escôswès (Rweyåme Uni)">
+<!ENTITY gl-ES "gl-ES - Galicyin (Espagne)">
+<!ENTITY gsw-FR "gsw-FR - Elsacyin (France)">
+<!ENTITY gu-IN "gu-IN - Goudjarati (Inde)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hawoussa (Nidjeria, Latén)">
+<!ENTITY he-IL "he-IL - Ebreu (Israyel)">
+<!ENTITY hi-IN "hi-IN - Hindi (Inde)">
+<!ENTITY hr-BA "hr-BA - Crowåte (Bosneye et Herzegovine)">
+<!ENTITY hr-HR "hr-HR - Crowåte (Crowåceye)">
+<!ENTITY hu-HU "hu-HU - Hongrwès (Hongreye)">
+<!ENTITY hy-AM "hy-AM - Årmenyin (Årmeneye)">
+<!ENTITY id-ID "id-ID - (Indonezyin)">
+<!ENTITY ii-CN "ii-CN - Yi (Chinè)">
+<!ENTITY is-IS "is-IS - Izlandès (Izlande)">
+<!ENTITY it-CH "it-CH - Itålyin (Swisse)">
+<!ENTITY it-IT "it-IT - Itålyin (Itåleye)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktitut (Canada, Sillabaire)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktitut (Canada, Latén)">
+<!ENTITY ja-JP "ja-JP - Djaponès (Djapon)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Djaponès (Djapon, Mac)">
+<!ENTITY ka-GE "ka-GE - Djeyordjyin (Djeyordjeye)">
+<!ENTITY kk-KZ "kk-KZ - Kazaxh (Kazaxhtan)">
+<!ENTITY kl-GL "kl-GL - Groenlandès (Groenlande)">
+<!ENTITY km-KH "km-KH - Xhmer (Cambodje)">
+<!ENTITY kn-IN "kn-IN - Kannada (Inde)">
+<!ENTITY kok-IN "kok-IN - Konkani (Inde)">
+<!ENTITY ko-KR "ko-KR - Corêyen (Corêye nonnrece)">
+<!ENTITY ky-KG "ky-KG - Kirgiz (Kirgizstan)">
+<!ENTITY lb-LU "lb-LU - Lussimbordjwès (Lussimbork)">
+<!ENTITY lo-LA "lo-LA - Lawocyin (Lawosse)">
+<!ENTITY lt-LT "lt-LT - Litwanyin (Litwaneye)">
+<!ENTITY lug-UG "lug-UG - Louganda (Ouganda)">
+<!ENTITY lv-LV "lv-LV - Leton (Letoneye)">
+<!ENTITY mi-NZ "mi-NZ - Mawori (Nouve Zelande)">
+<!ENTITY mk-MK "mk-MK - Macedonyin (Macedoneye)">
+<!ENTITY ml-IN "ml-IN - Malayalam (Inde)">
+<!ENTITY mn-CN "mn-CN - Mongol (Chine)">
+<!ENTITY mn-MN "mn-MN - Mongol (Mongoleye)">
+<!ENTITY moh-CA "moh-CA - Mohawk (Canada)">
+<!ENTITY mr-IN "mr-IN - Marati (Inde)">
+<!ENTITY ms-BN "ms-BN - Malay (Bruney Darussalam)">
+<!ENTITY ms-MY "ms-MY - Malay (Malaizeye)">
+<!ENTITY mt-MT "mt-MT - Maltès (Male)">
+<!ENTITY nb-NO "nb-NO - Norvedjin Bokmål (Norvedje)">
+<!ENTITY ne-NP "ne-NP - Nepalès (Nepal)">
+<!ENTITY nl-BE "nl-BE - Neyerlandès (Beldjike)">
+<!ENTITY nl-NL "nl-NL - Neyerlandès (Bas Payis)">
+<!ENTITY nn-NO "nn-NO - Norvedjin Nynorsk (Norvedje)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (Nonne Afrike)">
+<!ENTITY oc-FR "oc-FR - Occitan (France)">
+<!ENTITY or-IN "or-IN - Oriya (Inde)">
+<!ENTITY pa-IN "pa-IN - Pundjabi (Inde)">
+<!ENTITY pl-PL "pl-PL - Polonès (Pologne)">
+<!ENTITY ps-AF "ps-AF - Pashto (Afganistan)">
+<!ENTITY pt-BR "pt-BR - Portuguès (Braezi)">
+<!ENTITY pt-PT "pt-PT - Portuguès (Portugal)">
+<!ENTITY qut-GT "qut-GT - Kitchè (Gwatemala)">
+<!ENTITY quz-BO "quz-BO - Ketchwa (Boliveye)">
+<!ENTITY quz-EC "quz-EC - Ketchwa (Ecwåteur)">
+<!ENTITY quz-PE "quz-PE - Ketchwa (Perou)">
+<!ENTITY rm-CH "rm-CH - Romantche (Swisse)">
+<!ENTITY ro-RO "ro-RO - Roumin (Roumaneye)">
+<!ENTITY ru-RU "ru-RU - Rûsse (Rûsseye)">
+<!ENTITY rw-RW "rw-RW - Kinyarwanda (Rwanda)">
+<!ENTITY sah-RU "sah-RU - Yakoute (Rûsseye)">
+<!ENTITY sa-IN "sa-IN - Sanskrit (Inde)">
+<!ENTITY se-FI "se-FI - Såmi bijhrece (Finlande)">
+<!ENTITY se-NO "se-NO - Såmi bijhrece (Norvedje)">
+<!ENTITY se-SE "se-SE - Såmi bijhrece (Suwede)">
+<!ENTITY si-LK "si-LK - Sinhalès (Sri Lanka)">
+<!ENTITY sk-SK "sk-SK - Eslovake (Eslovakeye)">
+<!ENTITY sl-SI "sl-SI - Eslovene (Esloveneye)">
+<!ENTITY sma-NO "sma-NO - Såmi nonnrece (Norvedje)">
+<!ENTITY sma-SE "sma-SE - Såmi nonnrece (Suwede)">
+<!ENTITY smj-NO "smj-NO - Såmi Lule (Norvedje)">
+<!ENTITY smj-SE "smj-SE - Såmi Lule (Suwede)">
+<!ENTITY smn-FI "smn-FI - Såmi Inari (Finlande)">
+<!ENTITY sms-FI "sms-FI - Såmi Skolt (Finlande)">
+<!ENTITY son-NE "son-NE - Songhay (Nidjer)">
+<!ENTITY sq-AL "sq-AL - Albanès (Albaneye)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Siebe (Bosneye et Herzegovine, Cirilike)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - Siebe (Bosneye et Herzegovine, Latén)">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbian (Serbia)">
+<!ENTITY sv-FI "sv-FI - Suwedès (Finlande)">
+<!ENTITY sv-SE "sv-SE - Suwedès (Suwede)">
+<!ENTITY sw-KE "sw-KE - Suwahili (Kenia)">
+<!ENTITY syr-SY "syr-SY - Siriake (Sireye)">
+<!ENTITY ta-IN "ta-IN - Tamoul (Inde)">
+<!ENTITY ta-LK "ta-LK - Tamil (Sri Lanka)">
+<!ENTITY te-IN "te-IN - Telougou (Inde)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Tadjik (Tadjikistan, Cirilike)">
+<!ENTITY th-TH "th-TH - Taylandès (Taylande)">
+<!ENTITY tk-TM "tk-TM - Turcmene (Turcmenistan)">
+<!ENTITY tn-ZA "tn-ZA - Setswana/Tswana (Nonne Afrike)">
+<!ENTITY ur-IN "ur-IN - Ourdou (Inde)">
+<!ENTITY tr-TR "tr-TR - Turk (Turkeye)">
+<!ENTITY tt-RU "tt-RU - Tatår (Rûsseye)">
+<!ENTITY ug-CN "ug-CN - Ouygour (Chine)">
+<!ENTITY uk-UA "uk-UA - Oucrinnyin (Oucrinne)">
+<!ENTITY ur-PK "ur-PK - Ourdou (Pakistan)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Ouzbeke (Ouzbekistan, Cirilike)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Ouzbeke (Ouzbekistan, Latén)">
+<!ENTITY vi-VN "vi-VN - Vietnamyin (Vietnam)">
+<!ENTITY wa-BE "wa-BE - Walon (Beldjike)">
+<!ENTITY dsb-DE "dsb-DE - Lower Sorbian (Germany)">
+<!ENTITY hsb-DE "hsb-DE - Upper Sorbian (Germany)">
+<!ENTITY wo-SN "wo-SN - Wolof (Senegål)">
+<!ENTITY xh-ZA "xh-ZA - Xhosa (Nonne Afrike)">
+<!ENTITY yo-NG "yo-NG - Yorouba (Nidjeria)">
+<!ENTITY zh-CHS "zh-CHS - Chinwès (Simplifyî)">
+<!ENTITY zh-CHT "zh-CHT - Chinwès (Tradicionel)">
+<!ENTITY zh-CN "zh-CN - Chinwès (Chine)">
+<!ENTITY zh-HK "zh-HK - Chinwès (Hong Kong RAS)">
+<!ENTITY zh-MO "zh-MO - Chinwès (Macao SAR)">
+<!ENTITY zh-SG "zh-SG - Chinwès (Singapour)">
+<!ENTITY zh-TW "zh-TW - Chinwès (Taiwan)">
+<!ENTITY zu-ZA "zu-ZA - Zoulou (Nonne-Afrike)">

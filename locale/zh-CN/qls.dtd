@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "快速修改 general.useragent.locale 的参数值。">
+<!ENTITY qls.createdby "作者:">
+<!ENTITY qls.restoredefault "恢复默认设置">
+<!ENTITY qls.notifyrestart "不再显示该信息。">
+<!ENTITY qls.restartmessage "本地语言已经修改。您需要重新启动浏览器以看到变化。">
+<!ENTITY qls.askrestartmessage "本地语言已经修改。是否重新启动浏览器以看到变化?">
+<!ENTITY qls.pleasewait "正在应用新的本地语言...">
+<!ENTITY qls.settings "选项...">
+<!ENTITY qls.settings.title "Quick Locale Switcher 选项">
+<!ENTITY qls.settings.apply "应用">
+<!ENTITY qls.settings.description "在菜单中添加自定义的本地语言。(e.g. en-US-mac or ja-JPM)">
+<!ENTITY qls.settings.locale "本地语言">
+<!ENTITY qls.settings.label "标记">
+<!ENTITY qls.settings.pane.general "常规">
+<!ENTITY qls.settings.pane.locales "本地语言">
+<!ENTITY qls.settings.pane.autoswitch "自动切换">
+<!ENTITY qls.settings.visiblemenuitems "请选择要显示在菜单中的项目。">
+<!ENTITY qls.settings.visiblemenuitems.selectall "选择所有项目">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "取消选择所有项目">
+<!ENTITY qls.settings.switchwhat "切换下列与本地语言相关的设置">
+<!ENTITY qls.settings.switch.gulocale "用户界面语言（general.useragent.locale 项）">
+<!ENTITY qls.settings.switch.contentlocale "内容语言（拼写检查词典及 HTTP Accept 的语言首部）">
+<!ENTITY qls.settings.switch.dontswitchalheader "不切换我的 accept 语言首部">
+<!ENTITY qls.settings.switch.alwaysask "总是询问我哪些设置我需要切换">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "切换内容语言后自动重新载入当前网站">
+<!ENTITY qls.settings.restartreload "重新启动/重新载入选项">
+<!ENTITY qls.settings.autorestart.ask "重新启动应用程序前警告我">
+<!ENTITY qls.statusbar.main "Quick Locale Switcher 当前已选择本地语言">
+<!ENTITY qls.statusbar.tooltip.content "内容：&#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "用户界面：&#37;1">
+<!ENTITY qls.useautoswitch.title "自动切换">
+<!ENTITY qls.useautoswitch "自动为每个站点保存网页内容和拼写检查词典的首选项">
+<!ENTITY qls.useautoswitch.tldbased "自动切换是基于其顶级域名(.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "重置自动切换的站点">
+<!ENTITY qls.useautoswitch.open "管理自动切换的站点">
+<!ENTITY qls.autoswitch.filter "搜索">
+<!ENTITY qls.autoswitch.clearfilter "清除">
+<!ENTITY qls.autoswitch.title "自动切换的站点">
+<!ENTITY qls.autoswitch.site "网站（本地）">
+<!ENTITY qls.autoswitch.remove "移除自动切换的站点">
+<!ENTITY qls.autoswitch.removeall "移除所有自动切换的站点">
+<!ENTITY qls.autoswitch.close "关闭">
+<!ENTITY qls-askswitchsettings-title "切换下列与本地语言有关的设置">
+<!ENTITY qls.visiblemenuitems.search "搜索">
+<!ENTITY qls.settings.display "显示选项">
+<!ENTITY qls.settings.display.hide_tools "隐藏工具菜单项">
+<!ENTITY qls.settings.display.hide_statusbar "隐藏状态栏图标">
+<!ENTITY qls.settings.display.statusbarmode "状态栏显示模式">
+<!ENTITY qls.settings.display.statusbarmode.icon "图标">
+<!ENTITY qls.settings.display.statusbarmode.text "文字">
+<!ENTITY qls.settings.display.statusbarmode.full "图标和文字">
+<!ENTITY qls.settings.getlanguagepacks "获取更多语言包">
+<!ENTITY qls.settings.getdictionaries "获取更多词典">
+<!ENTITY af-ZA "af-ZA (南非荷兰语(南非))">
+<!ENTITY am-ET "am-ET (阿姆哈拉语(埃塞俄比亚))">
+<!ENTITY ar-AE "ar-AE (阿拉伯语(阿联酋))">
+<!ENTITY ar-BH "ar-BH (阿拉伯语(巴林))">
+<!ENTITY ar-DZ "ar－DZ9 (阿拉伯语(阿尔及利亚))">
+<!ENTITY ar-EG "ar-EG (阿拉伯语(埃及))">
+<!ENTITY ar-IQ "ar-IQ (阿拉伯语(伊拉克))">
+<!ENTITY ar-JO "ar-JO (阿拉伯语(约旦))">
+<!ENTITY ar-KW "ar-KW (阿拉伯语(科威特))">
+<!ENTITY ar-LB "ar-LB (阿拉伯语(黎巴嫩))">
+<!ENTITY ar-LY "ar-LY (阿拉伯语(利比亚))">
+<!ENTITY ar-MA "ar-MA (阿拉伯语(摩洛哥))">
+<!ENTITY ar-OM "ar-OM (阿拉伯语(阿曼))">
+<!ENTITY ar-QA "ar-QA (阿拉伯语(卡塔尔))">
+<!ENTITY ar-SA "ar-SA (阿拉伯语(沙特阿拉伯))">
+<!ENTITY ar-SY "ar-SY (阿拉伯语(叙利亚))">
+<!ENTITY ar-TN "ar-TN (阿拉伯语(突尼斯))">
+<!ENTITY ar-YE "ar-YE (阿拉伯语(也门))">
+<!ENTITY arn-CL "arn-CL (马普敦根语(智利))">
+<!ENTITY as-IN "as-IN (阿萨姆语(印度))">
+<!ENTITY ast-ES "ast-ES (阿斯图里亚斯语)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl (阿塞拜疆语(西里尔))">
+<!ENTITY az-AZ-Latn "az-AZ-Latn (阿塞拜疆语(拉丁))">
+<!ENTITY ba-RU "ba-RU (巴士克语(俄罗斯))">
+<!ENTITY be-BY "be-BY (贝拉鲁斯语(贝拉鲁斯))">
+<!ENTITY ber-DZ "ber-DZ (大马士语(阿尔及利亚, 拉丁文))">
+<!ENTITY bg-BG "bg-BG (保加利亚语(保加利亚))">
+<!ENTITY bn-BD "bn-BD 孟加拉语(孟加拉国)">
+<!ENTITY bn-IN "bn-IN (孟加拉语(印度))">
+<!ENTITY bo-BT "bo-BT (西藏语(不丹))">
+<!ENTITY bo-CN "bo-CN (西藏语(中华人民共和国))">
+<!ENTITY br-FR "br-FR (布里多尼语(法国))">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl (波斯尼亚语(波斯尼亚和黑塞哥维那, 西里尔文))">
+<!ENTITY bs-BA-Latn "bs-BA-Latn (波斯尼亚语(波斯尼亚和黑塞哥维那, 拉丁文))">
+<!ENTITY ca-AD "ca-AD (加泰隆语(安道尔))">
+<!ENTITY ca-ES "ca-ES (加泰隆语(西班牙))">
+<!ENTITY ca-FR "ca-FR (加泰隆语(法国))">
+<!ENTITY ca-valencia "ca-valencia (巴伦西亚语(巴伦西亚区))">
+<!ENTITY co-FR "co-FR (科西嘉语(法国))">
+<!ENTITY cs-CZ "cs-CZ (捷克语(捷克共和国))">
+<!ENTITY cy-GB "cy-GB (威尔士语(英国))">
+<!ENTITY da-DK "da-DK (丹麦语(丹麦))">
+<!ENTITY de-AT "de-AT (德语(澳大利亚))">
+<!ENTITY de-CH "de-CH (德语(瑞士))">
+<!ENTITY de-DE "de-DE (德语(德国))">
+<!ENTITY de-LI "de-LI (德语(列支敦士登))">
+<!ENTITY de-LU "de-LU (德语(卢森堡))">
+<!ENTITY div-MV "div-MV (Divehi (马尔代夫))">
+<!ENTITY el-GR "el-GR (希腊语)">
+<!ENTITY en-AU "en-AU (英语(澳大利亚))">
+<!ENTITY en-BZ "en-BZ (英语(伯利兹))">
+<!ENTITY en-CA "en-CA (英语(加拿大))">
+<!ENTITY en-CB "en-CB (英语(加勒比))">
+<!ENTITY en-GB "en-GB (英语(英国))">
+<!ENTITY en-IE "en-IE (英语(爱尔兰))">
+<!ENTITY en-IN "en-IN (英语(印度))">
+<!ENTITY en-JA "en-JA (英语(牙买加))">
+<!ENTITY en-MY "en-MY (英语(马来西亚))">
+<!ENTITY en-NZ "en-NZ (英语(新西兰))">
+<!ENTITY en-PH "en-PH (英语(菲律宾))">
+<!ENTITY en-SG "en-SG (英语(新加坡))">
+<!ENTITY en-TT "en-TT (英语(特立尼达))">
+<!ENTITY en-US "en-US (英语(美国))">
+<!ENTITY en-ZA "en-ZA (英语(南非))">
+<!ENTITY en-ZW "en-ZW (英语(津巴布韦))">
+<!ENTITY eo-EO "eo-EO (世界语)">
+<!ENTITY es-AR "es-AR (西班牙语(拉丁美洲))">
+<!ENTITY es-BO "es-BO (西班牙语(玻利维亚))">
+<!ENTITY es-CL "es-CL (西班牙语(智利))">
+<!ENTITY es-CU "es-CU (西班牙语(古巴))">
+<!ENTITY es-CO "es-CO (西班牙语(哥伦比亚))">
+<!ENTITY es-CR "es-CR (西班牙语(哥斯达黎加))">
+<!ENTITY es-DO "es-DO (西班牙语(多米尼加共和国))">
+<!ENTITY es-EC "es-EC (西班牙语(厄瓜多尔))">
+<!ENTITY es-ES "es-ES (西班牙语(西班牙))">
+<!ENTITY es-ES-ts "es-ES-ts (西班牙语(西班牙, 繁体))">
+<!ENTITY es-GT "es-GT (西班牙语(危地马拉))">
+<!ENTITY es-HN "es-HN (西班牙语(洪都拉斯))">
+<!ENTITY es-MX "es-MX (西班牙语(墨西哥))">
+<!ENTITY es-NI "es-NI (西班牙语(尼加拉瓜))">
+<!ENTITY es-PA "es-PA (西班牙语(巴拿马))">
+<!ENTITY es-PE "es-PE (西班牙语(秘鲁))">
+<!ENTITY es-PR "es-PR (西班牙语(波多黎各))">
+<!ENTITY es-PY "es-PY (西班牙语(巴拉圭))">
+<!ENTITY es-SV "es-SV (西班牙语(萨尔瓦多))">
+<!ENTITY es-UY "es-UY (西班牙语(乌拉圭))">
+<!ENTITY es-US "es-US (西班牙语(美国))">
+<!ENTITY es-VE "es-VE (西班牙语(委内瑞拉))">
+<!ENTITY et-EE "et-EE (爱沙尼亚语(爱沙尼亚))">
+<!ENTITY eu-ES "eu-ES (巴斯克语)">
+<!ENTITY fa-IR "fa-IR (波斯语(伊朗))">
+<!ENTITY fi-FI "fi-FI (芬兰语)">
+<!ENTITY fil-PH "fil-PH (菲律宾语(菲律宾))">
+<!ENTITY fo-FO "fo-FO (法罗语(法罗群岛))">
+<!ENTITY fr-BE "fr-BE (法语(比利时))">
+<!ENTITY fr-CA "fr-CA (法语(加拿大))">
+<!ENTITY fr-CH "fr-CH (法语(瑞士))">
+<!ENTITY fr-FR "fr-FR (法语(法国))">
+<!ENTITY fr-LU "fr-LU (法国(卢森堡))">
+<!ENTITY fr-MC "fr-MC (法国(摩纳哥))">
+<!ENTITY fur-IT "fur-IT (Friulian (Italy))">
+<!ENTITY fy-NL "fy－NL(弗里兰语(荷兰))">
+<!ENTITY ga-IE "ga-IE (爱尔兰语(爱尔兰))">
+<!ENTITY gbz-AF "gbz-AF (达里语(阿富汗))">
+<!ENTITY gd-GB "gd-GB (盖尔语(英国))">
+<!ENTITY gl-ES "gl-ES (加里西亚语)">
+<!ENTITY gsw-FR "gsw-FR (阿尔萨斯(法国))">
+<!ENTITY gu-IN "gu-IN (古吉拉特语)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn (豪撒语(尼日利亚))">
+<!ENTITY he-IL "he-IL (希伯莱语(以色列))">
+<!ENTITY hi-IN "hi-IN (北印度语(印度))">
+<!ENTITY hr-BA "hr-BA (克罗地亚语(波斯尼亚和黑塞哥维那, 拉丁文))">
+<!ENTITY hr-HR "hr-HR (克罗地亚语(克罗地亚))">
+<!ENTITY hu-HU "hu-HU (匈牙利语(匈牙利))">
+<!ENTITY hy-AM "hy-AM (亚美尼亚语(亚美尼亚))">
+<!ENTITY id-ID "id-ID (印度尼西亚语)">
+<!ENTITY ii-CN "ii-CN (彝语(中华人民共和国))">
+<!ENTITY is-IS "is-IS (冰岛语(冰岛))">
+<!ENTITY it-CH "it-CH (意大利语(瑞士))">
+<!ENTITY it-IT "it-IT (意大利语(意大利))">
+<!ENTITY iu-CA-Cans "u-CA-Cans (因纽特语(加拿大, 西拉比文))">
+<!ENTITY iu-CA-Latn "iu-CA-Latn (因纽特语(加拿大, 拉丁文))">
+<!ENTITY ja-JP "ja-JP (日本语(日本))">
+<!ENTITY ja-JP-mac "ja-JP-mac (日本语 (日本, Mac))">
+<!ENTITY ka-GE "ka-GE (乔治亚语(乔治亚))">
+<!ENTITY kk-KZ "kk-KZ (哈萨克语(哈萨克斯坦))">
+<!ENTITY kl-GL "kl-GL (格陵兰语(格陵兰岛))">
+<!ENTITY km-KH "km-KH (高棉语(柬埔寨))">
+<!ENTITY kn-IN "kn-IN (埃纳德语(印度))">
+<!ENTITY kok-IN "kok-IN (肯卡尼语(印度))">
+<!ENTITY ko-KR "ko-KR (朝鲜语(朝鲜))">
+<!ENTITY ky-KG "ky-KG (吉尔吉斯语(吉尔吉斯斯坦))">
+<!ENTITY lb-LU "lb-LU (卢森堡语(卢森堡))">
+<!ENTITY lo-LA "lo-LA (老挝语(老挝人民民主共和国))">
+<!ENTITY lt-LT "lt-LT (立陶宛语(立陶宛))">
+<!ENTITY lug-UG "lug-UG (卢干达语(乌干达))">
+<!ENTITY lv-LV "lv-LV (拉脱维亚语(拉脱维亚))">
+<!ENTITY mi-NZ "mi-NZ (毛利语(新西兰))">
+<!ENTITY mk-MK "mk-MK (马其顿语)">
+<!ENTITY ml-IN "ml-IN (马里亚语(印度))">
+<!ENTITY mn-CN "mn-CN (蒙古语(中华人民共和国))">
+<!ENTITY mn-MN "mn-MN (蒙古语(蒙古))">
+<!ENTITY moh-CA "moh-CA (莫霍克语(加拿大))">
+<!ENTITY mr-IN "mr-IN (马拉地语(印度))">
+<!ENTITY ms-BN "ms-BN (马来语(文莱))">
+<!ENTITY ms-MY "ms-MY (马来语(马来西亚))">
+<!ENTITY mt-MT "mt-MT (马耳他语(马耳他))">
+<!ENTITY nb-NO "nb-NO (挪威语(挪威))">
+<!ENTITY ne-NP "ne-NP (尼泊尔语(尼泊尔))">
+<!ENTITY nl-BE "nl-BE (荷兰语(比利时))">
+<!ENTITY nl-NL "nl-NL (荷兰语(荷兰))">
+<!ENTITY nn-NO "nn-NO (挪威语(尼诺斯克))">
+<!ENTITY nso-ZA "nso-ZA (北索托语(南非))">
+<!ENTITY oc-FR "oc-FR (奥斯坦语(法国))">
+<!ENTITY or-IN "or-IN (欧日亚语(印度))">
+<!ENTITY pa-IN "pa-IN (邦加语(印度))">
+<!ENTITY pl-PL "pl-PL (波兰语(波兰))">
+<!ENTITY ps-AF "ps-AF (普什图语(阿富汗))">
+<!ENTITY pt-BR "pt-BR (葡萄牙语(巴西))">
+<!ENTITY pt-PT "pt-PT (葡萄牙语(葡萄牙))">
+<!ENTITY qut-GT "qut-GT (科伊克语(危地马拉))">
+<!ENTITY quz-BO "quz-BO (盖丘亚语(玻利维亚))">
+<!ENTITY quz-EC "quz-EC (盖丘亚语(厄瓜多尔))">
+<!ENTITY quz-PE "quz-PE (盖丘亚语(秘鲁))">
+<!ENTITY rm-CH "rm-CH (罗马尼亚语(瑞士))">
+<!ENTITY ro-RO "ro-RO (罗马尼亚语(罗马尼亚))">
+<!ENTITY ru-RU "ru-RU (俄语(俄罗斯))">
+<!ENTITY rw-RW "rw-RW (吉尼亚旺达语(卢旺达))">
+<!ENTITY sah-RU "sah-RU (雅库特语(俄罗斯))">
+<!ENTITY sa-IN "sa-IN (梵语(印度))">
+<!ENTITY se-FI "se-FI (萨米语(芬兰北部))">
+<!ENTITY se-NO "se-NO (萨米语(挪威北部))">
+<!ENTITY se-SE "se-SE (萨米语(瑞典北部))">
+<!ENTITY si-LK "si-LK (僧伽罗语(斯里兰卡))">
+<!ENTITY sk-SK "sk-SK (斯洛伐克语(斯洛伐克))">
+<!ENTITY sl-SI "sl-SI (斯洛文尼亚语(斯洛文尼亚))">
+<!ENTITY sma-NO "sma-NO (萨米语(挪威南部))">
+<!ENTITY sma-SE "ma-SE (萨米语(瑞典南部))">
+<!ENTITY smj-NO "smj-NO (萨米语(鲁尔, 挪威))">
+<!ENTITY smj-SE "smj-SE (萨米语(鲁尔, 瑞典))">
+<!ENTITY smn-FI "smn-FI (萨米语(伊那里, 芬兰))">
+<!ENTITY sms-FI "sms-FI (萨米语(斯科尔特, 芬兰))">
+<!ENTITY son-NE "son-NE (桑海语(尼日尔))">
+<!ENTITY sq-AL "sq-AL (阿尔巴尼亚语(阿尔巴尼亚))">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl (塞尔维亚语(波斯尼亚和黑塞哥维那, 西里尔文))">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (塞尔维亚语(波斯尼亚和黑塞哥维那, 拉丁文))">
+<!ENTITY sr-ME "sr-ME (黑山语(黑山))">
+<!ENTITY sr-RS "sr-RS (塞尔维亚语(塞尔维亚))">
+<!ENTITY sv-FI "sv-FI (瑞典语(芬兰))">
+<!ENTITY sv-SE "sv-SE (瑞典语(瑞典))">
+<!ENTITY sw-KE "sw-KE (斯瓦希里语(肯尼亚))">
+<!ENTITY syr-SY "syr-SY (叙利亚语(叙利亚))">
+<!ENTITY ta-IN "ta-IN (泰米尔语(印度))">
+<!ENTITY ta-LK "ta-LK (泰米尔语(斯里兰卡))">
+<!ENTITY te-IN "te-IN (泰卢固语(印度))">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl (塔吉克语(塔吉克斯坦))">
+<!ENTITY th-TH "th-TH (泰语(泰国))">
+<!ENTITY tk-TM "tk-TM (土库曼语(土库曼斯坦))">
+<!ENTITY tn-ZA "tn-ZA (塞茨瓦纳语/茨瓦纳语(南非))">
+<!ENTITY ur-IN "ur-IN (乌尔都语(印度))">
+<!ENTITY tr-TR "tr-TR (土耳其语)">
+<!ENTITY tt-RU "tt-RU (鞑靼语(俄罗斯))">
+<!ENTITY ug-CN "ug-CN (维吾尔语(中华人民共和国))">
+<!ENTITY uk-UA "uk-UA (乌克兰语(乌克兰))">
+<!ENTITY ur-PK "ur-PK (乌尔都语(巴基斯坦))">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl (乌兹别克语(乌兹别克斯坦, 西里尔文))">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn (乌兹别克语(乌兹别克斯坦, 拉丁文))">
+<!ENTITY vi-VN "vi-VN (越南语)">
+<!ENTITY wa-BE "wa-BE (瓦龙语(比利时))">
+<!ENTITY dsb-DE "dsb-DE (下索布语(德国))">
+<!ENTITY hsb-DE "dsb-DE (上索布语(德国))">
+<!ENTITY wo-SN "wo-SN (沃洛夫语(塞内加尔))">
+<!ENTITY xh-ZA "xh-ZA (伊斯科萨/科萨语 (南非))">
+<!ENTITY yo-NG "yo-NG (约鲁巴语(尼日利亚))">
+<!ENTITY zh-CHS "zh-CHS (中文(简体中文))">
+<!ENTITY zh-CHT "zh-CHT (中文(繁体中文))">
+<!ENTITY zh-CN "zh-CN (中文(中华人民共和国))">
+<!ENTITY zh-HK "zh-HK (中文(香港特别行政区,中华人民共和国))">
+<!ENTITY zh-MO "zh-MO (中文(澳门特别行政区))">
+<!ENTITY zh-SG "zh-SG (中文(新加坡))">
+<!ENTITY zh-TW "zh-TW (中文(台湾))">
+<!ENTITY zu-ZA "zu-ZA (伊斯祖鲁/祖鲁语(南非))">

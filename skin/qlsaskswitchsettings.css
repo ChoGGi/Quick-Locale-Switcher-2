@@ -1,0 +1,4 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+checkbox[ui_checked="true"]{color:rgb(247,113,23)}
+checkbox[content_checked="true"]{color:rgb(100,135,220)}

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+<Description about="urn:mozilla:install-manifest">
+
+    <em:id>QuickLocaleSwitcher2@choggi.org</em:id>
+    <em:version>0.0.2</em:version>
+    <em:name>Quick Locale Switcher 2</em:name>
+
+<!--
+    <em:id>QuickLocaleSwitcher2@choggi.org_TEST</em:id>
+    <em:version>0.0.2.6</em:version>
+    <em:name>Quick Locale Switcher 2_TEST</em:name>
+-->
+
+    <em:description>Quickly change the general.useragent.locale preference.</em:description>
+    <em:creator>ChoGGi</em:creator>
+<!--
+    <em:homepageURL>http://www.captaincaveman.nl</em:homepageURL>
+-->
+    <em:homepageURL>https://addons.mozilla.org/addon/quick-locale-switcher-2/</em:homepageURL>
+    <em:optionsURL>chrome://qls/content/qlssettings.xul</em:optionsURL>
+    <em:iconURL>chrome://qls/skin/qls_32x32.png</em:iconURL>
+    <em:icon64URL>chrome://qls/skin/qls_64x64.png</em:icon64URL>
+    <em:type>2</em:type>
+    <em:multiprocessCompatible>true</em:multiprocessCompatible>
+
+    <em:contributor>Original author Martijn Kooij</em:contributor>
+    <em:contributor>Thanks to Andrey Chernov for testing v2</em:contributor>
+    <em:contributor>Thanks to LXweb.nl for the GraphX</em:contributor>
+    <em:contributor>Thanks to Mark James of famfamfam.com (country flags)</em:contributor>
+    <em:contributor>Thanks to Rick of rick.jinlabs.com (gl-ES flag)</em:contributor>
+
+    <em:translator>Thanks to babelzilla.org</em:translator>
+    <em:translator>-</em:translator>
+    <em:translator>Goofy (fr)</em:translator>
+    <em:translator>MatrixIsAllOver (it)</em:translator>
+    <em:translator>Chuzo (es-ES)</em:translator>
+    <em:translator>Victory (ja-JP until 1.4)</em:translator>
+    <em:translator>seabow (ja-JP until 1.5)</em:translator>
+    <em:translator>Premier (ja until 1.6.7)</em:translator>
+    <em:translator>Fenian (de-DE)</em:translator>
+    <em:translator>Batuhan Çetin (tr)</em:translator>
+    <em:translator>BlueRobot (ko-KR)</em:translator>
+    <em:translator>Teo (pl)</em:translator>
+    <em:translator>Petr Šimek (cs-CZ)</em:translator>
+    <em:translator>Emu (bg-BG)</em:translator>
+    <em:translator>Zefranc (pt-PT)</em:translator>
+    <em:translator>Miles (sl-SI)</em:translator>
+    <em:translator>Fang5566 (zh-CN)</em:translator>
+    <em:translator>Wladow (sk-SK)</em:translator>
+    <em:translator>TLemur (ru-RU)</em:translator>
+    <em:translator>moZes (fy-NL)</em:translator>
+    <em:translator>Winiah (zh-TW)</em:translator>
+    <em:translator>Teboga (pt-BR)</em:translator>
+    <em:translator>AlleyKat (da)</em:translator>
+    <em:translator>Garas (lt-LT)</em:translator>
+    <em:translator>miz (ja-JP-mac) (until 1.5)</em:translator>
+    <em:translator>Regueifeiro (gl-ES)</em:translator>
+    <em:translator>Besnik (sq-AL)</em:translator>
+    <em:translator>siiie (he-IL)</em:translator>
+    <em:translator>Sonickydon (el)</em:translator>
+    <em:translator>Ian Moody (en-GB)</em:translator>
+    <em:translator>Pedram Veisi (fa-IR)</em:translator>
+    <em:translator>phireak (km-KH)</em:translator>
+    <em:translator>Khoruzhin (uk-UA)</em:translator>
+    <em:translator>Krcko (hr-HR)</em:translator>
+    <em:translator>Andrew O. Shadoura (be-BY)</em:translator>
+    <em:translator>tonynguyen (vi-VN)</em:translator>
+    <em:translator>dan.lungescu (ro-RO)</em:translator>
+    <em:translator>acushnir (es-AR)</em:translator>
+    <em:translator>gLes (hu-HU)</em:translator>
+    <em:translator>gandhi2 (nb-NO)</em:translator>
+    <em:translator>bscd (fi)</em:translator>
+    <em:translator>Opakoman (ca-AD)</em:translator>
+    <em:translator>nassimjd (ar)</em:translator>
+    <em:translator>priyanhere (ml-IN)</em:translator>
+    <em:translator>srtxg (wa-BE)</em:translator>
+    <em:translator>kristjan (is-IS)</em:translator>
+    <em:translator>Ivan Jonoski (mk-MK)</em:translator>
+    <em:translator>Ekko (nn-NO)</em:translator>
+    <em:translator>ljushaff (sr-RS)</em:translator>
+    <em:translator>sorbzilla (eo)</em:translator>
+    <em:translator>sorbzilla (dsb)</em:translator>
+    <em:translator>sorbzilla (hsb)</em:translator>
+    <em:translator>Haebaru (ja-JP)</em:translator>
+    <em:translator>Lakrits (sv-SE)</em:translator>
+    <em:translator>akerbeltz (gd)</em:translator>
+
+<!--
+https://addons.mozilla.org/pages/appversions
+-->
+
+<!-- Pale Moon -->
+      <em:targetApplication>
+        <Description>
+          <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+          <em:minVersion>1.0</em:minVersion>
+          <em:maxVersion>27.*</em:maxVersion>
+        </Description>
+      </em:targetApplication>
+
+<!-- Firefox -->
+<em:targetApplication>
+    <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>56.0</em:maxVersion>
+    </Description>
+</em:targetApplication>
+
+<!-- Thunderbird -->
+<em:targetApplication>
+    <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>3.3a1pre</em:minVersion>
+        <em:maxVersion>60.0</em:maxVersion>
+    </Description>
+</em:targetApplication>
+
+<!-- Seamonkey -->
+<em:targetApplication>
+    <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.1</em:minVersion>
+        <em:maxVersion>2.57</em:maxVersion>
+    </Description>
+</em:targetApplication>
+
+</Description>
+</RDF>

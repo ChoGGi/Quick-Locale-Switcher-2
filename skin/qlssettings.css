@@ -1,0 +1,29 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#lbvisiblemenuitems>listitem
+{-moz-binding: url("chrome://global/content/bindings/listbox.xml#listitem-checkbox-iconic")}
+
+#qls_selectall
+{list-style-image:url("select.png");-moz-image-region:rect(0 32px 16px 16px)}
+#qls_deselectall
+{list-style-image:url("select.png");-moz-image-region:rect(0 16px 16px 0)}
+
+radio[pane=pp_general]
+{list-style-image:url("mosaic_pp.png");-moz-image-region:rect(0 48px 31px 0)}
+radio[pane=pp_autoswitch]
+{list-style-image:url("mosaic_pp.png");-moz-image-region:rect(0 96px 31px 48px)}
+radio[pane=pp_locales]
+{list-style-image:url("mosaic_pp.png");-moz-image-region:rect(0 144px 31px 96px)}
+
+listbox{overflow:auto;min-width:350px;min-height:175px}
+richlistbox{overflow:auto;min-height:150px}
+.listcell-check{margin-left:5px!important}
+.paneButtonIcon{padding-left:26px;padding-right:26px;width:100px}
+
+#lbvisiblemenuitems>listitem:-moz-drag-over{border:1px solid #666}
+
+#lbitems{height:230px}
+#lbvisiblemenuitems{height:180px}
+
+.qls-link{color:rgb(100,135,220);text-decoration:none;cursor:pointer;margin-top:2px;margin-bottom:0px;padding-right:5px}
+.qls-link:hover{text-decoration:underline}

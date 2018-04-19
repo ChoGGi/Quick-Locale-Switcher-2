@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Thay đổi nhanh chóng general.useragent.locale">
+<!ENTITY qls.createdby "Tạo ra bởi:">
+<!ENTITY qls.restoredefault "Khôi phục mặc định">
+<!ENTITY qls.notifyrestart "Không hiện thông điệp này nữa.">
+<!ENTITY qls.restartmessage "Tên bản địa đã được thay đổi. Bạn cần khởi động lại trình duyệt để xem các thay đổi đó.">
+<!ENTITY qls.askrestartmessage "Tên bản địa đã được thay đổi. Bây giờ bạn có muốn khởi động lại để xem các thay đổi đó không?">
+<!ENTITY qls.pleasewait "Áp dụng tên bản địa mới...">
+<!ENTITY qls.settings "Tùy chọn...">
+<!ENTITY qls.settings.title "Tùy chọn Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Áp dụng">
+<!ENTITY qls.settings.description "Thêm tên bản địa tùy biến của bạn vào trình đơn. (vd. en-US-mac hay de-FY)">
+<!ENTITY qls.settings.locale "Bản địa">
+<!ENTITY qls.settings.label "Nhãn">
+<!ENTITY qls.settings.pane.general "Tổng quát">
+<!ENTITY qls.settings.pane.locales "Bản địa">
+<!ENTITY qls.settings.pane.autoswitch "Tự động Hoán chuyển">
+<!ENTITY qls.settings.visiblemenuitems "Chọn các bản địa mà bạn muốn hiển thị trong trình đơn.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Chọn tất cả">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Không chọn tất cả">
+<!ENTITY qls.settings.switchwhat "Hoán chuyển các thiết lập liên quan đến bản địa sau đây">
+<!ENTITY qls.settings.switch.gulocale "Giao diện Người dùng (general.useragent.locale)">
+<!ENTITY qls.settings.switch.contentlocale "Ngôn ngữ nội dung (Từ điển Kiểm tra Chính tả và đầu đề HTTP Accept Language)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Không bao giờ chuyển đầu đề accept-language">
+<!ENTITY qls.settings.switch.alwaysask "Luôn hỏi tôi về những thiết lập mà tôi muốn chuyển">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Tải lại trang web hiện tại sau khi chuyển ngôn ngữ">
+<!ENTITY qls.settings.restartreload "Tùy chọn Khởi động lại / Tải lại">
+<!ENTITY qls.settings.autorestart.ask "Cảnh báo tôi trước khi khởi động lại chương trình">
+<!ENTITY qls.statusbar.main "Tên bản địa hiện tại của Quick Locale Switcher">
+<!ENTITY qls.statusbar.tooltip.content "Nội dung: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Giao diện Người dùng: &#37;1">
+<!ENTITY qls.useautoswitch.title "Tự động chuyển">
+<!ENTITY qls.useautoswitch "Tự động lưu trữ nội dung trang web và tùy chọn cho từ điển chính tả của mỗi trang">
+<!ENTITY qls.useautoswitch.tldbased "Tự động chuyển dựa vào Tên miền Cấp Một (.vn .nl .fr)">
+<!ENTITY qls.useautoswitch.delete "Tạo lại các trang Tự động Hoán chuyển">
+<!ENTITY qls.useautoswitch.open "Quản lí các trang Tự động Hoán chuyển">
+<!ENTITY qls.autoswitch.filter "Tìm">
+<!ENTITY qls.autoswitch.clearfilter "Xóa">
+<!ENTITY qls.autoswitch.title "Các trang tự động hoán chuyển">
+<!ENTITY qls.autoswitch.site "Trang web (bản địa)">
+<!ENTITY qls.autoswitch.remove "Xóa các trang tự động hoán chuyển đã chọn">
+<!ENTITY qls.autoswitch.removeall "Xóa tất cả các trang tự động hoán chuyển">
+<!ENTITY qls.autoswitch.close "Đóng">
+<!ENTITY qls-askswitchsettings-title "Hoán chuyển các thiết lập liên quan đến bản địa sau đây">
+<!ENTITY qls.visiblemenuitems.search "Tìm">
+<!ENTITY qls.settings.display "Tùy chọn hiển thị">
+<!ENTITY qls.settings.display.hide_tools "Ẩn trên trình đơn Công cụ">
+<!ENTITY qls.settings.display.hide_statusbar "Ẩn biểu tượng thanh trạng thái">
+<!ENTITY qls.settings.display.statusbarmode "Chế độ hiển thị trong thanh trạng thái">
+<!ENTITY qls.settings.display.statusbarmode.icon "Biểu tượng">
+<!ENTITY qls.settings.display.statusbarmode.text "Văn bản">
+<!ENTITY qls.settings.display.statusbarmode.full "Biểu tượng và Văn bản">
+<!ENTITY qls.settings.getlanguagepacks "Lấy thêm gói ngôn ngữ">
+<!ENTITY qls.settings.getdictionaries "Lấy thêm từ điển">
+<!ENTITY af-ZA "af-ZA - Afrikaans (Nam Phi)">
+<!ENTITY am-ET "am-ET - Amharic (Ethiopia)">
+<!ENTITY ar-AE "ar-AE - Ả Rập (UAE)">
+<!ENTITY ar-BH "ar-BH - Ả Rập (Bahrain)">
+<!ENTITY ar-DZ "ar-DZ - Ả Rập (Algeria)">
+<!ENTITY ar-EG "ar-EG - Ả Rập (Ai Cập)">
+<!ENTITY ar-IQ "ar-IQ - Ả Rập (Iraq)">
+<!ENTITY ar-JO "ar-JO - Ả Rập (Jordan)">
+<!ENTITY ar-KW "ar-KW - Ả Rập (Kuwait)">
+<!ENTITY ar-LB "ar-LB - Ả Rập (Lebanon)">
+<!ENTITY ar-LY "ar-LY - Ả Rập (Libya)">
+<!ENTITY ar-MA "ar-MA - Ả Rập (Morocco)">
+<!ENTITY ar-OM "ar-OM - Ả Rập (Oman)">
+<!ENTITY ar-QA "ar-QA - Ả Rập (Qatar)">
+<!ENTITY ar-SA "ar-SA - Ả Rập (Ả Rập Saudi)">
+<!ENTITY ar-SY "ar-SY - Ả Rập (Syria)">
+<!ENTITY ar-TN "ar-TN - Ả Rập (Tunisia)">
+<!ENTITY ar-YE "ar-YE - Ả Rập (Yemen)">
+<!ENTITY arn-CL "arn-CL - Mapudungun (Chile)">
+<!ENTITY as-IN "as-IN - Assamese (Ấn Độ)">
+<!ENTITY ast-ES "ast-ES (Asturian)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Azeri (Cyrillic)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Azeri (Latin)">
+<!ENTITY ba-RU "ba-RU - Bashkir (Nga)">
+<!ENTITY be-BY "be-BY - Belarusian (Belarus)">
+<!ENTITY ber-DZ "ber-DZ - Tamazight (Algeria, Latin)">
+<!ENTITY bg-BG "bg-BG - Bulgarian (Bulgaria)">
+<!ENTITY bn-BD "bn-BD - Bengali (Bangladesh)">
+<!ENTITY bn-IN "bn-IN - Bengali (Ấn Độ)">
+<!ENTITY bo-BT "bo-BT - Tây Tạng (Bhutan)">
+<!ENTITY bo-CN "bo-CN - Tây Tạng (PRC)">
+<!ENTITY br-FR "br-FR - Breton (Pháp)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Bosnian (Bosnia và Herzegovina, Cyrillic)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Bosnian (Bosnia và Herzegovina, Latin)">
+<!ENTITY ca-AD "ca-AD - Catalan (Andorra)">
+<!ENTITY ca-ES "ca-ES - Catalan (Tây Ban Nha)">
+<!ENTITY ca-FR "ca-FR - Catalan (Pháp)">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR - Corsican (Pháp)">
+<!ENTITY cs-CZ "cs-CZ - Séc (Cộng hòa Séc)">
+<!ENTITY cy-GB "cy-GB - Welsh (Vương quốc Anh)">
+<!ENTITY da-DK "da-DK - Đan Mạch (Đan Mạch)">
+<!ENTITY de-AT "de-AT - Đức (Áo)">
+<!ENTITY de-CH "de-CH - Đức (Thụy Sĩ)">
+<!ENTITY de-DE "de-DE - Đức (Đức)">
+<!ENTITY de-LI "de-LI - Đức (Liechtenstein)">
+<!ENTITY de-LU "de-LU - Đức (Luxembourg)">
+<!ENTITY div-MV "div-MV - Divehi (Maldives)">
+<!ENTITY el-GR "el-GR - Hi Lạp (Hi Lạp)">
+<!ENTITY en-AU "en-AU - Tiếng Anh (Úc)">
+<!ENTITY en-BZ "en-BZ - Tiếng Anh (Belize)">
+<!ENTITY en-CA "en-CA - Tiếng Anh (Canada)">
+<!ENTITY en-CB "en-CB - Tiếng Anh (Caribbean)">
+<!ENTITY en-GB "en-GB - Tiếng Anh (Vương quốc Anh)">
+<!ENTITY en-IE "en-IE - Tiếng Anh (Ai Len)">
+<!ENTITY en-IN "en-IN - Tiếng Anh (Ấn Độ)">
+<!ENTITY en-JA "en-JA - Tiếng Anh (Jamaica)">
+<!ENTITY en-MY "en-MY - Tiếng Anh (Malaysia)">
+<!ENTITY en-NZ "en-NZ - Tiếng Anh (New Zealand)">
+<!ENTITY en-PH "en-PH - Tiếng Anh (Philippines)">
+<!ENTITY en-SG "en-SG - Tiếng Anh (Singapore)">
+<!ENTITY en-TT "en-TT - Tiếng Anh (Trinidad)">
+<!ENTITY en-US "en-US - Tiếng Anh (Hoa Kỳ)">
+<!ENTITY en-ZA "en-ZA - Tiếng Anh (Nam Phi)">
+<!ENTITY en-ZW "en-ZW - Tiếng Anh (Zimbabwe)">
+<!ENTITY eo-EO "eo-EO - Quốc tế ngữ">
+<!ENTITY es-AR "es-AR - Tây Ban Nha (Argentina)">
+<!ENTITY es-BO "es-BO - Tây Ban Nha (Bolivia)">
+<!ENTITY es-CL "es-CL - Tây Ban Nha (Chile)">
+<!ENTITY es-CU "es-CU - Tây Ban Nha (Cuba)">
+<!ENTITY es-CO "es-CO - Tây Ban Nha (Colombia)">
+<!ENTITY es-CR "es-CR - Tây Ban Nha (Costa Rica)">
+<!ENTITY es-DO "es-DO - Tây Ban Nha (Cộng hòa Dominican)">
+<!ENTITY es-EC "es-EC - Tây Ban Nha (Ecuador)">
+<!ENTITY es-ES "es-ES - Tây Ban Nha (Tây Ban Nha)">
+<!ENTITY es-ES-ts "es-ES-ts - Tây Ban Nha (Tây Ban Nha, Truyền Thống)">
+<!ENTITY es-GT "es-GT - Tây Ban Nha (Guatemala)">
+<!ENTITY es-HN "es-HN - Tây Ban Nha (Honduras)">
+<!ENTITY es-MX "es-MX - Tây Ban Nha (Mexico)">
+<!ENTITY es-NI "es-NI - Tây Ban Nha (Nicaragua)">
+<!ENTITY es-PA "es-PA - Tây Ban Nha (Panama)">
+<!ENTITY es-PE "es-PE - Tây Ban Nha (Peru)">
+<!ENTITY es-PR "es-PR - Tây Ban Nha (Puerto Rico)">
+<!ENTITY es-PY "es-PY - Tây Ban Nha (Paraguay)">
+<!ENTITY es-SV "es-SV - Tây Ban Nha (El Salvador)">
+<!ENTITY es-UY "es-UY - Tây Ban Nha (Uruguay)">
+<!ENTITY es-US "es-US - Tây Ban Nha (Hoa Kì)">
+<!ENTITY es-VE "es-VE - Tây Ban Nha (Venezuela)">
+<!ENTITY et-EE "et-EE - Estonian (Estonia)">
+<!ENTITY eu-ES "eu-ES - Basque (Xứ Basque)">
+<!ENTITY fa-IR "fa-IR - Ba Tư (Iran)">
+<!ENTITY fi-FI "fi-FI - Phần Lan (Phần Lan)">
+<!ENTITY fil-PH "fil-PH - Filipino (Philippines)">
+<!ENTITY fo-FO "fo-FO - Faeroese (Faero Islands)">
+<!ENTITY fr-BE "fr-BE - Pháp (Bỉ)">
+<!ENTITY fr-CA "fr-CA - Pháp (Canada)">
+<!ENTITY fr-CH "fr-CH - Pháp (Thụy Sĩ)">
+<!ENTITY fr-FR "fr-FR - Pháp (Pháp)">
+<!ENTITY fr-LU "fr-LU - Pháp (Luxembourg)">
+<!ENTITY fr-MC "fr-MC - Pháp (Monaco)">
+<!ENTITY fur-IT "fur-IT - Friulian (Ý)">
+<!ENTITY fy-NL "fy-NL - Frisian (Hà Lan)">
+<!ENTITY ga-IE "ga-IE - Ai Len (Ai Len)">
+<!ENTITY gbz-AF "gbz-AF - Dari (Afghanistan)">
+<!ENTITY gd-GB "gd-GB - Gaelic (United Kingdom)">
+<!ENTITY gl-ES "gl-ES - Galician (Galicia)">
+<!ENTITY gsw-FR "gsw-FR - Alsatian (Pháp)">
+<!ENTITY gu-IN "gu-IN - Gujarati (Ấn Độ)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hausa (Nigeria)">
+<!ENTITY he-IL "he-IL - Do Thái (Israel)">
+<!ENTITY hi-IN "hi-IN - Hindi (Ấn Độ)">
+<!ENTITY hr-BA "hr-BA - Croatian (Bosnia và Herzegovina, Latin)">
+<!ENTITY hr-HR "hr-HR - Croatian (Croatia)">
+<!ENTITY hu-HU "hu-HU - Hungarian (Hungary)">
+<!ENTITY hy-AM "hy-AM - Armenian (Armenia)">
+<!ENTITY id-ID "id-ID - Indonesian (Indonesia)">
+<!ENTITY ii-CN "ii-CN - Yi (PRC)">
+<!ENTITY is-IS "is-IS - Icelandic (Iceland)">
+<!ENTITY it-CH "it-CH - Ý (Thụy Sĩ)">
+<!ENTITY it-IT "it-IT - Ý (Ý)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktitut (Canada, Syllabics)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktitut (Canada, Latin)">
+<!ENTITY ja-JP "ja-JP - Nhật (Nhật Bản)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Nhật (Nhật Bản, Mac)">
+<!ENTITY ka-GE "ka-GE - Gruzia (Gruzia)">
+<!ENTITY kk-KZ "kk-KZ - Kazakh (Kazakhstan)">
+<!ENTITY kl-GL "kl-GL - Greenlandic (Greenland)">
+<!ENTITY km-KH "km-KH - Khơme (Campuchia)">
+<!ENTITY kn-IN "kn-IN - Kannada (Ấn Độ)">
+<!ENTITY kok-IN "kok-IN - Konkani (Ấn Độ)">
+<!ENTITY ko-KR "ko-KR - Hàn (Hàn Quốc)">
+<!ENTITY ky-KG "ky-KG - Kyrgyz (Kyrgyzstan)">
+<!ENTITY lb-LU "lb-LU - Luxembourgish (Luxembourg)">
+<!ENTITY lo-LA "lo-LA - Lào (Lào PDR)">
+<!ENTITY lt-LT "lt-LT - Lithuanian (Lithuania)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV - Latvian (Latvia)">
+<!ENTITY mi-NZ "mi-NZ - Maori (New Zealand)">
+<!ENTITY mk-MK "mk-MK - Macedonian (Macedonia)">
+<!ENTITY ml-IN "ml-IN - Malayalam (Ấn Độ)">
+<!ENTITY mn-CN "mn-CN - Mông Cổ (PRC)">
+<!ENTITY mn-MN "mn-MN - Mông Cổ (Mông Cổ)">
+<!ENTITY moh-CA "moh-CA - Mohawk (Canada)">
+<!ENTITY mr-IN "mr-IN - Marathi (Ấn Độ)">
+<!ENTITY ms-BN "ms-BN - Malay (Brunei Darussalam)">
+<!ENTITY ms-MY "ms-MY - Mã Lai (Malaysia)">
+<!ENTITY mt-MT "mt-MT - Maltese (Malta)">
+<!ENTITY nb-NO "nb-NO - Na Uy - Bokmål (Na Uy)">
+<!ENTITY ne-NP "ne-NP - Nepali (Nepal)">
+<!ENTITY nl-BE "nl-BE - Hà Lan (Bỉ)">
+<!ENTITY nl-NL "nl-NL - Hà Lan (Hà Lan)">
+<!ENTITY nn-NO "nn-NO - Na Uy - Nynorsk (Na Uy)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (South Africa)">
+<!ENTITY oc-FR "oc-FR - Occitan (Pháp)">
+<!ENTITY or-IN "or-IN - Oriya (Ấn Độ)">
+<!ENTITY pa-IN "pa-IN - Punjabi (Ấn Độ)">
+<!ENTITY pl-PL "pl-PL - Ba Lan (Ba Lan)">
+<!ENTITY ps-AF "ps-AF - Pashto (Afghanistan)">
+<!ENTITY pt-BR "pt-BR - Bồ Đào Nha (Brazil)">
+<!ENTITY pt-PT "pt-PT - Bồ Đào Nha (Bồ Đào Nha)">
+<!ENTITY qut-GT "qut-GT - K&apos;iche (Guatemala)">
+<!ENTITY quz-BO "quz-BO - Quechua (Bolivia)">
+<!ENTITY quz-EC "quz-EC - Quechua (Ecuador)">
+<!ENTITY quz-PE "quz-PE - Quechua (Peru)">
+<!ENTITY rm-CH "rm-CH - Romansh (Thụy Sĩ)">
+<!ENTITY ro-RO "ro-RO - Rumani (Rumani)">
+<!ENTITY ru-RU "ru-RU - Nga (Nga)">
+<!ENTITY rw-RW "rw-RW - Kinyarwanda (Rwanda)">
+<!ENTITY sah-RU "sah-RU - Yakut (Nga)">
+<!ENTITY sa-IN "sa-IN - Phạn (Ấn Độ)">
+<!ENTITY se-FI "se-FI - Sami (Phía Bắc, Phần Lan)">
+<!ENTITY se-NO "se-NO - Sami (Phía Bắc, Na Uy)">
+<!ENTITY se-SE "se-SE - Sami (Phía Bắc, Thụy Điển)">
+<!ENTITY si-LK "si-LK - Sinhala (Sri Lanka)">
+<!ENTITY sk-SK "sk-SK - Slovak (Slovakia)">
+<!ENTITY sl-SI "sl-SI - Slovenian (Slovenia)">
+<!ENTITY sma-NO "sma-NO - Sami (Phía Nam, Na Uy)">
+<!ENTITY sma-SE "sma-SE - Sami (Phía Nam, Thụy Điển)">
+<!ENTITY smj-NO "smj-NO - Sami (Lule, Na Uy)">
+<!ENTITY smj-SE "smj-SE - Sami (Lule, Thụy Điển)">
+<!ENTITY smn-FI "smn-FI - Sami (Inari, Phần Lan)">
+<!ENTITY sms-FI "sms-FI - Sami (Skolt, Phần Lan)">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "sq-AL - Albanian (Albania)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Nam Tư (Bosnia, và Herzegovina, Cyrillic)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - Nam Tư (Bosnia, và Herzegovina, Latin)">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbian (Serbia)">
+<!ENTITY sv-FI "sv-FI - Thụy Điển (Phần Lan)">
+<!ENTITY sv-SE "sv-SE - Thụy Điển (Thụy Điển)">
+<!ENTITY sw-KE "sw-KE - Swahili (Kenya)">
+<!ENTITY syr-SY "syr-SY - Syriac (Syria)">
+<!ENTITY ta-IN "ta-IN - Tamil (Ấn Độ)">
+<!ENTITY ta-LK "ta-IN - Tamil (Sri Lanka)">
+<!ENTITY te-IN "te-IN - Telugu (Ấn Độ)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Tajik (Tajikistan)">
+<!ENTITY th-TH "th-TH - Thái (Thái Lan)">
+<!ENTITY tk-TM "tk-TM - Turkmen (Turkmenistan)">
+<!ENTITY tn-ZA "tn-ZA - Setswana/Tswana (Nam Phi)">
+<!ENTITY ur-IN "ur-IN - Urdu (Ấn Độ)">
+<!ENTITY tr-TR "tr-TR - Thổ Nhĩ Kì (Thổ Nhĩ Kì)">
+<!ENTITY tt-RU "tt-RU - Tatar (Nga)">
+<!ENTITY ug-CN "ug-CN - Uighur (PRC)">
+<!ENTITY uk-UA "uk-UA - Ukrainian (Ukraine)">
+<!ENTITY ur-PK "ur-PK - Urdu (Pakistan)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Uzbek (Uzbekistan, Cyrillic)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Uzbek (Uzbekistan, Latin)">
+<!ENTITY vi-VN "vi-VN - Tiếng Việt (Việt Nam)">
+<!ENTITY wa-BE "wa-BE - Walloon (Bỉ)">
+<!ENTITY dsb-DE "dsb-DE - Hạ Sorbian (Đức)">
+<!ENTITY hsb-DE "hsb-DE - Thượng Sorbian (Đức)">
+<!ENTITY wo-SN "wo-SN - Wolof (Senegal)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/Xhosa (Nam Phi)">
+<!ENTITY yo-NG "yo-NG - Yoruba (Nigeria)">
+<!ENTITY zh-CHS "zh-CHS - Hoa (Giản thể)">
+<!ENTITY zh-CHT "zh-CHT - Hoa (Phồn thể)">
+<!ENTITY zh-CN "zh-CN - Hoa (PRC)">
+<!ENTITY zh-HK "zh-HK - Hoa (Hong Kong SAR, PRC)">
+<!ENTITY zh-MO "zh-MO - Hoa (Macao SAR)">
+<!ENTITY zh-SG "zh-SG - Hoa (Singapore)">
+<!ENTITY zh-TW "zh-TW - Hoa (Đài Loan)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulu (Nam Phi)">
