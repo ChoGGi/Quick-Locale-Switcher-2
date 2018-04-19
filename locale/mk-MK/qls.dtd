@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Брзо промени ги general.useragent.locale параметрите.">
+<!ENTITY qls.createdby "Креирано од:">
+<!ENTITY qls.restoredefault "Врати стандардни">
+<!ENTITY qls.notifyrestart "Не ја покажувај оваа порака повторно.">
+<!ENTITY qls.restartmessage "Локализацијата е променета. Можеби ќе треба да го рестартирате вашиот прелистувач за да ги видите промените.">
+<!ENTITY qls.askrestartmessage "Локализацијата е променета. Сакате ли да рестартирате сега за да ги видите промените?">
+<!ENTITY qls.pleasewait "Применување на нова локализација...">
+<!ENTITY qls.settings "Опции...">
+<!ENTITY qls.settings.title "Quick Locale Switcher Опции">
+<!ENTITY qls.settings.apply "Примени">
+<!ENTITY qls.settings.description "Додадете ги вашите сопствени локализации во менито. (на пр. en-US-mac or de-FY)">
+<!ENTITY qls.settings.locale "Локализација">
+<!ENTITY qls.settings.label "Ознака">
+<!ENTITY qls.settings.pane.general "Општо">
+<!ENTITY qls.settings.pane.locales "Локализации">
+<!ENTITY qls.settings.pane.autoswitch "Автоматско префрлување">
+<!ENTITY qls.settings.visiblemenuitems "Изберете ги предметите што сакате да бидат прикажани во менито.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Избери ги сите">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Одизбери ги сите">
+<!ENTITY qls.settings.switchwhat "Префрли ги следните поставки поврзани со локализациите">
+<!ENTITY qls.settings.switch.gulocale "Јазик на Корисничкиот Интерфејс (general.useragent.locale preference)">
+<!ENTITY qls.settings.switch.contentlocale "Јазик на содржината (Речник за Проверка за Правописот и HTTP Заглавие за Прифаќање на Јазиците)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Никогаш не го префлувај моето заглавие за прифаќање на јазиците">
+<!ENTITY qls.settings.switch.alwaysask "Секогаш прашај ме кои поставки сакам да ги префрлам">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Превчитај ја моменталната веб страница после префрлување на јазикот на содржината">
+<!ENTITY qls.settings.restartreload "Рестартирај / Превчитај опции">
+<!ENTITY qls.settings.autorestart.ask "Предупреди ме пред рестартирање на апликацијата">
+<!ENTITY qls.statusbar.main "Quick Locale Switcher моментално избрана локализација">
+<!ENTITY qls.statusbar.tooltip.content "Содржина: &amp;1">
+<!ENTITY qls.statusbar.tooltip.gu "Кориснички Интерфејс: &#37;1">
+<!ENTITY qls.useautoswitch.title "Автоматски префрли">
+<!ENTITY qls.useautoswitch "Автоматски зачувај ја твојата веб содржина и параметрите на речникот за проверка за правописот за секоја страница">
+<!ENTITY qls.useautoswitch.tldbased "Автоматско префлување врз основа на Top Level Domain (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "Ресетирај ги страниците со автоматско префрлување">
+<!ENTITY qls.useautoswitch.open "Менаџирај ги страниците со автоматско префрлување">
+<!ENTITY qls.autoswitch.filter "Барај">
+<!ENTITY qls.autoswitch.clearfilter "Избриши">
+<!ENTITY qls.autoswitch.title "Страници со автоматско префрлување">
+<!ENTITY qls.autoswitch.site "Веб страница (локализација)">
+<!ENTITY qls.autoswitch.remove "Отстрани ги изберените страници со автоматско префрлување">
+<!ENTITY qls.autoswitch.removeall "Отстрани ги сите страници со автоматско префрлување">
+<!ENTITY qls.autoswitch.close "Затвори">
+<!ENTITY qls-askswitchsettings-title "Префрли ги следните поставки поврзани со локализацијата">
+<!ENTITY qls.visiblemenuitems.search "Барај">
+<!ENTITY qls.settings.display "Прикажи ги опциите">
+<!ENTITY qls.settings.display.hide_tools "Скриј го предметот на менито за алатки">
+<!ENTITY qls.settings.display.hide_statusbar "Скриј ја иконата на статусната лента">
+<!ENTITY qls.settings.display.statusbarmode "Прикажување на режимот на статусната лента">
+<!ENTITY qls.settings.display.statusbarmode.icon "Икона">
+<!ENTITY qls.settings.display.statusbarmode.text "Текст">
+<!ENTITY qls.settings.display.statusbarmode.full "Икона и Текст">
+<!ENTITY qls.settings.getlanguagepacks "Земи повеќе јазични пакети">
+<!ENTITY qls.settings.getdictionaries "Земи повеќе речници">
+<!ENTITY af-ZA "af-ZA - Afrikaans (Јужна Африка)">
+<!ENTITY am-ET "am-ET - Amharic (Етиопија)">
+<!ENTITY ar-AE "ar-AE - Арапски (ОАЕ)">
+<!ENTITY ar-BH "ar-BH - Арапски (Бахреин)">
+<!ENTITY ar-DZ "ar-DZ - Арапски (Алжир)">
+<!ENTITY ar-EG "ar-EG - Арапски (Египет)">
+<!ENTITY ar-IQ "ar-IQ - Арапски (Ирак)">
+<!ENTITY ar-JO "ar-JO - Арапски (Јордан)">
+<!ENTITY ar-KW "ar-KW - Арапски (Кувајт)">
+<!ENTITY ar-LB "ar-LB - Арапски (Либан)">
+<!ENTITY ar-LY "ar-LY - Арапски (Либија)">
+<!ENTITY ar-MA "ar-MA - Арапски (Мароко)">
+<!ENTITY ar-OM "ar-OM - Арапски (Оман)">
+<!ENTITY ar-QA "ar-QA - Арапски (Катар)">
+<!ENTITY ar-SA "ar-SA - Арапски (Саудиска Арабија)">
+<!ENTITY ar-SY "ar-SY - Арапски (Сирија)">
+<!ENTITY ar-TN "ar-TN - Арапски (Тунис)">
+<!ENTITY ar-YE "ar-YE - Арапски (Јемен)">
+<!ENTITY arn-CL "arn-CL (Mapudungun (Чиле)">
+<!ENTITY as-IN "as-IN - Assamese (Индија)">
+<!ENTITY ast-ES "ast-ES - (Астуриски)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Azeri (Кирилица)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Azeri (Латиница)">
+<!ENTITY ba-RU "ba-RU - Bashkir (Русија)">
+<!ENTITY be-BY "be-BY - Белоруски (Белорусија)">
+<!ENTITY ber-DZ "ber-DZ - Tamazight (Алжир, Латински)">
+<!ENTITY bg-BG "bg-BG - Бугарски (Бугарија)">
+<!ENTITY bn-BD "bn-BD - Бенгалски (Бангладеш)">
+<!ENTITY bn-IN "bn-IN - Бенгалски (Индија)">
+<!ENTITY bo-BT "bo-BT - Тибетски (Бутан)">
+<!ENTITY bo-CN "bo-CN - Тибетски (НРК)">
+<!ENTITY br-FR "br-FR - Бретонски (Франција)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Босански (Босна и Херцеговина, Кирилица)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Босански (Босна и Херцеговина, Латински)">
+<!ENTITY ca-AD "ca-AD - Каталонски (Андора)">
+<!ENTITY ca-ES "ca-ES - Каталонски (Шпанија)">
+<!ENTITY ca-FR "ca-FR - Каталонски (Франција)">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR - Корзикански (Франција)">
+<!ENTITY cs-CZ "cs-CZ - Чешки (Чешка Република)">
+<!ENTITY cy-GB "cy-GB - Велшки (Обединето Кралство)">
+<!ENTITY da-DK "da-DK - Дански (Данска)">
+<!ENTITY de-AT "de-AT - Германски (Австрија)">
+<!ENTITY de-CH "de-CH - Германски (Швајцарија)">
+<!ENTITY de-DE "de-DE - Германски (Германија)">
+<!ENTITY de-LI "de-LI - Германски (Лихтенштајн)">
+<!ENTITY de-LU "de-LU - Германски (Луксембург)">
+<!ENTITY div-MV "div-MV - Divehi (Малдиви)">
+<!ENTITY el-GR "el-GR - Грчки (Грција)">
+<!ENTITY en-AU "en-AU - Англиски (Австралија)">
+<!ENTITY en-BZ "en-BZ - Англиски (Белизе)">
+<!ENTITY en-CA "en-CA - Англиски (Канада)">
+<!ENTITY en-CB "en-CB - Англиски (Кариби)">
+<!ENTITY en-GB "en-GB - Англиски (Обединето Кралство)">
+<!ENTITY en-IE "en-IE - Англиски (Ирска)">
+<!ENTITY en-IN "en-IN - Англиски (Индија)">
+<!ENTITY en-JA "en-JA - Англиски (Јамајка)">
+<!ENTITY en-MY "en-MY - Англиски (Малезија)">
+<!ENTITY en-NZ "en-NZ - Англиски (Нов Зеланд)">
+<!ENTITY en-PH "en-PH - Англиски (Филипини)">
+<!ENTITY en-SG "en-SG - Англиски (Сингапур)">
+<!ENTITY en-TT "en-TT - Англиски (Трининад)">
+<!ENTITY en-US "en-US - Англиски (Соединети Американски Држави)">
+<!ENTITY en-ZA "en-ZA - Англиски (Јужна Африка)">
+<!ENTITY en-ZW "en-ZW - Англиски (Зимбабве)">
+<!ENTITY eo-EO "eo-EO - Есперанто">
+<!ENTITY es-AR "es-AR - Шпански (Аргентина)">
+<!ENTITY es-BO "es-BO - Шпански (Боливија)">
+<!ENTITY es-CL "es-CL - Шпански (Чиле)">
+<!ENTITY es-CU "es-CU - Шпански (Куба)">
+<!ENTITY es-CO "es-CO - Шпански (Колумбија)">
+<!ENTITY es-CR "es-CR - Шпански (Костарика)">
+<!ENTITY es-DO "es-DO - Шпански (Доминиканска Република)">
+<!ENTITY es-EC "es-EC - Шпански (Еквадор)">
+<!ENTITY es-ES "es-ES - Шпански (Шпанија)">
+<!ENTITY es-ES-ts "es-ES-ts - Шпански(Шпанија,Traditional Sort)">
+<!ENTITY es-GT "es-GT - Шпански (Гватемала)">
+<!ENTITY es-HN "es-HN - Шпански (Хондурас)">
+<!ENTITY es-MX "es-MX - Шпански (Мексико)">
+<!ENTITY es-NI "es-NI - Шпански (Никарагва)">
+<!ENTITY es-PA "es-PA - Шпански (Панама)">
+<!ENTITY es-PE "es-PE - Шпански (Перу)">
+<!ENTITY es-PR "es-PR - Шпански (Порторико)">
+<!ENTITY es-PY "es-PY - Шпански (Парагвај)">
+<!ENTITY es-SV "es-SV - Шпански (Ел Салвадор)">
+<!ENTITY es-UY "es-UY - Шпански (Уругвај)">
+<!ENTITY es-US "es-US - Шпански (Соединети Американски Држави)">
+<!ENTITY es-VE "es-VE - Шпански (Венецуела)">
+<!ENTITY et-EE "et-EE - Естонски (Естонија)">
+<!ENTITY eu-ES "eu-ES - Баскиски (Баскија)">
+<!ENTITY fa-IR "fa-IR - Персиски (Иран)">
+<!ENTITY fi-FI "fi-FI - Фински (Финска)">
+<!ENTITY fil-PH "fil-PH - Филипински (Филипини)">
+<!ENTITY fo-FO "fo-FO - Фарски (Фарски Острови)">
+<!ENTITY fr-BE "fr-BE - Француски (Белгија)">
+<!ENTITY fr-CA "fr-CA - Француски (Канада)">
+<!ENTITY fr-CH "fr-CH - Француски (Швајцарија)">
+<!ENTITY fr-FR "fr-FR - Француски (Франција)">
+<!ENTITY fr-LU "fr-LU - Француски (Луксембург)">
+<!ENTITY fr-MC "fr-MC - Француски (Монако)">
+<!ENTITY fur-IT "fur-IT - Friulian (Италија">
+<!ENTITY fy-NL "fy-NL - Frisian (Холандија)">
+<!ENTITY ga-IE "ga-IE - Ирски (Ирска)">
+<!ENTITY gbz-AF "gbz-AF - Dari (Авганистан)">
+<!ENTITY gd-GB "gd-GB - Галски (Обединето Кралство)">
+<!ENTITY gl-ES "gl-ES - Galician (Галиција)">
+<!ENTITY gsw-FR "gsw-FR - Alsatian (Франција)">
+<!ENTITY gu-IN "gu-IN - Gujarati (Индија)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hausa (Нигерија)">
+<!ENTITY he-IL "he-IL - Хебрејски (Израел)">
+<!ENTITY hi-IN "hi-IN - Хинду (Индија)">
+<!ENTITY hr-BA "hr-BA - Хрватски (Босна и Херцеговина, Латиница)">
+<!ENTITY hr-HR "hr-HR - Хрватски (Хрватска)">
+<!ENTITY hu-HU "hu-HU - Унгарски (Унгарија)">
+<!ENTITY hy-AM "hy-AM - Ерменски (Ерменија)">
+<!ENTITY id-ID "id-ID - Индонезиски (Индонезија)">
+<!ENTITY ii-CN "ii-CN - Yi (НРК)">
+<!ENTITY is-IS "is-IS - Исландски (Исланд)">
+<!ENTITY it-CH "it-CH - Италијански (Швајцарија)">
+<!ENTITY it-IT "it-IT - Италијански (Италија)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktitut (Канада, Syllabics)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktitut (Канада, Латиница)">
+<!ENTITY ja-JP "ja-JP - Јапонски (Јапонски)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Јапонски (Јапонија, Mac)">
+<!ENTITY ka-GE "ka-GE - Грузиски (Грузија)">
+<!ENTITY kk-KZ "kk-KZ - Kazakh (Казахстан)">
+<!ENTITY kl-GL "kl-GL - Гренлански (Гренланд)">
+<!ENTITY km-KH "km-KH - Khmer (Камбоџа)">
+<!ENTITY kn-IN "kn-IN - Kannada (Индија)">
+<!ENTITY kok-IN "kok-IN - Konkani (Индија)">
+<!ENTITY ko-KR "ko-KR - Кореански (Кореа)">
+<!ENTITY ky-KG "ky-KG - Киргиски (Киргистан)">
+<!ENTITY lb-LU "lb-LU - Луксембуршки (Луксембург)">
+<!ENTITY lo-LA "lo-LA - Lao (Lao НДР)">
+<!ENTITY lt-LT "lt-LT - Литвански (Литванија)">
+<!ENTITY lug-UG "lug-UG - Луганда (Уганда)">
+<!ENTITY lv-LV "lv-LV - Латвијски (Латвија)">
+<!ENTITY mi-NZ "mi-NZ - Maori (Нов Зеланд)">
+<!ENTITY mk-MK "mk-MK - Македонски (Македонија)">
+<!ENTITY ml-IN "ml-IN - Malayalam (Индија)">
+<!ENTITY mn-CN "mn-CN - Монголски (НРК)">
+<!ENTITY mn-MN "mn-MN - Монголски (Монголија)">
+<!ENTITY moh-CA "moh-CA - Mohawk (Канада)">
+<!ENTITY mr-IN "mr-IN - Marathi (Индија)">
+<!ENTITY ms-BN "ms-MY - Малезиски (Brunei Darussalam)">
+<!ENTITY ms-MY "ms-MY - Малезиски (Малезија)">
+<!ENTITY mt-MT "mt-MT - Малтешки (Малта)">
+<!ENTITY nb-NO "nb-NO - Норвешки - Bokmål (Норвешка)">
+<!ENTITY ne-NP "ne-NP - Непалски (Непал)">
+<!ENTITY nl-BE "nl-BE - Холандски (Белгија)">
+<!ENTITY nl-NL "nl-NL - Холандски (Холандија)">
+<!ENTITY nn-NO "nn-NO - Норвешки - Nynorsk (Норвешка)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (Јужна Африка)">
+<!ENTITY oc-FR "oc-FR - Occitan (Франција)">
+<!ENTITY or-IN "or-IN - Oriya (Индија)">
+<!ENTITY pa-IN "pa-IN - Punjabi (Индија)">
+<!ENTITY pl-PL "pl-PL - Полски (Полска)">
+<!ENTITY ps-AF "ps-AF - Pashto (Авганистан)">
+<!ENTITY pt-BR "pt-BR - Португалски (Бразил)">
+<!ENTITY pt-PT "pt-PT - Португалски (Португалија)">
+<!ENTITY qut-GT "qut-GT - K\'iche (Гватемала)">
+<!ENTITY quz-BO "quz-BO - Quechua (Боливија)">
+<!ENTITY quz-EC "quz-EC - Quechua (Еквадор)">
+<!ENTITY quz-PE "quz-PE - Quechua (Перу)">
+<!ENTITY rm-CH "rm-CH - Romansh (Швајцарија)">
+<!ENTITY ro-RO "ro-RO - Романски (Романија)">
+<!ENTITY ru-RU "ru-RU - Руски (Русија)">
+<!ENTITY rw-RW "rw-RW - Kinyarwanda (Руанда)">
+<!ENTITY sah-RU "sah-RU - Yakut (Русија)">
+<!ENTITY sa-IN "sa-IN - Sanskrit (Индија)">
+<!ENTITY se-FI "se-FI - Sami (Северна, Финска)">
+<!ENTITY se-NO "se-NO - Sami (Северна, Норвешка)">
+<!ENTITY se-SE "se-SE - Sami (Северна, Шведска)">
+<!ENTITY si-LK "si-LK - Sinhala (Шри Ланка)">
+<!ENTITY sk-SK "sk-SK - Словачки (Словачка)">
+<!ENTITY sl-SI "sl-SI - Словенечки (Словенија)">
+<!ENTITY sma-NO "sma-NO - Sami (Јужна, Норвешка)">
+<!ENTITY sma-SE "sma-SE - Sami (Јужна, Шведска)">
+<!ENTITY smj-NO "smj-NO - Sami (Lule, Норвешка)">
+<!ENTITY smj-SE "smj-SE - Sami (Lule, Шведска)">
+<!ENTITY smn-FI "smn-FI - Sami (Inari, Финска)">
+<!ENTITY sms-FI "sms-FI - Sami (Skolt, Финска)">
+<!ENTITY son-NE "son-NE - Сонгај (Нигер)">
+<!ENTITY sq-AL "sq-AL - Албански (Албанија)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Српски(Босна и Херцеговина, Кирилица)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - Српски (Босна и Херцеговина, Латински)">
+<!ENTITY sr-ME "sr-ME - Црногорски (Црна Гора)">
+<!ENTITY sr-RS "sr-RS - Српски (Србија)">
+<!ENTITY sv-FI "sv-FI - Шведски (Финска)">
+<!ENTITY sv-SE "sv-SE - Шведски (Шведска)">
+<!ENTITY sw-KE "sw-KE - Свахили (Кенија)">
+<!ENTITY syr-SY "syr-SY - Сириски (Сирија)">
+<!ENTITY ta-IN "ta-IN - Tamil (Индија)">
+<!ENTITY ta-LK "ta-LK - Tamil (Шри Ланка)">
+<!ENTITY te-IN "te-IN - Telugu (Индија)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Tajik (Таџикистан)">
+<!ENTITY th-TH "th-TH - Thai (Тајланд)">
+<!ENTITY tk-TM "tk-TM - Туркменистански (Туркменистан)">
+<!ENTITY tn-ZA "tn-ZA - Setswana/Tswana (Јужна Африка)">
+<!ENTITY ur-IN "ur-IN - Urdu (Индија)">
+<!ENTITY tr-TR "tr-TR - Турски (Турција)">
+<!ENTITY tt-RU "tt-RU - Tatar (Русија)">
+<!ENTITY ug-CN "ug-CN - Uighur (НРК)">
+<!ENTITY uk-UA "uk-UA - Украински (Украина)">
+<!ENTITY ur-PK "ur-PK - Urdu (Пакистан)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Узбекистански (Узбекистан,Кирилица)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Узбекистански (Узбекистан, Латински)">
+<!ENTITY vi-VN "vi-VN - Виетнамски (Виетнам)">
+<!ENTITY wa-BE "wa-BE - Walloon (Белгија)">
+<!ENTITY dsb-DE "dsb-DE - Долно лужичкосрпски (Германија)">
+<!ENTITY hsb-DE "hsb-DE - Горно лужичкосрпски  (Германија)">
+<!ENTITY wo-SN "wo-SN - Wolof (Сенегал)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/Xhosa (Јужна Африка)">
+<!ENTITY yo-NG "yo-NG - Yoruba (Нигерија)">
+<!ENTITY zh-CHS "zh-CHS - Кинески (Поедноставен)">
+<!ENTITY zh-CHT "zh-CHT - Кинески (Традиционален)">
+<!ENTITY zh-CN "zh-CN - Кинески (НРК)">
+<!ENTITY zh-HK "zh-HK - Кинески (Хонг Конг САР, НРК)">
+<!ENTITY zh-MO "zh-MO - Кинески (Макао САР)">
+<!ENTITY zh-SG "zh-SG - Кинески (Сингапур)">
+<!ENTITY zh-TW "zh-TW - Кинески (Тајван)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulu (Јужна Африка)">

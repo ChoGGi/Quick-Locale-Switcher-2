@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Snadno změní nastavení general.useragent.locale.">
+<!ENTITY qls.createdby "Vytvořil:">
+<!ENTITY qls.restoredefault "Obnovit původní">
+<!ENTITY qls.notifyrestart "Nezobrazovat znovu toto hlášení.">
+<!ENTITY qls.restartmessage "Jazyk byl změněn. Nyní je potřeba restartovat prohlížeč, aby byly změny provedeny.">
+<!ENTITY qls.askrestartmessage "Jazyk byl změněn. Chcete restartovat prohlížeč pro provedení změn?">
+<!ENTITY qls.pleasewait "Nastavuje se nový jazyk...">
+<!ENTITY qls.settings "Nastavení...">
+<!ENTITY qls.settings.title "Nastavení Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Provést">
+<!ENTITY qls.settings.description "Přidat vlastní jazyky do menu. (např. en-US-mac nebo de-FY)">
+<!ENTITY qls.settings.locale "Jazyk">
+<!ENTITY qls.settings.label "Popis">
+<!ENTITY qls.settings.pane.general "Hlavní">
+<!ENTITY qls.settings.pane.locales "Jazyky">
+<!ENTITY qls.settings.pane.autoswitch "Automaticky">
+<!ENTITY qls.settings.visiblemenuitems "Výběr položek, které chcete zobrazovat v menu.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Vybrat vše">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Zrušit výběr">
+<!ENTITY qls.settings.switchwhat "Přepnout jazykové nastavení">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (uživatelské rozhraní)">
+<!ENTITY qls.settings.switch.contentlocale "Jazyk obsahu (slovník a hlavička HTTP Accept Languages)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Nikdy nepřepínat hlavičku Accept languages">
+<!ENTITY qls.settings.switch.alwaysask "Vždy se zeptat jaké nastavení zapnout">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Znovu načíst aktuální stránku po přepnutí jazyku obsahu">
+<!ENTITY qls.settings.restartreload "Nastavení znovunačtení">
+<!ENTITY qls.settings.autorestart.ask "Upozornit před restartem prohlížeče">
+<!ENTITY qls.statusbar.main "Právě vybraný jazyk">
+<!ENTITY qls.statusbar.tooltip.content "Obsah: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Uživatelské rozhraní &#37;1">
+<!ENTITY qls.useautoswitch.title "Automaticky přepnout">
+<!ENTITY qls.useautoswitch "Automaticky ukládat nastavení pro obsah webu a kontrolu pravopisu na každé stránce zvlášť">
+<!ENTITY qls.useautoswitch.tldbased "Automatické nastavení podle Top Level domény (.cz .de .nl)">
+<!ENTITY qls.useautoswitch.delete "Resetovat nastavení automatického přepínání">
+<!ENTITY qls.useautoswitch.open "Nastavení automatického přepínání">
+<!ENTITY qls.autoswitch.filter "Hledat">
+<!ENTITY qls.autoswitch.clearfilter "Vymazat">
+<!ENTITY qls.autoswitch.title "Automatické přepínání">
+<!ENTITY qls.autoswitch.site "Stránka (jazyk)">
+<!ENTITY qls.autoswitch.remove "Odebrat automaticky přepínané stránky">
+<!ENTITY qls.autoswitch.removeall "Odebrat všechny automaticky přepínané stránky">
+<!ENTITY qls.autoswitch.close "Zavřít">
+<!ENTITY qls-askswitchsettings-title "Přepnout následující nástavení související s jazykem">
+<!ENTITY qls.visiblemenuitems.search "Hledat">
+<!ENTITY qls.settings.display "Nastavení zobrazení">
+<!ENTITY qls.settings.display.hide_tools "Skrýt položku menu Nástroje">
+<!ENTITY qls.settings.display.hide_statusbar "Skrýt ikonu ve stavovém řádku">
+<!ENTITY qls.settings.display.statusbarmode "Mód zobrazení stavového řádku">
+<!ENTITY qls.settings.display.statusbarmode.icon "Ikona">
+<!ENTITY qls.settings.display.statusbarmode.text "Text">
+<!ENTITY qls.settings.display.statusbarmode.full "Ikona a text">
+<!ENTITY qls.settings.getlanguagepacks "Získat více jazykových balíčků">
+<!ENTITY qls.settings.getdictionaries "Získat více slovníků">
+<!ENTITY af-ZA "af-ZA - Afrikánština (JAR)">
+<!ENTITY am-ET "am-ET - Amharština (Etiopie)">
+<!ENTITY ar-AE "ar-AE - Arabština (SAE)">
+<!ENTITY ar-BH "ar-BH - Arabština (Bahrajn)">
+<!ENTITY ar-DZ "ar-DZ - Arabština (Alžírsko)">
+<!ENTITY ar-EG "ar-EG - Arabština (Egypt)">
+<!ENTITY ar-IQ "ar-IQ - Arabština (Irák)">
+<!ENTITY ar-JO "ar-JO - Arabština (Jordánsko)">
+<!ENTITY ar-KW "ar-KW - Arabština (Kuvajt)">
+<!ENTITY ar-LB "ar-LB - Arabština (Libanon)">
+<!ENTITY ar-LY "ar-LY - Arabština (Libye)">
+<!ENTITY ar-MA "ar-MA - Arabština (Maroko)">
+<!ENTITY ar-OM "ar-OM - Arabština (Omán)">
+<!ENTITY ar-QA "ar-QA - Arabština (Katar)">
+<!ENTITY ar-SA "ar-SA - Arabština (Saudská Arábie)">
+<!ENTITY ar-SY "ar-SY - Arabština (Sýrie)">
+<!ENTITY ar-TN "ar-TN - Arabština (Tunisko)">
+<!ENTITY ar-YE "ar-YE - Arabština (Jemen)">
+<!ENTITY arn-CL "arn-CL - Mapudungun (Chile)">
+<!ENTITY as-IN "as-IN - Asámština (Indie)">
+<!ENTITY ast-ES "ast-ES - Asturiánština">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Azeriiština (cyrilice)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Azeriiština (latinka)">
+<!ENTITY ba-RU "ba-RU - Bashkirština (Rusko)">
+<!ENTITY be-BY "be-BY - Běloruština (Bělorusko)">
+<!ENTITY ber-DZ "ber-DZ - Tamazight (Alžírsko, latinka)">
+<!ENTITY bg-BG "bg-BG - Bulharština (Bulharsko)">
+<!ENTITY bn-BD "bn-BD - Bengálština (Bangladéš)">
+<!ENTITY bn-IN "bn-IN - Bengálština (Indie)">
+<!ENTITY bo-BT "bo-BT - Tibetština (Bhútán)">
+<!ENTITY bo-CN "bo-CN - Tibetština (Čína)">
+<!ENTITY br-FR "br-FR - Bretonština (Francie)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Bosenština (Bosna a Herzegovina, cyrilice)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Bosenština (Bosna a Herzegovina, latinka)">
+<!ENTITY ca-AD "ca-AD - Katalánština (Andorra)">
+<!ENTITY ca-ES "ca-ES - Katalánština (Španělsko)">
+<!ENTITY ca-FR "ca-FR - Katalánština (Francie)">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR - Korsičtina (Francie)">
+<!ENTITY cs-CZ "cs-CZ - Čeština (Česká republika)">
+<!ENTITY cy-GB "cy-GB - Velština (Velká Británie)">
+<!ENTITY da-DK "da-DK - Dánština (Dánsko)">
+<!ENTITY de-AT "de-AT - Němčina (Rakousko)">
+<!ENTITY de-CH "de-CH - Němčina (Švýcarsko)">
+<!ENTITY de-DE "de-DE - Němčina (Německo)">
+<!ENTITY de-LI "de-LI - Němčina (Lichtenštejnsko)">
+<!ENTITY de-LU "de-LU - Němčina (Lucembursko)">
+<!ENTITY div-MV "div-MV - Divehi (Maledivy)">
+<!ENTITY el-GR "el-GR - Řečtina (Řecko)">
+<!ENTITY en-AU "en-AU - Angličtina (Austrálie)">
+<!ENTITY en-BZ "en-BZ - Angličtina (Belize)">
+<!ENTITY en-CA "en-CA - Angličtina (Kanada)">
+<!ENTITY en-CB "en-CB - Angličtina (Karibik)">
+<!ENTITY en-GB "en-GB - Angličtina (Velká Británie)">
+<!ENTITY en-IE "en-IE - Angličtina (Irsko)">
+<!ENTITY en-IN "en-IN - Angličtina (Indie)">
+<!ENTITY en-JA "en-JA - Angličtina (Jamajka)">
+<!ENTITY en-MY "en-MY - Angličtina (Malajsie)">
+<!ENTITY en-NZ "en-NZ - Angličtina (Nový Zéland)">
+<!ENTITY en-PH "en-PH - Angličtina (Filipíny)">
+<!ENTITY en-SG "en-SG - Angličtina (Singapur)">
+<!ENTITY en-TT "en-TT - Angličtina (Trinidad)">
+<!ENTITY en-US "en-US - Angličtina (USA)">
+<!ENTITY en-ZA "en-ZA - Angličtina (JAR)">
+<!ENTITY en-ZW "en-ZW - Angličtina (Zimbabwe)">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR - Španělština (Argentina)">
+<!ENTITY es-BO "es-BO - Španělština (Bolívie)">
+<!ENTITY es-CL "es-CL - Španělština (Chile)">
+<!ENTITY es-CU "es-CU - Španělština (Kuba)">
+<!ENTITY es-CO "es-CO - Španělština (Kolumbie)">
+<!ENTITY es-CR "es-CR - Španělština (Kostarika)">
+<!ENTITY es-DO "es-DO - Španělština (Dominikánská republika)">
+<!ENTITY es-EC "es-EC - Španělština (Ekvádor)">
+<!ENTITY es-ES "es-ES - Španělština (Španělsko)">
+<!ENTITY es-ES-ts "es-ES-ts - Španělština (Španělsko, tradiční)">
+<!ENTITY es-GT "es-GT - Španělština (Guatemala)">
+<!ENTITY es-HN "es-HN - Španělština (Honduras)">
+<!ENTITY es-MX "es-MX - Španělština (Mexiko)">
+<!ENTITY es-NI "es-NI - Španělština (Nikaragua)">
+<!ENTITY es-PA "es-PA - Španělština (Panama)">
+<!ENTITY es-PE "es-PE - Španělština (Peru)">
+<!ENTITY es-PR "es-PR - Španělština (Portoriko)">
+<!ENTITY es-PY "es-PY - Španělština (Paraguay)">
+<!ENTITY es-SV "es-SV - Španělština (Salvador)">
+<!ENTITY es-UY "es-UY - Španělština (Uruguay)">
+<!ENTITY es-US "es-US - Španělština (USA)">
+<!ENTITY es-VE "es-VE - Španělština (Venezuela)">
+<!ENTITY et-EE "et-EE - Estonština (Estonsko)">
+<!ENTITY eu-ES "eu-ES - Baskitština (Baskitsko)">
+<!ENTITY fa-IR "fa-IR - Perština (Irán)">
+<!ENTITY fi-FI "fi-FI - Finština (Finsko)">
+<!ENTITY fil-PH "fil-PH - Filipínština (Filipíny)">
+<!ENTITY fo-FO "fo-FO - Faerština (Faerské ostrovy)">
+<!ENTITY fr-BE "fr-BE - Francouzština (Belgie)">
+<!ENTITY fr-CA "fr-CA - Francouzština (Kanada)">
+<!ENTITY fr-CH "fr-CH - Francouzština (Švýcarsko)">
+<!ENTITY fr-FR "fr-FR - Francouzština (Francie)">
+<!ENTITY fr-LU "fr-LU - Francouzština (Lucembursko)">
+<!ENTITY fr-MC "fr-MC - Francouzština (Monako)">
+<!ENTITY fur-IT "fur-IT - Furlanština (Itálie)">
+<!ENTITY fy-NL "fy-NL - Fríština (Nizozemsko)">
+<!ENTITY ga-IE "ga-IE - Irština (Irsko)">
+<!ENTITY gbz-AF "gbz-AF - Darijština (Afghánistán)">
+<!ENTITY gd-GB "gd-GB - Galština (Velká Británie)">
+<!ENTITY gl-ES "gl-ES - Galicijština (Galicie)">
+<!ENTITY gsw-FR "gsw-FR - Alsasština (Francie)">
+<!ENTITY gu-IN "gu-IN - Gudžaránština (Indie)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hauština (Nigérie)">
+<!ENTITY he-IL "he-IL - Hebrejština (Izrael)">
+<!ENTITY hi-IN "hi-IN - Hindština (Indie)">
+<!ENTITY hr-BA "hr-BA - Chorvatština (Bosna a Hercegovina, latinka)">
+<!ENTITY hr-HR "hr-HR - Chorvatština (Chorvatsko)">
+<!ENTITY hu-HU "hu-HU - Maďarština (Maďarsko)">
+<!ENTITY hy-AM "hy-AM - Arménština (Arménie)">
+<!ENTITY id-ID "id-ID - Indonéština (Indonésie)">
+<!ENTITY ii-CN "ii-CN - Yi (Čína)">
+<!ENTITY is-IS "is-IS - Islandština (Island)">
+<!ENTITY it-CH "it-CH - Italština (Švýcarsko)">
+<!ENTITY it-IT "it-IT - Italština (Itálie)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktitut (Kanada, slabiky)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktitut (Kanada, latinka)">
+<!ENTITY ja-JP "ja-JP - Japonština (Japonsko)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Japonština (Japonsko, Mac)">
+<!ENTITY ka-GE "ka-GE - Gruzínština (Gruzie)">
+<!ENTITY kk-KZ "kk-KZ - Kazaština (Kazachstán)">
+<!ENTITY kl-GL "kl-GL - Grónština (Grónsko)">
+<!ENTITY km-KH "km-KH - Khmérština (Kambodža)">
+<!ENTITY kn-IN "kn-IN - Kannadština (Indie)">
+<!ENTITY kok-IN "kok-IN - Konkánština (Indie)">
+<!ENTITY ko-KR "ko-KR - Korejština (Korea)">
+<!ENTITY ky-KG "ky-KG - Kyrgyzština (Kyrgyzstán)">
+<!ENTITY lb-LU "lb-LU - Lucemburština (Lucembursko)">
+<!ENTITY lo-LA "lo-LA - Laoština (Laos)">
+<!ENTITY lt-LT "lt-LT - Litevština (Litva)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV - Lotyština (Lotyšsko)">
+<!ENTITY mi-NZ "mi-NZ - Maorština (Nový Zéland)">
+<!ENTITY mk-MK "mk-MK - Makedonština (Makedonie)">
+<!ENTITY ml-IN "ml-IN - Malajština (Indie)">
+<!ENTITY mn-CN "mn-CN - Mongolština (Čína)">
+<!ENTITY mn-MN "mn-MN - Mongolština (Mongolsko)">
+<!ENTITY moh-CA "moh-CA - Mohavština (Kanada)">
+<!ENTITY mr-IN "mr-IN - Marathština (Indie)">
+<!ENTITY ms-BN "ms-BN - Malajština (Brunej)">
+<!ENTITY ms-MY "ms-MY - Malajština (Malajsie)">
+<!ENTITY mt-MT "mt-MT - Maltština (Malta)">
+<!ENTITY nb-NO "nb-NO - Norština - Bokmål (Norsko)">
+<!ENTITY ne-NP "ne-NP - Nepálština (Nepál)">
+<!ENTITY nl-BE "nl-BE - Nizozemština (Belgie)">
+<!ENTITY nl-NL "nl-NL - Nizozemština (Nizozemsko)">
+<!ENTITY nn-NO "nn-NO - Norština - Nynorsk (Norsko)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (JAR)">
+<!ENTITY oc-FR "oc-FR - Okcitánština (Francie)">
+<!ENTITY or-IN "or-IN - Oriya (Indie)">
+<!ENTITY pa-IN "pa-IN - Pandžábština (Indie)">
+<!ENTITY pl-PL "pl-PL - Polština (Polsko)">
+<!ENTITY ps-AF "ps-AF - Paštština (Afghánistán)">
+<!ENTITY pt-BR "pt-BR - Portugalština (Brazílie)">
+<!ENTITY pt-PT "pt-PT - Portugalština (Portugalsko)">
+<!ENTITY qut-GT "qut-GT - K\'iche (Guatemala)">
+<!ENTITY quz-BO "quz-BO - Kečuánština (Bolívie)">
+<!ENTITY quz-EC "quz-EC - Kečuánština (Ekvádor)">
+<!ENTITY quz-PE "quz-PE - Kečuánština (Peru)">
+<!ENTITY rm-CH "rm-CH - Románština (Švýcarsko)">
+<!ENTITY ro-RO "ro-RO - Rumunština (Rumunsko)">
+<!ENTITY ru-RU "ru-RU - Ruština (Rusko)">
+<!ENTITY rw-RW "rw-RW - Kinyarwanda (Rwanda)">
+<!ENTITY sah-RU "sah-RU - Jakutština (Rusko)">
+<!ENTITY sa-IN "sa-IN - Sanskrt (Indie)">
+<!ENTITY se-FI "se-FI - Sámština (severní, Finsko)">
+<!ENTITY se-NO "se-NO - Sámština (severní, Norsko))">
+<!ENTITY se-SE "se-SE - Sámština (severní, Švédsko)">
+<!ENTITY si-LK "si-LK - Sinhala (Srí Lanka)">
+<!ENTITY sk-SK "sk-SK - Slovenština (Slovensko)">
+<!ENTITY sl-SI "sl-SI - Slovinština (Slovinsko)">
+<!ENTITY sma-NO "sma-NO - Sámština (jižní, Norsko)">
+<!ENTITY sma-SE "sma-SE - Sámština (jižní, Švédsko)">
+<!ENTITY smj-NO "smj-NO - Sámština (Lule, Norsko)">
+<!ENTITY smj-SE "smj-SE - Sámština (Lule, Švédsko)">
+<!ENTITY smn-FI "smn-FI - Sámština (Inari, Finsko)">
+<!ENTITY sms-FI "sms-FI - Sámština (Skolt, Finsko)">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "sq-AL - Albánština (Albánie)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Srbština (Bosna a Hercegovina, cyrilice)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - Srbština (Bosna a Hercegovina, latinka)">
+<!ENTITY sr-ME "sr-ME - Černohorština (Černá Hora)">
+<!ENTITY sr-RS "sr-RS - Srbština (Srbsko)">
+<!ENTITY sv-FI "sv-FI - Švédština (Finsko)">
+<!ENTITY sv-SE "sv-SE - Švédština (Švédsko)">
+<!ENTITY sw-KE "sw-KE - Svahilština (Keňa)">
+<!ENTITY syr-SY "syr-SY - Syrština (Sýrie)">
+<!ENTITY ta-IN "ta-IN - Tamilština (Indie)">
+<!ENTITY ta-LK "ta-LK - Tamilština (Srí Lanka)">
+<!ENTITY te-IN "te-IN - Telugština (Indie)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Tádžikština (Tádžikistán)">
+<!ENTITY th-TH "th-TH - Thajština (Thajsko)">
+<!ENTITY tk-TM "tk-TM - Turkmenština (Turkmenistán)">
+<!ENTITY tn-ZA "tn-ZA - Setswana/Tswana (JAR)">
+<!ENTITY ur-IN "ur-IN - Urdština (Indie)">
+<!ENTITY tr-TR "tr-TR - Turečtina (Turecko)">
+<!ENTITY tt-RU "tt-RU - Tatarština (Rusko)">
+<!ENTITY ug-CN "ug-CN - Ujgurština (Čína)">
+<!ENTITY uk-UA "uk-UA - Ukrajinština (Ukrajina)">
+<!ENTITY ur-PK "ur-PK - Urdština (Pákistán)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Uzbekština (Uzbekistán, cyrilice)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Uzbekština (Uzbekistán, latinka)">
+<!ENTITY vi-VN "vi-VN - Vietnamština (Vietnam)">
+<!ENTITY wa-BE "wa-BE - Valónština (Belgie)">
+<!ENTITY dsb-DE "dsb-DE Dolnolužická srbština (Německo)">
+<!ENTITY hsb-DE "hsb-DE Hornolužická srbština (Německo)">
+<!ENTITY wo-SN "wo-SN - Wolof (Senegal)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/Xhosa (JAR)">
+<!ENTITY yo-NG "yo-NG - Yoruba (Nigérie)">
+<!ENTITY zh-CHS "zh-CHS - Čínština (zjednodušená)">
+<!ENTITY zh-CHT "zh-CHT - Čínština (tradiční)">
+<!ENTITY zh-CN "zh-CN - Čínština (Čína)">
+<!ENTITY zh-HK "zh-HK - Čínština (Hong Kong, Čína)">
+<!ENTITY zh-MO "zh-MO - Čínština (Macao)">
+<!ENTITY zh-SG "zh-SG - Čínština (Singapur)">
+<!ENTITY zh-TW "zh-TW - Čínština (Tchaj-wan)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulu (JAR)">

@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Greitasis lokalės perjungiklis">
+<!ENTITY qls.description "Greitai pakeičia general.useragent.locale pasirinktį">
+<!ENTITY qls.createdby "Sukūrė:">
+<!ENTITY qls.restoredefault "Grąžinti numatytuosius">
+<!ENTITY qls.notifyrestart "Nerodyti šio pranešimo vėl.">
+<!ENTITY qls.restartmessage "Lokalė pakeista. Jums gali prireikti iš naujo paleisti naršyklę, kad pamatytumėte pokyčius.">
+<!ENTITY qls.askrestartmessage "Lokalė pakeista. Ar noretumėte iš naujo paleisti, kad pamatytumėte pokyčius dabar?">
+<!ENTITY qls.pleasewait "Keičiama lokalė...">
+<!ENTITY qls.settings "Nustatymai...">
+<!ENTITY qls.settings.title "Greitojo lokalės perjungiklio nustatymai">
+<!ENTITY qls.settings.apply "Taikyti">
+<!ENTITY qls.settings.description "Pridėti savo lokales į meniu (pvz., zem-LT, en-US-mac)">
+<!ENTITY qls.settings.locale "Lokalė">
+<!ENTITY qls.settings.label "Antraštė">
+<!ENTITY qls.settings.pane.general "Bendra">
+<!ENTITY qls.settings.pane.locales "Lokalės">
+<!ENTITY qls.settings.pane.autoswitch "Autoperjungimas">
+<!ENTITY qls.settings.visiblemenuitems "Pažymėkite kalbas, kurias norite matyti meniu:">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Žymėti visas">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Nieko nežymėti">
+<!ENTITY qls.settings.switchwhat "Perjungti šias su lokale susijusias nuostatas">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (Naudotojo sąsaja)">
+<!ENTITY qls.settings.switch.contentlocale "Turinio kalba (rašybos tikrintuvo žodynas ir HTTP priimamų kalbų antraštė)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Never switch my accept languages header">
+<!ENTITY qls.settings.switch.alwaysask "Visada klausti manęs, kokius nustatymus noriu perjungti">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Perkrauti esamą svetainę po turinio kalbos perjungimo">
+<!ENTITY qls.settings.restartreload "Perkrovimo nustatymai">
+<!ENTITY qls.settings.autorestart.ask "Įspėti mane prieš iš naujo paleidžiant programą">
+<!ENTITY qls.statusbar.main "Greitojo lokalės perjungiklio dabar pasirinkta lokalė">
+<!ENTITY qls.statusbar.tooltip.content "Turinys: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Vartotojo sąsaja: &#37;1">
+<!ENTITY qls.useautoswitch.title "Autmatinis perjungimas">
+<!ENTITY qls.useautoswitch "Automatiškai išsaugoti tinklapio turinio ir rašybos tikrinimo pasirinktis kiekvienai svetainei">
+<!ENTITY qls.useautoswitch.tldbased "Automatiškai perjungti pagal aukščiausiojo lygio sritį (.lt, .ru, .pl)">
+<!ENTITY qls.useautoswitch.delete "Atstatyti automatiškai perjungiamas svetaines">
+<!ENTITY qls.useautoswitch.open "Tvarkyti autoperjungimo svetaines">
+<!ENTITY qls.autoswitch.filter "Ieškoti">
+<!ENTITY qls.autoswitch.clearfilter "Valyti">
+<!ENTITY qls.autoswitch.title "Autoperjungimo svetainės">
+<!ENTITY qls.autoswitch.site "Svetainė (lokalė)">
+<!ENTITY qls.autoswitch.remove "Pašalinti autoperjungimo svetainę">
+<!ENTITY qls.autoswitch.removeall "Pašalinti visas autoperjungimo svetaines">
+<!ENTITY qls.autoswitch.close "Užverti">
+<!ENTITY qls-askswitchsettings-title "Perjungti šiuos su lokale susijusius nustatymus">
+<!ENTITY qls.visiblemenuitems.search "Ieškoti">
+<!ENTITY qls.settings.display "Rodymo nustatymai">
+<!ENTITY qls.settings.display.hide_tools "Slėpti Priemonių meniu elementą">
+<!ENTITY qls.settings.display.hide_statusbar "Slėpti būsenos juostos piktogramą">
+<!ENTITY qls.settings.display.statusbarmode "Būsenos juostos rodymo režimas">
+<!ENTITY qls.settings.display.statusbarmode.icon "Piktograma">
+<!ENTITY qls.settings.display.statusbarmode.text "Tekstas">
+<!ENTITY qls.settings.display.statusbarmode.full "Piktograma ir tekstas">
+<!ENTITY qls.settings.getlanguagepacks "Get more language packs">
+<!ENTITY qls.settings.getdictionaries "Get more dictionaries">
+<!ENTITY af-ZA "af-ZA - Afrikanų (Pietų Afrikos Respublika)">
+<!ENTITY am-ET "am-ET - Amharic (Etiopija)">
+<!ENTITY ar-AE "ar-AE - Arabų (JAE)">
+<!ENTITY ar-BH "ar-BH - Arabų (Bahreinas)">
+<!ENTITY ar-DZ "ar-DZ - Arabų (Alžyras)">
+<!ENTITY ar-EG "ar-EG - Arabų (Egiptas)">
+<!ENTITY ar-IQ "ar-IQ - Arabų (Irakas)">
+<!ENTITY ar-JO "ar-JO - Arabų (Jordanija)">
+<!ENTITY ar-KW "ar-KW - Arabų (Kuveitas)">
+<!ENTITY ar-LB "ar-LB - Arabų (Libanas)">
+<!ENTITY ar-LY "ar-LY - Arabų (Libija)">
+<!ENTITY ar-MA "ar-MA - Arabų (Marokas)">
+<!ENTITY ar-OM "ar-OM - Arabų (Omanas)">
+<!ENTITY ar-QA "ar-QA - Arabų (Kataras)">
+<!ENTITY ar-SA "ar-SA - Arabų (Saudo Arabija)">
+<!ENTITY ar-SY "ar-SY - Arabų (Sirija)">
+<!ENTITY ar-TN "ar-TN - Arabų (Tunisas)">
+<!ENTITY ar-YE "ar-YE - Arabų (Jemenas)">
+<!ENTITY arn-CL "arn-CL - Mapudungų (Čilė)">
+<!ENTITY as-IN "as-IN - Asamų (Indija)">
+<!ENTITY ast-ES "ast-ES - Asturų">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Azerbaidžaniečių (kirilica)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Azerbaidžaniečių (lotynų)">
+<!ENTITY ba-RU "ba-RU - Baškirų (Rusija)">
+<!ENTITY be-BY "be-BY - Baltarusių (Gudija)">
+<!ENTITY ber-DZ "ber-DZ - Tamazitų (Alžyras, lotynų)">
+<!ENTITY bg-BG "bg-BG - Bulgarų (Bulgarija)">
+<!ENTITY bn-BD "bn-BD - Bengalų (Bangladešas)">
+<!ENTITY bn-IN "bn-IN - Bengalų (Indija)">
+<!ENTITY bo-BT "bo-BT - Tibetiečių (Butanas)">
+<!ENTITY bo-CN "bo-CN - Tibetiečių  (Kinija)">
+<!ENTITY br-FR "br-FR - Bretonų (Prancūzija)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Bosnių (Bosnija ir Hercegovina, kirilica)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Bosnių (Bosnija ir Hercegovina, lotynų)">
+<!ENTITY ca-AD "ca-AD - Katalonų (Andora)">
+<!ENTITY ca-ES "ca-ES - Katalonų (Ispanija)">
+<!ENTITY ca-FR "ca-FR - Katalonų (Prancūzija)">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR - Korsikiečių (Prancūzija)">
+<!ENTITY cs-CZ "cs-CZ - Čekų (Čekija)">
+<!ENTITY cy-GB "cy-GB - Velso (Jungtinė Karalystė)">
+<!ENTITY da-DK "da-DK - Danų (Danija)">
+<!ENTITY de-AT "de-AT - Vokiečių (Austrija)">
+<!ENTITY de-CH "de-CH - Vokiečių (Šveicarija)">
+<!ENTITY de-DE "de-DE - Vokiečių (Vokietija)">
+<!ENTITY de-LI "de-LI - Vokiečių (Lichtenšteinas)">
+<!ENTITY de-LU "de-LU - Vokiečių (Liuksemburgas)">
+<!ENTITY div-MV "div-MV - Divehi (Maldyvai)">
+<!ENTITY el-GR "el-GR - Graikų (Graikija)">
+<!ENTITY en-AU "en-AU - Anglų (Australija)">
+<!ENTITY en-BZ "en-BZ - Anglų (Belizas)">
+<!ENTITY en-CA "en-CA - Anglų (Kanada)">
+<!ENTITY en-CB "en-CB - Anglų (Karibai)">
+<!ENTITY en-GB "en-GB - Anglų (Jungtinė Karalystė)">
+<!ENTITY en-IE "en-IE - Anglų (Airija)">
+<!ENTITY en-IN "en-IN - Anglų (Indija)">
+<!ENTITY en-JA "en-JA - Anglų (Jamaika)">
+<!ENTITY en-MY "en-MY - Anglų (Malaizija)">
+<!ENTITY en-NZ "en-NZ - Anglų (Naujoji Zelandija)">
+<!ENTITY en-PH "en-PH - Anglų (Filipinai)">
+<!ENTITY en-SG "en-SG - Anglų (Singapūras)">
+<!ENTITY en-TT "en-TT - Anglų (Trinidadas)">
+<!ENTITY en-US "en-US - Anglų (JAV)">
+<!ENTITY en-ZA "en-ZA - Anglų (Pietų Afrikos Respublika)">
+<!ENTITY en-ZW "en-ZW - Anglų (Zimbabvė)">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR - Ispanų (Argentina)">
+<!ENTITY es-BO "es-BO - Ispanų (Bolivija)">
+<!ENTITY es-CL "es-CL - Ispanų (Čilė)">
+<!ENTITY es-CU "es-CU - Ispanų (Kuba)">
+<!ENTITY es-CO "es-CO - Ispanų (Kolumbija)">
+<!ENTITY es-CR "es-CR - Ispanų (Kosta Rika)">
+<!ENTITY es-DO "es-DO - Ispanų (Dominikos Respublika)">
+<!ENTITY es-EC "es-EC - Ispanų (Ekvadoras)">
+<!ENTITY es-ES "es-ES - Ispanų (Ispanija)">
+<!ENTITY es-ES-ts "es-ES-ts - Ispanų (Ispanija, Tradicinė)">
+<!ENTITY es-GT "es-GT - Ispanų (Gvatemala)">
+<!ENTITY es-HN "es-HN - Ispanų (Hondūras)">
+<!ENTITY es-MX "es-MX - Ispanų (Meksika)">
+<!ENTITY es-NI "es-NI - Ispanų (Nikaragva)">
+<!ENTITY es-PA "es-PA - Ispanų (Panama)">
+<!ENTITY es-PE "es-PE - Ispanų (Peru)">
+<!ENTITY es-PR "es-PR - Ispanų (Puerto Rika)">
+<!ENTITY es-PY "es-PY - Ispanų (Paragvajus)">
+<!ENTITY es-SV "es-SV - Ispanų (Salvadoras)">
+<!ENTITY es-UY "es-UY - Ispanų (Urugvajus)">
+<!ENTITY es-US "es-US - Ispanų (JAV)">
+<!ENTITY es-VE "es-VE - Ispanų (Venesuela)">
+<!ENTITY et-EE "et-EE - Estų (Estija)">
+<!ENTITY eu-ES "eu-ES - Baskų (Baskų regionas)">
+<!ENTITY fa-IR "fa-IR - Persų (Iranas)">
+<!ENTITY fi-FI "fi-FI - Suomių (Suomija)">
+<!ENTITY fil-PH "fil-PH - Filipiniečių (Filipinai)">
+<!ENTITY fo-FO "fo-FO - Farerų (Farerų salos)">
+<!ENTITY fr-BE "fr-BE - Prancūzų (Belgija)">
+<!ENTITY fr-CA "fr-CA - Prancūzų (Kanada)">
+<!ENTITY fr-CH "fr-CH - Prancūzų (Šveicarija)">
+<!ENTITY fr-FR "fr-FR - Prancūzų (Prancūzija)">
+<!ENTITY fr-LU "fr-LU - Prancūzų (Liuksemburgas)">
+<!ENTITY fr-MC "fr-MC - Prancūzų (Monakas)">
+<!ENTITY fur-IT "fur-IT - Friulijanų (Italija)">
+<!ENTITY fy-NL "fy-NL - Fryzų (Olandija)">
+<!ENTITY ga-IE "ga-IE - Airių (Airija)">
+<!ENTITY gbz-AF "gbz-AF - Dari (Afganistanas)">
+<!ENTITY gd-GB "gd-GB - Gaelic (United Kingdom)">
+<!ENTITY gl-ES "gl-ES - Galų (Galija)">
+<!ENTITY gsw-FR "gsw-FR - Alsatanų (Prancūzija)">
+<!ENTITY gu-IN "gu-IN - Gudžaratų (Indija)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hausų (Nigerija)">
+<!ENTITY he-IL "he-IL - Hebrajų (Izraelis)">
+<!ENTITY hi-IN "hi-IN - Hindi (Indija)">
+<!ENTITY hr-BA "hr-BA - Kroatų (Bosnija ir Hercegovina, lotynų)">
+<!ENTITY hr-HR "hr-HR - Kroatų (Kroatija)">
+<!ENTITY hu-HU "hu-HU - Vengrų (Vengrija)">
+<!ENTITY hy-AM "hy-AM - Armėnų (Armėnija)">
+<!ENTITY id-ID "id-ID - Indoneziečių">
+<!ENTITY ii-CN "ii-CN - Ji (Kinija)">
+<!ENTITY is-IS "is-IS - Islandų (Islandija)">
+<!ENTITY it-CH "it-CH - Italų (Šveicarija)">
+<!ENTITY it-IT "it-IT - Italų (Italija)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktituto (Kanada, skiemeninis)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktituto (Kanada, lotynų)">
+<!ENTITY ja-JP "ja-JP - Japonų (Japonija)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Japonų (Japonija, Mac)">
+<!ENTITY ka-GE "ka-GE - Gruzinų (Gruzija)">
+<!ENTITY kk-KZ "kk-KZ - Kazachų (Kazachstanas)">
+<!ENTITY kl-GL "kl-GL - Grenlandų (Grenlandija)">
+<!ENTITY km-KH "km-KH - Khmerų (Kambodža)">
+<!ENTITY kn-IN "kn-IN - Kanadų (Indija)">
+<!ENTITY kok-IN "kok-IN - Konkani (Indija)">
+<!ENTITY ko-KR "ko-KR - Korėjiečių (Korėja)">
+<!ENTITY ky-KG "ky-KG - Kirgizų (Kirgizija)">
+<!ENTITY lb-LU "lb-LU - Liuksemburgiečių (Liuksemburgas)">
+<!ENTITY lo-LA "lo-LA - Lao (Laosas)">
+<!ENTITY lt-LT "lt-LT - Lietuvių (Lietuva)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV - Latvių (Latvija)">
+<!ENTITY mi-NZ "mi-NZ - Maorių (Naujoji Zelandija)">
+<!ENTITY mk-MK "mk-MK - Makedonų (Makedonija)">
+<!ENTITY ml-IN "ml-IN - Malajalių (Indija)">
+<!ENTITY mn-CN "mn-CN - Mongolų (Kinija)">
+<!ENTITY mn-MN "mn-MN - Mongolų (Mongolija)">
+<!ENTITY moh-CA "moh-CA - Mohokų (Kanada)">
+<!ENTITY mr-IN "mr-IN - Maratų (Indija)">
+<!ENTITY ms-BN "ms-BN - Malajiečių (Brunėjus)">
+<!ENTITY ms-MY "ms-MY - Malajiečių (Malaizija)">
+<!ENTITY mt-MT "mt-MT - Maltiečių (Malta)">
+<!ENTITY nb-NO "nb-NO - Norvegų - Bokmål (Norvegija)">
+<!ENTITY ne-NP "ne-NP - Nepalų (Nepalas)">
+<!ENTITY nl-BE "nl-BE - Olandų (Belgija)">
+<!ENTITY nl-NL "nl-NL - Olandų (Olandija)">
+<!ENTITY nn-NO "nn-NO - Norvegų - Nynorsk (Norvegija)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (South Africa)">
+<!ENTITY oc-FR "oc-FR - Očitarų (Prancūzija)">
+<!ENTITY or-IN "or-IN - Orijų (Indija)">
+<!ENTITY pa-IN "pa-IN - Pendžabų (Indija)">
+<!ENTITY pl-PL "pl-PL - Lenkų (Lenkija)">
+<!ENTITY ps-AF "ps-AF - Puštūnų (Afganistanas)">
+<!ENTITY pt-BR "pt-BR - Portugalų (Brazilija)">
+<!ENTITY pt-PT "pt-PT - Portugalų (Portugalija)">
+<!ENTITY qut-GT "qut-GT - Kičų (Gvatemala)">
+<!ENTITY quz-BO "quz-BO - Kečujų (Bolivija)">
+<!ENTITY quz-EC "quz-EC - Kečujų (Ekvadoras)">
+<!ENTITY quz-PE "quz-PE - Kečujų (Peru)">
+<!ENTITY rm-CH "rm-CH - Retoromanų (Šveicarija)">
+<!ENTITY ro-RO "ro-RO - Rumunų (Rumunija)">
+<!ENTITY ru-RU "ru-RU - Rusų (Rusija)">
+<!ENTITY rw-RW "rw-RW - Kinjaruandų (Ruanda)">
+<!ENTITY sah-RU "sah-RU - Jakutų (Rusija)">
+<!ENTITY sa-IN "sa-IN - Sanskrito (Indija)">
+<!ENTITY se-FI "se-FI - Samių (Šiaurės Suomija)">
+<!ENTITY se-NO "se-NO - Samių (Šiaurės Norvegija)">
+<!ENTITY se-SE "se-SE - Samių (Šiaurės Švedija)">
+<!ENTITY si-LK "si-LK - Sinhalų (Šri Lanka)">
+<!ENTITY sk-SK "sk-SK - Slovakų (Slovakija)">
+<!ENTITY sl-SI "sl-SI - Slovėnų (Slovėnija)">
+<!ENTITY sma-NO "sma-NO - Samių (Pietų Norvegija)">
+<!ENTITY sma-SE "sma-SE - Samių (Pietų Švedija)">
+<!ENTITY smj-NO "smj-NO - Samių (Lule, Norvegija)">
+<!ENTITY smj-SE "smj-SE - Samių (Lule, Švedija)">
+<!ENTITY smn-FI "smn-FI - Samių (Inari, Suomija)">
+<!ENTITY sms-FI "sms-FI - Samių (Skolt, Suomija)">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "sq-AL - Albanų (Albanija)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Serbų (Bosnija ir Hercegovina, kirilica)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (Serbų (Bosnija ir Hercegovina, lotynų">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbian (Serbia)">
+<!ENTITY sv-FI "sv-FI - Švedų (Suomija)">
+<!ENTITY sv-SE "sv-SE - Švedų (Švedija)">
+<!ENTITY sw-KE "sw-KE - Svahilių (Kenija)">
+<!ENTITY syr-SY "syr-SY - Sirijiečių (Sirija)">
+<!ENTITY ta-IN "ta-IN - Tamilų (Indija)">
+<!ENTITY ta-LK "ta-LK - Tamil (Sri Lanka)">
+<!ENTITY te-IN "te-IN - Telugų (Indija)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Tadžikų (Tadžikistanas)">
+<!ENTITY th-TH "th-TH - Tajų (Tailandas)">
+<!ENTITY tk-TM "tk-TM - Turkmėnų (Turkmėnistanas)">
+<!ENTITY tn-ZA "tn-ZA - Setsuanų/Tsuanų (Pietų Afrikos Respublika)">
+<!ENTITY ur-IN "ur-IN - Urdu (Indija)">
+<!ENTITY tr-TR "tr-TR - Turkų (Turkija)">
+<!ENTITY tt-RU "tt-RU - Totorių (Rusija)">
+<!ENTITY ug-CN "ug-CN - Uigurų (Kinija)">
+<!ENTITY uk-UA "uk-UA - Ukrainiečių (Ukraina)">
+<!ENTITY ur-PK "ur-PK - Urdu (Pakistanas)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Uzbekų (Uzbekistanas, kirilica)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Uzbekų (Uzbekistanas, lotynų)">
+<!ENTITY vi-VN "vi-VN - Vietnamiečių (Vietnamas)">
+<!ENTITY wa-BE "wa-BE - Valūnų (Belgija)">
+<!ENTITY dsb-DE "dsb-DE - Lower Sorbian (Germany)">
+<!ENTITY hsb-DE "hsb-DE - Upper Sorbian (Germany)">
+<!ENTITY wo-SN "wo-SN - Volofų (Senegalas)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/Xhosa (Pietų Afrikos Respublika)">
+<!ENTITY yo-NG "yo-NG - Jorubų (Nigerija)">
+<!ENTITY zh-CHS "zh-CHS - Kinų (Supaprastinta)">
+<!ENTITY zh-CHT "zh-CHT - Kinų (Tradicinė)">
+<!ENTITY zh-CN "zh-CN - Kinų (Kinija)">
+<!ENTITY zh-HK "zh-HK - Kinų (Hongkongas, Kinija)">
+<!ENTITY zh-MO "zh-MO - Kinų (Makao)">
+<!ENTITY zh-SG "zh-SG - Kinų (Singapūras)">
+<!ENTITY zh-TW "zh-TW - Kinų (Taivanas)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulu (Pietų Afrikos Respublika)">

@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Pas fluch de general.useragent.locale-ynstelling oan.">
+<!ENTITY qls.createdby "Makke troch:">
+<!ENTITY qls.restoredefault "Standert weromsette">
+<!ENTITY qls.notifyrestart "Toan dizze melding net mear.">
+<!ENTITY qls.restartmessage "Taal is oanpast. Jo moatte miskien wol jo browser wer opstarte om de feroarings te sjen.">
+<!ENTITY qls.askrestartmessage "Taal is oanpast. Wolle jo op &apos;e nij opstarte om de feroarings daliks te sjen?">
+<!ENTITY qls.pleasewait "Dwaande mei tapassen fan nije taal ...">
+<!ENTITY qls.settings "Opsjes...">
+<!ENTITY qls.settings.title "Quick Locale Switcher Opsjes">
+<!ENTITY qls.settings.apply "Tapasse">
+<!ENTITY qls.settings.description "Foegje jo eigen oanpaste talen ta oan it menu. (bgl. en-US-mac of de-FY)">
+<!ENTITY qls.settings.locale "Taal">
+<!ENTITY qls.settings.label "Label">
+<!ENTITY qls.settings.pane.general "Algemien">
+<!ENTITY qls.settings.pane.locales "Talen">
+<!ENTITY qls.settings.pane.autoswitch "Autoskeakel">
+<!ENTITY qls.settings.visiblemenuitems "Selektearje de ûnderdielen dy&apos;t jo yn it menu sjen wolle.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Selektearje alle ûnderdielen">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Deselektearje alle ûnderdielen">
+<!ENTITY qls.settings.switchwhat "Skeakel de folgjende taalrelatearre ynstellings">
+<!ENTITY qls.settings.switch.gulocale "Brûkers Uterliktaal (general.useragent.locale foarkar)">
+<!ENTITY qls.settings.switch.contentlocale "Ynhâld taal (Staveringshifker wurdlist en HTTP Accept Talen haad)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Skeakel noait myn akseptearre talen haad">
+<!ENTITY qls.settings.switch.alwaysask "Freegje my altiid hokker ynstellings ik skeakelje wol">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Laad de aktuele webstee op &apos;e nij nei it skeakeljen fan de taalynhâld">
+<!ENTITY qls.settings.restartreload "Werstart/Werlaad opsjes">
+<!ENTITY qls.settings.autorestart.ask "Warskôgje my foar it op &apos;e nij starten fan de applikaasje">
+<!ENTITY qls.statusbar.main "Quick Locale Switcher aktueel selektearre taal">
+<!ENTITY qls.statusbar.tooltip.content "Ynhâld:&#37;">
+<!ENTITY qls.statusbar.tooltip.gu "Brûkers Uterlik: &#37;1">
+<!ENTITY qls.useautoswitch.title "Automatysk skeakelje">
+<!ENTITY qls.useautoswitch "Automatysk jo webynhâld en staveringshifker foarkar bewarje foar elke webstee">
+<!ENTITY qls.useautoswitch.tldbased "Automatysk Skeakelje basearre op Top Level Domain (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "Werstel Autoskeakel websteeën">
+<!ENTITY qls.useautoswitch.open "Behear Autoskeakel websteeën">
+<!ENTITY qls.autoswitch.filter "Sykje">
+<!ENTITY qls.autoswitch.clearfilter "Wiskye">
+<!ENTITY qls.autoswitch.title "Autoskeakel websteeën">
+<!ENTITY qls.autoswitch.site "Webstee (taal)">
+<!ENTITY qls.autoswitch.remove "Smyt autoskeakel websteeën fuort">
+<!ENTITY qls.autoswitch.removeall "Smyt alle autoskeakel websteeën fuort">
+<!ENTITY qls.autoswitch.close "Slute">
+<!ENTITY qls-askswitchsettings-title "Skeakel de folgjende taalrelatearre ynstellings">
+<!ENTITY qls.visiblemenuitems.search "Sykje">
+<!ENTITY qls.settings.display "Toan opsjes">
+<!ENTITY qls.settings.display.hide_tools "Ferstop it Ark menu-ûnderdiel">
+<!ENTITY qls.settings.display.hide_statusbar "Ferstop it steatbalke ikoan">
+<!ENTITY qls.settings.display.statusbarmode "Steatbalke toan moadus">
+<!ENTITY qls.settings.display.statusbarmode.icon "Ikoan">
+<!ENTITY qls.settings.display.statusbarmode.text "Tekst">
+<!ENTITY qls.settings.display.statusbarmode.full "Ikoan en tekst">
+<!ENTITY qls.settings.getlanguagepacks "Krij mear taalpakketten">
+<!ENTITY qls.settings.getdictionaries "Krij mear wurboeken">
+<!ENTITY af-ZA "af-ZA Afrikaansk (Súd-Afrika)">
+<!ENTITY am-ET "am-ET Amharysk (Etioopje)">
+<!ENTITY ar-AE "ar-AE Arabysk (Feriene Arabyske Emiraten)">
+<!ENTITY ar-BH "ar-BH Arabysk (De Barein)">
+<!ENTITY ar-DZ "ar-DZ Arabysk (Algerije)">
+<!ENTITY ar-EG "ar-EG Arabysk (Egypte)">
+<!ENTITY ar-IQ "ar-IQ Arabysk (Irak)">
+<!ENTITY ar-JO "ar-JO Arabysk (Jordaanje)">
+<!ENTITY ar-KW "ar-KW Arabysk (Koeweit)">
+<!ENTITY ar-LB "ar-LB Arabysk (Libanon)">
+<!ENTITY ar-LY "ar-LY Arabysk (Lybje)">
+<!ENTITY ar-MA "ar-MA Arabysk (Marokko)">
+<!ENTITY ar-OM "ar-OM Arabysk (Oman)">
+<!ENTITY ar-QA "ar-QA Arabysk (Katar)">
+<!ENTITY ar-SA "ar-SA Arabysk (Saûdy-Araabje)">
+<!ENTITY ar-SY "ar-SY Arabysk (Syrje)">
+<!ENTITY ar-TN "ar-TN Arabysk (Tuneezje)">
+<!ENTITY ar-YE "ar-YE Arabysk (Jemen)">
+<!ENTITY arn-CL "arn-CL Mapudungun (Sily)">
+<!ENTITY as-IN "as-IN Assameesk (Yndia)">
+<!ENTITY ast-ES "ast-ES (Asturysk)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl Azeri (Syrillysk)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn Azeri (Latyn)">
+<!ENTITY ba-RU "ba-RU Bashkir(Ruslân)">
+<!ENTITY be-BY "be-BY Wyt-Russysk (Wyt Ruslân)">
+<!ENTITY ber-DZ "ber-DZ Tamazight(Algerije, Latyn)">
+<!ENTITY bg-BG "bg-BG Bulgaarsk (Bulgarije)">
+<!ENTITY bn-BD "bn-BD - Bengaleesk (Bangladesh)">
+<!ENTITY bn-IN "bn-IN Bengaleesk (Yndia)">
+<!ENTITY bo-BT "bo-BT Tibetaansk (Bûtan)">
+<!ENTITY bo-CN "bo-CN Tibetaansk (PRC)">
+<!ENTITY br-FR "br-FR Bretonsk (Frankryk)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl Bosnysk (Bosnje en Hertsegowina, Syrillysk)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn Bosnysk (Bosnje en Hertsegowina, Latyn)">
+<!ENTITY ca-AD "ca-AD Katalaansk (Andorra)">
+<!ENTITY ca-ES "ca-ES Katalaansk (Spanje)">
+<!ENTITY ca-FR "ca-FR Katalaansk (Frankryk)">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR Korsikaansk (Frankryk)">
+<!ENTITY cs-CZ "cs-CZ Tsjechysk(Tsjechyske Republyk)">
+<!ENTITY cy-GB "cy-GB Welsh (Grut-Brittanje)">
+<!ENTITY da-DK "da-DK Deensk (Denemarken)">
+<!ENTITY de-AT "de-AT Dúts (Eastenryk)">
+<!ENTITY de-CH "de-CH Dúts (Switzerlân)">
+<!ENTITY de-DE "de-DE Dúts (Dútslân)">
+<!ENTITY de-LI "de-LI Dúts (Lychtenstein)">
+<!ENTITY de-LU "de-LU Dúts (Lúksemboarch)">
+<!ENTITY div-MV "div-MV Divehi (De Maldiven)">
+<!ENTITY el-GR "el-GR Gryksk(Grykelân)">
+<!ENTITY en-AU "en-AU Ingelsk (Austraalje)">
+<!ENTITY en-BZ "en-BZ Ingelsk (Belize)">
+<!ENTITY en-CA "en-CA Ingelsk (Kanada)">
+<!ENTITY en-CB "en-CB Ingelsk (Karibbean)">
+<!ENTITY en-GB "en-GB Ingelsk (Grut-Brittanje)">
+<!ENTITY en-IE "en-IE Ingelsk (Ierlân)">
+<!ENTITY en-IN "en-IN Ingelsk (Yndia)">
+<!ENTITY en-JA "en-JA Ingelsk (Jamaika)">
+<!ENTITY en-MY "en-MY Ingelsk (Maleizje)">
+<!ENTITY en-NZ "en-NZ Ingelsk (Nij Seelân)">
+<!ENTITY en-PH "en-PH Ingelsk (De Filipinen)">
+<!ENTITY en-SG "en-SG Ingelsk (Singapore)">
+<!ENTITY en-TT "en-TT Ingelsk (Trinidad)">
+<!ENTITY en-US "en-US Ingelsk (Ferienigde Staten fan Amearika)">
+<!ENTITY en-ZA "en-ZA Ingelsk (Súd Afrika)">
+<!ENTITY en-ZW "en-ZW Ingelsk (Simbabwe)">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR Spaansk (Argentynje)">
+<!ENTITY es-BO "es-BO Spaansk (Bolivia)">
+<!ENTITY es-CL "es-CL Spaansk (Sily)">
+<!ENTITY es-CU "es-CU - Spaansk (Kuba)">
+<!ENTITY es-CO "es-CO Spaansk (Kolombia)">
+<!ENTITY es-CR "es-CR Spaansk (Kosta Rika)">
+<!ENTITY es-DO "es-DO Spaansk (Dominikaanske Republyk)">
+<!ENTITY es-EC "es-EC Spaansk (Ekwador)">
+<!ENTITY es-ES "es-ES Spaansk (Spanje)">
+<!ENTITY es-ES-ts "es-ES-ts Spaansk (Spanje, Tradysjoneel)">
+<!ENTITY es-GT "es-GT Spaansk (Gûatamala)">
+<!ENTITY es-HN "es-HN Spaansk (Hondueras)">
+<!ENTITY es-MX "es-MX Spaansk (Meksiko)">
+<!ENTITY es-NI "es-NI Spaansk (Nikaragûa)">
+<!ENTITY es-PA "es-PA Spaansk (Panama)">
+<!ENTITY es-PE "es-PE Spaansk (Perû)">
+<!ENTITY es-PR "es-PR Spaansk (Porto Riko)">
+<!ENTITY es-PY "es-PY Spaansk (Paraguay)">
+<!ENTITY es-SV "es-SV Spaansk (El Salvador)">
+<!ENTITY es-UY "es-UY - paansk (Uruguay)">
+<!ENTITY es-US "es-US Spaansk (Ferienigde Steaten fan Amearika)">
+<!ENTITY es-VE "es-VE Spaansk (Fenezuëla)">
+<!ENTITY et-EE "et-EE Estlânsk (Estlân)">
+<!ENTITY eu-ES "eu-ES Baskysk (Baskysk Lân)">
+<!ENTITY fa-IR "a-IR Persysk (Iran)">
+<!ENTITY fi-FI "fi-FI Finsk (Finlân)">
+<!ENTITY fil-PH "fil-PH Filipynsk (De Filipinen)">
+<!ENTITY fo-FO "fo-FO Faeröersk (De Faeröer)">
+<!ENTITY fr-BE "fr-BE Frânsk (Belgje)">
+<!ENTITY fr-CA "fr-CA Frânsk (Kanada)">
+<!ENTITY fr-CH "fr-CH Frânsk (Switserlân)">
+<!ENTITY fr-FR "fr-FR Frânsk (Frankryk)">
+<!ENTITY fr-LU "r-LU Frânsk (Lúksemboarch)">
+<!ENTITY fr-MC "fr-MC Frânsk (Monako)">
+<!ENTITY fur-IT "fur-IT Friuliaansk (Itaaljë)">
+<!ENTITY fy-NL "fy-NL Frysk (Nederlân)">
+<!ENTITY ga-IE "ga-IE Iersk (Ierlân)">
+<!ENTITY gbz-AF "gbz-AF Dari (Afganistan)">
+<!ENTITY gd-GB "gd-GB - Gaelic (Ferienige Keninkryk)">
+<!ENTITY gl-ES "gl-ES Galisysk (Galysje)">
+<!ENTITY gsw-FR "gsw-FR Alsatiaansk (Frankryk)">
+<!ENTITY gu-IN "gu-IN Gujarati (Yndia)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn Hausa (Nigearia)">
+<!ENTITY he-IL "he-IL Hebrieuwsk (Israel)">
+<!ENTITY hi-IN "hi-IN Hyndysk (Yndia)">
+<!ENTITY hr-BA "hr-BA Kroatysk (Bosnje en Hertsegowina, Latyn)">
+<!ENTITY hr-HR "hr-HR Kroatysk (Kroaasje )">
+<!ENTITY hu-HU "hu-HU Hongaarsk (Hongarije)">
+<!ENTITY hy-AM "hy-AM Armeensk (Armeenje)">
+<!ENTITY id-ID "id-ID Yndonesysk (Yndoneezje)">
+<!ENTITY ii-CN "ii-CN Yi (PRC)">
+<!ENTITY is-IS "is-IS Yslânsk (Yslân)">
+<!ENTITY it-CH "it-CH Italiaansk (Switserlân)">
+<!ENTITY it-IT "it-IT Italiaansk (Itaalje)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans Inuktitut (Kanada, Syllabiks)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn Inuktitut (Kanada, Latyn)">
+<!ENTITY ja-JP "ja-JP Japansk (Japan)">
+<!ENTITY ja-JP-mac "ja-JP-mac Japanese (Japan, Mac)">
+<!ENTITY ka-GE "ka-GE Geörgysk (Geörgje)">
+<!ENTITY kk-KZ "kk-KZ Kazak (Kazakstan)">
+<!ENTITY kl-GL "kl-GL Grienlânsk (Grienlân)">
+<!ENTITY km-KH "km-KH Khmer (Kambodje)">
+<!ENTITY kn-IN "kn-IN Kannada (Yndia)">
+<!ENTITY kok-IN "kok-IN Konkani (Yndia)">
+<!ENTITY ko-KR "ko-KR Koreaansk (Korea)">
+<!ENTITY ky-KG "ky-KG Kirgizysk (Kirgyzje)">
+<!ENTITY lb-LU "lb-LU Luksemboarchsk (Lúksemboarch)">
+<!ENTITY lo-LA "lo-LA Lao (Lao PDR)">
+<!ENTITY lt-LT "lt-LT Litousk (Litouwen)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV Latvian (Latvia)">
+<!ENTITY mi-NZ "mi-NZ Maori (Nij Seelân)">
+<!ENTITY mk-MK "mk-MK Masedonysk (Masedoanje)">
+<!ENTITY ml-IN "ml-IN Malayalam (Yndia)">
+<!ENTITY mn-CN "mn-CN Mongoalsk (PRC)">
+<!ENTITY mn-MN "mn-MN Mongoalsk (Mongoalje)">
+<!ENTITY moh-CA "moh-CA Mohawk (Kanada)">
+<!ENTITY mr-IN "mr-IN Marathi (Yndia)">
+<!ENTITY ms-BN "ms-BN Malay (Brunei Darussalam)">
+<!ENTITY ms-MY "ms-MY Maleizysk (Maleizje)">
+<!ENTITY mt-MT "mt-MT Malteesk (Malta)">
+<!ENTITY nb-NO "nb-NO Noarsk - Bokmål (Noarwegen)">
+<!ENTITY ne-NP "ne-NP Nepali (Nepal)">
+<!ENTITY nl-BE "nl-BE Nederlânsk (België)">
+<!ENTITY nl-NL "nl-NL Nederlânsk (Nederlân)">
+<!ENTITY nn-NO "nn-NO Noarsk - Nijnoarsk (Noarwegen)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (Súd-Afrika)">
+<!ENTITY oc-FR "oc-FR Occitaansk (Frankryk)">
+<!ENTITY or-IN "or-IN Oriaansk (India)">
+<!ENTITY pa-IN "pa-IN Punjabi (Yndia)">
+<!ENTITY pl-PL "pl-PL Poalsk (Poalen)">
+<!ENTITY ps-AF "ps-AF Pashto (Afganistan)">
+<!ENTITY pt-BR "pt-BR Portugeesk (Brazylje)">
+<!ENTITY pt-PT "pt-PT Portugeesk (Portugal)">
+<!ENTITY qut-GT "qut-GT K&apos;iche (Gûatamala)">
+<!ENTITY quz-BO "quz-BO Quechua (Bolivia)">
+<!ENTITY quz-EC "quz-EC Quechua (Ekwador)">
+<!ENTITY quz-PE "quz-PE Quechua (Perû)">
+<!ENTITY rm-CH "rm-CH Romaansk (Switserlân)">
+<!ENTITY ro-RO "ro-RO Roemeensk (Roemeenje)">
+<!ENTITY ru-RU "ru-RU Russysk (Ruslân)">
+<!ENTITY rw-RW "rw-RW Kinjarwandeesk (Rûanda)">
+<!ENTITY sah-RU "sah-RU Jakutsk (Ruslân)">
+<!ENTITY sa-IN "sa-IN Sânskryt (India)">
+<!ENTITY se-FI "se-FI Sami (Noardlik, Finlân)">
+<!ENTITY se-NO "se-NO Sami (Noardlik, Noarsk)">
+<!ENTITY se-SE "se-SE Sami (Noardlik, Sweden)">
+<!ENTITY si-LK "si-LK Sinhaleesk (Sry Lanka)">
+<!ENTITY sk-SK "sk-SK Slowaaksk (Slowakije)">
+<!ENTITY sl-SI "sl-SI Sloveensk (Sloveenje)">
+<!ENTITY sma-NO "sma-NO Sami (Súdlik, Noarsk)">
+<!ENTITY sma-SE "sma-SE Sami (Súdlik, Sweden)">
+<!ENTITY smj-NO "smj-NO Sami (Lule, Noarsk)">
+<!ENTITY smj-SE "smj-SE Sami (Lule, Sweden)">
+<!ENTITY smn-FI "smn-FI Sami (Inari, Finlân)">
+<!ENTITY sms-FI "sms-FI Sami (Skolt, Finlân)">
+<!ENTITY son-NE "son-NE - Songhay (Nigeria)">
+<!ENTITY sq-AL "sq-AL (Albaansk (Albaanje)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl Serbian (Bosnia, and Hertsegowina, Cyrillic)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn Servysk (Bosnje, en Hertsegowina, Latyn)">
+<!ENTITY sr-ME "sr-ME - Montenegrysk (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Servysk (Servje)">
+<!ENTITY sv-FI "sv-FI Sweedsk (Finlân)">
+<!ENTITY sv-SE "sv-SE Sweedsk (Sweden)">
+<!ENTITY sw-KE "sw-KE Swahili (Kenya)">
+<!ENTITY syr-SY "syr-SY Syrysk (Syrje)">
+<!ENTITY ta-IN "ta-IN Tamil (Yndia)">
+<!ENTITY ta-LK "ta-LK - Tamil (Sri Lanka)">
+<!ENTITY te-IN "te-IN Telugu (Yndia)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl Tadzjyksk (Tadzjikistan)">
+<!ENTITY th-TH "th-TH Taisk (Tailân)">
+<!ENTITY tk-TM "tk-TM Turkmeensk (Turkmenistan)">
+<!ENTITY tn-ZA "tn-ZA Setswaneesk/Tswaneesk (Súd Afrika)">
+<!ENTITY ur-IN "ur-IN - Urdu (India)">
+<!ENTITY tr-TR "tr-TR Turksk (Turkije)">
+<!ENTITY tt-RU "tt-RU Tatareesk (Ruslân)">
+<!ENTITY ug-CN "ug-CN Uighureesk (PRC)">
+<!ENTITY uk-UA "uk-UA Oekraynsk (Oekraïne)">
+<!ENTITY ur-PK "ur-PK Urdu (Pakistan)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl Oezbeeks (Oezbekistan, Sirilysk)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn Oezbeeks (Oezbekistan, Latyn)">
+<!ENTITY vi-VN "vi-VN Fietnameesk (Fietnam)">
+<!ENTITY wa-BE "wa-BE - Walloonje (België)">
+<!ENTITY dsb-DE "dsb-DE - Leger Sorbiaansk (Dútslân)">
+<!ENTITY hsb-DE "hsb-DE - Heger Sorbiaansk (Dútslân)">
+<!ENTITY wo-SN "wo-SN Wolof (Senegal)">
+<!ENTITY xh-ZA "xh-ZA isiXKshosa/Kshosa (Súd Afrika)">
+<!ENTITY yo-NG "yo-NG Jorubysk (Nigearia)">
+<!ENTITY zh-CHS "zh-CHS Sineesk (Ferienfâldigt)">
+<!ENTITY zh-CHT "zh-CHT Sineesk (Tradisjoneell)">
+<!ENTITY zh-CN "zh-CN Sineesk (Sina)">
+<!ENTITY zh-HK "zh-HK Sineesk (Hong Kong SAR, PRC)">
+<!ENTITY zh-MO "zh-MO Sineesk (Makao SAR)">
+<!ENTITY zh-SG "zh-SG Sineesk (Singapore)">
+<!ENTITY zh-TW "zh-TW Sineesk (Taiwan)">
+<!ENTITY zu-ZA "zu-ZA isiZulu/Zulu (Súd Afrika)">

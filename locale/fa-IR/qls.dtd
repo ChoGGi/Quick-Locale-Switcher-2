@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "ایجاد تغییرات سریع در general.useragent.locale">
+<!ENTITY qls.createdby "نویسنده :">
+<!ENTITY qls.restoredefault "تنظیمات پیش فرض">
+<!ENTITY qls.notifyrestart "این پیغام را دوباره نمایش نده.">
+<!ENTITY qls.restartmessage "زبان تغییر کرد.فایرفاکس را برای اعمال تغییرات دوباره راه اندازی کنید.">
+<!ENTITY qls.askrestartmessage "زبان تغییر کرد.آیا فایرفاکس دوباره راه اندازی شود؟">
+<!ENTITY qls.pleasewait "در حال اعمال زبان جدید">
+<!ENTITY qls.settings "تنظیمات...">
+<!ENTITY qls.settings.title "تنظیمات Quick Locale Switcher">
+<!ENTITY qls.settings.apply "اعمال کردن">
+<!ENTITY qls.settings.description "زبان مورد نظر خود را اضافه کنید.(به عنوان مثال de-FY یا en-US-mac)">
+<!ENTITY qls.settings.locale "زبان">
+<!ENTITY qls.settings.label "برچسب">
+<!ENTITY qls.settings.pane.general "عمومی">
+<!ENTITY qls.settings.pane.locales "زبان ها">
+<!ENTITY qls.settings.pane.autoswitch "تغییر خودکار">
+<!ENTITY qls.settings.visiblemenuitems "مواردی که می خواهید در منو نمایش داده شود را انتخاب کنید.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "انتخاب همه موارد">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "درآوردن تمام موارد از حالت انتخاب">
+<!ENTITY qls.settings.switchwhat "تغییر تنظیمات مربوط به این زبان">
+<!ENTITY qls.settings.switch.gulocale "زبان رابط کاربری (general.useragent.locale)">
+<!ENTITY qls.settings.switch.contentlocale "زبان محتوا">
+<!ENTITY qls.settings.switch.dontswitchalheader "Never switch my accept languages header">
+<!ENTITY qls.settings.switch.alwaysask "همیشه از من درباره تفییر تنظیمات بپرس">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "بازآوردن سایت فعلی پس از تغییر زبان محتوا">
+<!ENTITY qls.settings.restartreload "تنظیمات راه اندازی دوباره/بازآوری">
+<!ENTITY qls.settings.autorestart.ask "قبل از راه اندازی دوباره به من اطلاع بده">
+<!ENTITY qls.statusbar.main "زبان انتخاب شده">
+<!ENTITY qls.statusbar.tooltip.content "محتوا : &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "رابط کاربری : &#37;1">
+<!ENTITY qls.useautoswitch.title "تعویض خودکار">
+<!ENTITY qls.useautoswitch "ذخیره خودکار محتوای وب و دیکشنری تصحیح املای کلمات برای هر سایت">
+<!ENTITY qls.useautoswitch.tldbased "تغییر خودکار بر اساس برترین دامنه ها (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "بازآوردن سایت های تعویض خودکار">
+<!ENTITY qls.useautoswitch.open "مدیریت تغییر خودکار">
+<!ENTITY qls.autoswitch.filter "جستجو">
+<!ENTITY qls.autoswitch.clearfilter "پاک کردن">
+<!ENTITY qls.autoswitch.title "سایت های  تغییر خودکار">
+<!ENTITY qls.autoswitch.site "وب سایت">
+<!ENTITY qls.autoswitch.remove "پاک کردن سایت های  تغییر خودکار انتخاب شده">
+<!ENTITY qls.autoswitch.removeall "پاک کردن همه ی سایت های  تغییر خودکار">
+<!ENTITY qls.autoswitch.close "بستن">
+<!ENTITY qls-askswitchsettings-title "تغییر تنظیمات مربوط به زبان زیر">
+<!ENTITY qls.visiblemenuitems.search "جستجو">
+<!ENTITY qls.settings.display "نمایش تنظیمات">
+<!ENTITY qls.settings.display.hide_tools "پنهان کردن گزینه منوی ابزار">
+<!ENTITY qls.settings.display.hide_statusbar "پنهان کردن آیکون نوار وضعیت">
+<!ENTITY qls.settings.display.statusbarmode "مود نمایش نوار وضعیت">
+<!ENTITY qls.settings.display.statusbarmode.icon "آیکون">
+<!ENTITY qls.settings.display.statusbarmode.text "متن">
+<!ENTITY qls.settings.display.statusbarmode.full "آیکون و متن">
+<!ENTITY qls.settings.getlanguagepacks "Get more language packs">
+<!ENTITY qls.settings.getdictionaries "Get more dictionaries">
+<!ENTITY af-ZA "af-ZA (آفریقایی (آفریقای جنوبی))">
+<!ENTITY am-ET "am-ET (اتیوپی (اتیوپی))">
+<!ENTITY ar-AE "ar-AE (عربی (امارات متحده عربی))">
+<!ENTITY ar-BH "ar-BH (عربی (بحرین))">
+<!ENTITY ar-DZ "ar-DZ (عربی (الجزایر))">
+<!ENTITY ar-EG "ar-EG (عربی (مصر))">
+<!ENTITY ar-IQ "ar-IQ (عربی (عراق))">
+<!ENTITY ar-JO "ar-JO (عربی (اردن))">
+<!ENTITY ar-KW "ar-KW (عربی (کویت))">
+<!ENTITY ar-LB "ar-LB (عربی (لبنان))">
+<!ENTITY ar-LY "ar-LY (عربی (لیبی))">
+<!ENTITY ar-MA "ar-MA (عربی (مراکش))">
+<!ENTITY ar-OM "ar-OM (عربی (عمان))">
+<!ENTITY ar-QA "ar-QA (عربی (قطر))">
+<!ENTITY ar-SA "ar-SA (عربی (عربستان سعودی))">
+<!ENTITY ar-SY "ar-SY (عربی (سوریه))">
+<!ENTITY ar-TN "ar-TN (عربی (تونس))">
+<!ENTITY ar-YE "ar-YE (یمن) عربی))">
+<!ENTITY arn-CL "arn-CL (Mapudungun  (شیلی))">
+<!ENTITY as-IN "as-IN (هند) Assamese))">
+<!ENTITY ast-ES "ast-ES (اتریشی))">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl (آذری (وابسته))">
+<!ENTITY az-AZ-Latn "az-AZ-Latn (آذری (لاتین))">
+<!ENTITY ba-RU "ba-RU (روسیه) Bashkir))">
+<!ENTITY be-BY "be-BY (بلاروسی (بلاروس))">
+<!ENTITY ber-DZ "Tamazight) ber-DZ (الجزایر لاتین))">
+<!ENTITY bg-BG "bg-BG (بلغاری (بلغارستان))">
+<!ENTITY bn-BD "bn-BD (بنگالی (ینگلادش))">
+<!ENTITY bn-IN "bn-IN (بنگالی (هند))">
+<!ENTITY bo-BT "bo-BT (Bhutan) تبت))">
+<!ENTITY bo-CN "bo-CN (PRC) تبت))">
+<!ENTITY br-FR "br-FR (برتون (فرانسه))">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl (بوسنیایی وابسته (بوسنی و هرزگوین))">
+<!ENTITY bs-BA-Latn "bs-BA-Latn (بوسنیایی لاتین (بوسنی و هرزگوین))">
+<!ENTITY ca-AD "Andorra) Catalan) ca-AD))">
+<!ENTITY ca-ES "ca-ES (اسپانیا) Catalan))">
+<!ENTITY ca-FR "ca-FR (فرانسه) Catalan))">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR (کورسی (فرانسه))">
+<!ENTITY cs-CZ "cs-CZ (چکی (چک))">
+<!ENTITY cy-GB "cy-GB (ولز (بریتانیا))">
+<!ENTITY da-DK "da-DK (دانمارک (دانمارکی))">
+<!ENTITY de-AT "de-AT (آلمانی (اطریش))">
+<!ENTITY de-CH "de-CH (آلمانی (سوئیس))">
+<!ENTITY de-DE "de-DE (آلمانی (آلمانی))">
+<!ENTITY de-LI "de-LI (آلمانی (Liechtenstein))">
+<!ENTITY de-LU "de-LU (آلمانی (لوکزامبورگ))">
+<!ENTITY div-MV "Divehi) div-MV (مالدیو))">
+<!ENTITY el-GR "el-GR (یونان (یونان))">
+<!ENTITY en-AU "en-AU (انگلیسی (استرالیا))">
+<!ENTITY en-BZ "en-BZ (انگلیسی (بلیز))">
+<!ENTITY en-CA "en-CA (انگلیسی (کانادا))">
+<!ENTITY en-CB "en-CB (انگلیسی (کارائیب))">
+<!ENTITY en-GB "en-GB (انگلیسی (بریتانیا))">
+<!ENTITY en-IE "en-IE (انگلیسی (ایرلند))">
+<!ENTITY en-IN "en-IN (انگلیسی (هند))">
+<!ENTITY en-JA "en-JA (انگلیسی (جامائیکا))">
+<!ENTITY en-MY "en-MY (انگلیسی (مالزی))">
+<!ENTITY en-NZ "en-NZ (انگلیسی (نیوزیلند))">
+<!ENTITY en-PH "en-PH (انگلیسی (فیلیپین))">
+<!ENTITY en-SG "en-SG (انگلیسی (سنگاپور))">
+<!ENTITY en-TT "en-TT (انگلیسی (ترینیداد))">
+<!ENTITY en-US "en-US (انگلیسی (آمریکا))">
+<!ENTITY en-ZA "en-ZA (انگلیسی (آفریقای جنوبی))">
+<!ENTITY en-ZW "en-ZW (انگلیسی (زیمباوه))">
+<!ENTITY eo-EO "eo-EO - اسپرانتو">
+<!ENTITY es-AR "es-AR (اسپانیایی (آرژانتین))">
+<!ENTITY es-BO "es-BO (اسپانیایی (بولیوی))">
+<!ENTITY es-CL "es-CL (اسپانیایی (شیلی))">
+<!ENTITY es-CU "es-CU (اسپانیایی (کوبا))">
+<!ENTITY es-CO "es-CO (اسپانیایی (کلمبیا))">
+<!ENTITY es-CR "es-CR (اسپانیایی (کاستاریکا))">
+<!ENTITY es-DO "es-DO (اسپانیایی (جمهوری دومینیک))">
+<!ENTITY es-EC "es-EC (اسپانیایی (اکوادور))">
+<!ENTITY es-ES "es-ES (اسپانیایی (اسپانیا))">
+<!ENTITY es-ES-ts "es-ES-ts (اسپانیایی سنتی (اسپانیا))">
+<!ENTITY es-GT "es-GT (اسپانیایی (گواتمالا))">
+<!ENTITY es-HN "es-HN (اسپانیایی (هندوراس))">
+<!ENTITY es-MX "es-MX (اسپانیایی (مکزیک))">
+<!ENTITY es-NI "es-NI (اسپانیایی (نیکاراگوئه))">
+<!ENTITY es-PA "es-PA (اسپانیایی (پاناما))">
+<!ENTITY es-PE "es-PE (اسپانیایی (پرو))">
+<!ENTITY es-PR "es-PR (پورتو ریکو) اسپانیایی))">
+<!ENTITY es-PY "es-PY (اسپانیایی (پاراگوئه))">
+<!ENTITY es-SV "es-SV (السالوادور) اسپانیایی))">
+<!ENTITY es-UY "es-UY (اروگوئه) اسپانیایی))">
+<!ENTITY es-US "es-US (اسپانیایی (آمریکا))">
+<!ENTITY es-VE "es-VE (اسپانیایی (ونزوئلا))">
+<!ENTITY et-EE "et-EE (استونی (استونی))">
+<!ENTITY eu-ES "Basque Country) Basque) eu-ES))">
+<!ENTITY fa-IR "fa-IR (پارسی (ایران))">
+<!ENTITY fi-FI "fi-FI (فنلاندی (فنلاند))">
+<!ENTITY fil-PH "fil-PH (فیلیپینی (فیلیپین))">
+<!ENTITY fo-FO "Faero Islands) Faeroese) fo-FO))">
+<!ENTITY fr-BE "fr-BE (فرانسوی (بلژیک))">
+<!ENTITY fr-CA "fr-CA (فرانسوی (کانادا))">
+<!ENTITY fr-CH "fr-CH (فرانسوی (سوئیس))">
+<!ENTITY fr-FR "fr-FR (فرانسوی (فرانسه))">
+<!ENTITY fr-LU "fr-LU (فرانسوی (لوگزامبورگ))">
+<!ENTITY fr-MC "fr-MC (فرانسوی (موناکو))">
+<!ENTITY fur-IT "fur-IT (فرولیان (ایتالیا))">
+<!ENTITY fy-NL "fy-NL (فریزلند (هلند))">
+<!ENTITY ga-IE "ga-IE (ایرلندی (ایرلند))">
+<!ENTITY gbz-AF "gbz-AF (دری (افغانستان))">
+<!ENTITY gd-GB "gd-GB - Gaelic (United Kingdom)">
+<!ENTITY gl-ES "Galicia) Galician) gl-ES))">
+<!ENTITY gsw-FR "Alsatian) gsw-FR (فرانسه))">
+<!ENTITY gu-IN "Gujarati) gu-IN (هند))">
+<!ENTITY ha-NG-Latn "Hausa) ha-NG-Latn (نیجریه))">
+<!ENTITY he-IL "he-IL (عبری (اسرائیل))">
+<!ENTITY hi-IN "hi-IN (هندی (هند))">
+<!ENTITY hr-BA "hr-BA (کروات لاتین (بوسنی و هرزگوین))">
+<!ENTITY hr-HR "hr-HR (کروات (کرواسی))">
+<!ENTITY hu-HU "hu-HU (مجاری (مجارستان))">
+<!ENTITY hy-AM "hy-AM (آمریکایی (آمریکا))">
+<!ENTITY id-ID "id-ID (اندونزیایی (اندونزی))">
+<!ENTITY ii-CN "(ii-CN - Yi (PRC">
+<!ENTITY is-IS "is-IS (ایسلندی (ایسلند))">
+<!ENTITY it-CH "it-CH (ایتالیایی (سوئیس))">
+<!ENTITY it-IT "it-IT (ایتالیایی (ایتالیا))">
+<!ENTITY iu-CA-Cans "Inuktitut) iu-CA-Cans (هجائی،کانادا))">
+<!ENTITY iu-CA-Latn "Inuktitut) iu-CA-Latn (لاتین (کانادا ))">
+<!ENTITY ja-JP "ja-JP (ژاپنی (ژاپن))">
+<!ENTITY ja-JP-mac "ja-JP-mac (ژاپنی (ژاپنی ٬ Mac))">
+<!ENTITY ka-GE "ka-GE (گرجی (گرجستان))">
+<!ENTITY kk-KZ "kk-KZ (قزاقی (قزاقستان))">
+<!ENTITY kl-GL "kl-GL (گرینلندی (گرینلند))">
+<!ENTITY km-KH "Cambodia) Khmer) km-KH))">
+<!ENTITY kn-IN "Kannada) kn-IN (هند))">
+<!ENTITY kok-IN "Konkani) kok-IN (هند))">
+<!ENTITY ko-KR "ko-KR (کره ای (کره))">
+<!ENTITY ky-KG "ky-KG (قرقیزی (قرقیزستان))">
+<!ENTITY lb-LU "lb-LU (لوگزامبورگی (لوکزامبورگ))">
+<!ENTITY lo-LA "lo-LA (لائوسی (لائوس))">
+<!ENTITY lt-LT "lt-LT (لیتوانی (لیتوانی))">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "Latvia) Latvian) lv-LV))">
+<!ENTITY mi-NZ "mi-NZ (مائوری (نیوزیلند))">
+<!ENTITY mk-MK "mk-MK (مقدونی (مقدونیه))">
+<!ENTITY ml-IN "Malayalam) ml-IN (هند))">
+<!ENTITY mn-CN "mn-CN (مغولستانی (PRC))">
+<!ENTITY mn-MN "mn-MN (مغولستانی (مغولستان))">
+<!ENTITY moh-CA "Mohawk) moh-CA (کانادا)">
+<!ENTITY mr-IN "Marathi) mr-IN (هند)">
+<!ENTITY ms-BN "Brunei Darussalam) ms-BN (مالایا)">
+<!ENTITY ms-MY "ms-MY (مالایا (مالزی))">
+<!ENTITY mt-MT "mt-MT (مالتی (مالت))">
+<!ENTITY nb-NO "nb-NO (نروژی Bokmål (نروژ))">
+<!ENTITY ne-NP "ne-NP (نپالی (نپال))">
+<!ENTITY nl-BE "nl-BE (هلندی (بلژیک))">
+<!ENTITY nl-NL "nl-NL (هلندی (هلند))">
+<!ENTITY nn-NO "nn-NO (نروژی (نروژ))">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (South Africa)">
+<!ENTITY oc-FR "Occitan) oc-FR (فرانسه))">
+<!ENTITY or-IN "Oriya) or-IN (هند))">
+<!ENTITY pa-IN "pa-IN (پنجابی (هند))">
+<!ENTITY pl-PL "pl-PL (لهستانی (لهستان))">
+<!ENTITY ps-AF "ps-AF (پشتو (افغانستان))">
+<!ENTITY pt-BR "pt-BR (پرتغالی (برزیل))">
+<!ENTITY pt-PT "pt-PT (پرتغالی (پرتغال))">
+<!ENTITY qut-GT "K&apos;iche) qut-GT (گواتمالا))">
+<!ENTITY quz-BO "Quechua) quz-BO (بولیوی))">
+<!ENTITY quz-EC "Quechua) quz-EC (اکوادور))">
+<!ENTITY quz-PE "Quechua) quz-PE (پرو))">
+<!ENTITY rm-CH "Romansh) rm-CH (سوئیس))">
+<!ENTITY ro-RO "ro-RO (رومانیایی (رومانی))">
+<!ENTITY ru-RU "ru-RU (روسی (روسیه))">
+<!ENTITY rw-RW "Rwanda) Kinyarwanda) rw-RW))">
+<!ENTITY sah-RU "Yakut) sah-RU (روسیه))">
+<!ENTITY sa-IN "sa-IN (سانسکریت (هند))">
+<!ENTITY se-FI "Sami) se-FI (فنلاند،شمال))">
+<!ENTITY se-NO "Sami) se-NO (نروژ،شمال))">
+<!ENTITY se-SE "Sami) se-SE (سوئد،شمال))">
+<!ENTITY si-LK "Sinhala) si-LK (سریلانکا))">
+<!ENTITY sk-SK "sk-SK (اسلواکی (اسلواکی))">
+<!ENTITY sl-SI "sl-SI (اسلوونیایی (اسلوونی))">
+<!ENTITY sma-NO "Sami) sma-NO (نروژ،جنوب))">
+<!ENTITY sma-SE "Sami) sma-SE (سوئد،جنوب))">
+<!ENTITY smj-NO "٬Lule) Sami) smj-NOنروژ))">
+<!ENTITY smj-SE "٬Lule) Sami) smj-SEسوئد))">
+<!ENTITY smn-FI "٬Inari) Sami) smn-FIفنلاند))">
+<!ENTITY sms-FI "Sami) sms-FI (فنلاند،Skolt))">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "sq-AL (آبانی (آلبان))">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl (صربستانی وابسته (بوسنی و هرزگوین))">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (صربستانی لاتین (بوسنی و هرزگوین))">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbian (Serbia)">
+<!ENTITY sv-FI "sv-FI (سوئدی (فنلاند))">
+<!ENTITY sv-SE "sv-SE (سوئدی (سوئد))">
+<!ENTITY sw-KE "Swahili) sw-KE (کنیا))">
+<!ENTITY syr-SY "syr-SY (سریانی (سوریه))">
+<!ENTITY ta-IN "ta-IN (تمیل (هند))">
+<!ENTITY ta-LK "ta-LK (تمیل (سریلانکا))">
+<!ENTITY te-IN "Telugu) te-IN (هند))">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl (تاجیکی (تاجیکستان))">
+<!ENTITY th-TH "th-TH (تایلندی (تایلند))">
+<!ENTITY tk-TM "tk-TM (ترکمن (ترکمنستان))">
+<!ENTITY tn-ZA "Setswana/Tswana) tn-ZA (آفریقای جنوبی))">
+<!ENTITY ur-IN "ur-IN (اردو (هند))">
+<!ENTITY tr-TR "tr-TR (ترکی (ترکیه))">
+<!ENTITY tt-RU "tt-RU (تاتاری (روسیه))">
+<!ENTITY ug-CN "PRC) Uighur) ug-CN))">
+<!ENTITY uk-UA "uk-UA (اوکراینی (اکراین))">
+<!ENTITY ur-PK "ur-PK (اردو (پاکستان))">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl (ازبکی وابسته (ازبکستان))">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn (ازبکی لاتین (ازبکستان))">
+<!ENTITY vi-VN "vi-VN (ویتنامی (ویتنام))">
+<!ENTITY wa-BE "Walloon) wa-BE (بلژیک))">
+<!ENTITY dsb-DE "dsb-DE - Lower Sorbian (Germany)">
+<!ENTITY hsb-DE "hsb-DE - Upper Sorbian (Germany)">
+<!ENTITY wo-SN "Wolof) wo-SN (سنگال))">
+<!ENTITY xh-ZA "isiXhosa/Xhosa) xh-ZA (آفریقای جنوبی))">
+<!ENTITY yo-NG "Yoruba) yo-NG (نیجریه))">
+<!ENTITY zh-CHS "zh-CHS (چینی (ساده شده))">
+<!ENTITY zh-CHT "zh-CHT (چینی (سنتی))">
+<!ENTITY zh-CN "zh-CN (چینی (PRC))">
+<!ENTITY zh-HK "zh-HK (چینی (Hong Kong SAR, PRC))">
+<!ENTITY zh-MO "zh-MO (چینی(Macao SAR))">
+<!ENTITY zh-SG "zh-SG (چینی (سنگاپور))">
+<!ENTITY zh-TW "zh-TW (چینی (تایوان))">
+<!ENTITY zu-ZA "isiZulu/Zulu) zu-ZA (آفریقای جنوبی))">

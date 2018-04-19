@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://qls/skin/qls.css" type="text/css"?>
+<?xml-stylesheet href="chrome://qls/skin/qlssettings.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://qls/locale/qls.dtd">
+
+<prefwindow id="qls-settings"
+  type="prefwindow"
+  title="&qls.settings.title;"
+  onunload="return BeforeClose();"
+  onload="InitWindow();"
+  buttons="accept,cancel"
+  persist="width height screenX screenY"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <prefpane id="pp_general" label="&qls.settings.pane.general;">
+    <preferences>
+      <preference id="pref_switch_gulocale" name="extensions.qls2.switch_gulocale" type="bool"/>
+      <preference id="pref_switch_contentlocale" name="extensions.qls2.switch_contentlocale" type="bool"/>
+      <preference id="pref_switch_alwaysask" name="extensions.qls2.switch_alwaysask" type="bool"/>
+      <preference id="pref_switch_accept_languages" name="extensions.qls2.switch_accept_languages" type="bool"/>
+      <preference id="pref_notifyrestart" name="extensions.qls2.notifyrestart" type="bool"/>
+      <preference id="pref_reloadbrowserafterhalswitch" name="extensions.qls2.reloadbrowserafterhalswitch" type="bool"/>
+      <preference id="pref_hide_tools" name="extensions.qls2.hide_tools" type="bool"/>
+      <preference id="pref_hide_statusbar" name="extensions.qls2.hide_statusbar" type="bool"/>
+      <preference id="pref_statusbarmode" name="extensions.qls2.statusbarmode" type="string"/>
+    </preferences>
+
+    <groupbox>
+      <caption label="&qls.settings.switchwhat;"/>
+      <checkbox preference="pref_switch_gulocale" label="&qls.settings.switch.gulocale;" id="switch_gulocale"/>
+      <checkbox preference="pref_switch_contentlocale" label="&qls.settings.switch.contentlocale;" id="switch_contentlocale"/>
+      <vbox style="height: 10px"/>
+      <checkbox preference="pref_switch_alwaysask" label="&qls.settings.switch.alwaysask;" oncommand="DisableSwitchOptions(this.checked)" id="switch_alwaysask"/>
+      <checkbox preference="pref_switch_accept_languages" label="&qls.settings.switch.dontswitchalheader;"/>
+    </groupbox>
+
+    <groupbox>
+      <caption label="&qls.settings.restartreload;"/>
+      <checkbox preference="pref_notifyrestart" label="&qls.settings.autorestart.ask;"/>
+      <checkbox preference="pref_reloadbrowserafterhalswitch" label="&qls.settings.switch.reloadbrowserafterhalswitch;"/>
+    </groupbox>
+
+    <groupbox>
+      <caption label="&qls.settings.display;"/>
+      <checkbox preference="pref_hide_tools" label="&qls.settings.display.hide_tools;"/>
+      <checkbox preference="pref_hide_statusbar" label="&qls.settings.display.hide_statusbar;" oncommand="DisableStatusBarMode(this.checked)" id="hide_statusbar"/>
+
+      <hbox align="center">
+        <label value="&qls.settings.display.statusbarmode;:"/>
+        <radiogroup id="statusbarmode"
+      preference="pref_statusbarmode"
+      value="icon"
+      orient="horizontal">
+          <radio id="icon" value="icon" label="&qls.settings.display.statusbarmode.icon;"/>
+          <radio id="text" value="text" label="&qls.settings.display.statusbarmode.text;"/>
+          <radio id="full" value="full" label="&qls.settings.display.statusbarmode.full;"/>
+        </radiogroup>
+      </hbox>
+    </groupbox>
+
+  </prefpane>
+
+  <prefpane id="pp_locales" label="&qls.settings.pane.locales;" flex="1">
+    <preferences>
+      <preference id="pref_customlabel1" name="extensions.qls2.customlabel1" type="string"/>
+      <preference id="pref_customlabel2" name="extensions.qls2.customlabel2" type="string"/>
+      <preference id="pref_customlabel3" name="extensions.qls2.customlabel3" type="string"/>
+      <preference id="pref_customlocale1" name="extensions.qls2.customlocale1" type="string"/>
+      <preference id="pref_customlocale2" name="extensions.qls2.customlocale2" type="string"/>
+      <preference id="pref_customlocale3" name="extensions.qls2.customlocale3" type="string"/>
+    </preferences>
+
+    <groupbox>
+      <caption label="&qls.settings.description;"/>
+
+      <hbox align="center">
+        <label value="&qls.settings.locale;:"/>
+        <textbox preference="pref_customlocale1"/>
+        <label value="&qls.settings.label;:"/>
+        <textbox preference="pref_customlabel1"/>
+      </hbox>
+
+      <hbox align="center">
+        <label value="&qls.settings.locale;:"/>
+        <textbox preference="pref_customlocale2"/>
+        <label value="&qls.settings.label;:"/>
+        <textbox preference="pref_customlabel2"/>
+      </hbox>
+
+      <hbox align="center">
+        <label value="&qls.settings.locale;:"/>
+        <textbox preference="pref_customlocale3"/>
+        <label value="&qls.settings.label;:"/>
+        <textbox preference="pref_customlabel3"/>
+      </hbox>
+    </groupbox>
+
+    <groupbox flex="1">
+      <caption label="&qls.settings.visiblemenuitems;"/>
+
+      <hbox align="center">
+        <label value="&qls.visiblemenuitems.search;:"/>
+        <textbox id="visiblemenuitems-search" onkeyup="RefreshVisibleMenuItems(this.value)" flex="1"/>
+        <button id="qls_clearvisiblemenuitemsfilter" label="&qls.autoswitch.clearfilter;" oncommand="RefreshVisibleMenuItems('')"/>
+      </hbox>
+
+      <hbox flex="1">
+        <listbox id="lbvisiblemenuitems" flex="1" seltype="single" ondragenter="event.preventDefault()" ondragover="event.preventDefault()"/>
+        <vbox>
+          <button id="qls_selectall" oncommand="SelectAllItems(true)" style="min-width: 20px" label="" tooltiptext="&qls.settings.visiblemenuitems.selectall;"/>
+          <button id="qls_deselectall" oncommand="SelectAllItems(false)" style="min-width: 20px" label="" tooltiptext="&qls.settings.visiblemenuitems.deselectall;"/>
+        </vbox>
+      </hbox>
+
+      <hbox id="clones" hidden="true">
+        <listitem type="checkbox" flagitem="true" id="clone_af-ZA" ccode="af" label="&af-ZA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_am-ET" ccode="am" label="&am-ET;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-AE" ccode="ar" label="&ar-AE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-BH" ccode="ar" label="&ar-BH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-DZ" ccode="ar" label="&ar-DZ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-EG" ccode="ar" label="&ar-EG;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-IQ" ccode="ar" label="&ar-IQ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-JO" ccode="ar" label="&ar-JO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-KW" ccode="ar" label="&ar-KW;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-LB" ccode="ar" label="&ar-LB;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-LY" ccode="ar" label="&ar-LY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-MA" ccode="ar" label="&ar-MA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_arn-CL" ccode="arn" label="&arn-CL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-OM" ccode="ar" label="&ar-OM;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-QA" ccode="ar" label="&ar-QA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-SA" ccode="ar" label="&ar-SA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-SY" ccode="ar" label="&ar-SY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-TN" ccode="ar" label="&ar-TN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ar-YE" ccode="ar" label="&ar-YE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_as-IN" ccode="as" label="&as-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ast-ES" ccode="ast" label="&ast-ES;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_az-AZ-Cyrl" ccode="az" label="&az-AZ-Cyrl;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_az-AZ-Latn" ccode="az" label="&az-AZ-Latn;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ba-RU" ccode="ba" label="&ba-RU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_be-BY" ccode="be" label="&be-BY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ber-DZ" ccode="ber" label="&ber-DZ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_bg-BG" ccode="bg" label="&bg-BG;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_bn-BD" ccode="bn" label="&bn-BD;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_bn-IN" ccode="bn" label="&bn-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_bo-BT" ccode="bo" label="&bo-BT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_bo-CN" ccode="bo" label="&bo-CN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_br-FR" ccode="br" label="&br-FR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_bs-BA-Cyrl" ccode="bs" label="&bs-BA-Cyrl;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_bs-BA-Latn" ccode="bs" label="&bs-BA-Latn;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ca-AD" ccode="ca" label="&ca-AD;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ca-ES" ccode="ca" label="&ca-ES;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ca-FR" ccode="ca" label="&ca-FR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ca-valencia" ccode="ca" label="&ca-valencia;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_co-FR" ccode="co" label="&co-FR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_cs-CZ" ccode="cs" label="&cs-CZ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_cy-GB" ccode="cy" label="&cy-GB;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_da-DK" ccode="da" label="&da-DK;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_de-AT" ccode="de" label="&de-AT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_de-CH" ccode="de" label="&de-CH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_de-DE" ccode="de" label="&de-DE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_de-LI" ccode="de" label="&de-LI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_de-LU" ccode="de" label="&de-LU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_div-MV" ccode="div" label="&div-MV;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_dsb-DE" ccode="dsb" label="&dsb-DE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_el-GR" ccode="el" label="&el-GR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-AU" ccode="en" label="&en-AU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-BZ" ccode="en" label="&en-BZ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-CA" ccode="en" label="&en-CA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-CB" ccode="en" label="&en-CB;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-GB" ccode="en" label="&en-GB;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-IE" ccode="en" label="&en-IE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-IN" ccode="en" label="&en-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-JA" ccode="en" label="&en-JA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-MY" ccode="en" label="&en-MY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-NZ" ccode="en" label="&en-NZ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-PH" ccode="en" label="&en-PH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-SG" ccode="en" label="&en-SG;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-TT" ccode="en" label="&en-TT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-US" ccode="en" label="&en-US;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-ZA" ccode="en" label="&en-ZA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_en-ZW" ccode="en" label="&en-ZW;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_eo-EO" ccode="eo" label="&eo-EO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-AR" ccode="es" label="&es-AR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-BO" ccode="es" label="&es-BO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-CL" ccode="es" label="&es-CL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-CO" ccode="es" label="&es-CO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-CR" ccode="es" label="&es-CR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-CU" ccode="es" label="&es-CU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-DO" ccode="es" label="&es-DO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-EC" ccode="es" label="&es-EC;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-ES" ccode="es" label="&es-ES;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-ES-ts" ccode="es" label="&es-ES-ts;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-GT" ccode="es" label="&es-GT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-HN" ccode="es" label="&es-HN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-MX" ccode="es" label="&es-MX;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-NI" ccode="es" label="&es-NI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-PA" ccode="es" label="&es-PA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-PE" ccode="es" label="&es-PE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-PR" ccode="es" label="&es-PR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-PY" ccode="es" label="&es-PY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-SV" ccode="es" label="&es-SV;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-US" ccode="es" label="&es-US;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-UY" ccode="es" label="&es-UY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_es-VE" ccode="es" label="&es-VE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_et-EE" ccode="et" label="&et-EE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_eu-ES" ccode="eu" label="&eu-ES;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fa-IR" ccode="fa" label="&fa-IR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fi-FI" ccode="fi" label="&fi-FI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fil-PH" ccode="fil" label="&fil-PH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fo-FO" ccode="fo" label="&fo-FO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fr-BE" ccode="fr" label="&fr-BE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fr-CA" ccode="fr" label="&fr-CA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fr-CH" ccode="fr" label="&fr-CH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fr-FR" ccode="fr" label="&fr-FR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fr-LU" ccode="fr" label="&fr-LU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fr-MC" ccode="fr" label="&fr-MC;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fur-IT" ccode="fur" label="&fur-IT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_fy-NL" ccode="fy" label="&fy-NL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ga-IE" ccode="ga" label="&ga-IE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_gbz-AF" ccode="gbz" label="&gbz-AF;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_gd-GB" ccode="gd" label="&gd-GB;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_gl-ES" ccode="gl" label="&gl-ES;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_gsw-FR" ccode="gsw" label="&gsw-FR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_gu-IN" ccode="gu" label="&gu-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ha-NG-Latn" ccode="ha" label="&ha-NG-Latn;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_he-IL" ccode="he" label="&he-IL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_hi-IN" ccode="hi" label="&hi-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_hr-BA" ccode="hr" label="&hr-BA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_hr-HR" ccode="hr" label="&hr-HR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_hsb-DE" ccode="hsb" label="&hsb-DE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_hu-HU" ccode="hu" label="&hu-HU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_hy-AM" ccode="hy" label="&hy-AM;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_id-ID" ccode="id" label="&id-ID;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ii-CN" ccode="ii" label="&ii-CN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_is-IS" ccode="is" label="&is-IS;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_it-CH" ccode="it" label="&it-CH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_it-IT" ccode="it" label="&it-IT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_iu-CA-Cans" ccode="iu" label="&iu-CA-Cans;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_iu-CA-Latn" ccode="iu" label="&iu-CA-Latn;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ja-JP" ccode="ja" label="&ja-JP;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ja-JP-mac" ccode="ja" label="&ja-JP-mac;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ka-GE" ccode="ka" label="&ka-GE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_kk-KZ" ccode="kk" label="&kk-KZ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_kl-GL" ccode="kl" label="&kl-GL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_km-KH" ccode="km" label="&km-KH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_kn-IN" ccode="kn" label="&kn-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_kok-IN" ccode="kok" label="&kok-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ko-KR" ccode="ko" label="&ko-KR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ky-KG" ccode="ky" label="&ky-KG;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_lb-LU" ccode="lb" label="&lb-LU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_lo-LA" ccode="lo" label="&lo-LA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_lt-LT" ccode="lt" label="&lt-LT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_lug-UG" ccode="lt" label="&lug-UG;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_lv-LV" ccode="lv" label="&lv-LV;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_mi-NZ" ccode="mi" label="&mi-NZ;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_mk-MK" ccode="mk" label="&mk-MK;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ml-IN" ccode="ml" label="&ml-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_mn-CN" ccode="mn" label="&mn-CN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_mn-MN" ccode="mn" label="&mn-MN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_moh-CA" ccode="moh" label="&moh-CA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_mr-IN" ccode="mr" label="&mr-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ms-BN" ccode="ms" label="&ms-BN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ms-MY" ccode="ms" label="&ms-MY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_mt-MT" ccode="mt" label="&mt-MT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_nb-NO" ccode="nb" label="&nb-NO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ne-NP" ccode="ne" label="&ne-NP;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_nl-BE" ccode="nl" label="&nl-BE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_nl-NL" ccode="nl" label="&nl-NL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_nn-NO" ccode="nn" label="&nn-NO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_nso-ZA" ccode="nso" label="&nso-ZA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_oc-FR" ccode="oc" label="&oc-FR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_or-IN" ccode="or" label="&or-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_pa-IN" ccode="pa" label="&pa-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_pl-PL" ccode="pl" label="&pl-PL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ps-AF" ccode="ps" label="&ps-AF;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_pt-BR" ccode="pt" label="&pt-BR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_pt-PT" ccode="pt" label="&pt-PT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_qut-GT" ccode="qut" label="&qut-GT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_quz-BO" ccode="quz" label="&quz-BO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_quz-EC" ccode="quz" label="&quz-EC;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_quz-PE" ccode="quz" label="&quz-PE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_rm-CH" ccode="rm" label="&rm-CH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ro-RO" ccode="ro" label="&ro-RO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ru-RU" ccode="ru" label="&ru-RU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_rw-RW" ccode="rw" label="&rw-RW;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sah-RU" ccode="sah" label="&sah-RU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sa-IN" ccode="sa" label="&sa-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_se-FI" ccode="se" label="&se-FI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_se-NO" ccode="se" label="&se-NO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_se-SE" ccode="se" label="&se-SE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_si-LK" ccode="si" label="&si-LK;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sk-SK" ccode="sk" label="&sk-SK;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sl-SI" ccode="sl" label="&sl-SI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sma-NO" ccode="sma" label="&sma-NO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sma-SE" ccode="sma" label="&sma-SE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_smj-NO" ccode="smj" label="&smj-NO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_smj-SE" ccode="smj" label="&smj-SE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_smn-FI" ccode="smn" label="&smn-FI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sms-FI" ccode="sms" label="&sms-FI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_son-NE" ccode="son" label="&son-NE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sq-AL" ccode="sq" label="&sq-AL;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sr-BA-Cyrl" ccode="sr" label="&sr-BA-Cyrl;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sr-BA-Latn" ccode="sr" label="&sr-BA-Latn;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sr-ME" ccode="sr" label="&sr-ME;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sr-RS" ccode="sr" label="&sr-RS;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sv-FI" ccode="sv" label="&sv-FI;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sv-SE" ccode="sv" label="&sv-SE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_sw-KE" ccode="sw" label="&sw-KE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_syr-SY" ccode="syr" label="&syr-SY;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ta-IN" ccode="ta" label="&ta-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ta-LK" ccode="ta" label="&ta-LK;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_te-IN" ccode="te" label="&te-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_tg-TJ-Cyrl" ccode="tg" label="&tg-TJ-Cyrl;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_th-TH" ccode="th" label="&th-TH;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_tk-TM" ccode="tk" label="&tk-TM;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_tn-ZA" ccode="tn" label="&tn-ZA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_tr-TR" ccode="tr" label="&tr-TR;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_tt-RU" ccode="tt" label="&tt-RU;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ug-CN" ccode="ug" label="&ug-CN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_uk-UA" ccode="uk" label="&uk-UA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ur-IN" ccode="tr" label="&ur-IN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_ur-PK" ccode="ur" label="&ur-PK;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_uz-UZ-Cyrl" ccode="uz" label="&uz-UZ-Cyrl;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_uz-UZ-Latn" ccode="uz" label="&uz-UZ-Latn;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_vi-VN" ccode="vi" label="&vi-VN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_wa-BE" ccode="wa" label="&wa-BE;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_wo-SN" ccode="wo" label="&wo-SN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_xh-ZA" ccode="xh" label="&xh-ZA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_yo-NG" ccode="yo" label="&yo-NG;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zh-CHS" ccode="zh" label="&zh-CHS;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zh-CHT" ccode="zh" label="&zh-CHT;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zh-CN" ccode="zh" label="&zh-CN;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zh-HK" ccode="zh" label="&zh-HK;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zh-MO" ccode="zh" label="&zh-MO;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zh-SG" ccode="zh" label="&zh-SG;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zh-TW" ccode="zh" label="&zh-TW;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+        <listitem type="checkbox" flagitem="true" id="clone_zu-ZA" ccode="zu" label="&zu-ZA;" onclick="CheckLocale(this.id)" ondragstart="drag_handler(event)"/>
+      </hbox>
+
+      <hbox pack="end" style="padding-right: 40px;">
+        <label class="qls-link" value="&qls.settings.getlanguagepacks;" onclick="LoadLanguagePacksFTP()"/>
+        <label class="qls-link" value="&qls.settings.getdictionaries;" onclick="LoadDictionariesSite()"/>
+      </hbox>
+    </groupbox>
+  </prefpane>
+
+  <prefpane id="pp_autoswitch" label="&qls.settings.pane.autoswitch;">
+    <preferences>
+      <preference id="pref_useautoswitch" name="extensions.qls2.useautoswitch" type="bool"/>
+      <preference id="pref_autoswitchfortld" name="extensions.qls2.autoswitchfortld" type="bool"/>
+    </preferences>
+
+    <groupbox>
+      <caption label="&qls.useautoswitch.title;"/>
+      <checkbox id="useautoswitch" preference="pref_useautoswitch" label="&qls.useautoswitch;" oncommand="checkboxToggle('autoswitchfortld')"/>
+
+      <checkbox id="autoswitchfortld" preference="pref_autoswitchfortld" label="&qls.useautoswitch.tldbased;"/>
+
+      <hbox align="center">
+        <label value="&qls.autoswitch.filter;:"/>
+        <textbox id="autoswitch-filter" onkeyup="FilterAutoSwitchHosts(this.value)" flex="1"/>
+        <button id="qls_clearautoswitchfilter" label="&qls.autoswitch.clearfilter;" oncommand="ClearAutoSwitchFilter(true)"/>
+      </hbox>
+
+      <richlistbox id="lbitems" flex="1" seltype="multiple">
+        <listhead>
+          <listheader label="&qls.autoswitch.site;" flex="1"/>
+        </listhead>
+        <richlistitem id="liclone" hidden="true">
+          <listcell label="" flex="1"/>
+        </richlistitem>
+      </richlistbox>
+
+      <hbox style="padding-top: 5px">
+        <button id="qls_removeautoswitch" label="&qls.autoswitch.remove;" oncommand="RemoveAutoSwitchHosts(false)" style="margin-left: 0px;"/>
+        <button id="qls_removeallautoswitch" label="&qls.autoswitch.removeall;" oncommand="RemoveAutoSwitchHosts(true)"/>
+        <hbox flex="1"/>
+      </hbox>
+      </groupbox>
+  </prefpane>
+
+  <script type="application/x-javascript" src="chrome://global/content/nsDragAndDrop.js"/>
+  <script type="application/x-javascript" src="chrome://global/content/nsTransferable.js"/>
+  <script type="application/x-javascript" src="chrome://qls/content/qlssettings.js"/>
+
+</prefwindow>

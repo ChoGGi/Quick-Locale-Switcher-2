@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Αλλάξτε άμεσα την ρύθμιση γενικού περιβάλλοντος χρήστη.">
+<!ENTITY qls.createdby "Δημιουργός:">
+<!ENTITY qls.restoredefault "Επαναφορά αρχικών ρυθμίσεων">
+<!ENTITY qls.notifyrestart "Να μην εμφανιστεί ξανά αυτό το μήνυμα.">
+<!ENTITY qls.restartmessage "Οι τοπικές ρυθμίσεις αλλάχθηκαν. Μπορεί να χρειαστεί να επανεκκινήσετε τον περιηγητή για να δείτε τις αλλαγές.">
+<!ENTITY qls.askrestartmessage "Οι τοπικές ρυθμίσεις αλλάχτηκαν. Να γίνει επανεκκίνηση ώστε να δείτε τις αλλαγές;">
+<!ENTITY qls.pleasewait "Εφαρμογή νέων τοπικών ρυθμίσεων...">
+<!ENTITY qls.settings "Επιλογές...">
+<!ENTITY qls.settings.title "Επιλογές Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Εφαρμογή">
+<!ENTITY qls.settings.description "Προσθέστε τις προσαρμοσμένες από εσάς τοπικές ρυθμίσεις στο μενού. (π.χ. el-GR-mac ή de-FY)">
+<!ENTITY qls.settings.locale "Τοπικές ρυθμίσεις">
+<!ENTITY qls.settings.label "Ετικέτα">
+<!ENTITY qls.settings.pane.general "Γενικά">
+<!ENTITY qls.settings.pane.locales "Τοπικές ρυθμίσεις">
+<!ENTITY qls.settings.pane.autoswitch "Αυτόματη εναλλαγή">
+<!ENTITY qls.settings.visiblemenuitems "Επιλέξτε τα στοιχεία που θα εμφανίζονται στο μενού.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Επιλογή όλων των στοιχείων">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Απόρριψη όλων των στοιχείων">
+<!ENTITY qls.settings.switchwhat "Αλλαγή των παρακάτω ρυθμίσεων που σχετίζονται με τις τοπικές ρυθμίσεις">
+<!ENTITY qls.settings.switch.gulocale "Γενικό περιβάλλον διασύνδεσης χρήστη">
+<!ENTITY qls.settings.switch.contentlocale "Γλώσσα περιεχομένου (ορθογραφικό λεξικό και HTTP header υποδοχής γλώσσας)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Να μην αλλάζει ποτέ η κεφαλίδα αποδοχής γλώσσας">
+<!ENTITY qls.settings.switch.alwaysask "Ερώτηση για το ποίες ρυθμίσεις θα αλλαχθούν">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Ανανέωση του τρέχοντος ιστότοπου μετά την αλλαγή της γλώσσας περιεχομένου">
+<!ENTITY qls.settings.restartreload "Επιλογές επανεκκίνησης/ανανέωσης">
+<!ENTITY qls.settings.autorestart.ask "Ερώτηση πριν από την επανεκκίνηση της εφαρμογής">
+<!ENTITY qls.statusbar.main "Τρέχουσα επιλεγμένη τοπική ρύθμιση του Quick Locale Switcher">
+<!ENTITY qls.statusbar.tooltip.content "Περιεχόμενο: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Διασύνδεση χρήστη: &#37;1">
+<!ENTITY qls.useautoswitch.title "Αυτόματη εναλλαγή">
+<!ENTITY qls.useautoswitch "Αυτόματη αποθήκευση των επιλογών περιεχόμενου και διορθωτή κειμένου για κάθε ιστότοπο">
+<!ENTITY qls.useautoswitch.tldbased "Αυτόματη εναλλαγή με βάση τον βασικό τομέα (.nl, .fr, .gr)">
+<!ENTITY qls.useautoswitch.delete "Επαναφορά ρυθμίσεων ιστοτόπων">
+<!ENTITY qls.useautoswitch.open "Διαχείριση ιστότοπων αυτόματης εναλλαγής">
+<!ENTITY qls.autoswitch.filter "Αναζήτηση">
+<!ENTITY qls.autoswitch.clearfilter "Καθαρισμός">
+<!ENTITY qls.autoswitch.title "Ιστότοποι αυτόματης εναλλαγής">
+<!ENTITY qls.autoswitch.site "Ιστότοπος (τοπική ρύθμιση)">
+<!ENTITY qls.autoswitch.remove "Αφαίρεση ιστότοπου από τη λίστα">
+<!ENTITY qls.autoswitch.removeall "Αφαίρεση όλων των ιστότοπων από τη λίστα">
+<!ENTITY qls.autoswitch.close "Κλείσιμο">
+<!ENTITY qls-askswitchsettings-title "Αλλαγή των παρακάτω σχετικών τοπικών ρυθμίσεων">
+<!ENTITY qls.visiblemenuitems.search "Αναζήτηση">
+<!ENTITY qls.settings.display "Επιλογές εμφάνισης">
+<!ENTITY qls.settings.display.hide_tools "Απόκρυψη του Quick Locale Switcher από το μενού εργαλείων">
+<!ENTITY qls.settings.display.hide_statusbar "Απόκρυψη του εικονιδίου από τη γραμμή κατάστασης">
+<!ENTITY qls.settings.display.statusbarmode "Λειτουργία με εμφάνιση στη γραμμή κατάστασης">
+<!ENTITY qls.settings.display.statusbarmode.icon "Εικονίδιο">
+<!ENTITY qls.settings.display.statusbarmode.text "Κείμενο">
+<!ENTITY qls.settings.display.statusbarmode.full "Εικονίδιο και κείμενο">
+<!ENTITY qls.settings.getlanguagepacks "Κάντε λήψη περισσότερων πακέτων γλώσσας">
+<!ENTITY qls.settings.getdictionaries "Κάντε λήψη περισσότερων λεξικών">
+<!ENTITY af-ZA "af-ZA (Αφρικάν (Νότιας  Αφρικής))">
+<!ENTITY am-ET "am-ET (Amharic (Αιθιοπίας))">
+<!ENTITY ar-AE "ar-AE (Αραβικά (ΗΑΕ))">
+<!ENTITY ar-BH "ar-BH (Αραβικά (Μπαχρέιν))">
+<!ENTITY ar-DZ "ar-DZ (Αραβικά (Αλγερίας))">
+<!ENTITY ar-EG "ar-EG (Αραβικά (Αιγύπτου))">
+<!ENTITY ar-IQ "ar-IQ (Αραβικά (Ιράκ))">
+<!ENTITY ar-JO "ar-JO (Αραβικά (Ιορδανίας))">
+<!ENTITY ar-KW "ar-KW (Αραβικά (Κουβέιτ))">
+<!ENTITY ar-LB "ar-LB (Αραβικά (Λιβάνου))">
+<!ENTITY ar-LY "ar-LY (Αραβικά (Λιβύης))">
+<!ENTITY ar-MA "ar-MA (Αραβικά (Μαρόκου))">
+<!ENTITY ar-OM "ar-OM (Αραβικά (Ομάν))">
+<!ENTITY ar-QA "ar-QA (Αραβικά (Κατάρ))">
+<!ENTITY ar-SA "ar-SA (Αραβικά (Σαουδικής Αραβίας))">
+<!ENTITY ar-SY "ar-SY (Αραβικά (Συρίας))">
+<!ENTITY ar-TN "ar-TN (Αραβικά (Τυνησίας))">
+<!ENTITY ar-YE "ar-YE (Αραβικά (Υεμένης))">
+<!ENTITY arn-CL "arn-CL (Mapudungun (Χιλής))">
+<!ENTITY as-IN "as-IN (Assamese (Ινδίας))">
+<!ENTITY ast-ES "ast-ES (Αστουριανά)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl (Αζέρικα (Κυριλικά))">
+<!ENTITY az-AZ-Latn "az-AZ-Latn (Αζέρικα (Λατινικά))">
+<!ENTITY ba-RU "ba-RU (Bashkir(Ρωσίας))">
+<!ENTITY be-BY "be-BY (Λευκορωσικά (Λευκορωσίας))">
+<!ENTITY ber-DZ "ber-DZ (Tamazight(Αλγερίας,Λατινικά))">
+<!ENTITY bg-BG "bg-BG (Βουλγαρικά (Βουλγαρίας))">
+<!ENTITY bn-BD "bn-BD - (Βεγγαλέζικα (Μπαγκλαντές))">
+<!ENTITY bn-IN "bn-IN (Bengali (Ινδίας))">
+<!ENTITY bo-BT "bo-BT (Θιβετιανή (Μπουτάν))">
+<!ENTITY bo-CN "bo-CN (Θιβετιανή (ΛΔΚ))">
+<!ENTITY br-FR "br-FR (Μπρετονικά (Γαλλίας))">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl (Βοσνιακά (Βοσνίας - Ερζεγοβίνης, Κυριλικά))">
+<!ENTITY bs-BA-Latn "bs-BA-Latn (Βοσνιακά (Βοσνίας - Ερζεγοβίνης, Λατινικά))">
+<!ENTITY ca-AD "ca-AD (Καταλανικά (Ανδόρας))">
+<!ENTITY ca-ES "ca-ES (Καταλανικά (Ισπανίας))">
+<!ENTITY ca-FR "ca-FR (Καταλανικά (Γαλλίας))">
+<!ENTITY ca-valencia "ca-valencia - Διάλεκτος Βαλέντσιας (Κοινότητα Βαλέντσιας)">
+<!ENTITY co-FR "co-FR (Κορσικανικά (Γαλλίας))">
+<!ENTITY cs-CZ "cs-CZ (Τσέχικα (Δημοκρατία Τσεχίας))">
+<!ENTITY cy-GB "cy-GB (Ουαλικά (Ηνωμένο Βασίλειο))">
+<!ENTITY da-DK "da-DK (Δανέζικα (Δανίας))">
+<!ENTITY de-AT "de-AT (Γερμανικά (Αυστρίας))">
+<!ENTITY de-CH "de-CH (Γερμανικά (Ελβετίας))">
+<!ENTITY de-DE "de-DE (Γερμανικά (Γερμανίας))">
+<!ENTITY de-LI "de-LI (Γερμανικά (Λιχνενστάιν))">
+<!ENTITY de-LU "de-LU (Γερμανικά (Λουξεμβούργου))">
+<!ENTITY div-MV "div-MV (Divehi (Μαλβίδων))">
+<!ENTITY el-GR "el-GR (Ελληνικά (Ελλάδας))">
+<!ENTITY en-AU "en-AU (Αγγλικά (Αυστραλίας))">
+<!ENTITY en-BZ "en-BZ (Αγγλικά (Μπελίζ))">
+<!ENTITY en-CA "en-CA (Αγγλικά (Καναδά))">
+<!ENTITY en-CB "en-CB (Αγγλικά (Καραϊβικής))">
+<!ENTITY en-GB "en-GB (Αγγλικά (Ηνωμένου Βασιλείου))">
+<!ENTITY en-IE "en-IE (Αγγλικά (Ιρλανδίας))">
+<!ENTITY en-IN "en-IN (Αγγλικά (Ινδίας))">
+<!ENTITY en-JA "en-JA (Αγγλικά (Τζαμάικας))">
+<!ENTITY en-MY "en-MY (Αγγλικά (Μαλαισίας))">
+<!ENTITY en-NZ "en-NZ (Αγγλικά (Νέας Ζηλανδίας))">
+<!ENTITY en-PH "en-PH (Αγγλικά (Φιλλιπίνων))">
+<!ENTITY en-SG "en-SG (Αγγλικά (Σιγκαπούρης))">
+<!ENTITY en-TT "en-TT (Αγγλικά (Τρινιντάντ))">
+<!ENTITY en-US "en-US (Αγγλικά (Ηνωμένων Πολιτειών))">
+<!ENTITY en-ZA "en-ZA (Αγγλικά (Νότιας Αφρικής))">
+<!ENTITY en-ZW "en-ZW (Αγγλικά (Ζιμπάμπουε))">
+<!ENTITY eo-EO "eo-EO - (Εσπεράντο)">
+<!ENTITY es-AR "es-AR (Ισπανικά (Αργεντινής))">
+<!ENTITY es-BO "es-BO (Ισπανικά (Βολιβίας))">
+<!ENTITY es-CL "es-CL (Ισπανικά (Χιλής))">
+<!ENTITY es-CU "es-CU - (Ισπανικά (Κούβας))">
+<!ENTITY es-CO "es-CO (Ισπανικά (Κολομβίας))">
+<!ENTITY es-CR "es-CR (Ισπανικά (Κόστα Ρίκα))">
+<!ENTITY es-DO "es-DO (Ισπανικά (Δομικανικής Δημοκρατίας))">
+<!ENTITY es-EC "es-EC (Ισπανικά (Εκουαδόρ))">
+<!ENTITY es-ES "es-ES (Ισπανικά (Ισπανίας))">
+<!ENTITY es-ES-ts "es-ES-ts (Ισπανικά (Ισπανίας, Παραδοσιακά Βραχέα))">
+<!ENTITY es-GT "es-GT (Ισπανικά (Γουατεμάλας))">
+<!ENTITY es-HN "es-HN (Ισπανικά (Ονδούρας))">
+<!ENTITY es-MX "es-MX (Ισπανικά (Μεξικού))">
+<!ENTITY es-NI "es-NI (Ισπανικά (Νικαράγουας))">
+<!ENTITY es-PA "es-PA (Ισπανικά (Παναμά))">
+<!ENTITY es-PE "es-PE (Ισπανικά (Περού))">
+<!ENTITY es-PR "es-PR (Ισπανικά (Πουέρτο Ρίκο))">
+<!ENTITY es-PY "es-PY (Ισπανικά (Παραγουάης))">
+<!ENTITY es-SV "es-SV (Ισπανικά (Ελ Σαλβαδόρ))">
+<!ENTITY es-UY "es-UY - (Ισπανικά (Ουρουγουάης))">
+<!ENTITY es-US "es-US (Ισπανικά (Ηνωμένων Πολιτειών))">
+<!ENTITY es-VE "es-VE (Ισπανικά (Βενεζουέλας))">
+<!ENTITY et-EE "et-EE (Εσθονικά (Εσθονίας))">
+<!ENTITY eu-ES "eu-ES (Βασκικά (Βασκικής χώρας))">
+<!ENTITY fa-IR "fa-IR (Περσικά (Ιράν))">
+<!ENTITY fi-FI "fi-FI (Φινλανδικά (Φινλανδίας))">
+<!ENTITY fil-PH "fil-PH (Φιλλιπινέζικα (Φιλλιπίνων))">
+<!ENTITY fo-FO "fo-FO (Φεροέζικα (Νησιών Φερόε))">
+<!ENTITY fr-BE "fr-BE (Γαλλικά (Βελγίου))">
+<!ENTITY fr-CA "fr-CA (Γαλλικά (Καναδά))">
+<!ENTITY fr-CH "fr-CH (Γαλλικά (Ελβετίας))">
+<!ENTITY fr-FR "fr-FR (Γαλλικά (Γαλλίας))">
+<!ENTITY fr-LU "fr-LU (Γαλλικά (Λουξεμβούργου))">
+<!ENTITY fr-MC "fr-MC (Γαλλικά (Μονακό))">
+<!ENTITY fur-IT "fur-IT (Φρίουλι (Ιταλίας))">
+<!ENTITY fy-NL "fy-NL (Φρυγικά (Ολλανδίας))">
+<!ENTITY ga-IE "ga-IE (Ιρλανδικά (Ιρλανδίας))">
+<!ENTITY gbz-AF "gbz-AF (Νταρί (Αφγανιστάν))">
+<!ENTITY gd-GB "gd-GB - Γαελικά (Ηνωμένο Βασίλειο)">
+<!ENTITY gl-ES "gl-ES (Γαελικά (Γαλικίας))">
+<!ENTITY gsw-FR "gsw-FR (Αλσατικά (Γαλλίας))">
+<!ENTITY gu-IN "gu-IN (Gujarati (Ινδίας))">
+<!ENTITY ha-NG-Latn "ha-NG-Latn (Hausa (Νιγηρίας))">
+<!ENTITY he-IL "he-IL (Εβραϊκά (Ισραήλ))">
+<!ENTITY hi-IN "hi-IN (Χίντι (Ινδίας))">
+<!ENTITY hr-BA "hr-BA (Κροατικά (Βοζνίας - Ερζεγοβίνης, Λατινικά))">
+<!ENTITY hr-HR "hr-HR (Κροατικά (Κροατίας))">
+<!ENTITY hu-HU "hu-HU (Ουγγρικά (Ουγγαρίας))">
+<!ENTITY hy-AM "hy-AM (Αρμένικα (Αρμενίας))">
+<!ENTITY id-ID "id-ID (Ινδονησιακά)">
+<!ENTITY ii-CN "ii-CN (Yi (ΛΔΚ))">
+<!ENTITY is-IS "is-IS (Ισλανδικά (Ισλανδίας))">
+<!ENTITY it-CH "it-CH (Ιταλικά (Ελβετίας))">
+<!ENTITY it-IT "it-IT (Ιταλικά (Ιταλίας))">
+<!ENTITY iu-CA-Cans "iu-CA-Cans (Ινουτίτ (Καναδά, συλλαβιστικά))">
+<!ENTITY iu-CA-Latn "iu-CA-Latn (Ινουτίτ (Καναδά, Λατινικά))">
+<!ENTITY ja-JP "ja-JP (Ιαπωνικά (Ιαπωνίας))">
+<!ENTITY ja-JP-mac "ja-JP-mac (Ιαπωνικά (Ιαπωνίας, Mac))">
+<!ENTITY ka-GE "ka-GE (Γεωργιανά (Γεωργίας))">
+<!ENTITY kk-KZ "kk-KZ (Καζάκικα (Καζακστάν))">
+<!ENTITY kl-GL "kl-GL (Γροιλανδικά (Γροιλανδίας))">
+<!ENTITY km-KH "km-KH (Χμερ (Καμπότζης))">
+<!ENTITY kn-IN "kn-IN (Kannada (Ινδίας))">
+<!ENTITY kok-IN "kok-IN (Konkani (Ινδίας))">
+<!ENTITY ko-KR "ko-KR (Κορεάτικα (Κορέας))">
+<!ENTITY ky-KG "ky-KG (Kyrgyz (Κιργιστάν))">
+<!ENTITY lb-LU "lb-LU (Λουξεμβουργιανά (Λουξεμβούργου))">
+<!ENTITY lo-LA "lo-LA (Λάο (ΛΔ Λάος))">
+<!ENTITY lt-LT "lt-LT (Λιθουανικά (Λιθουανίας))">
+<!ENTITY lug-UG "lug-UG - Λουγκάντα (Ουγκάντα)">
+<!ENTITY lv-LV "lv-LV (Λετονικά (Λετονίας))">
+<!ENTITY mi-NZ "mi-NZ (Μαορί (Νέας Ζηλανδίας))">
+<!ENTITY mk-MK "mk-MK (Διάλεκτος ΠΓΔΜ (ΠΓΔΜ))">
+<!ENTITY ml-IN "ml-IN (Malayalam (Ινδίας))">
+<!ENTITY mn-CN "mn-CN (Μογγολικά (ΛΔΚ))">
+<!ENTITY mn-MN "mn-MN (Μογγολλικά (Μογγολίας))">
+<!ENTITY moh-CA "moh-CA (Μοχώκ (Καναδά))">
+<!ENTITY mr-IN "mr-IN (Marathi (Ινδίας))">
+<!ENTITY ms-BN "ms-BN (Μαλαισιανά (Σουλτανάτο Μπρουνέι))">
+<!ENTITY ms-MY "ms-MY (Μαλαισιανά (Μαλαισίας))">
+<!ENTITY mt-MT "mt-MT (Μαλτέζικα (Μάλτας)">
+<!ENTITY nb-NO "nb-NO (Νορβηγικά - Bokmal (Νορβηγίας))">
+<!ENTITY ne-NP "ne-NP (Νεπαλέζικα (Νεπάλ))">
+<!ENTITY nl-BE "nl-BE (Ολλανδικά (Βελγίου))">
+<!ENTITY nl-NL "nl-NL (Ολλανδικά (Ολλανδίας))">
+<!ENTITY nn-NO "nn-NO (Νορβηγικά - Nynorsk (Νορβηγίας))">
+<!ENTITY nso-ZA "nso-ZA - Σεσόθο σα Λεμπόα (Νότιος Αφρική)">
+<!ENTITY oc-FR "oc-FR (Οξιτανικά (Γαλλίας))">
+<!ENTITY or-IN "or-IN (Oriya (Ινδίας))">
+<!ENTITY pa-IN "pa-IN (Πουντζαμπί (Ινδίας))">
+<!ENTITY pl-PL "pl-PL (Πολωνικά (Πολωνίας))">
+<!ENTITY ps-AF "ps-AF (Παστού (Αφγανιστάν))">
+<!ENTITY pt-BR "pt-BR (Πορτογαλλικά (Βραζιλίας))">
+<!ENTITY pt-PT "pt-PT (Πορτογαλλικά (Πορτογαλλίας))">
+<!ENTITY qut-GT "qut-GT (K\'iche (Γουατεμάλας))">
+<!ENTITY quz-BO "quz-BO (Κιετσούα (Βολιβίας))">
+<!ENTITY quz-EC "quz-EC (Κιετσούα (Ισημερινού))">
+<!ENTITY quz-PE "quz-PE (Κιετσούα (Περού))">
+<!ENTITY rm-CH "rm-CH (Romansh (Ελβετίας))">
+<!ENTITY ro-RO "ro-RO (Ρουμανικά (Ρουμανίας))">
+<!ENTITY ru-RU "ru-RU (Ρωσικά (Ρωσίας))">
+<!ENTITY rw-RW "rw-RW (Kinyarwanda (Ρουάντας))">
+<!ENTITY sah-RU "sah-RU (Γιακούτ (Ρωσίας))">
+<!ENTITY sa-IN "sa-IN (Σανσκριτικά (Ινδίας))">
+<!ENTITY se-FI "se-FI (Σουόμι (Βόρεια, Φιλανδίας))">
+<!ENTITY se-NO "se-NO (Σουόμι (Βόρεια, Νορβηγίας))">
+<!ENTITY se-SE "se-SE (Σουόμι (Βόρεια, Σουηδίας))">
+<!ENTITY si-LK "si-LK (Σινχάλα (Σρι Λάνκα))">
+<!ENTITY sk-SK "sk-SK (Σλοβάκικα (Σλοβακίας))">
+<!ENTITY sl-SI "sl-SI (Σλοβενικά (Σλοβενίας))">
+<!ENTITY sma-NO "sma-NO (Σουόμι (Νότια, Νορβηγίας))">
+<!ENTITY sma-SE "sma-SE (Σουόμι (Νότια, Σουηδίας))">
+<!ENTITY smj-NO "smj-NO (Σουόμι (Λούλ, Νορβηγίας))">
+<!ENTITY smj-SE "smj-SE (Σουόμι (Λούλ, Σουηδίας))">
+<!ENTITY smn-FI "smn-FI (Σουόμι (Ινάρι, Φινλανδίας))">
+<!ENTITY sms-FI "sms-FI (Σουόμι (Sκολτ, Φινλανδίας))">
+<!ENTITY son-NE "son-NE - Σονγκχέι (Νίγηρας)">
+<!ENTITY sq-AL "sq-AL (Αλβανικά (Αλβανίας))">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl (Σέρβικα (Βοζνίας - Ερζεγοβίνης, Κυριλικά))">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (Σέρβικα (Βοζνίας - Ερζεγοβίνης, Λατινικά))">
+<!ENTITY sr-ME "sr-ME - Σέρβικα (Μαυροβουνίου)">
+<!ENTITY sr-RS "sr-RS - Σέρβικα (Σερβίας)">
+<!ENTITY sv-FI "sv-FI (Σουηδικά (Φινλανδίας))">
+<!ENTITY sv-SE "sv-SE (Σουηδικά (Σουηδίας))">
+<!ENTITY sw-KE "sw-KE (Σουαχίλι (Κένυας))">
+<!ENTITY syr-SY "syr-SY (Συριακά (Συρίας))">
+<!ENTITY ta-IN "ta-IN (Ταμίλ (Ινδίας))">
+<!ENTITY ta-LK "ta-LK (Ταμίλ (Σρι Λάνκας))">
+<!ENTITY te-IN "te-IN (Telugu (Ινδίας))">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl (Tajik (Τατζικιστάν))">
+<!ENTITY th-TH "th-TH (Τάι (Ταϊλάνδης))">
+<!ENTITY tk-TM "tk-TM (Τουρκμενικά (Τουρκμενιστάν))">
+<!ENTITY tn-ZA "tn-ZA (Setswana/Tswana (Νότιας Αφρικής))">
+<!ENTITY ur-IN "ur-IN - (Ουρντού (Ινδίας))">
+<!ENTITY tr-TR "tr-TR (Τουρκικά (Τουρκίας))">
+<!ENTITY tt-RU "tt-RU (Ταταρικά (Ρωσίας))">
+<!ENTITY ug-CN "ug-CN (Ουιγουρικά (ΛΔΚ))">
+<!ENTITY uk-UA "uk-UA (Ουκρανικά (Ουκρανίας))">
+<!ENTITY ur-PK "ur-PK (Ουρντού (Πακιστάν))">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl (Ουζμπέκικα (Ουζμπεκιστάν, Κυριλικά))">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn (Ουζμπέκικα (Ουζμπεκιστάν, Λατινικά))">
+<!ENTITY vi-VN "vi-VN (Βιετναμέζικα (Βιετνάμ))">
+<!ENTITY wa-BE "wa-BE - (Βαλονέζικα (Βελγίου))">
+<!ENTITY dsb-DE "dsb-DE - Κάτω Σοραβικά (Γερμανίας)">
+<!ENTITY hsb-DE "hsb-DE - Άνω Σοραβικά (Γερμανίας)">
+<!ENTITY wo-SN "wo-SN (Wolof (Σενεγάλης))">
+<!ENTITY xh-ZA "xh-ZA (isiXhosa/Xhosa (Νότιας Αφρικής))">
+<!ENTITY yo-NG "yo-NG (Γιορούμπα (Νιγηρίας))">
+<!ENTITY zh-CHS "zh-CHS (Κινέζικα (Απλουστευμένα))">
+<!ENTITY zh-CHT "zh-CHT (Κινέζικα (Παραδοσιακά))">
+<!ENTITY zh-CN "zh-CN (Κινέζικα (ΛΔΚ))">
+<!ENTITY zh-HK "zh-HK (Κινέζικα (Χονκ-Κογκ, ΛΔΚ))">
+<!ENTITY zh-MO "zh-MO (Κινέζικα (Μακάο))">
+<!ENTITY zh-SG "zh-SG (Κινέζικα (Σινγκαπούρης))">
+<!ENTITY zh-TW "zh-TW (Κινέζικα (Ταϊβάν))">
+<!ENTITY zu-ZA "zu-ZA (Ισιζούλου/Ζουλού (Νότιας Αφρικής))">

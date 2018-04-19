@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Gyors nyelv váltó">
+<!ENTITY qls.description "A general.useragent.locale beállítás egyszerű módosítása.">
+<!ENTITY qls.createdby "Készítette:">
+<!ENTITY qls.restoredefault "Alapértelmezett">
+<!ENTITY qls.notifyrestart "Ne jelenjen meg újra ez az üzenet">
+<!ENTITY qls.restartmessage "Nyelv módosítva. Lehet, hogy újra kell indítania a böngészőt a változások érvénybelépéséhez.">
+<!ENTITY qls.askrestartmessage "Nyelv módosítva. Szeretné újraindítani a böngészőt a változások érvényesítéséhez?">
+<!ENTITY qls.pleasewait "Nyelv alkalmazása...">
+<!ENTITY qls.settings "Beállítások...">
+<!ENTITY qls.settings.title "Gyors nyelv váltó beállítások">
+<!ENTITY qls.settings.apply "Alkalmaz">
+<!ENTITY qls.settings.description "Egyéni nyelvek hozzáadása a menühöz (pl. en-US-mac, vagy de-FY)">
+<!ENTITY qls.settings.locale "Nyelv">
+<!ENTITY qls.settings.label "Címke">
+<!ENTITY qls.settings.pane.general "Általános">
+<!ENTITY qls.settings.pane.locales "Nyelvek">
+<!ENTITY qls.settings.pane.autoswitch "Automatikus váltás">
+<!ENTITY qls.settings.visiblemenuitems "Válassza ki a menüben megjelenítendő elemeket.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Az összes kijelölése">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Semelyik kijelölése">
+<!ENTITY qls.settings.switchwhat "Az alábbi nyelvfüggő beállítások módosítása">
+<!ENTITY qls.settings.switch.gulocale "Felhasználói felület nyelve (general.useragent.locale)">
+<!ENTITY qls.settings.switch.contentlocale "Tartalom nyelve (Helyesírás ellenőrző szótár és HTTP Accept Languages fejléc)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Sose állítsa át a HTTP Accept Languages fejlécet">
+<!ENTITY qls.settings.switch.alwaysask "Mindig kérdezzen rá, melyik beállítást akarom átállítani">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Aktuális oldal újratöltése tartalom nyelvének váltása után">
+<!ENTITY qls.settings.restartreload "Újraindítás/Újratöltés opciók">
+<!ENTITY qls.settings.autorestart.ask "Figyelmeztessen újraindítás előtt">
+<!ENTITY qls.statusbar.main "Gyors nyelv váltó jelenleg kijelölt nyelve">
+<!ENTITY qls.statusbar.tooltip.content "Tartalom: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Felhasználói felület: &#37;1">
+<!ENTITY qls.useautoswitch.title "Automatikus váltás">
+<!ENTITY qls.useautoswitch "Webtartalom és helyesírási szótár beállítások mentése minden oldalhoz">
+<!ENTITY qls.useautoswitch.tldbased "Automatikus váltás TLD alapján (.hu .nl .fr)">
+<!ENTITY qls.useautoswitch.delete "Automatikus váltás visszaállítása">
+<!ENTITY qls.useautoswitch.open "Automatikusan váltás kezelése">
+<!ENTITY qls.autoswitch.filter "Keresés">
+<!ENTITY qls.autoswitch.clearfilter "Törlés">
+<!ENTITY qls.autoswitch.title "Automatikusan váltó oldalak">
+<!ENTITY qls.autoswitch.site "Weboldal (nyelv)">
+<!ENTITY qls.autoswitch.remove "Kijelölt oldalak törlése">
+<!ENTITY qls.autoswitch.removeall "Az összes oldal törlése">
+<!ENTITY qls.autoswitch.close "Bezárás">
+<!ENTITY qls-askswitchsettings-title "Az alábbi nyelvvel kapcsolatos beállítások módosítása">
+<!ENTITY qls.visiblemenuitems.search "Keresés">
+<!ENTITY qls.settings.display "Megjelenítési beállítások">
+<!ENTITY qls.settings.display.hide_tools "Elrejtés az Eszközök menüből">
+<!ENTITY qls.settings.display.hide_statusbar "Elrejtés az állapotsorról">
+<!ENTITY qls.settings.display.statusbarmode "Állapotsor megjelenítési mód">
+<!ENTITY qls.settings.display.statusbarmode.icon "ikon">
+<!ENTITY qls.settings.display.statusbarmode.text "szöveg">
+<!ENTITY qls.settings.display.statusbarmode.full "ikon és szöveg">
+<!ENTITY qls.settings.getlanguagepacks "További nyelvi csomagok letöltése">
+<!ENTITY qls.settings.getdictionaries "További szótárak letöltése">
+<!ENTITY af-ZA "af-ZA afrikaans (Dél-Afrika)">
+<!ENTITY am-ET "am-ET - amhara (Etiópia)">
+<!ENTITY ar-AE "ar-AE - arab (Egyesült Arab Emirátusok)">
+<!ENTITY ar-BH "ar-BH - arab (Bahrein)">
+<!ENTITY ar-DZ "ar-DZ - arab (Algéria)">
+<!ENTITY ar-EG "ar-EG - arab (Egyiptom)">
+<!ENTITY ar-IQ "ar-IQ - arab (Irak)">
+<!ENTITY ar-JO "ar-JO - arab (Jordánia)">
+<!ENTITY ar-KW "ar-KW - arab (Kuwait)">
+<!ENTITY ar-LB "ar-LB - arab (Libanon)">
+<!ENTITY ar-LY "ar-LY - arab (Líbia)">
+<!ENTITY ar-MA "ar-MA - arab (Marokkó)">
+<!ENTITY ar-OM "ar-OM - arab (Omán)">
+<!ENTITY ar-QA "ar-QA - arab (Katar)">
+<!ENTITY ar-SA "ar-SA - arab (Szaud-Arábia)">
+<!ENTITY ar-SY "ar-SY - arab (Szíria)">
+<!ENTITY ar-TN "ar-TN - arab (Tunézia)">
+<!ENTITY ar-YE "ar-YE - arab (Jemen)">
+<!ENTITY arn-CL "arn-CL - mapudungun (Chile)">
+<!ENTITY as-IN "as-IN - asszámi (India)">
+<!ENTITY ast-ES "ast-ES - asztúriai">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - azeri (cirill)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - azeri (latin)">
+<!ENTITY ba-RU "ba-RU - baskír (Oroszország)">
+<!ENTITY be-BY "be-BY - belarusz (Belarusz)">
+<!ENTITY ber-DZ "ber-DZ - tamazit (Algéria, latin)">
+<!ENTITY bg-BG "bg-BG - bolgár (Bulgária)">
+<!ENTITY bn-BD "bn-BD - bengáli (Banglades)">
+<!ENTITY bn-IN "bn-IN - bengáli (India)">
+<!ENTITY bo-BT "bo-BT - tibeti (Bhután)">
+<!ENTITY bo-CN "bo-CN - tibeti (Kínai Demokratikus Köztársaság)">
+<!ENTITY br-FR "br-FR - breton (Franciaország)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - bosnyák (Bosznia-Hercegovina, cirill)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - bosnyák (Bosznia-Hercegovina, latin)">
+<!ENTITY ca-AD "ca-AD - katalán (Andorra)">
+<!ENTITY ca-ES "ca-ES - katalán (Spanyolország)">
+<!ENTITY ca-FR "ca-FR - katalán (Franciaország)">
+<!ENTITY ca-valencia "ca-valencia - valenciai (Valenciai Közösség)">
+<!ENTITY co-FR "co-FR - korzikai (Franciaország)">
+<!ENTITY cs-CZ "cs-CZ - cseh (Cseh Köztársaság)">
+<!ENTITY cy-GB "cy-GB - walesi (Egyesült Királyság)">
+<!ENTITY da-DK "da-DK - dán (Dánia)">
+<!ENTITY de-AT "de-AT - német (Ausztria)">
+<!ENTITY de-CH "de-CH - német (Svájc)">
+<!ENTITY de-DE "de-DE - német (Németország)">
+<!ENTITY de-LI "de-LI - német (Liechtenstein)">
+<!ENTITY de-LU "de-LU - német (Luxembourg)">
+<!ENTITY div-MV "div-MV - dihevi (Maldív-szigetek)">
+<!ENTITY el-GR "el-GR - görög (Görögország)">
+<!ENTITY en-AU "en-AU - angol (Ausztrália)">
+<!ENTITY en-BZ "en-BZ - angol (Belize)">
+<!ENTITY en-CA "en-CA - angol (Kanada)">
+<!ENTITY en-CB "en-CB - angol (Karib-szigetek)">
+<!ENTITY en-GB "en-GB - angol (Egyesült Királyság)">
+<!ENTITY en-IE "en-IE - angol (Írország)">
+<!ENTITY en-IN "en-IN - angol (India)">
+<!ENTITY en-JA "en-JA - angol (Jamaika)">
+<!ENTITY en-MY "en-MY - angol (Malajzia)">
+<!ENTITY en-NZ "en-NZ - angol (Új Zéland)">
+<!ENTITY en-PH "en-PH - angol (Fülöp-szigetek)">
+<!ENTITY en-SG "en-SG - angol (Szingapúr)">
+<!ENTITY en-TT "en-TT - angol (Trinidad)">
+<!ENTITY en-US "en-US - angol (Egyesült Államok)">
+<!ENTITY en-ZA "en-ZA - angol (Dél-Afrika)">
+<!ENTITY en-ZW "en-ZW - angol (Zimbabwe)">
+<!ENTITY eo-EO "eo-EO - eszperantó">
+<!ENTITY es-AR "es-AR - spanyol (Argentína)">
+<!ENTITY es-BO "es-BO - spanyol (Bolívia)">
+<!ENTITY es-CL "es-CL - spanyol (Chile)">
+<!ENTITY es-CU "es-CU - spanyol (Kuba)">
+<!ENTITY es-CO "es-CO - spanyol (Kolumbia)">
+<!ENTITY es-CR "es-CR - spanyol (Costa Rica)">
+<!ENTITY es-DO "es-DO - spanyol (Dominikai Köztársaság)">
+<!ENTITY es-EC "es-EC - spanyol (Ecuador)">
+<!ENTITY es-ES "es-ES - spanyol (Spanyolország)">
+<!ENTITY es-ES-ts "es-ES-ts - spanyol (Spanyolország, hagyományos)">
+<!ENTITY es-GT "es-GT - spanyol (Guatemala)">
+<!ENTITY es-HN "es-HN - spanyol (Honduras)">
+<!ENTITY es-MX "es-MX - spanyol (Mexikó)">
+<!ENTITY es-NI "es-NI - spanyol (Nicaragua)">
+<!ENTITY es-PA "es-PA - spanyol (Panama)">
+<!ENTITY es-PE "es-PE - spanyol (Peru)">
+<!ENTITY es-PR "es-PR - spanyol (Puerto Rico)">
+<!ENTITY es-PY "es-PY - spanyol (Paraguay)">
+<!ENTITY es-SV "es-SV - spanyol (El Salvador)">
+<!ENTITY es-UY "es-UY - spanyol (Uruguay)">
+<!ENTITY es-US "es-US - spanyol (Egyesült Államok)">
+<!ENTITY es-VE "es-VE - spanyol (Venezuela)">
+<!ENTITY et-EE "et-EE - észt (Észtország)">
+<!ENTITY eu-ES "eu-ES - baszk (Baszkföld)">
+<!ENTITY fa-IR "fa-IR - persza (Irán)">
+<!ENTITY fi-FI "fi-FI - finn (Finnország)">
+<!ENTITY fil-PH "fil-PH - filippínó (Fülöp-szigetek)">
+<!ENTITY fo-FO "fo-FO - feröeri (Feröer-szigetek)">
+<!ENTITY fr-BE "fr-BE - francia (Belgium)">
+<!ENTITY fr-CA "fr-CA - francia (Kanada)">
+<!ENTITY fr-CH "fr-CH - francia (Svájc)">
+<!ENTITY fr-FR "fr-FR - francia (Franciaország)">
+<!ENTITY fr-LU "fr-LU - francia (Luxemburg)">
+<!ENTITY fr-MC "fr-MC - francia (Monaco)">
+<!ENTITY fur-IT "fur-IT friuliai (Olaszország)">
+<!ENTITY fy-NL "fy-NL - fríz (Hollandia)">
+<!ENTITY ga-IE "ga-IE - ír (Írország)">
+<!ENTITY gbz-AF "gbz-AF - dari (Afganisztán)">
+<!ENTITY gd-GB "gd-GB - gael (Egyesült Királyság)">
+<!ENTITY gl-ES "gl-ES - galíciai (Galícia)">
+<!ENTITY gsw-FR "gsw-FR - elzászi (Franciaország)">
+<!ENTITY gu-IN "gu-IN - gujarati (India)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - hausa (Nigéria)">
+<!ENTITY he-IL "he-IL - héber (Israel)">
+<!ENTITY hi-IN "hi-IN - hindu (India)">
+<!ENTITY hr-BA "hr-BA - horvát (Bosznia-Hercegovina, latin)">
+<!ENTITY hr-HR "hr-HR - horvát (Horvátország)">
+<!ENTITY hu-HU "hu-HU - magyar (Magyarország)">
+<!ENTITY hy-AM "hy-AM - örmény (Örményország)">
+<!ENTITY id-ID "id-ID - indonéz (Indonézia)">
+<!ENTITY ii-CN "ii-CN - Yi (Kínai Demokratikus Köztársaság)">
+<!ENTITY is-IS "is-IS - izlandi (Izland)">
+<!ENTITY it-CH "it-CH - olasz (Svájc)">
+<!ENTITY it-IT "it-IT - olasz (Olaszország)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - inuktitut (Kanada, szótagírás)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - inuktitut (Kanada, latin)">
+<!ENTITY ja-JP "ja-JP - japán (Japán)">
+<!ENTITY ja-JP-mac "ja-JP-mac - japán (Japán, Mac)">
+<!ENTITY ka-GE "ka-GE - grúz (Grúzia)">
+<!ENTITY kk-KZ "kk-KZ - kazah (Kazahsztán)">
+<!ENTITY kl-GL "kl-GL - grönlandi (Grönland)">
+<!ENTITY km-KH "km-KH - khmer (Kambodzsa)">
+<!ENTITY kn-IN "kn-IN - kannada (India)">
+<!ENTITY kok-IN "kok-IN - konkani (India)">
+<!ENTITY ko-KR "ko-KR - koreai (Korea)">
+<!ENTITY ky-KG "ky-KG - kirgíz (Kirgizisztán)">
+<!ENTITY lb-LU "lb-LU - luxemburgi (Luxemburg)">
+<!ENTITY lo-LA "lo-LA - lao (Lao PDR)">
+<!ENTITY lt-LT "lt-LT - litván (Litvánia)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV - lett (Lettország)">
+<!ENTITY mi-NZ "mi-NZ - maori (Új Zéland)">
+<!ENTITY mk-MK "mk-MK - macedón (Macedónia)">
+<!ENTITY ml-IN "ml-IN - malayalam (India)">
+<!ENTITY mn-CN "mn-CN - mongol (Kínai Demokratikus Köztársaság)">
+<!ENTITY mn-MN "mn-MN - mondol (Mongólia)">
+<!ENTITY moh-CA "moh-CA - mohawk (Kanada)">
+<!ENTITY mr-IN "mr-IN - marathi (India)">
+<!ENTITY ms-BN "ms-BN - maláj (Brunei)">
+<!ENTITY ms-MY "ms-MY - maláj (Malajzia)">
+<!ENTITY mt-MT "mt-MT - máltai (Málta)">
+<!ENTITY nb-NO "nb-NO - norvég-bokmål (Norvégia)">
+<!ENTITY ne-NP "ne-NP - nepáli (Nepál)">
+<!ENTITY nl-BE "nl-BE - holland (Belgium)">
+<!ENTITY nl-NL "nl-NL - holland (Hollandia)">
+<!ENTITY nn-NO "nn-NO - norvég-nynorsk (Norvégia)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (Dél-afrika)">
+<!ENTITY oc-FR "oc-FR - okszitán (Franciaország)">
+<!ENTITY or-IN "or-IN - oriya (India)">
+<!ENTITY pa-IN "pa-IN - punjabi (India)">
+<!ENTITY pl-PL "pl-PL - lengyel (Lengyelország)">
+<!ENTITY ps-AF "ps-AF - pastu (Afganisztán)">
+<!ENTITY pt-BR "pt-BR - portugál (Brazília)">
+<!ENTITY pt-PT "pt-PT - portugál (Portugália)">
+<!ENTITY qut-GT "qut-GT - k&apos;iche (Guatemala)">
+<!ENTITY quz-BO "quz-BO - kecsua (Bolívia)">
+<!ENTITY quz-EC "quz-EC - kecsua (Ecuador)">
+<!ENTITY quz-PE "quz-PE - kecsua (Peru)">
+<!ENTITY rm-CH "rm-CH - rétoromán (Svájc)">
+<!ENTITY ro-RO "ro-RO - román (Románia)">
+<!ENTITY ru-RU "ru-RU - orosz (Oroszország)">
+<!ENTITY rw-RW "rw-RW - kinyarwanda (Ruanda)">
+<!ENTITY sah-RU "sah-RU - yakut (Oroszország)">
+<!ENTITY sa-IN "sa-IN - szanszkrit (India)">
+<!ENTITY se-FI "se-FI - sami (északi, Finnország)">
+<!ENTITY se-NO "se-NO - sami(északi, Norvégia)">
+<!ENTITY se-SE "se-SE - sami (északi, Svédország)">
+<!ENTITY si-LK "si-LK - szingaléz (Srí Lanka)">
+<!ENTITY sk-SK "sk-SK - szlovák (Szlovákia)">
+<!ENTITY sl-SI "sl-SI - szlovén (Szlovénia)">
+<!ENTITY sma-NO "sma-NO - sami (déli, Norvégia)">
+<!ENTITY sma-SE "sma-SE - sami (déli, Svédország)">
+<!ENTITY smj-NO "smj-NO - sami (Lule, Norvégia)">
+<!ENTITY smj-SE "smj-SE - sami (Lule, Svédország)">
+<!ENTITY smn-FI "smn-FI - sami (Inari, Finnország)">
+<!ENTITY sms-FI "sms-FI - sami (Skolt, Finnország)">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "sq-AL - albán (Albánia)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - szerb (Bosznia-Hercegovina, cirill)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - szerb (Bosznia-Hercegovina, latin)">
+<!ENTITY sr-ME "sr-ME - montenegrói (Montenegró)">
+<!ENTITY sr-RS "sr-RS - szerb (Szerbia)">
+<!ENTITY sv-FI "sv-FI - svéd (Finnország)">
+<!ENTITY sv-SE "sv-SE - svéd (Svájc)">
+<!ENTITY sw-KE "sw-KE - szuahéli (Kenya)">
+<!ENTITY syr-SY "syr-SY - szír (Szíria)">
+<!ENTITY ta-IN "ta-IN - tamil (India)">
+<!ENTITY ta-LK "ta-LK - tamil (Srí Lanka)">
+<!ENTITY te-IN "te-IN - telugu (India)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - tádzsik (Tádzsikisztán)">
+<!ENTITY th-TH "th-TH - thai (Thaiföld)">
+<!ENTITY tk-TM "tk-TM - türkmén (Türkmenisztán)">
+<!ENTITY tn-ZA "tn-ZA - setswana/tswana (Dél-Afrika)">
+<!ENTITY ur-IN "ur-IN - urdu (India)">
+<!ENTITY tr-TR "tr-TR - török (Törökország)">
+<!ENTITY tt-RU "tt-RU - tatár (Oroszország)">
+<!ENTITY ug-CN "ug-CN - uigur (Kínai Demokratikus Köztársaság)">
+<!ENTITY uk-UA "uk-UA - ukrán (Ukrajna)">
+<!ENTITY ur-PK "ur-PK - urdu (Pakisztán)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - üzbég (Üzbegisztán, cirill)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - üzbég (Üzbegisztán, latin)">
+<!ENTITY vi-VN "vi-VN - vietnámi (Vietnám)">
+<!ENTITY wa-BE "wa-BE - vallon (Belgium)">
+<!ENTITY dsb-DE "dsb-DE - alsó-szorb (Németország)">
+<!ENTITY hsb-DE "dsb-DE - felső-szorb (Németország)">
+<!ENTITY wo-SN "wo-SN - wolof (Szenegál)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/xhosa (Dél-Afrika)">
+<!ENTITY yo-NG "yo-NG - yorubai (Nigéria)">
+<!ENTITY zh-CHS "zh-CHS - kínai (egyszerűsített)">
+<!ENTITY zh-CHT "zh-CHT - kínai (hagyományos)">
+<!ENTITY zh-CN "zh-CN - kínai (Kínai Demokratikus Köztársaság)">
+<!ENTITY zh-HK "zh-HK - kínai (Hong Kong)">
+<!ENTITY zh-MO "zh-MO - kínai (Macao)">
+<!ENTITY zh-SG "zh-SG - kínai (Szingapúr)">
+<!ENTITY zh-TW "zh-TW - kínai (Taiwan)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/zulu (Dél-Afrika)">

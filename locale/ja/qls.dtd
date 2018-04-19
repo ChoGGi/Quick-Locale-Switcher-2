@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "言語を変更">
+<!ENTITY qls.description "言語設定を素早く変更するアドオンです。">
+<!ENTITY qls.createdby "作者:">
+<!ENTITY qls.restoredefault "既定値に戻す">
+<!ENTITY qls.notifyrestart "今後このメッセージを表示しません。">
+<!ENTITY qls.restartmessage "言語を変更しました。変更を適用するには再起動が必要です。">
+<!ENTITY qls.askrestartmessage "言語を変更しました。変更を適用するために今すぐ再起動しますか?">
+<!ENTITY qls.pleasewait "新しい言語を適用中...">
+<!ENTITY qls.settings "オプション...">
+<!ENTITY qls.settings.title "Quick Locale Switcher オプション">
+<!ENTITY qls.settings.apply "適用">
+<!ENTITY qls.settings.description "追加する言語とラベル (例: en-US-mac、ja-JP-mot) を入力してください。">
+<!ENTITY qls.settings.locale "言語">
+<!ENTITY qls.settings.label "ラベル">
+<!ENTITY qls.settings.pane.general "全般">
+<!ENTITY qls.settings.pane.locales "言語">
+<!ENTITY qls.settings.pane.autoswitch "自動切り替え">
+<!ENTITY qls.settings.visiblemenuitems "メニューで表示する言語を選択してください。">
+<!ENTITY qls.settings.visiblemenuitems.selectall "すべての言語を選択">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "すべての言語の選択解除">
+<!ENTITY qls.settings.switchwhat "言語関連設定の切り替え">
+<!ENTITY qls.settings.switch.gulocale "ユーザインタフェース言語 (general.useragent.locale)">
+<!ENTITY qls.settings.switch.contentlocale "ウェブページ言語 (スペルチェッカー辞書及び HTTP Accept 言語ヘッダー)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Accept 言語ヘッダーを切り替えない">
+<!ENTITY qls.settings.switch.alwaysask "常時どの設定で切り替えるか尋ねる">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "ウェブページ言語の切り替え後に現在のページを更新">
+<!ENTITY qls.settings.restartreload "再起動 / 更新オプション">
+<!ENTITY qls.settings.autorestart.ask "再起動する前に警告">
+<!ENTITY qls.statusbar.main "現在の言語">
+<!ENTITY qls.statusbar.tooltip.content "ウェブページ言語: &amp;#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "ユーザインタフェース言語: &amp;#37;1">
+<!ENTITY qls.useautoswitch.title "自動切り替え">
+<!ENTITY qls.useautoswitch "自動的にサイトに合わせたウェブページ言語とスペルチェッカー辞書にする">
+<!ENTITY qls.useautoswitch.tldbased "トップ レベル ドメインに基づいた自動切替 (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "ウェブページ言語の自動切り替えをリセット">
+<!ENTITY qls.useautoswitch.open "自動切り替えするサイトを管理">
+<!ENTITY qls.autoswitch.filter "検索">
+<!ENTITY qls.autoswitch.clearfilter "クリア">
+<!ENTITY qls.autoswitch.title "自動切り替えするサイト">
+<!ENTITY qls.autoswitch.site "サイト (言語)">
+<!ENTITY qls.autoswitch.remove "自動切り替えするサイトを削除">
+<!ENTITY qls.autoswitch.removeall "すべての自動切り替え対象サイトを削除">
+<!ENTITY qls.autoswitch.close "閉じる">
+<!ENTITY qls-askswitchsettings-title "言語関連の切り替え設定">
+<!ENTITY qls.visiblemenuitems.search "検索">
+<!ENTITY qls.settings.display "表示オプション">
+<!ENTITY qls.settings.display.hide_tools "ツ－ルメニュー項目を非表示にする">
+<!ENTITY qls.settings.display.hide_statusbar "ステータスバーのアイコンを非表示にする">
+<!ENTITY qls.settings.display.statusbarmode "ステータスバー表示モード">
+<!ENTITY qls.settings.display.statusbarmode.icon "アイコンのみ">
+<!ENTITY qls.settings.display.statusbarmode.text "文字のみ">
+<!ENTITY qls.settings.display.statusbarmode.full "アイコンと文字">
+<!ENTITY qls.settings.getlanguagepacks "他の言語パックを手に入れる">
+<!ENTITY qls.settings.getdictionaries "他の辞書を手に入れる">
+<!ENTITY af-ZA "af-ZA (アフリカーンス語 (南アフリカ))">
+<!ENTITY am-ET "am-ET (アムハラ語 (エチオピア))">
+<!ENTITY ar-AE "ar-AE (アラビア語 (UAE))">
+<!ENTITY ar-BH "ar-BH (アラビア語 (バーレーン))">
+<!ENTITY ar-DZ "ar-DZ (アラビア語 (アルジェリア))">
+<!ENTITY ar-EG "ar-EG (アラビア語 (エジプト))">
+<!ENTITY ar-IQ "ar-IQ (アラビア語 (イラク))">
+<!ENTITY ar-JO "ar-JO (アラビア語 (ヨルダン))">
+<!ENTITY ar-KW "ar-KW (アラビア語 (クウェート))">
+<!ENTITY ar-LB "ar-LB (アラビア語 (レバノン))">
+<!ENTITY ar-LY "ar-LY (アラビア語 (リビア))">
+<!ENTITY ar-MA "ar-MA (アラビア語 (モロッコ))">
+<!ENTITY ar-OM "ar-OM (アラビア語 (オマーン))">
+<!ENTITY ar-QA "ar-QA (アラビア語 (カタール))">
+<!ENTITY ar-SA "ar-SA (アラビア語 (サウジアラビア))">
+<!ENTITY ar-SY "ar-SY (アラビア語 (シリア))">
+<!ENTITY ar-TN "ar-TN (アラビア語 (チュニジア))">
+<!ENTITY ar-YE "ar-YE (アラビア語 (イエメン))">
+<!ENTITY arn-CL "arn-CL (マプーチェ語 (チリ))">
+<!ENTITY as-IN "as-IN (アッサム語 (インド))">
+<!ENTITY ast-ES "ast-ES (アストゥリアス語)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl (アゼルバイジャン語 (キリル))">
+<!ENTITY az-AZ-Latn "az-AZ-Latn (アゼルバイジャン語 (ラテン))">
+<!ENTITY ba-RU "ba-RU (バシキール語 (ロシア))">
+<!ENTITY be-BY "be-BY (ベラルーシ語 (ベラルーシ))">
+<!ENTITY ber-DZ "ber-DZ (タマージク語 (アルジェリア、ラテン))">
+<!ENTITY bg-BG "bg-BG (ブルガリア語 (ブルガリア))">
+<!ENTITY bn-BD "bn-BD (ベンガル語 (バングラデッシュ))">
+<!ENTITY bn-IN "bn-IN (ベンガル語 (インド))">
+<!ENTITY bo-BT "bo-BT (チベット語 (ブータン))">
+<!ENTITY bo-CN "bo-CN (チベット語 (中国))">
+<!ENTITY br-FR "br-FR (ブレトン語 (フランス))">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl (ボスニア語 (ボスニア・ヘルツェゴビナ、キリル))">
+<!ENTITY bs-BA-Latn "bs-BA-Latn (ボスニア語 (ボスニア・ヘルツェゴビナ、ラテン))">
+<!ENTITY ca-AD "ca-AD (カタロニア語 (アンドラ))">
+<!ENTITY ca-ES "ca-ES (カタロニア語 (スペイン))">
+<!ENTITY ca-FR "ca-FR (カタロニア語 (フランス))">
+<!ENTITY ca-valencia "ca-valencia (バレンシア語 （バレンシアコミュニティ))">
+<!ENTITY co-FR "co-FR (コルシカ語 (フランス))">
+<!ENTITY cs-CZ "cs-CZ (チェコ語 (チェコ))">
+<!ENTITY cy-GB "cy-GB (ウェールズ語 (イギリス))">
+<!ENTITY da-DK "da-DK (デンマーク語 (デンマーク))">
+<!ENTITY de-AT "de-AT (ドイツ語 (オーストリア))">
+<!ENTITY de-CH "de-CH (ドイツ語 (スイス))">
+<!ENTITY de-DE "de-DE (ドイツ語 (ドイツ))">
+<!ENTITY de-LI "de-LI (ドイツ語 (リヒテンシュタイン))">
+<!ENTITY de-LU "de-LU (ドイツ語 (ルクセンブルグ))">
+<!ENTITY div-MV "div-MV (ディベヒ語 (モルジブ))">
+<!ENTITY el-GR "el-GR (ギリシア語)">
+<!ENTITY en-AU "en-AU (英語 (オーストラリア))">
+<!ENTITY en-BZ "en-BZ (英語 (ベリーズ))">
+<!ENTITY en-CA "en-CA (英語 (カナダ))">
+<!ENTITY en-CB "en-CB (英語 (カリブ))">
+<!ENTITY en-GB "en-GB (英語 (イギリス))">
+<!ENTITY en-IE "en-IE (英語 (アイルランド))">
+<!ENTITY en-IN "en-IN (英語 (インド))">
+<!ENTITY en-JA "en-JA (英語 (ジャマイカ))">
+<!ENTITY en-MY "en-MY (英語 (マレーシア))">
+<!ENTITY en-NZ "en-NZ (英語 (ニュージーランド))">
+<!ENTITY en-PH "en-PH (英語 (フィリピン))">
+<!ENTITY en-SG "en-SG (英語 (シンガポール))">
+<!ENTITY en-TT "en-TT (英語 (トリニダード))">
+<!ENTITY en-US "en-US (英語 (アメリカ))">
+<!ENTITY en-ZA "en-ZA (英語 (南アフリカ))">
+<!ENTITY en-ZW "en-ZW (英語 (ジンバブエ))">
+<!ENTITY eo-EO "eo-EO (エスペラント語)">
+<!ENTITY es-AR "es-AR (スペイン語 (中南米))">
+<!ENTITY es-BO "es-BO (スペイン語 (ボリビア))">
+<!ENTITY es-CL "es-CL (スペイン語 (チリ))">
+<!ENTITY es-CU "es-CU (スペイン語 (キューバ))">
+<!ENTITY es-CO "es-CO (スペイン語 (コロンビア))">
+<!ENTITY es-CR "es-CR (スペイン語 (コスタリカ))">
+<!ENTITY es-DO "es-DO (スペイン語 (ドミニカ))">
+<!ENTITY es-EC "es-EC (スペイン語 (エクアドル))">
+<!ENTITY es-ES "es-ES (スペイン語 (スペイン))">
+<!ENTITY es-ES-ts "es-ES-ts (スペイン語 (スペイン、古典))">
+<!ENTITY es-GT "es-GT (スペイン語 (グアテマラ))">
+<!ENTITY es-HN "es-HN (スペイン語 (ホンジュラス))">
+<!ENTITY es-MX "es-MX (スペイン語 (メキシコ))">
+<!ENTITY es-NI "es-NI (スペイン語 (ニカラグア))">
+<!ENTITY es-PA "es-PA (スペイン語 (パナマ))">
+<!ENTITY es-PE "es-PE (スペイン語 (ペルー))">
+<!ENTITY es-PR "es-PR (スペイン語 (プエルトリコ))">
+<!ENTITY es-PY "es-PY (スペイン語 (パラグアイ))">
+<!ENTITY es-SV "es-SV (スペイン語 (エルサルバドル))">
+<!ENTITY es-UY "es-UY (スペイン語 (ウルグアイ))">
+<!ENTITY es-US "es-US (スペイン語 (アメリカ))">
+<!ENTITY es-VE "es-VE (スペイン語 (ベネズエラ))">
+<!ENTITY et-EE "et-EE (エストニア語 (エストニア))">
+<!ENTITY eu-ES "eu-ES (バスク語)">
+<!ENTITY fa-IR "fa-IR (ペルシア語 (イラン))">
+<!ENTITY fi-FI "fi-FI (フィンランド語)">
+<!ENTITY fil-PH "fil-PH (フィリピン語 (フィリピン))">
+<!ENTITY fo-FO "fo-FO (フェロー語 (フェロー諸島))">
+<!ENTITY fr-BE "fr-BE (フランス語 (ベルギー))">
+<!ENTITY fr-CA "fr-CA (フランス語 (カナダ))">
+<!ENTITY fr-CH "fr-CH (フランス語 (スイス))">
+<!ENTITY fr-FR "fr-FR (フランス語 (フランス))">
+<!ENTITY fr-LU "fr-LU (フランス語 (ルクセンブルグ))">
+<!ENTITY fr-MC "fr-MC (フランス語 (モナコ))">
+<!ENTITY fur-IT "fur-IT (フルイリアン語 (イタリア))">
+<!ENTITY fy-NL "fy-NL (フリジア語 (オランダ))">
+<!ENTITY ga-IE "ga-IE (アイルランド語 (アイルランド))">
+<!ENTITY gbz-AF "gbz-AF (ダリ語 (アフガニスタン))">
+<!ENTITY gd-GB "gd-GB (ゲール語 (イギリス))">
+<!ENTITY gl-ES "gl-ES (ガリシア語)">
+<!ENTITY gsw-FR "gsw-FR (アルザス語 (フランス))">
+<!ENTITY gu-IN "gu-IN (グジャラート語)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn (ハウサ語 (ナイジェリア))">
+<!ENTITY he-IL "he-IL (ヘブライ語 (イスラエル))">
+<!ENTITY hi-IN "hi-IN (ヒンズー語 (インド))">
+<!ENTITY hr-BA "hr-BA (クロアチア語 (ボスニア・ヘルツェゴビナ、ラテン))">
+<!ENTITY hr-HR "hr-HR (クロアチア語 (クロアチア))">
+<!ENTITY hu-HU "hu-HU (ハンガリー語 (ハンガリー))">
+<!ENTITY hy-AM "hy-AM (アルメニア語 (アルメニア))">
+<!ENTITY id-ID "id-ID (インドネシア語)">
+<!ENTITY ii-CN "ii-CN (彝語 (中国))">
+<!ENTITY is-IS "is-IS (アイスランド語 (アイスランド))">
+<!ENTITY it-CH "it-CH (イタリア語 (スイス))">
+<!ENTITY it-IT "it-IT (イタリア語 (イタリア))">
+<!ENTITY iu-CA-Cans "iu-CA-Cans (イヌクティトゥト語 (カナダ、音節文字))">
+<!ENTITY iu-CA-Latn "iu-CA-Latn (イヌクティトゥト語 (カナダ、ラテン))">
+<!ENTITY ja-JP "ja-JP (日本語 v1.0系 Windows,Linux)">
+<!ENTITY ja-JP-mac "ja-JP-mac (日本語 v1.5以上系 Mac OS X)">
+<!ENTITY ka-GE "ka-GE (グルジア語)">
+<!ENTITY kk-KZ "kk-KZ (カザフ語 (カザフスタン))">
+<!ENTITY kl-GL "kl-GL (グリーンランド語 (グリーンランド))">
+<!ENTITY km-KH "km-KH (クメール語 (カンボジア))">
+<!ENTITY kn-IN "kn-IN (カンナダ語 (インド))">
+<!ENTITY kok-IN "kok-IN (コンカニ語 (インド))">
+<!ENTITY ko-KR "ko-KR (韓国語 (韓国))">
+<!ENTITY ky-KG "ky-KG (キルギス語 (キルギス))">
+<!ENTITY lb-LU "lb-LU (ルクセンブルク語 (ルクセンブルク))">
+<!ENTITY lo-LA "lo-LA (ラオ語 (ラオス))">
+<!ENTITY lt-LT "lt-LT (リトアニア語 (リトアニア))">
+<!ENTITY lug-UG "lug-UG (ルガンダ語　（ウガンダ))">
+<!ENTITY lv-LV "lv-LV (ラトビア語 (ラトビア))">
+<!ENTITY mi-NZ "mi-NZ (マオリ語 (ニュージーランド))">
+<!ENTITY mk-MK "mk-MK (マケドニア語)">
+<!ENTITY ml-IN "ml-IN (マラヤーラム語 (インド))">
+<!ENTITY mn-CN "mn-CN (モンゴル語 (中国))">
+<!ENTITY mn-MN "mn-MN (モンゴル語 (モンゴル))">
+<!ENTITY moh-CA "moh-CA (モホーク語 (カナダ))">
+<!ENTITY mr-IN "mr-IN (マラーティー語 (インド))">
+<!ENTITY ms-BN "ms-BN (マレー語 (ブルネイ・ダルサラーム))">
+<!ENTITY ms-MY "ms-MY (マレー語 (マレーシア))">
+<!ENTITY mt-MT "mt-MT (マルタ語 (マルタ))">
+<!ENTITY nb-NO "nb-NO (ノルウェー語 (ブークモール語))">
+<!ENTITY ne-NP "ne-NP (ネパール語 (ネパール))">
+<!ENTITY nl-BE "nl-BE (オランダ語 (ベルギー))">
+<!ENTITY nl-NL "nl-NL (オランダ語 (オランダ))">
+<!ENTITY nn-NO "nn-NO (ニーノシュク語 (ノルウェー))">
+<!ENTITY nso-ZA "nso-ZA (北ソト語 （南アフリカ))">
+<!ENTITY oc-FR "oc-FR (オック語 (フランス))">
+<!ENTITY or-IN "or-IN (オリヤー語 (インド))">
+<!ENTITY pa-IN "pa-IN (パンジャブ語 (インド))">
+<!ENTITY pl-PL "pl-PL (ポーランド語 (ポーランド))">
+<!ENTITY ps-AF "ps-AF (パシュトウ語 (アフガニスタン))">
+<!ENTITY pt-BR "pt-BR (ポルトガル語 (ブラジル))">
+<!ENTITY pt-PT "pt-PT (ポルトガル語 (ポルトガル))">
+<!ENTITY qut-GT "qut-GT (キチェ語 (グアテマラ))">
+<!ENTITY quz-BO "quz-BO (ケチュア語 (ボリビア))">
+<!ENTITY quz-EC "quz-EC (ケチュア語 (エクアドル))">
+<!ENTITY quz-PE "quz-PE (ケチュア語 (ペルー))">
+<!ENTITY rm-CH "rm-CH (ロマンシュ語)">
+<!ENTITY ro-RO "ro-RO (ルーマニア語 (ルーマニア))">
+<!ENTITY ru-RU "ru-RU (ロシア語 (ロシア))">
+<!ENTITY rw-RW "rw-RW (キニヤルワンダ語 (ルワンダ))">
+<!ENTITY sah-RU "sah-RU (ヤクート語 (ロシア))">
+<!ENTITY sa-IN "sa-IN (サンスクリット語 (インド))">
+<!ENTITY se-FI "se-FI (サーミ語 (北部、フィンランド))">
+<!ENTITY se-NO "se-NO (サーミ語 (北部、ノルウェー))">
+<!ENTITY se-SE "se-SE (サーミ語 (北部、スウェーデン))">
+<!ENTITY si-LK "si-LK (シンハラ語 (スリランカ))">
+<!ENTITY sk-SK "sk-SK (スロバキア語 (スロバキア))">
+<!ENTITY sl-SI "sl-SI (スロベニア語 (スロバキア))">
+<!ENTITY sma-NO "sma-NO (サーミ語 (南部、ノルウェー))">
+<!ENTITY sma-SE "sma-SE (サーミ語 (南部、スウェーデン))">
+<!ENTITY smj-NO "smj-NO (サーミ語 (Lule、ノルウェー))">
+<!ENTITY smj-SE "smj-SE (サーミ語 (Lule、スウェーデン))">
+<!ENTITY smn-FI "smn-FI (サーミ語 (イナリ、フィンランド))">
+<!ENTITY sms-FI "sms-FI (サーミ語 (Skolt、フィンランド))">
+<!ENTITY son-NE "son-NE (ソンガイ語 （ニジェール))">
+<!ENTITY sq-AL "sq-AL (アルバニア語 (アルバニア))">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl (セルビア語 (ボスニア・ヘルツェゴビナ、キリル))">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (セルビア語 (ボスニア・ヘルツェゴビナ、ラテン))">
+<!ENTITY sr-ME "sr-ME (モンテネグロ語 (モンテネグロ))">
+<!ENTITY sr-RS "sr-RS (セルビア語 (セルビア))">
+<!ENTITY sv-FI "sv-FI (スウェーデン語 (フィンランド))">
+<!ENTITY sv-SE "sv-SE (スウェーデン語 (スウェーデン))">
+<!ENTITY sw-KE "sw-KE (スワヒリ語 (ケニア))">
+<!ENTITY syr-SY "syr-SY (シリア語 (シリア))">
+<!ENTITY ta-IN "ta-IN (タミル語 (インド))">
+<!ENTITY ta-LK "ta-LK (タミル語 (スリランカ))">
+<!ENTITY te-IN "te-IN (テルグ語 (インド))">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl (タジク語 (タジキスタン))">
+<!ENTITY th-TH "th-TH (タイ語 (タイ))">
+<!ENTITY tk-TM "tk-TM (トルクメン語 (トルクメニスタン))">
+<!ENTITY tn-ZA "tn-ZA (セツワナ語/ツワナ語 (南アフリカ))">
+<!ENTITY ur-IN "ur-IN (ウルドゥー語 (インド))">
+<!ENTITY tr-TR "tr-TR (トルコ語 (トルコ))">
+<!ENTITY tt-RU "tt-RU (タタール語 (ロシア))">
+<!ENTITY ug-CN "ug-CN (ウィグル語 (中国))">
+<!ENTITY uk-UA "uk-UA (ウクライナ語 (ウクライナ))">
+<!ENTITY ur-PK "ur-PK (ウルドゥー語 (パキスタン))">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl (ウズベク語 (ウズベキスタン、キリル))">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn (ウズベク語 (ウズベキスタン、ラテン))">
+<!ENTITY vi-VN "vi-VN (ベトナム語 (ベトナム))">
+<!ENTITY wa-BE "wa-BE (ワルーン (ベルギー))">
+<!ENTITY dsb-DE "dsb-DE (下ソルブ語 (ドイツ))">
+<!ENTITY hsb-DE "hsb-DE (上ソルブ語 (ドイツ))">
+<!ENTITY wo-SN "wo-SN (ウォロフ語 (セネガル))">
+<!ENTITY xh-ZA "xh-ZA (コサ語 (南アフリカ))">
+<!ENTITY yo-NG "yo-NG (ヨルバ語 (ナイジェリア))">
+<!ENTITY zh-CHS "zh-CHS (中国語 (簡体字))">
+<!ENTITY zh-CHT "zh-CHT (中国語 (繁体字))">
+<!ENTITY zh-CN "zh-CN (中国語 (中国))">
+<!ENTITY zh-HK "zh-HK (中国語 (香港特別行政区、中国))">
+<!ENTITY zh-MO "zh-MO (中国語 (マカオ特別行政区))">
+<!ENTITY zh-SG "zh-SG (中国語 (シンガポール))">
+<!ENTITY zh-TW "zh-TW (中国語 (台湾))">
+<!ENTITY zu-ZA "zu-ZA (ズールー語 (南アフリカ))">

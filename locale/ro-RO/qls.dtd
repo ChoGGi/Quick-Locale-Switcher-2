@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Schimbă rapid opţiunea general.useragent.locale.">
+<!ENTITY qls.createdby "Autor:">
+<!ENTITY qls.restoredefault "Localizare implicită">
+<!ENTITY qls.notifyrestart "Nu mai arăta acest mesaj.">
+<!ENTITY qls.restartmessage "Localizarea a fost schimbată. Ar putea fi nevoie de repornirea navigatorului pentru a se folosi noua localizare.">
+<!ENTITY qls.askrestartmessage "Localizarea a fost schimbată. Doriți să reporniți navigatorul, pentru a se folosi noua localizare?">
+<!ENTITY qls.pleasewait "Se schimbă localizarea...">
+<!ENTITY qls.settings "Opţiuni...">
+<!ENTITY qls.settings.title "Opţiuni Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Execută">
+<!ENTITY qls.settings.description "Includeți în meniu alte localizări (de ex. en-US-mac sau de-FY)">
+<!ENTITY qls.settings.locale "Localizare">
+<!ENTITY qls.settings.label "Etichetă">
+<!ENTITY qls.settings.pane.general "Generalități">
+<!ENTITY qls.settings.pane.locales "Localizări">
+<!ENTITY qls.settings.pane.autoswitch "Schimbare automat">
+<!ENTITY qls.settings.visiblemenuitems "Alegeți localizările pe care le doriți în meniu.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Bifează tot">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Debifează tot">
+<!ENTITY qls.settings.switchwhat "Schimbă următoarele elemente legate de localizare">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (interfaţa de utilizare)">
+<!ENTITY qls.settings.switch.contentlocale "Limba curentă (Corectorul ortografic și antetul HTTP Accept Languages)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Nu schimba niciodată antetul cu limbile acceptate">
+<!ENTITY qls.settings.switch.alwaysask "Întreabă-mă întotdeauna ce elemente doresc să fie schimbate">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Reîncarcă saitul curent după schimbarea limbii">
+<!ENTITY qls.settings.restartreload "Opțiuni de repornire/reîncărcare">
+<!ENTITY qls.settings.autorestart.ask "Avertizează-mă înainte de repornirea aplicaţiei">
+<!ENTITY qls.statusbar.main "Localizarea curentă cu Quick Locale Switcher">
+<!ENTITY qls.statusbar.tooltip.content "Conținut: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Interfață: &#37;1">
+<!ENTITY qls.useautoswitch.title "Schimbă automat">
+<!ENTITY qls.useautoswitch "Reţine automat preferinţele lingvistice cu privire la fiecare sait">
+<!ENTITY qls.useautoswitch.tldbased "Schimbă automat pe baza domeniului (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "Goleşte lista saiturilor cu schimbare automat">
+<!ENTITY qls.useautoswitch.open "Gestionează saiturile cu schimbare automat">
+<!ENTITY qls.autoswitch.filter "Caută">
+<!ENTITY qls.autoswitch.clearfilter "Golește">
+<!ENTITY qls.autoswitch.title "Saituri cu schimbare automat">
+<!ENTITY qls.autoswitch.site "Sait web (localizare)">
+<!ENTITY qls.autoswitch.remove "Elimină saiturile">
+<!ENTITY qls.autoswitch.removeall "Elimină toate saiturile">
+<!ENTITY qls.autoswitch.close "Închide">
+<!ENTITY qls-askswitchsettings-title "Schimbă următoarele elemente legate de localizare">
+<!ENTITY qls.visiblemenuitems.search "Caută">
+<!ENTITY qls.settings.display "Opțiuni de afișare">
+<!ENTITY qls.settings.display.hide_tools "Ascunde elementul din meniul Unelte">
+<!ENTITY qls.settings.display.hide_statusbar "Ascunde elementul din bara de stare">
+<!ENTITY qls.settings.display.statusbarmode "Afișează în bara de stare">
+<!ENTITY qls.settings.display.statusbarmode.icon "Simbol">
+<!ENTITY qls.settings.display.statusbarmode.text "Text">
+<!ENTITY qls.settings.display.statusbarmode.full "Simbol și text">
+<!ENTITY qls.settings.getlanguagepacks "Get more language packs">
+<!ENTITY qls.settings.getdictionaries "Get more dictionaries">
+<!ENTITY af-ZA "af-ZA - africaans (Africa de Sud)">
+<!ENTITY am-ET "am-ET - amharică (Etiopia)">
+<!ENTITY ar-AE "ar-AE - arabă (EAU)">
+<!ENTITY ar-BH "ar-BH - arabă (Bahrain)">
+<!ENTITY ar-DZ "ar-DZ - arabă (Algeria)">
+<!ENTITY ar-EG "ar-EG - arabă (Egypt)">
+<!ENTITY ar-IQ "ar-IQ - arabă (Irak)">
+<!ENTITY ar-JO "ar-JO - arabă (Iordania)">
+<!ENTITY ar-KW "ar-KW - arabă (Kuweit)">
+<!ENTITY ar-LB "ar-LB - arabă (Liban)">
+<!ENTITY ar-LY "ar-LY - arabă (Libia)">
+<!ENTITY ar-MA "ar-MA - arabă (Maroc)">
+<!ENTITY ar-OM "ar-OM - arabă (Oman)">
+<!ENTITY ar-QA "ar-QA - arabă (Qatar)">
+<!ENTITY ar-SA "ar-SA - arabă (Arabia Saudită)">
+<!ENTITY ar-SY "ar-SY - arabă (Siria)">
+<!ENTITY ar-TN "ar-TN - arabă (Tunisia)">
+<!ENTITY ar-YE "ar-YE - arabă (Yemen)">
+<!ENTITY arn-CL "arn-CL - mapudungun (Chile)">
+<!ENTITY as-IN "as-IN - asameză(India)">
+<!ENTITY ast-ES "ast-ES - asturiană">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - azeră (chirilic)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - azeră (latin)">
+<!ENTITY ba-RU "ba-RU - başchiră (Rusia)">
+<!ENTITY be-BY "be-BY - belarusă (Belarus)">
+<!ENTITY ber-DZ "ber-DZ - tamazică (Algeria, latin)">
+<!ENTITY bg-BG "bg-BG - bulgară (Bulgaria)">
+<!ENTITY bn-BD "bn-BD - bengală (Bangladesh)">
+<!ENTITY bn-IN "bn-IN - bengală (India)">
+<!ENTITY bo-BT "bo-BT - tibetană (Bhutan)">
+<!ENTITY bo-CN "bo-CN - tibetană (RPC)">
+<!ENTITY br-FR "br-FR - bretonă (Franţa)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - bosniacă (Bosnia şi Herţegovina, chirilic)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - bosniacă (Bosnia şi Herţegovina, latin)">
+<!ENTITY ca-AD "ca-AD - catalană (Andorra)">
+<!ENTITY ca-ES "ca-ES - catalană (Spania)">
+<!ENTITY ca-FR "ca-FR - catalană (Franţa)">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR - corsicană (Franţa)">
+<!ENTITY cs-CZ "cs-CZ - cehă (Republica Cehă)">
+<!ENTITY cy-GB "cy-GB (galeză (Regatul Unit)">
+<!ENTITY da-DK "da-DK - daneză (Danemarca)">
+<!ENTITY de-AT "de-AT - germană (Austria)">
+<!ENTITY de-CH "de-CH - germană (Elveţia)">
+<!ENTITY de-DE "de-DE - germană (Germania)">
+<!ENTITY de-LI "de-LI - germană (Liechtenstein)">
+<!ENTITY de-LU "de-LU - germană (Luxemburg)">
+<!ENTITY div-MV "div-MV - divehi (Maldive)">
+<!ENTITY el-GR "el-GR - greacă (Grecia)">
+<!ENTITY en-AU "en-AU - engleză (Australia)">
+<!ENTITY en-BZ "en-BZ - engleză (Belize)">
+<!ENTITY en-CA "en-CA - engleză (Canada)">
+<!ENTITY en-CB "en-CB - engleză (Caraibe)">
+<!ENTITY en-GB "en-GB - engleză (Regatul Unit)">
+<!ENTITY en-IE "en-IE - engleză (Irlanda)">
+<!ENTITY en-IN "en-IN - engleză (India)">
+<!ENTITY en-JA "en-JA - engleză (Jamaica)">
+<!ENTITY en-MY "en-MY - engleză (Malaezia)">
+<!ENTITY en-NZ "en-NZ - engleză (Noua Zeelandă)">
+<!ENTITY en-PH "en-PH - engleză (Filipine)">
+<!ENTITY en-SG "en-SG - engleză (Singapore)">
+<!ENTITY en-TT "en-TT - engleză (Trinidad)">
+<!ENTITY en-US "en-US - engleză (Statele Unite)">
+<!ENTITY en-ZA "en-ZA - engleză (Africa de Sud)">
+<!ENTITY en-ZW "en-ZW - engleză (Zimbabwe)">
+<!ENTITY eo-EO "eo-EO - esperanto">
+<!ENTITY es-AR "es-AR - spaniolă (Argentina)">
+<!ENTITY es-BO "es-BO - spaniolă (Bolivia)">
+<!ENTITY es-CL "es-CL - spaniolă (Chile)">
+<!ENTITY es-CU "es-CU - spaniolă (Cuba)">
+<!ENTITY es-CO "es-CO - spaniolă (Columbia)">
+<!ENTITY es-CR "es-CR - spaniolă (Costa Rica)">
+<!ENTITY es-DO "es-DO - spaniolă (Republica Dominicană)">
+<!ENTITY es-EC "es-EC - spaniolă (Ecuador)">
+<!ENTITY es-ES "es-ES - spaniolă (Spania)">
+<!ENTITY es-ES-ts "es-ES-ts - spaniolă (Spania, tradiţional)">
+<!ENTITY es-GT "es-GT - spaniolă (Guatemala)">
+<!ENTITY es-HN "es-HN - spaniolă (Honduras)">
+<!ENTITY es-MX "es-MX - spaniolă (Mexic)">
+<!ENTITY es-NI "es-NI - spaniolă (Nicaragua)">
+<!ENTITY es-PA "es-PA - spaniolă (Panama)">
+<!ENTITY es-PE "es-PE - spaniolă (Peru)">
+<!ENTITY es-PR "es-PR - spaniolă (Puerto Rico)">
+<!ENTITY es-PY "es-PY - spaniolă (Paraguay)">
+<!ENTITY es-SV "es-SV - spaniolă (El Salvador)">
+<!ENTITY es-UY "es-UY - spaniolă (Uruguay)">
+<!ENTITY es-US "es-US - spaniolă (Statele Unite)">
+<!ENTITY es-VE "es-VE - spaniolă (Venezuela)">
+<!ENTITY et-EE "et-EE - estoniană (Estonia)">
+<!ENTITY eu-ES "eu-ES - bască (Ţara Bascilor)">
+<!ENTITY fa-IR "fa-IR - persană (Iran)">
+<!ENTITY fi-FI "fi-FI - finlandeză (Finlanda)">
+<!ENTITY fil-PH "fil-PH - filipineză (Filipine)">
+<!ENTITY fo-FO "fo-FO - feroeză (Insulele Feroe)">
+<!ENTITY fr-BE "fr-BE - franceză (Belgia)">
+<!ENTITY fr-CA "fr-CA - franceză (Canada)">
+<!ENTITY fr-CH "fr-CH - franceză (Elveţia)">
+<!ENTITY fr-FR "fr-FR - franceză (Franţa)">
+<!ENTITY fr-LU "fr-LU - franceză (Luxemburg)">
+<!ENTITY fr-MC "fr-MC - franceză (Monaco)">
+<!ENTITY fur-IT "fur-IT - friuliană (Italia)">
+<!ENTITY fy-NL "fy-NL - friziană (Olanda)">
+<!ENTITY ga-IE "ga-IE - irlandeză (Irlanda)">
+<!ENTITY gbz-AF "gbz-AF - dari (Afganistan)">
+<!ENTITY gd-GB "gd-GB - Gaelic (United Kingdom)">
+<!ENTITY gl-ES "gl-ES - galiciană (Galicia)">
+<!ENTITY gsw-FR "gsw-FR - alsaciană (Franţa)">
+<!ENTITY gu-IN "gu-IN - gujarati (India)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - hausa (Nigeria)">
+<!ENTITY he-IL "he-IL - ebraică (Israel)">
+<!ENTITY hi-IN "hi-IN - hindi (India)">
+<!ENTITY hr-BA "hr-BA - croată (Bosnia şi Herţegovina, latin)">
+<!ENTITY hr-HR "hr-HR - croată (Croaţia)">
+<!ENTITY hu-HU "hu-HU - maghiară (Ungaria)">
+<!ENTITY hy-AM "hy-AM - armeană (Armenia)">
+<!ENTITY id-ID "id-ID - indoneziană (Indonezia)">
+<!ENTITY ii-CN "ii-CN - Yi (RPC)">
+<!ENTITY is-IS "is-IS - islandeză (Islanda)">
+<!ENTITY it-CH "it-CH - italiană (Elveţia)">
+<!ENTITY it-IT "it-IT - italiană (Italia)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - inuktitut (Canada, silabic)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - inuktitut (Canada, latin)">
+<!ENTITY ja-JP "ja-JP - japoneză (Japonia)">
+<!ENTITY ja-JP-mac "ja-JP-mac - japoneză (Japonia, Mac)">
+<!ENTITY ka-GE "ka-GE - georgiană (Georgia)">
+<!ENTITY kk-KZ "kk-KZ - kazahă (Kazahstan)">
+<!ENTITY kl-GL "kl-GL - groenlandeză (Groenlanda)">
+<!ENTITY km-KH "km-KH - kmeră (Cambodgia)">
+<!ENTITY kn-IN "kn-IN - kannada (India)">
+<!ENTITY kok-IN "kok-IN - konkani (India)">
+<!ENTITY ko-KR "ko-KR - coreeană (Coreea)">
+<!ENTITY ky-KG "ky-KG - kirkiză (Kârgâzstan)">
+<!ENTITY lb-LU "lb-LU - luxemburgheză (Luxemburg)">
+<!ENTITY lo-LA "lo-LA - laoţiană (RPD Laos)">
+<!ENTITY lt-LT "lt-LT - lituaniană (Lituania)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV - letonă (Letonia)">
+<!ENTITY mi-NZ "mi-NZ - maori (Noua Zeelandă)">
+<!ENTITY mk-MK "mk-MK - macedoneană (Macedonia)">
+<!ENTITY ml-IN "ml-IN - malayalam (India)">
+<!ENTITY mn-CN "mn-CN - mongolă (RPC)">
+<!ENTITY mn-MN "mn-MN - mongolă (Mongolia)">
+<!ENTITY moh-CA "moh-CA - mohawk (Canada)">
+<!ENTITY mr-IN "mr-IN - marathi (India)">
+<!ENTITY ms-BN "ms-BN - malaeziană (Brunei)">
+<!ENTITY ms-MY "ms-MY - malaeziană (Malaezia)">
+<!ENTITY mt-MT "mt-MT - malteză (Malta)">
+<!ENTITY nb-NO "nb-NO - norvegiană - bokmål (Norvegia)">
+<!ENTITY ne-NP "ne-NP - nepaleză (Nepal)">
+<!ENTITY nl-BE "nl-BE - neerlandeză (Belgia)">
+<!ENTITY nl-NL "nl-NL - neerlandeză (Ţările de Jos)">
+<!ENTITY nn-NO "nn-NO - norvegiană - nynorsk (Norvegia)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (South Africa)">
+<!ENTITY oc-FR "oc-FR - occitană (Franţa)">
+<!ENTITY or-IN "or-IN - oriya (India)">
+<!ENTITY pa-IN "pa-IN - punjabi (India)">
+<!ENTITY pl-PL "pl-PL - poloneză (Polonia)">
+<!ENTITY ps-AF "ps-AF - paştu (Afganistan)">
+<!ENTITY pt-BR "pt-BR - portugheză (Brazilia)">
+<!ENTITY pt-PT "pt-PT - portugheză (Portugalia)">
+<!ENTITY qut-GT "qut-GT - k&apos;iche (Guatemala)">
+<!ENTITY quz-BO "quz-BO - quechua (Bolivia)">
+<!ENTITY quz-EC "quz-EC - quechua (Ecuador)">
+<!ENTITY quz-PE "quz-PE - quechua (Peru)">
+<!ENTITY rm-CH "rm-CH - reto-romană (Elveţia)">
+<!ENTITY ro-RO "ro-RO - română (România)">
+<!ENTITY ru-RU "ru-RU - rusă (Rusia)">
+<!ENTITY rw-RW "rw-RW - kinyarwanda (Ruanda)">
+<!ENTITY sah-RU "sah-RU - sakha (Rusia)">
+<!ENTITY sa-IN "sa-IN - sanscrită (India)">
+<!ENTITY se-FI "se-FI - laponă (nordică, Finlanda)">
+<!ENTITY se-NO "se-NO - laponă (nordică, Norvegia)">
+<!ENTITY se-SE "se-SE - laponă (nordică, Suedia)">
+<!ENTITY si-LK "si-LK - sinhala (Sri Lanka)">
+<!ENTITY sk-SK "sk-SK - slovacă (Slovacia)">
+<!ENTITY sl-SI "sl-SI - slovenă (Slovenia)">
+<!ENTITY sma-NO "sma-NO - laponă (sudică, Norvegia)">
+<!ENTITY sma-SE "sma-SE - laponă (sudică, Suedia)">
+<!ENTITY smj-NO "smj-NO - laponă (Lule, Norvegia)">
+<!ENTITY smj-SE "smj-SE - laponă (Lule, Suedia)">
+<!ENTITY smn-FI "smn-FI - laponă (Inari, Finlanda)">
+<!ENTITY sms-FI "sms-FI - laponă (skolt, Finlanda)">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "sq-AL - albaneză (Albania)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - sârbă (Bosnia şi Herţegovina, chirilic)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - sârbă (Bosnia şi Herţegovina, latin)">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbian (Serbia)">
+<!ENTITY sv-FI "sv-FI - suedeză (Finlanda)">
+<!ENTITY sv-SE "sv-SE - suedeză (Suedia)">
+<!ENTITY sw-KE "sw-KE - swahili (Kenya)">
+<!ENTITY syr-SY "syr-SY - syriac (Siria)">
+<!ENTITY ta-IN "ta-IN - tamil (India)">
+<!ENTITY ta-LK "ta-LK - tamil (Sri Lanka)">
+<!ENTITY te-IN "te-IN - telugu (India)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - tajik (Tadjikistan)">
+<!ENTITY th-TH "th-TH - thailandeză (Thailanda)">
+<!ENTITY tk-TM "tk-TM - turkmenă (Turkmenistan)">
+<!ENTITY tn-ZA "tn-ZA - setswana/tswana (Africa de Sud)">
+<!ENTITY ur-IN "ur-IN - urdu (India)">
+<!ENTITY tr-TR "tr-TR - turcă (Turcia)">
+<!ENTITY tt-RU "tt-RU - tătară (Rusia)">
+<!ENTITY ug-CN "ug-CN - uighur (RPC)">
+<!ENTITY uk-UA "uk-UA - ucraineană (Ucraina)">
+<!ENTITY ur-PK "ur-PK - urdu (Pakistan)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - uzbecă (Uzbekistan, chirilic)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - uzbecă (Uzbekistan, latin)">
+<!ENTITY vi-VN "vi-VN - vietnameză (Vietnam)">
+<!ENTITY wa-BE "wa-BE - valonă (Belgia)">
+<!ENTITY dsb-DE "dsb-DE - Lower Sorbian (Germany)">
+<!ENTITY hsb-DE "hsb-DE - Upper Sorbian (Germany)">
+<!ENTITY wo-SN "wo-SN - wolof (Senegal)">
+<!ENTITY xh-ZA "xh-ZA - isixhosa/xhosa (Africa de Sud)">
+<!ENTITY yo-NG "yo-NG - yoruba (Nigeria)">
+<!ENTITY zh-CHS "zh-CHS - chineză (simplificat)">
+<!ENTITY zh-CHT "zh-CHT - chineză (tradiţional)">
+<!ENTITY zh-CN "zh-CN - chineză (RPC)">
+<!ENTITY zh-HK "zh-HK - chineză (RAS Hong Kong, RPC)">
+<!ENTITY zh-MO "zh-MO - chineză (RAS Macao)">
+<!ENTITY zh-SG "zh-SG - chineză (Singapore)">
+<!ENTITY zh-TW "zh-TW - chineză (Taiwan)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulu (Africa de Sud)">

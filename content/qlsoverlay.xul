@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://qls/locale/qls.dtd">
+<?xml-stylesheet href="chrome://qls/skin/qls.css" type="text/css"?>
+<?xml-stylesheet href="chrome://qls/skin/qlsoverlay.css" type="text/css"?>
+
+<overlay id="qlsoverlay2" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://qls/content/qlsoverlay.js"/>
+
+  <!--Thunderbird address field-->
+  <textbox id="addressCol2#1" onblur="QLSOverlay.QLSTBCheckAddressField(this);"/>
+
+  <!--Firefox Keyboard shortcuts-->
+  <keyset id="mainKeyset">
+    <key id="qls-key-switchback"/>
+  </keyset>
+  <!--Thunderbird Keyboard shortcuts-->
+  <keyset id="mailKeys">
+    <key id="qls-key-switchback"/>
+  </keyset>
+  <keyset id="editorKeys">
+    <key id="qls-key-switchback"/>
+  </keyset>
+
+  <key id="qls-key-switchback" modifiers="accel shift" key="Q" oncommand="QLSOverlay.ChangeLocaleBack();"/>
+
+  <!--Firefox/Mozilla/Seamonkey/Thunderbird Statusbar-->
+  <statusbar id="status-bar">
+    <tooltip id="statusbar-tooltip-QLS" orient="vertical">
+      <description value="&qls.statusbar.main;"/>
+      <description id="statusbar-tooltip-QLS-locale" value="" localizedpart="&qls.statusbar.tooltip.gu;"/>
+      <description id="statusbar-tooltip-QLS-contentlocale" value="" localizedpart="&qls.statusbar.tooltip.content;"/>
+    </tooltip>
+    <statusbarpanel id="statusbar-QLS"/>
+  </statusbar>
+
+  <statusbar id="status4evar-status-bar">
+    <tooltip id="statusbar-tooltip-QLS" orient="vertical">
+      <description value="&qls.statusbar.main;"/>
+      <description id="statusbar-tooltip-QLS-locale" value="" localizedpart="&qls.statusbar.tooltip.gu;"/>
+      <description id="statusbar-tooltip-QLS-contentlocale" value="" localizedpart="&qls.statusbar.tooltip.content;"/>
+    </tooltip>
+    <statusbarpanel id="statusbar-QLS"/>
+  </statusbar>
+
+    <statusbarpanel id="statusbar-QLS" popup="CavemanQLS" mode="full" class="statusbarpanel-menu-iconic" ccode="" tooltip="statusbar-tooltip-QLS" hidden="false" persist="hidden ccode mode">
+      <label id="statusbar-QLS-text" class="statusbarpanel-text" value="" persist="value"/>
+    </statusbarpanel>
+
+
+  <!--Firefox main toolbar-->
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="tbtnCavemanQLS"/>
+  </toolbarpalette>
+
+  <!--ThunderBird main toolbar-->
+  <toolbarpalette id="MailToolbarPalette">
+    <toolbarbutton id="tbtnCavemanQLS"/>
+  </toolbarpalette>
+
+  <!--ThunderBird compose message toolbar-->
+  <toolbarpalette id="MsgComposeToolbarPalette">
+    <toolbarbutton id="tbtnCavemanQLS"/>
+  </toolbarpalette>
+
+  <toolbarbutton id="tbtnCavemanQLS" popup="CavemanQLS" class="toolbarbutton-1" label="&qls.context.main;" tooltiptext="&qls.context.main;" orient="horizontal"/>
+
+<!--Firefox Tools menu-->
+  <menupopup id="menu_ToolsPopup">
+    <menu id="mCavemanQLS"/>
+  </menupopup>
+
+  <!--Mozilla Suite/Seamonkey Tools menu-->
+  <menupopup id="taskPopup">
+    <menu id="mCavemanQLS"/>
+  </menupopup>
+
+  <!--Thunderbird Tools menu-->
+  <menupopup id="toolsPopup">
+    <menu id="mCavemanQLS"/>
+  </menupopup>
+
+  <menu id="mCavemanQLS" onclick="QLSOverlay.toggleToolsPopup(this,event)" label="&qls.context.main;" accesskey="L" tooltiptext="&qls.description;"/>
+
+  <popupset id="mainPopupSet">
+      <menupopup id="CavemanQLS">
+        <menuitem id="defaultQLS" ccode="" label="" oncommand="QLSOverlay.ChangeLocale(this.getAttribute('ccode'));" statustext="&qls.restoredefault;"/>
+        <menuseparator id="msCavemanQLS" statustext="&qls.notifyrestart;"/>
+        <menuitem flagitem="true" id="qlscustom1" ccode="" clocale="" label="" oncommand="QLSOverlay.ChangeLocale(this.getAttribute('clocale'));" hidden="true"/>
+        <menuitem flagitem="true" id="qlscustom2" ccode="" clocale="" label="" oncommand="QLSOverlay.ChangeLocale(this.getAttribute('clocale'));" hidden="true"/>
+        <menuitem flagitem="true" id="qlscustom3" ccode="" clocale="" label="" oncommand="QLSOverlay.ChangeLocale(this.getAttribute('clocale'));" hidden="true"/>
+        <menuseparator id="msCavemanQLS2" statustext="&qls.askrestartmessage;" hidden="true"/>
+        <menuitem flagitem="true" id="af-ZA" ccode="af" label="&af-ZA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="am-ET" ccode="am" label="&am-ET;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-AE" ccode="ar" label="&ar-AE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-BH" ccode="" label="&ar-BH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-DZ" ccode="" label="&ar-DZ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-EG" ccode="" label="&ar-EG;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-IQ" ccode="" label="&ar-IQ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-JO" ccode="" label="&ar-JO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-KW" ccode="" label="&ar-KW;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-LB" ccode="" label="&ar-LB;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-LY" ccode="" label="&ar-LY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-MA" ccode="" label="&ar-MA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="arn-CL" ccode="arn" label="&arn-CL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-OM" ccode="" label="&ar-OM;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-QA" ccode="" label="&ar-QA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-SA" ccode="" label="&ar-SA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-SY" ccode="" label="&ar-SY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-TN" ccode="" label="&ar-TN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ar-YE" ccode="" label="&ar-YE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="as-IN" ccode="as" label="&as-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ast-ES" ccode="ast" label="&ast-ES;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="az-AZ-Cyrl" ccode="az" label="&az-AZ-Cyrl;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="az-AZ-Latn" ccode="" label="&az-AZ-Latn;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ba-RU" ccode="ba" label="&ba-RU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="be-BY" ccode="be" label="&be-BY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ber-DZ" ccode="ber" label="&ber-DZ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="bg-BG" ccode="bg" label="&bg-BG;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="bn-BD" ccode="" label="&bn-BD;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="bn-IN" ccode="bn" label="&bn-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="bo-BT" ccode="bo" label="&bo-BT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="bo-CN" ccode="" label="&bo-CN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="br-FR" ccode="br" label="&br-FR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="bs-BA-Cyrl" ccode="bs" label="&bs-BA-Cyrl;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="bs-BA-Latn" ccode="bs" label="&bs-BA-Latn;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ca-AD" ccode="ca" label="&ca-AD;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ca-ES" ccode="" label="&ca-ES;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ca-FR" ccode="" label="&ca-FR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ca-valencia" ccode="" label="&ca-valencia;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="co-FR" ccode="co" label="&co-FR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="cs-CZ" ccode="cs" label="&cs-CZ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="cy-GB" ccode="cy" label="&cy-GB;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="da-DK" ccode="da" label="&da-DK;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="de-AT" ccode="" label="&de-AT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="de-CH" ccode="" label="&de-CH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="de-DE" ccode="de" label="&de-DE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="de-LI" ccode="" label="&de-LI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="de-LU" ccode="" label="&de-LU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="div-MV" ccode="div" label="&div-MV;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="dsb-DE" ccode="dsb" label="&dsb-DE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="el-GR" ccode="el" label="&el-GR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-AU" ccode="" label="&en-AU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-BZ" ccode="" label="&en-BZ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-CA" ccode="" label="&en-CA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-CB" ccode="" label="&en-CB;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-GB" ccode="" label="&en-GB;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-IE" ccode="" label="&en-IE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-IN" ccode="" label="&en-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-JA" ccode="" label="&en-JA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-MY" ccode="" label="&en-MY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-NZ" ccode="" label="&en-NZ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-PH" ccode="" label="&en-PH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-SG" ccode="" label="&en-SG;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-TT" ccode="" label="&en-TT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-US" ccode="en" label="&en-US;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-ZA" ccode="" label="&en-ZA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="en-ZW" ccode="" label="&en-ZW;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="eo-EO" ccode="eo" label="&eo-EO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-AR" ccode="" label="&es-AR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-BO" ccode="" label="&es-BO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-CL" ccode="" label="&es-CL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-CO" ccode="" label="&es-CO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-CR" ccode="" label="&es-CR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-CU" ccode="" label="&es-CU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-DO" ccode="" label="&es-DO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-EC" ccode="" label="&es-EC;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-ES" ccode="es" label="&es-ES;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-ES-ts" ccode="" label="&es-ES-ts;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-GT" ccode="" label="&es-GT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-HN" ccode="" label="&es-HN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-MX" ccode="" label="&es-MX;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-NI" ccode="" label="&es-NI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-PA" ccode="" label="&es-PA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-PE" ccode="" label="&es-PE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-PR" ccode="" label="&es-PR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-PY" ccode="" label="&es-PY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-SV" ccode="" label="&es-SV;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-US" ccode="" label="&es-US;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-UY" ccode="" label="&es-UY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="es-VE" ccode="" label="&es-VE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="et-EE" ccode="et" label="&et-EE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="eu-ES" ccode="eu" label="&eu-ES;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fa-IR" ccode="fa" label="&fa-IR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fi-FI" ccode="fi" label="&fi-FI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fil-PH" ccode="fil" label="&fil-PH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fo-FO" ccode="fo" label="&fo-FO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fr-BE" ccode="" label="&fr-BE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fr-CA" ccode="" label="&fr-CA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fr-CH" ccode="" label="&fr-CH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fr-FR" ccode="fr" label="&fr-FR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fr-LU" ccode="" label="&fr-LU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fr-MC" ccode="" label="&fr-MC;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fur-IT" ccode="fur" label="&fur-IT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="fy-NL" ccode="fy" label="&fy-NL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ga-IE" ccode="ga" label="&ga-IE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="gbz-AF" ccode="gbz" label="&gbz-AF;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="gd-GB" ccode="gd" label="&gd-GB;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="gl-ES" ccode="gl" label="&gl-ES;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="gsw-FR" ccode="gsw" label="&gsw-FR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="gu-IN" ccode="gu" label="&gu-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ha-NG-Latn" ccode="ha" label="&ha-NG-Latn;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="he-IL" ccode="he" label="&he-IL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="hi-IN" ccode="hi" label="&hi-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="hr-BA" ccode="" label="&hr-BA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="hr-HR" ccode="hr" label="&hr-HR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="hsb-DE" ccode="hsb" label="&hsb-DE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="hu-HU" ccode="hu" label="&hu-HU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="hy-AM" ccode="hy" label="&hy-AM;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="id-ID" ccode="id" label="&id-ID;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ii-CN" ccode="ii" label="&ii-CN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="is-IS" ccode="is" label="&is-IS;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="it-CH" ccode="" label="&it-CH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="it-IT" ccode="it" label="&it-IT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="iu-CA-Cans" ccode="iu" label="&iu-CA-Cans;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="iu-CA-Latn" ccode="" label="&iu-CA-Latn;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ja-JP" ccode="ja" label="&ja-JP;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ja-JP-mac" ccode="" label="&ja-JP-mac;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ka-GE" ccode="ka" label="&ka-GE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="kk-KZ" ccode="kk" label="&kk-KZ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="kl-GL" ccode="kl" label="&kl-GL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="km-KH" ccode="km" label="&km-KH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="kn-IN" ccode="kn" label="&kn-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="kok-IN" ccode="kok" label="&kok-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ko-KR" ccode="ko" label="&ko-KR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ky-KG" ccode="ky" label="&ky-KG;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="lb-LU" ccode="lb" label="&lb-LU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="lo-LA" ccode="lo" label="&lo-LA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="lt-LT" ccode="lt" label="&lt-LT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="lug-UG" ccode="lug" label="&lug-UG;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="lv-LV" ccode="lv" label="&lv-LV;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="mi-NZ" ccode="mi" label="&mi-NZ;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="mk-MK" ccode="mk" label="&mk-MK;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ml-IN" ccode="ml" label="&ml-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="mn-CN" ccode="" label="&mn-CN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="mn-MN" ccode="mn" label="&mn-MN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="moh-CA" ccode="moh" label="&moh-CA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="mr-IN" ccode="mr" label="&mr-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ms-BN" ccode="" label="&ms-BN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ms-MY" ccode="ms" label="&ms-MY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="mt-MT" ccode="mt" label="&mt-MT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="nb-NO" ccode="nb" label="&nb-NO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ne-NP" ccode="ne" label="&ne-NP;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="nl-BE" ccode="" label="&nl-BE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="nl-NL" ccode="nl" label="&nl-NL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="nn-NO" ccode="nn" label="&nn-NO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="nso-ZA" ccode="nso" label="&nso-ZA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="oc-FR" ccode="oc" label="&oc-FR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="or-IN" ccode="or" label="&or-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="pa-IN" ccode="pa" label="&pa-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="pl-PL" ccode="pl" label="&pl-PL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ps-AF" ccode="ps" label="&ps-AF;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="pt-BR" ccode="" label="&pt-BR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="pt-PT" ccode="pt" label="&pt-PT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="qut-GT" ccode="qut" label="&qut-GT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="quz-BO" ccode="" label="&quz-BO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="quz-EC" ccode="" label="&quz-EC;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="quz-PE" ccode="quz" label="&quz-PE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="rm-CH" ccode="rm" label="&rm-CH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ro-RO" ccode="ro" label="&ro-RO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ru-RU" ccode="ru" label="&ru-RU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="rw-RW" ccode="rw" label="&rw-RW;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sah-RU" ccode="sah" label="&sah-RU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sa-IN" ccode="sa" label="&sa-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="se-FI" ccode="" label="&se-FI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="se-NO" ccode="" label="&se-NO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="se-SE" ccode="se" label="&se-SE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="si-LK" ccode="si" label="&si-LK;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sk-SK" ccode="sk" label="&sk-SK;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sl-SI" ccode="sl" label="&sl-SI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sma-NO" ccode="sma" label="&sma-NO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sma-SE" ccode="" label="&sma-SE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="smj-NO" ccode="smj" label="&smj-NO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="smj-SE" ccode="" label="&smj-SE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="smn-FI" ccode="smn" label="&smn-FI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sms-FI" ccode="sms" label="&sms-FI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="son-NE" ccode="son" label="&son-NE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sq-AL" ccode="sq" label="&sq-AL;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sr-BA-Cyrl" ccode="" label="&sr-BA-Cyrl;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sr-BA-Latn" ccode="" label="&sr-BA-Latn;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sr-ME" ccode="sr" label="&sr-ME;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sr-RS" ccode="" label="&sr-RS;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sv-FI" ccode="" label="&sv-FI;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sv-SE" ccode="sv" label="&sv-SE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="sw-KE" ccode="sw" label="&sw-KE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="syr-SY" ccode="syr" label="&syr-SY;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ta-IN" ccode="ta" label="&ta-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ta-LK" ccode="ta" label="&ta-LK;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="te-IN" ccode="te" label="&te-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="tg-TJ-Cyrl" ccode="tg" label="&tg-TJ-Cyrl;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="th-TH" ccode="th" label="&th-TH;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="tk-TM" ccode="tk" label="&tk-TM;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="tn-ZA" ccode="tn" label="&tn-ZA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="tr-TR" ccode="tr" label="&tr-TR;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="tt-RU" ccode="tt" label="&tt-RU;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ug-CN" ccode="ug" label="&ug-CN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="uk-UA" ccode="uk" label="&uk-UA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ur-IN" ccode="" label="&ur-IN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="ur-PK" ccode="ur" label="&ur-PK;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="uz-UZ-Cyrl" ccode="uz" label="&uz-UZ-Cyrl;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="uz-UZ-Latn" ccode="" label="&uz-UZ-Latn;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="vi-VN" ccode="vi" label="&vi-VN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="wa-BE" ccode="" label="&wa-BE;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="wo-SN" ccode="wo" label="&wo-SN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="xh-ZA" ccode="xh" label="&xh-ZA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="yo-NG" ccode="yo" label="&yo-NG;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zh-CHS" ccode="" label="&zh-CHS;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zh-CHT" ccode="" label="&zh-CHT;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zh-CN" ccode="zh" label="&zh-CN;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zh-HK" ccode="" label="&zh-HK;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zh-MO" ccode="" label="&zh-MO;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zh-SG" ccode="" label="&zh-SG;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zh-TW" ccode="" label="&zh-TW;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuitem flagitem="true" id="zu-ZA" ccode="" label="&zu-ZA;" oncommand="QLSOverlay.ChangeLocale(this.id);"/>
+        <menuseparator id="msCavemanQLS3"/>
+        <menuitem class="qls-settings" id="qlssettings" ccode="" label="&qls.settings;" oncommand="commonQLS.OpenSettings(window);"/>
+      </menupopup>
+  </popupset>
+
+</overlay>

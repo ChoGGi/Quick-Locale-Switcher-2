@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Хутка пераключае мову інтэрфэйсу">
+<!ENTITY qls.createdby "Аўтар:">
+<!ENTITY qls.restoredefault "Па змоўчаньні">
+<!ENTITY qls.notifyrestart "Не паказваць зноўку">
+<!ENTITY qls.restartmessage "Мова інтэрфэйсу пераключаная. Перазапусьціце браўзэр.">
+<!ENTITY qls.askrestartmessage "Мова інтэрфэйсу пераключаная. Перазапусьціць браўзэр?">
+<!ENTITY qls.pleasewait "Пераключаем мову...">
+<!ENTITY qls.settings "Наладкі...">
+<!ENTITY qls.settings.title "Наладкі Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Ужыць">
+<!ENTITY qls.settings.description "Дадаць Вашыя ўласныя мовы да мэню (напрыклад, be-BY-mac альбо be-US :)">
+<!ENTITY qls.settings.locale "Мова">
+<!ENTITY qls.settings.label "Label">
+<!ENTITY qls.settings.pane.general "General">
+<!ENTITY qls.settings.pane.locales "Locales">
+<!ENTITY qls.settings.pane.autoswitch "Autoswitch">
+<!ENTITY qls.settings.visiblemenuitems "Вылучце пункты, якія Вы жадаеце бачыць у мэню">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Вылучыць усе">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Deselect all items">
+<!ENTITY qls.settings.switchwhat "Switch the following locale related settings">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (інтэрфэйс)">
+<!ENTITY qls.settings.switch.contentlocale "Content language (Spell Checker Dictionary and HTTP Accept Languages header)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Never switch my accept languages header">
+<!ENTITY qls.settings.switch.alwaysask "Always ask me which settings I want to switch">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Reload the current website after switching the content language">
+<!ENTITY qls.settings.restartreload "Restart / Reload options">
+<!ENTITY qls.settings.autorestart.ask "Папярэджваць перад перазапускам">
+<!ENTITY qls.statusbar.main "Актыўная лякаль:">
+<!ENTITY qls.statusbar.tooltip.content "Content: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "User Interface: &#37;1">
+<!ENTITY qls.useautoswitch.title "Аўтаматычна пераключаць">
+<!ENTITY qls.useautoswitch "Аўтаматычна запамінаць наладкі для кожнага сайту">
+<!ENTITY qls.useautoswitch.tldbased "Autoswitch based on the Top Level Domain (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "Выдаліць наладкі сайтаў">
+<!ENTITY qls.useautoswitch.open "Manage Autoswitch sites">
+<!ENTITY qls.autoswitch.filter "Search">
+<!ENTITY qls.autoswitch.clearfilter "Clear">
+<!ENTITY qls.autoswitch.title "Autoswitch sites">
+<!ENTITY qls.autoswitch.site "Website (locale)">
+<!ENTITY qls.autoswitch.remove "Remove selected autoswitch sites">
+<!ENTITY qls.autoswitch.removeall "Remove all autoswitch sites">
+<!ENTITY qls.autoswitch.close "Close">
+<!ENTITY qls-askswitchsettings-title "Switch the following locale related settings">
+<!ENTITY qls.visiblemenuitems.search "Search">
+<!ENTITY qls.settings.display "Display options">
+<!ENTITY qls.settings.display.hide_tools "Hide the Tools menu item">
+<!ENTITY qls.settings.display.hide_statusbar "Hide the statusbar icon">
+<!ENTITY qls.settings.display.statusbarmode "Statusbar display mode">
+<!ENTITY qls.settings.display.statusbarmode.icon "Icon">
+<!ENTITY qls.settings.display.statusbarmode.text "Text">
+<!ENTITY qls.settings.display.statusbarmode.full "Icon and Text">
+<!ENTITY qls.settings.getlanguagepacks "Get more language packs">
+<!ENTITY qls.settings.getdictionaries "Get more dictionaries">
+<!ENTITY af-ZA "af-ZA (Афрыканс (South Africa))">
+<!ENTITY am-ET "am-ET (Amharic (Ethiopia))">
+<!ENTITY ar-AE "ar-AE (Арабская (UAE))">
+<!ENTITY ar-BH "ar-BH (Арабская (Bahrain))">
+<!ENTITY ar-DZ "ar-DZ (Арабская (Algeria))">
+<!ENTITY ar-EG "ar-EG (Арабская (Egypt))">
+<!ENTITY ar-IQ "ar-IQ (Арабская (Iraq))">
+<!ENTITY ar-JO "ar-JO (Арабская (Jordan))">
+<!ENTITY ar-KW "ar-KW (Арабская (Kuwait))">
+<!ENTITY ar-LB "ar-LB (Арабская (Lebanon))">
+<!ENTITY ar-LY "ar-LY (Арабская (Libya))">
+<!ENTITY ar-MA "ar-MA (Арабская (Morocco))">
+<!ENTITY ar-OM "ar-OM (Арабская (Oman))">
+<!ENTITY ar-QA "ar-QA (Арабская (Qatar))">
+<!ENTITY ar-SA "ar-SA (Арабская (Saudi Arabia))">
+<!ENTITY ar-SY "ar-SY (Арабская (Сырыя))">
+<!ENTITY ar-TN "ar-TN (Арабская (Tunisia))">
+<!ENTITY ar-YE "ar-YE (Арабская (Yemen))">
+<!ENTITY arn-CL "arn-CL (Mapudungun (Chile))">
+<!ENTITY as-IN "as-IN (Assamese (Індыя))">
+<!ENTITY ast-ES "ast-ES (Астурыйская)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl (Azeri (кірыліца))">
+<!ENTITY az-AZ-Latn "az-AZ-Latn (Azeri (лацінка))">
+<!ENTITY ba-RU "ba-RU (Башкірская (Расея))">
+<!ENTITY be-BY "be-BY (Беларуская (Беларусь))">
+<!ENTITY ber-DZ "ber-DZ (Tamazight(Algeria, Latin))">
+<!ENTITY bg-BG "bg-BG (Баўгарская (Баўгарыя))">
+<!ENTITY bn-BD "bn-BD - Bengali (Bangladesh)">
+<!ENTITY bn-IN "bn-IN (Bengali (Індыя))">
+<!ENTITY bo-BT "bo-BT (Tibetan (Bhutan))">
+<!ENTITY bo-CN "bo-CN (Tibetan (PRC))">
+<!ENTITY br-FR "br-FR (Breton (France))">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl (Bosnian (Bosnia and Herzegovina, кірыліца))">
+<!ENTITY bs-BA-Latn "bs-BA-Latn (Bosnian (Bosnia and Herzegovina, лацінка))">
+<!ENTITY ca-AD "ca-AD (Каталёнская (Андора))">
+<!ENTITY ca-ES "ca-ES (Каталёнская (Гішпанія))">
+<!ENTITY ca-FR "ca-FR (Каталёнская (Францыя))">
+<!ENTITY ca-valencia "ca-valencia - Valencian (Valencian Community)">
+<!ENTITY co-FR "co-FR (Карсіканская (Францыя))">
+<!ENTITY cs-CZ "cs-CZ (Чэская (Чэхія))">
+<!ENTITY cy-GB "cy-GB (Валійская (Вялікабрытанія))">
+<!ENTITY da-DK "da-DK (Дацкая (Данія))">
+<!ENTITY de-AT "de-AT (Нямецкая (Аўстрыя))">
+<!ENTITY de-CH "de-CH (Нямецкая (Швайцарыя))">
+<!ENTITY de-DE "de-DE (Нямецкая (Нямеччына))">
+<!ENTITY de-LI "de-LI (Нямецкая (Ліхтэнштэйн))">
+<!ENTITY de-LU "de-LU (Нямецкая (Люксэмбург))">
+<!ENTITY div-MV "div-MV (Divehi (Maldives))">
+<!ENTITY el-GR "el-GR (Грэцкая (Грэцыя))">
+<!ENTITY en-AU "en-AU (Ангельская (Аўстралія))">
+<!ENTITY en-BZ "en-BZ (Ангельская (Belize))">
+<!ENTITY en-CA "en-CA (Ангельская (Канада))">
+<!ENTITY en-CB "en-CB (Ангельская (Caribbean))">
+<!ENTITY en-GB "en-GB (Ангелькая (Вялікабрытанія))">
+<!ENTITY en-IE "en-IE (Ангельская (Ірляндыя))">
+<!ENTITY en-IN "en-IN (Ангельская (Індыя))">
+<!ENTITY en-JA "en-JA (Ангельская (Ямайка))">
+<!ENTITY en-MY "en-MY (Ангельская (Malaysia))">
+<!ENTITY en-NZ "en-NZ (Ангельская (Новая Зэляндыя))">
+<!ENTITY en-PH "en-PH (Ангельская (Філіпіны))">
+<!ENTITY en-SG "en-SG (Ангельская (Сынгапур))">
+<!ENTITY en-TT "en-TT (Ангельская (Trinidad))">
+<!ENTITY en-US "en-US (Ангельская (ЗША))">
+<!ENTITY en-ZA "en-ZA (Ангельская (Паўднёвая Афрыка))">
+<!ENTITY en-ZW "en-ZW (Ангельская (Zimbabwe))">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR (Гішпанская (Аргентына))">
+<!ENTITY es-BO "es-BO (Гішпанская (Балівія))">
+<!ENTITY es-CL "es-CL (Гішпанская (Чылі))">
+<!ENTITY es-CU "es-CU - Spanish (Cuba)">
+<!ENTITY es-CO "es-CO (Гішпанская (Калюмбія))">
+<!ENTITY es-CR "es-CR (Гішпанская (Costa Rica))">
+<!ENTITY es-DO "es-DO (Гішпанская (Dominican Republic))">
+<!ENTITY es-EC "es-EC (Гішпанская (Эквадор))">
+<!ENTITY es-ES "es-ES (Гішпанская (Гішпанія))">
+<!ENTITY es-ES-ts "es-ES-ts (Гішпанская (Гішпанія, традыцыйная))">
+<!ENTITY es-GT "es-GT (Гішпанская (Guatemala))">
+<!ENTITY es-HN "es-HN (Гішпанская (Honduras))">
+<!ENTITY es-MX "es-MX (Гішпанская (Мэксыка))">
+<!ENTITY es-NI "es-NI (Гішпанская (Nicaragua))">
+<!ENTITY es-PA "es-PA (Гішпанская (Панама))">
+<!ENTITY es-PE "es-PE (Гішпанская (Пэру))">
+<!ENTITY es-PR "es-PR (Гішпанская (Puerto Rico))">
+<!ENTITY es-PY "es-PY (Гішпанская (Paraguay))">
+<!ENTITY es-SV "es-SV (Гішпанская (El Salvador))">
+<!ENTITY es-UY "es-UY - Spanish (Uruguay)">
+<!ENTITY es-US "es-US (Гішпанская (ЗША))">
+<!ENTITY es-VE "es-VE (Гішпанская (Venezuela))">
+<!ENTITY et-EE "et-EE (Эстонская (Эстонія))">
+<!ENTITY eu-ES "eu-ES (Басцкая (Basque Country))">
+<!ENTITY fa-IR "fa-IR (Фарсі (Іран))">
+<!ENTITY fi-FI "fi-FI (Фінская (Фінляндыя))">
+<!ENTITY fil-PH "fil-PH (Філіпінская (Філіпіны))">
+<!ENTITY fo-FO "fo-FO (Фарэрская (Фарэрскія выспы))">
+<!ENTITY fr-BE "fr-BE (Француская (Бэльгія))">
+<!ENTITY fr-CA "fr-CA (Француская (Канада))">
+<!ENTITY fr-CH "fr-CH (Француская (Швайцарыя))">
+<!ENTITY fr-FR "fr-FR (Француская (Францыя))">
+<!ENTITY fr-LU "fr-LU (Француская (Люксэмбург))">
+<!ENTITY fr-MC "fr-MC (Француская (Манака))">
+<!ENTITY fur-IT "fur-IT (Friulian (Італія))">
+<!ENTITY fy-NL "fy-NL (Фрыская (Netherlands))">
+<!ENTITY ga-IE "ga-IE (Ірляндзкая (Ірляндыя))">
+<!ENTITY gbz-AF "gbz-AF (Dari (Afghanistan))">
+<!ENTITY gd-GB "gd-GB - Gaelic (United Kingdom)">
+<!ENTITY gl-ES "gl-ES (Галісійская (Галісія))">
+<!ENTITY gsw-FR "gsw-FR (Alsatian (Францыя))">
+<!ENTITY gu-IN "gu-IN (Gujarati (Індыя))">
+<!ENTITY ha-NG-Latn "ha-NG-Latn (Hausa (Nigeria))">
+<!ENTITY he-IL "he-IL (Іўрыт (Israel))">
+<!ENTITY hi-IN "hi-IN (Гіндзі (Індыя))">
+<!ENTITY hr-BA "hr-BA (Croatian (Bosnia and Herzegovina, лацінка))">
+<!ENTITY hr-HR "hr-HR (Харвацкая (Харватыя))">
+<!ENTITY hu-HU "hu-HU (Вугорская (Вугоршчына))">
+<!ENTITY hy-AM "hy-AM (Armenian (Armenia))">
+<!ENTITY id-ID "id-ID (Інданэзійская)">
+<!ENTITY ii-CN "ii-CN (Yi (PRC))">
+<!ENTITY is-IS "is-IS (Ісьляндзкая (Ісьляндыя))">
+<!ENTITY it-CH "it-CH (Італьянская (Швайцарыя))">
+<!ENTITY it-IT "it-IT (Італьянская (Італія))">
+<!ENTITY iu-CA-Cans "iu-CA-Cans (Inuktitut (Canada, Syllabics))">
+<!ENTITY iu-CA-Latn "iu-CA-Latn (Inuktitut (Canada, лацінка))">
+<!ENTITY ja-JP "ja-JP (Японская (Японія))">
+<!ENTITY ja-JP-mac "ja-JP-mac (Японская (Японія, Mac))">
+<!ENTITY ka-GE "ka-GE (Грузінская (Грузія))">
+<!ENTITY kk-KZ "kk-KZ (Казахская (Казахстан))">
+<!ENTITY kl-GL "kl-GL (Greenlandic (Greenland))">
+<!ENTITY km-KH "km-KH (Khmer (Cambodia))">
+<!ENTITY kn-IN "kn-IN (Каннада (Індыя))">
+<!ENTITY kok-IN "kok-IN (Konkani (Індыя))">
+<!ENTITY ko-KR "ko-KR (Карэйская (Карэя))">
+<!ENTITY ky-KG "ky-KG (Kyrgyz (Kyrgyzstan))">
+<!ENTITY lb-LU "lb-LU (Люксэмбурская (Люксэмбург))">
+<!ENTITY lo-LA "lo-LA (Lao (Lao PDR))">
+<!ENTITY lt-LT "lt-LT (Летувіская (Летува))">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV (Латыская (Латвія))">
+<!ENTITY mi-NZ "mi-NZ (Маоры (New Zealand))">
+<!ENTITY mk-MK "mk-MK (Македонская (Македонія))">
+<!ENTITY ml-IN "ml-IN (Malayalam (Індыя))">
+<!ENTITY mn-CN "mn-CN (Мангольская (PRC))">
+<!ENTITY mn-MN "mn-MN (Мангольская (Манголія))">
+<!ENTITY moh-CA "moh-CA (Mohawk (Канада))">
+<!ENTITY mr-IN "mr-IN (Marathi (Індыя))">
+<!ENTITY ms-BN "ms-BN (Малайская (Brunei Darussalam))">
+<!ENTITY ms-MY "ms-MY (Малайская (Малайзія))">
+<!ENTITY mt-MT "mt-MT (Maltese (Malta))">
+<!ENTITY nb-NO "nb-NO (Нарвэская - Bokmål (Нарвэгія))">
+<!ENTITY ne-NP "ne-NP (Nepali (Nepal))">
+<!ENTITY nl-BE "nl-BE (Галяндзкая (Бэльгія))">
+<!ENTITY nl-NL "nl-NL (Галяндзкая (Галяндыя))">
+<!ENTITY nn-NO "nn-NO (Нованарвэская (Нарвэгія))">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (South Africa)">
+<!ENTITY oc-FR "oc-FR (Occitan (Францыя))">
+<!ENTITY or-IN "or-IN (Oriya (Індыя))">
+<!ENTITY pa-IN "pa-IN (Punjabi (Індыя))">
+<!ENTITY pl-PL "pl-PL (Польская (Польшча))">
+<!ENTITY ps-AF "ps-AF (Pashto (Afghanistan))">
+<!ENTITY pt-BR "pt-BR (Партугальская (Бразылія))">
+<!ENTITY pt-PT "pt-PT (Партугальская (Партугалія))">
+<!ENTITY qut-GT "qut-GT (K&apos;iche (Guatemala))">
+<!ENTITY quz-BO "quz-BO (Quechua (Балівія))">
+<!ENTITY quz-EC "quz-EC (Quechua (Ecuador))">
+<!ENTITY quz-PE "quz-PE (Quechua (Пэру))">
+<!ENTITY rm-CH "rm-CH (Romansh (Швайцарыя))">
+<!ENTITY ro-RO "ro-RO (Румынская (Румынія))">
+<!ENTITY ru-RU "ru-RU (Расейская (Расея))">
+<!ENTITY rw-RW "rw-RW (Kinyarwanda (Rwanda))">
+<!ENTITY sah-RU "sah-RU (Якуцкая (Расея))">
+<!ENTITY sa-IN "sa-IN (Санскрыт (Індыя))">
+<!ENTITY se-FI "se-FI (Sami (Northern, Finland))">
+<!ENTITY se-NO "se-NO (Sami (Northern, Norway))">
+<!ENTITY se-SE "se-SE (Sami (Northern, Sweden))">
+<!ENTITY si-LK "si-LK (Sinhala (Sri Lanka))">
+<!ENTITY sk-SK "sk-SK (Славацкая (Славакія))">
+<!ENTITY sl-SI "sl-SI (Славенская (Славенія))">
+<!ENTITY sma-NO "sma-NO (Sami (Southern, Norway))">
+<!ENTITY sma-SE "sma-SE (Sami (Southern, Sweden))">
+<!ENTITY smj-NO "smj-NO (Sami (Lule, Norway))">
+<!ENTITY smj-SE "smj-SE (Sami (Lule, Sweden))">
+<!ENTITY smn-FI "smn-FI (Sami (Inari, Finland))">
+<!ENTITY sms-FI "sms-FI (Sami (Skolt, Finland))">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "sq-AL (Albanian (Albania))">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl (Сэрбская (Bosnia, and Herzegovina, кірыліца))">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (Сэрбская (Bosnia, and Herzegovina, лацінка))">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbian (Serbia)">
+<!ENTITY sv-FI "sv-FI (Швэдзкая (Швэцыя))">
+<!ENTITY sv-SE "sv-SE (Швэдзкая (Швэцыя))">
+<!ENTITY sw-KE "sw-KE (Swahili (Kenya))">
+<!ENTITY syr-SY "syr-SY (Сырыйская (Сырыя))">
+<!ENTITY ta-IN "ta-IN (Tamil (Індыя))">
+<!ENTITY ta-LK "ta-LK - Tamil (Sri Lanka)">
+<!ENTITY te-IN "te-IN (Telugu (Індыя))">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl (Таджыцкая (Таджыкістан))">
+<!ENTITY th-TH "th-TH (Тайская (Тайлянд))">
+<!ENTITY tk-TM "tk-TM (Туркмэнская (Туркмэністан))">
+<!ENTITY tn-ZA "tn-ZA (Setswana/Tswana (Паўночная Афрыка))">
+<!ENTITY ur-IN "ur-IN - Urdu (India)">
+<!ENTITY tr-TR "tr-TR (Турэцкая (Турэччына))">
+<!ENTITY tt-RU "tt-RU (Татарская (Расея))">
+<!ENTITY ug-CN "ug-CN (Uighur (PRC))">
+<!ENTITY uk-UA "uk-UA (Украінская (Украіна))">
+<!ENTITY ur-PK "ur-PK (Урду (Пакістан))">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl (Узбэцкая (Узбэкістан, кірыліца))">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn (Узбэцкая (Узбэкістан, лацінка))">
+<!ENTITY vi-VN "vi-VN (Віетнамская (Віетнам))">
+<!ENTITY wa-BE "wa-BE - Walloon (Belgium)">
+<!ENTITY dsb-DE "dsb-DE - Lower Sorbian (Germany)">
+<!ENTITY hsb-DE "hsb-DE - Upper Sorbian (Germany)">
+<!ENTITY wo-SN "wo-SN (Wolof (Senegal))">
+<!ENTITY xh-ZA "xh-ZA (isiXhosa/Xhosa (Паўднёвая Афрыка))">
+<!ENTITY yo-NG "yo-NG (Yoruba (Nigeria))">
+<!ENTITY zh-CHS "zh-CHS (Кітайская (спрошчаная))">
+<!ENTITY zh-CHT "zh-CHT (Кітайская (традыцыйная))">
+<!ENTITY zh-CN "zh-CN (Кітайская (PRC))">
+<!ENTITY zh-HK "zh-HK (Кітайская (Сянган SAR, PRC))">
+<!ENTITY zh-MO "zh-MO (Кітайская (Макао SAR))">
+<!ENTITY zh-SG "zh-SG (Кітайская (Сынгапур))">
+<!ENTITY zh-TW "zh-TW (Кітайская (Тайвань))">
+<!ENTITY zu-ZA "zu-ZA (isiZulu/Zulu (Паўднёвая Афрыка))">

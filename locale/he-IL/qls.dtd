@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "משנה במהירות את עדיפות general.useragent.locale (תצורת השפה).">
+<!ENTITY qls.createdby "נוצר על-ידי:">
+<!ENTITY qls.restoredefault "שחזר ברירת מחדל">
+<!ENTITY qls.notifyrestart "אל תראה הודעה זו שוב.">
+<!ENTITY qls.restartmessage "תצורת שפה שונתה. אולי ישנו צורך לאתחל את הדפדפן כדי לראות שינוי.">
+<!ENTITY qls.askrestartmessage "תצורת שפה שונתה. לאתחל כדי לראות השינויים כעת?">
+<!ENTITY qls.pleasewait "מחיל תצורת שפה חדשה...">
+<!ENTITY qls.settings "אפשרויות...">
+<!ENTITY qls.settings.title "אפשרויות Quick Locale Switcher">
+<!ENTITY qls.settings.apply "החל">
+<!ENTITY qls.settings.description "הוספת תצורות שפה מותאמות אישית לתפריט. (e.g. en-US-mac או de-FY)">
+<!ENTITY qls.settings.locale "תצורת שפה">
+<!ENTITY qls.settings.label "תווית">
+<!ENTITY qls.settings.pane.general "כללי">
+<!ENTITY qls.settings.pane.locales "תצורות שפה">
+<!ENTITY qls.settings.pane.autoswitch "החלפה-אוטומטית">
+<!ENTITY qls.settings.visiblemenuitems "בחירת פריטים שיופיעו בתפריט.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "בחר כל הפריטים">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "אל תבחר פריטים כלל">
+<!ENTITY qls.settings.switchwhat "החלפת ההגדרות הקשורות לתצורת השפה הבאה.">
+<!ENTITY qls.settings.switch.gulocale "שפת ממשק המשתמש (העדפת general.useragent.locale)">
+<!ENTITY qls.settings.switch.contentlocale "שפת התוכן (מילון בודק איות ו HTTP מקבל שפות הטקסט בראש העמוד)">
+<!ENTITY qls.settings.switch.dontswitchalheader "לא להחליף לעולם את שפת כותרת העמוד המקובלת">
+<!ENTITY qls.settings.switch.alwaysask "שאל תמיד לאיזה הגדרות לשנות">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "רענן האתר הנוכחי לאחר שינוי שפת התוכן">
+<!ENTITY qls.settings.restartreload "אתחל/רענן אפשרויות">
+<!ENTITY qls.settings.autorestart.ask "התרה לפני אתחול היישום">
+<!ENTITY qls.statusbar.main "Quick Locale Switcher בוחר כרגע תצורת שפה">
+<!ENTITY qls.statusbar.tooltip.content "תוכן: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "ממשק משתמש: &#37;1">
+<!ENTITY qls.useautoswitch.title "החלפה-אוטומטית">
+<!ENTITY qls.useautoswitch "איחסון אוטומטי של תוכן האינטרנט של המשתמש ושל עדיפות מילון בודק האיות של כל אתר">
+<!ENTITY qls.useautoswitch.tldbased "החלפה-אוטומטית מסתמכת על דרג מתחם עליון (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "אפס החלפה-אוטומטית של האתרים">
+<!ENTITY qls.useautoswitch.open "נהל החלפה-אוטומטית של אתרים">
+<!ENTITY qls.autoswitch.filter "חפש">
+<!ENTITY qls.autoswitch.clearfilter "נקה">
+<!ENTITY qls.autoswitch.title "החלפה-אוטומטית של אתרים">
+<!ENTITY qls.autoswitch.site "אתר (תצורת שפה)">
+<!ENTITY qls.autoswitch.remove "הסר החלפה-אוטומטית נבחרת של האתרים">
+<!ENTITY qls.autoswitch.removeall "הסר את כל ההחלפה-אוטומטית של האתרים">
+<!ENTITY qls.autoswitch.close "סגירה">
+<!ENTITY qls-askswitchsettings-title "שנה את ההגדרות הקשורות לתצורת השפה הבאה">
+<!ENTITY qls.visiblemenuitems.search "חיפוש">
+<!ENTITY qls.settings.display "אפשרויות תצוגה">
+<!ENTITY qls.settings.display.hide_tools "הסתרת פריט בתפריט הכלים">
+<!ENTITY qls.settings.display.hide_statusbar "הסתרת האייקונים בסרגל המצב">
+<!ENTITY qls.settings.display.statusbarmode "מצב תצוגה בסרגל המצב">
+<!ENTITY qls.settings.display.statusbarmode.icon "אייקון">
+<!ENTITY qls.settings.display.statusbarmode.text "טקסט">
+<!ENTITY qls.settings.display.statusbarmode.full "אייקון וטקסט">
+<!ENTITY qls.settings.getlanguagepacks "השגת חבילות שפה נוספות">
+<!ENTITY qls.settings.getdictionaries "השגת מילונים נוספים">
+<!ENTITY af-ZA "af-ZA - (אפריקנית (דרום אפריקה">
+<!ENTITY am-ET "am-ET - (אמהרית (אתיופיה">
+<!ENTITY ar-AE "ar-AE - ערבית (UAE)">
+<!ENTITY ar-BH "ar-BH - (ערבית (בחריין">
+<!ENTITY ar-DZ "ar-DZ - (ערבית (אלג\'יר">
+<!ENTITY ar-EG "ar-EG - (ערבית (מצרים">
+<!ENTITY ar-IQ "ar-IQ - (ערבית (עירק">
+<!ENTITY ar-JO "ar-JO - (ערבית (ירדן">
+<!ENTITY ar-KW "ar-KW - (ערבית (כוית">
+<!ENTITY ar-LB "ar-LB - (ערבית (לבנון">
+<!ENTITY ar-LY "ar-LY - (ערבית (לוב">
+<!ENTITY ar-MA "ar-MA - (ערבית (מרוקו">
+<!ENTITY ar-OM "ar-OM - (ערבית (אומן">
+<!ENTITY ar-QA "ar-QA - (ערבית (קטר">
+<!ENTITY ar-SA "ar-SA - (ערבית (ערב הסעודית">
+<!ENTITY ar-SY "ar-SY - (ערבית (סוריה">
+<!ENTITY ar-TN "ar-TN - (ערבית (טוניסאית">
+<!ENTITY ar-YE "ar-YE - (ערבית (תימן">
+<!ENTITY arn-CL "arn-CL - (מפוצ\'ה (צ\'ילה">
+<!ENTITY as-IN "as-IN - (אסאמית (הודו">
+<!ENTITY ast-ES "ast-ES - (אוסטרלית)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - (אזרבייג\'נית (קירילית">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - (אזרבייג\'נית (לטינית">
+<!ENTITY ba-RU "ba-RU - בשקירית (רוסיה)">
+<!ENTITY be-BY "be-BY - (בלרוסית (בלרוס">
+<!ENTITY ber-DZ "ber-DZ - תמאזיגת (אלג\'יריה, לטינית)">
+<!ENTITY bg-BG "bg-BG - בולגרית (בולגריה)">
+<!ENTITY bn-BD "bn-BD - בנגלית (בנגלדש)">
+<!ENTITY bn-IN "bn-IN - (בנגלית (הודו">
+<!ENTITY bo-BT "bo-BT - טיבטית (בהוטן)">
+<!ENTITY bo-CN "bo-CN - טיבטית (הרפובליקה העממית של סין)">
+<!ENTITY br-FR "br-FR - ברטונית (צרפת)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - בוסנית (בוסניה והרצגובינה, קירילית)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - בוסנית (בוסניה והרצגובינה, לטינית)">
+<!ENTITY ca-AD "ca-AD - (קטלונית (אנדורה">
+<!ENTITY ca-ES "ca-ES - (קטלונית (ספרד">
+<!ENTITY ca-FR "ca-FR - (קטלונית (צרפת">
+<!ENTITY ca-valencia "ca-valencia - ולנסית (קהילה אוטונומית)">
+<!ENTITY co-FR "co-FR - קורסיקנית (צרפת)">
+<!ENTITY cs-CZ "cs-CZ - צ\'כית (הרפובליקה של צ\'כיה)">
+<!ENTITY cy-GB "cy-GB - ולשית (אנגליה)">
+<!ENTITY da-DK "da-DK - דנית (דנמרק)">
+<!ENTITY de-AT "de-AT - גרמנית (אוסטריה)">
+<!ENTITY de-CH "de-CH - (גרמנית (שווייץ">
+<!ENTITY de-DE "de-DE - (גרמנית (גרמניה">
+<!ENTITY de-LI "de-LI - (גרמנית (ליכטנשטיין">
+<!ENTITY de-LU "de-LU - (גרמנית (לוקסבורג">
+<!ENTITY div-MV "div-MV - (דיבהי (מלדיביים">
+<!ENTITY el-GR "el-GR - (יוונית (יוון">
+<!ENTITY en-AU "en-AU - (אנגלית (אוסטרליה">
+<!ENTITY en-BZ "en-BZ - (אנגלית (בליז">
+<!ENTITY en-CA "en-CA - (אנגלית (קנדה">
+<!ENTITY en-CB "en-CB - (אנגלית (קריבים">
+<!ENTITY en-GB "en-GB - (אנגלית (אנגליה">
+<!ENTITY en-IE "en-IE - (אנגלית (אירלנד">
+<!ENTITY en-IN "en-IN - (אנגלית (הודו">
+<!ENTITY en-JA "en-JA - (אנגלית (ג&apos;מייקה">
+<!ENTITY en-MY "en-MY - (אנגלית (מלזיה">
+<!ENTITY en-NZ "en-NZ - (אנגלית (ניו-זילנד">
+<!ENTITY en-PH "en-PH - (אנגלית (פיליפינים">
+<!ENTITY en-SG "en-SG - (אנגלית (סינגפור">
+<!ENTITY en-TT "en-TT - (אנגלית (טרינידד">
+<!ENTITY en-US "en-US - (אנגלית (ארה&quot;ב">
+<!ENTITY en-ZA "en-ZA - (אנגלית (דרום אפריקה">
+<!ENTITY en-ZW "en-ZW - (אנגלית (זימבבוה">
+<!ENTITY eo-EO "eo-EO - אספרנטו">
+<!ENTITY es-AR "es-AR - (ספרדית (ארגנטינה">
+<!ENTITY es-BO "es-BO - (ספרדית (בוליבייה">
+<!ENTITY es-CL "es-CL - (ספרדית (צ&apos;ילה">
+<!ENTITY es-CU "es-CU - ספרדית (קובה)">
+<!ENTITY es-CO "es-CO - (ספרדית (קולומביה">
+<!ENTITY es-CR "es-CR - (ספרדית (קוסטה ריקה">
+<!ENTITY es-DO "es-DO - (ספרדית (רפובליקה דומיניקנית">
+<!ENTITY es-EC "es-EC - (ספרדית (אקוודור">
+<!ENTITY es-ES "es-ES - (ספרדית (ספרד">
+<!ENTITY es-ES-ts "es-ES-ts - (ספרדית (ספרד, סוג מסורתי">
+<!ENTITY es-GT "es-GT - (ספרדית (גוואטמלה">
+<!ENTITY es-HN "es-HN - (ספרדית (הונדורס">
+<!ENTITY es-MX "es-MX - (ספרדית (מקסיקו">
+<!ENTITY es-NI "es-NI - (ספרדית (ניקרגואה">
+<!ENTITY es-PA "es-PA - (ספרדית (פנמה">
+<!ENTITY es-PE "es-PE - (ספרדית (פרו">
+<!ENTITY es-PR "es-PR - (ספרדית (פורטו ריקו">
+<!ENTITY es-PY "es-PY - (ספרדית (פרגוואי">
+<!ENTITY es-SV "es-SV - (ספרדית (אל סלבדור">
+<!ENTITY es-UY "es-UY - ספרדית (אורוגווי)">
+<!ENTITY es-US "es-US - (ספרדית (ארה&quot;ב">
+<!ENTITY es-VE "es-VE - (ספרדית (וונצואלה">
+<!ENTITY et-EE "et-EE - אסטונית (אסטוניה)">
+<!ENTITY eu-ES "eu-ES - בסקית (מדינות בסקיות)">
+<!ENTITY fa-IR "fa-IR - (פרסית (אירן">
+<!ENTITY fi-FI "fi-FI - (פינית (פינלנד">
+<!ENTITY fil-PH "fil-PH - (פיליפינית (פיליפינים">
+<!ENTITY fo-FO "fo-FO - פרואזית (איי פארו)">
+<!ENTITY fr-BE "fr-BE - (צרפתית (בלגיה">
+<!ENTITY fr-CA "fr-CA - צרפתית (קנדה)">
+<!ENTITY fr-CH "fr-CH - (צרפתית (שוויץ">
+<!ENTITY fr-FR "fr-FR - (צרפתית (צרפת">
+<!ENTITY fr-LU "fr-LU - (צרפתית (לוקסמבורג">
+<!ENTITY fr-MC "fr-MC - (צרפתית (מונקו">
+<!ENTITY fur-IT "fur-IT - פורלן (איטליה)">
+<!ENTITY fy-NL "fy-NL - פריזית (הולנד)">
+<!ENTITY ga-IE "ga-IE - (אירית (אירנלנד">
+<!ENTITY gbz-AF "gbz-AF - דארי (אפגניסטן)">
+<!ENTITY gd-GB "gd-GB - גאלית (בריטניה)">
+<!ENTITY gl-ES "gl-ES - גליסית (גליסיה)">
+<!ENTITY gsw-FR "gsw-FR - (אלזסטית (צרפת">
+<!ENTITY gu-IN "gu-IN - (גוג\'ראטית  (הודו">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - האוסה (ניגריה)">
+<!ENTITY he-IL "he-IL - (עברית (ישראל">
+<!ENTITY hi-IN "hi-IN - (הודית (הודו">
+<!ENTITY hr-BA "hr-BA - (קרואטית (בוסניה והרצוגובינה, לטינית">
+<!ENTITY hr-HR "hr-HR - (קרואטית (קרואטיה">
+<!ENTITY hu-HU "hu-HU - הונגרית (הונגריה)">
+<!ENTITY hy-AM "hy-AM - (ארמנית (ארמניה">
+<!ENTITY id-ID "id-ID - אינדונזית (אינדונזיה)">
+<!ENTITY ii-CN "ii-CN - יי (הרפובליקה העממית של סין)">
+<!ENTITY is-IS "is-IS - איסלנדית (איסלנד)">
+<!ENTITY it-CH "it-CH - איטלקית (שוויץ)">
+<!ENTITY it-IT "it-IT - איטלקית (איטליה)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - אינואיטית (קנדה, עיצור הברתי)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - אינואיטית (קנדה, לטינית)">
+<!ENTITY ja-JP "ja-JP - יפנית (יפן)">
+<!ENTITY ja-JP-mac "ja-JP-mac - יפנית (יפן, Mac)">
+<!ENTITY ka-GE "ka-GE - גרוזינית (גרוזיה)">
+<!ENTITY kk-KZ "kk-KZ - קזכסטנית (קזכסטן)">
+<!ENTITY kl-GL "kl-GL - גרנלנדית (גרנלנד)">
+<!ENTITY km-KH "km-KH - קמרית (קמבודיה)">
+<!ENTITY kn-IN "kn-IN - קאננדה (הודו)">
+<!ENTITY kok-IN "kok-IN - קונקאני (הודו)">
+<!ENTITY ko-KR "ko-KR - קוראנית (קוריאה)">
+<!ENTITY ky-KG "ky-KG - קירגיזית (קירגיזסטן)">
+<!ENTITY lb-LU "lb-LU - לוקסמבורגית (לוקסמבורג)">
+<!ENTITY lo-LA "lo-LA - לאית (הרפובליקה הדמוקרטית העממית של לאוס)">
+<!ENTITY lt-LT "lt-LT - ליטאית (ליטא)">
+<!ENTITY lug-UG "lug-UG - לוגנדה (אוגנדה)">
+<!ENTITY lv-LV "lv-LV - לטבית (לטביה)">
+<!ENTITY mi-NZ "mi-NZ - מאורי (ניו זילנד)">
+<!ENTITY mk-MK "mk-MK - מקדונית (מקדוניה)">
+<!ENTITY ml-IN "ml-IN - מלאיאלאם (הודו)">
+<!ENTITY mn-CN "mn-CN - מונגולית (הרפובליקה העממית של סין)">
+<!ENTITY mn-MN "mn-MN - מונגולית (מונגוליה)">
+<!ENTITY moh-CA "moh-CA - מוהוק (קנדה)">
+<!ENTITY mr-IN "mr-IN - מארתית (הודו)">
+<!ENTITY ms-BN "ms-BN - מלאית (ברוניי דארוסלאם)">
+<!ENTITY ms-MY "ms-MY - מלאית (מלזיה)">
+<!ENTITY mt-MT "mt-MT - מלטית (מלטה)">
+<!ENTITY nb-NO "nb-NO - נורבגית - נורבגית ספרותית (נורבגיה)">
+<!ENTITY ne-NP "ne-NP - נפאלית (נפאל)">
+<!ENTITY nl-BE "nl-BE - הולנדית (בלגיה)">
+<!ENTITY nl-NL "nl-NL - הולנדית (הולנד)">
+<!ENTITY nn-NO "nn-NO - נורבגיה - נורבגית חדשה (נורבגיה)">
+<!ENTITY nso-ZA "nso-ZA - ססותו סה לבואה (דרום אפריקה)">
+<!ENTITY oc-FR "oc-FR - אוקיסטנית (צרפת)">
+<!ENTITY or-IN "or-IN - אורייה (הודו)">
+<!ENTITY pa-IN "pa-IN - פאנג\'בית (הודו)">
+<!ENTITY pl-PL "pl-PL - (פולנית (פולין">
+<!ENTITY ps-AF "ps-AF - (פשטו (אפגניסטן">
+<!ENTITY pt-BR "pt-BR - (פורטוגזית (ברזיל">
+<!ENTITY pt-PT "pt-PT - (פורטוגזית (פורטוגל">
+<!ENTITY qut-GT "qut-GT -קִיצֶ\'ה (גואטמלה)">
+<!ENTITY quz-BO "quz-BO - קצ\'ואה (בוליביה)">
+<!ENTITY quz-EC "quz-EC - קצ\'ואה (אקוודור)">
+<!ENTITY quz-PE "quz-PE - קצ\'ואה (פרו)">
+<!ENTITY rm-CH "rm-CH - רומאנש (שוויץ)">
+<!ENTITY ro-RO "ro-RO - (רומנית (רומניה">
+<!ENTITY ru-RU "ru-RU - (רוסית (רוסיה">
+<!ENTITY rw-RW "rw-RW - קיניהרואנדה (רואנדה)">
+<!ENTITY sah-RU "sah-RU - יקוטית (רוסיה)">
+<!ENTITY sa-IN "sa-IN - (סנסקריט (הודו">
+<!ENTITY se-FI "se-FI - סאמי (צפוני, פינלנד)">
+<!ENTITY se-NO "se-NO - סאמי (צפוני, נורבגיה)">
+<!ENTITY se-SE "se-SE - סאמי (צפוני, שבדיה)">
+<!ENTITY si-LK "si-LK - סינהלה (סרי לנקה)">
+<!ENTITY sk-SK "sk-SK - (סלובקית (סלובקיה">
+<!ENTITY sl-SI "sl-SI - (סלובנית (סלובניה">
+<!ENTITY sma-NO "sma-NO - סאמי (דרומי, נורבגיה)">
+<!ENTITY sma-SE "sma-SE - סאמי (דרומי, שבדיה)">
+<!ENTITY smj-NO "smj-NO - סאמי (לול, נורבגיה)">
+<!ENTITY smj-SE "smj-SE - סאמי (לול, שבדיה)">
+<!ENTITY smn-FI "smn-FI - סאמי (ינארי, פינלנד)">
+<!ENTITY sms-FI "sms-FI  - סאמי (סקולט, פינלנד)">
+<!ENTITY son-NE "son-NE - סונגהאי (ניז\'ר)">
+<!ENTITY sq-AL "sq-AL - (אלבנית (אלבניה">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - (סרבית (בוסניה והרצוגובינה, קירילית">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - (סרבית (בוסניה והרצוגובינה, לטינית">
+<!ENTITY sr-ME "sr-ME - מונטנגרואית/סרבו קרואטית (מונטנגרו)">
+<!ENTITY sr-RS "sr-RS - סרבית (סרביה)">
+<!ENTITY sv-FI "sv-FI - (שוודית (פינלנד">
+<!ENTITY sv-SE "sv-SE - (שוודית (שוודייה">
+<!ENTITY sw-KE "sw-KE - (סוהילית (קניה">
+<!ENTITY syr-SY "syr-SY - (סורית (סוריה">
+<!ENTITY ta-IN "ta-IN - (טמילית (הודו">
+<!ENTITY ta-LK "ta-LK - טמילית (סרי לנקה)">
+<!ENTITY te-IN "te-IN - טלוגו (הודו)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - טז\'יקיסטנית (טג\'יקיסטן)">
+<!ENTITY th-TH "th-TH - (תאילנדית (תאילנד">
+<!ENTITY tk-TM "tk-TM - (טורקמנית (טורקמניסטן">
+<!ENTITY tn-ZA "tn-ZA - טסוואנה (דרום אפריקה)">
+<!ENTITY ur-IN "ur-IN - אורדו (הודו)">
+<!ENTITY tr-TR "tr-TR - (טורקית (טורקיה">
+<!ENTITY tt-RU "tt-RU - (טטרי (רוסיה">
+<!ENTITY ug-CN "ug-CN - אויגורית (הרפובליקה העממית של סין)">
+<!ENTITY uk-UA "uk-UA - (אוקראינית (אוקראינה">
+<!ENTITY ur-PK "ur-PK - (אורדו (פקיסטן">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - (אוזבקית (אוזבקיסטן, קירילית">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - (אוזבקית (אוזבקיסטן, לטינית">
+<!ENTITY vi-VN "vi-VN - וויטנאמית (וייטנאם)">
+<!ENTITY wa-BE "wa-BE - ולונית (בלגיה)">
+<!ENTITY dsb-DE "dsb-DE - סרבית תחתונה (מזרח גרמניה)">
+<!ENTITY hsb-DE "hsb-DE - סרבית עליונה (גרמניה)">
+<!ENTITY wo-SN "wo-SN - ווֹלוֹף (סנגל)">
+<!ENTITY xh-ZA "xh-ZA - קסוסה (דרום אפריקה)">
+<!ENTITY yo-NG "yo-NG - (יורובה (ניגריה">
+<!ENTITY zh-CHS "zh-CHS - (סינית (פשוטה">
+<!ENTITY zh-CHT "zh-CHT - (סינית (מסורתית">
+<!ENTITY zh-CN "zh-CN - סינית (הרפובליקה העממית של סין)">
+<!ENTITY zh-HK "zh-HK - סינית (הונג קונג אזור מנהלי מיוחד, הרפובליקה העממית של סין)">
+<!ENTITY zh-MO "zh-MO - סינית (מקאו אזור מנהלי מיוחד)">
+<!ENTITY zh-SG "zh-SG - (סינית (סינגפור">
+<!ENTITY zh-TW "zh-TW - (סינית (טיוואן">
+<!ENTITY zu-ZA "zu-ZA - זולו (דרום אפריקה)">

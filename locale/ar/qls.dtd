@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "محول لغة الموقع السريع">
+<!ENTITY qls.description "حول بسرعة أفضلية general.useragent.locale">
+<!ENTITY qls.createdby "المصمم:">
+<!ENTITY qls.restoredefault "استرجاع الافتراضيات:">
+<!ENTITY qls.notifyrestart "لا تظهر هذه الرسالة بعد ألان">
+<!ENTITY qls.restartmessage "تغيّرت لغة الموقع. ستحتاج إلى إعادة تشغيل المتصفح لرؤية التغيرات.">
+<!ENTITY qls.askrestartmessage "تغيرت لغة الموقع. هل تريد إعادة التشغيل لرؤية التغيرات الان؟">
+<!ENTITY qls.pleasewait "جاري تفعيل لغة الموقع الجديد">
+<!ENTITY qls.settings "خيارات...">
+<!ENTITY qls.settings.title "خيرات محول لغة الموقع السريع">
+<!ENTITY qls.settings.apply "تفعيل">
+<!ENTITY qls.settings.description "أضف لغة الموقع الخاص بك للقائمة( مثل em-US-mac   أو de-FY)">
+<!ENTITY qls.settings.locale "لغة الموقع">
+<!ENTITY qls.settings.label "علامة">
+<!ENTITY qls.settings.pane.general "عام">
+<!ENTITY qls.settings.pane.locales "لغات المواقع">
+<!ENTITY qls.settings.pane.autoswitch "تحويل آلي">
+<!ENTITY qls.settings.visiblemenuitems "إختر المواد التي تريد إظهارها في القائمة">
+<!ENTITY qls.settings.visiblemenuitems.selectall "اختر كل المواد">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "إزالة اختيار كل المواد">
+<!ENTITY qls.settings.switchwhat "حوّل الأوضاع التالية المتعلقة بلغة الموقع">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (واجهة المستخدم)">
+<!ENTITY qls.settings.switch.contentlocale "لغة المحتوى (قاموس فحص الاملاء و مقدمة قبول اللغات أتش تي تي بي)">
+<!ENTITY qls.settings.switch.dontswitchalheader "لا تغير مقدمة اللغات المقبولة">
+<!ENTITY qls.settings.switch.alwaysask "إسأل دائما إلى أي الأوضاع أريد التحويل">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "اعادة تحميل الموقع بعد تحويل لغته">
+<!ENTITY qls.settings.restartreload "استعادة \\ اعادة تحميل الخيارات">
+<!ENTITY qls.settings.autorestart.ask "حذّرني قبل إعادة تشغيل التطبيق">
+<!ENTITY qls.statusbar.main "لغة موقع محول لغات المواقع السريع المختار حالياً">
+<!ENTITY qls.statusbar.tooltip.content "المحتوى: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "الواجهة: &#37;1">
+<!ENTITY qls.useautoswitch.title "حوّل آلياًً">
+<!ENTITY qls.useautoswitch "خزن آلياً  أفضليات محتويات ويب وقاموس الإملاء الخاصة بك لكل موقع ويب">
+<!ENTITY qls.useautoswitch.tldbased "التحويل الآلي بناء على مجال المستوى العلوي (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "استعادة مواقع التحويل الآلي">
+<!ENTITY qls.useautoswitch.open "إدارة مواقع التحويل الآلي">
+<!ENTITY qls.autoswitch.filter "إبحث">
+<!ENTITY qls.autoswitch.clearfilter "محو">
+<!ENTITY qls.autoswitch.title "حوّل المواقع آلياً">
+<!ENTITY qls.autoswitch.site "موقع ويب (لغة الموقع)">
+<!ENTITY qls.autoswitch.remove "أزِل مواقع التحويل الآلي المختارة">
+<!ENTITY qls.autoswitch.removeall "أزِل كل مواقع التحويل الآلي">
+<!ENTITY qls.autoswitch.close "إغلاق">
+<!ENTITY qls-askswitchsettings-title "حول الأوضاع المرتبطة بلغة الموقع الآتية">
+<!ENTITY qls.visiblemenuitems.search "البحث">
+<!ENTITY qls.settings.display "خيارات العرض">
+<!ENTITY qls.settings.display.hide_tools "أخفي عنصر القائمة-الأدوات">
+<!ENTITY qls.settings.display.hide_statusbar "أخفي أيقونة شريط الحالة">
+<!ENTITY qls.settings.display.statusbarmode "أسلوب إظهار شريط الحالة">
+<!ENTITY qls.settings.display.statusbarmode.icon "رمز">
+<!ENTITY qls.settings.display.statusbarmode.text "نص">
+<!ENTITY qls.settings.display.statusbarmode.full "رمز و نص">
+<!ENTITY qls.settings.getlanguagepacks "أحصل على المزيد من اللغات">
+<!ENTITY qls.settings.getdictionaries "أحصل على المزيد من القواميس">
+<!ENTITY af-ZA "الأفريقانية (زامبيا)">
+<!ENTITY am-ET "الأمهرية (الحبشة)">
+<!ENTITY ar-AE "العربية (الإمارات)">
+<!ENTITY ar-BH "العربية  (البحرين)">
+<!ENTITY ar-DZ "العربية (الجزائر)">
+<!ENTITY ar-EG "العربية (مصر)">
+<!ENTITY ar-IQ "العربية (العراق)">
+<!ENTITY ar-JO "العربية (الأردن)">
+<!ENTITY ar-KW "العربية (الكويت)">
+<!ENTITY ar-LB "العربية (لبنان)">
+<!ENTITY ar-LY "العربية (ليبيا)">
+<!ENTITY ar-MA "العربية (المغرب)">
+<!ENTITY ar-OM "العربية (عمان)">
+<!ENTITY ar-QA "العربية (قطر)">
+<!ENTITY ar-SA "العربية (السعودية)">
+<!ENTITY ar-SY "العربية (سوريا)">
+<!ENTITY ar-TN "العربية (تونس)">
+<!ENTITY ar-YE "العربية (اليمن)">
+<!ENTITY arn-CL "المابندنجنية (تشيلي)">
+<!ENTITY as-IN "الأسّامية (الهند)">
+<!ENTITY ast-ES "الآستورية (أسبانيا)">
+<!ENTITY az-AZ-Cyrl "الأذرية (أذربيجان, سيريلية)">
+<!ENTITY az-AZ-Latn "الأذرية (أذربيجان, لاتيني)">
+<!ENTITY ba-RU "البشكيرية (روسيا)">
+<!ENTITY be-BY "بيلاروسية (بيلاروسيا)">
+<!ENTITY ber-DZ "الامازيغية (الجزائر, لاتينية)">
+<!ENTITY bg-BG "البلغارية (بلغاريا)">
+<!ENTITY bn-BD "البنغالية (بنغلادش)">
+<!ENTITY bn-IN "البنغالية (الهند)">
+<!ENTITY bo-BT "التبتية (بوتان)">
+<!ENTITY bo-CN "التبتية (جمهورية الصين الشعبية)">
+<!ENTITY br-FR "البريتانية (فرنسا)">
+<!ENTITY bs-BA-Cyrl "البوسنية (البوسنة والهرسك, سيريلية)">
+<!ENTITY bs-BA-Latn "البوسنية (البوسنة والهرسك, لاتينية)">
+<!ENTITY ca-AD "القطالونية (آندورا)">
+<!ENTITY ca-ES "القطالونية (أسبانيا)">
+<!ENTITY ca-FR "القطالونية (فرنسا)">
+<!ENTITY ca-valencia "كا-فَلِنسية - فَلِنسيّة(المجتمع المحلّي الفَلِنسي)">
+<!ENTITY co-FR "الكورسيكية (فرنسا)">
+<!ENTITY cs-CZ "التشيكية (جمهورية التشيك)">
+<!ENTITY cy-GB "الويلزى (المملكة المتحدة)">
+<!ENTITY da-DK "الدنماركية (دنمارك)">
+<!ENTITY de-AT "الألمانية (المجر)">
+<!ENTITY de-CH "الألمانية (سويسرا)">
+<!ENTITY de-DE "الألمانية (ألمانيا)">
+<!ENTITY de-LI "الألمانية (ليختنستاين)">
+<!ENTITY de-LU "الألمانية (لكسمبورج)">
+<!ENTITY div-MV "الديفيهة(جزر المالديف)">
+<!ENTITY el-GR "اليونانية (اليونان)">
+<!ENTITY en-AU "الانجليزية (أستراليا)">
+<!ENTITY en-BZ "الانجليزية (بيليزي)">
+<!ENTITY en-CA "الانجليزية (كندا)">
+<!ENTITY en-CB "الانجليزية (جزر الكريبي)">
+<!ENTITY en-GB "الانجليزية (المملكة المتحدة)">
+<!ENTITY en-IE "الانجليزية (أيرلندا)">
+<!ENTITY en-IN "الانجليزية (الهند)">
+<!ENTITY en-JA "الانجليزية (جمايكا)">
+<!ENTITY en-MY "الانجليزية (ماليزيا)">
+<!ENTITY en-NZ "الانجليزية (نيوزلندا)">
+<!ENTITY en-PH "الانجليزية (الفلبين)">
+<!ENTITY en-SG "الانجليزية (سنغافورة)">
+<!ENTITY en-TT "الانجليزية (ترينيداد)">
+<!ENTITY en-US "الانجليزية (الولايات المتحدة)">
+<!ENTITY en-ZA "الانجليزية (جنوب أفريقيا)">
+<!ENTITY en-ZW "الانجليزية (زمببواي)">
+<!ENTITY eo-EO "إسبيرانتو">
+<!ENTITY es-AR "الأسبانية (الأرجنتين)">
+<!ENTITY es-BO "الأسبانية (بوليفيا)">
+<!ENTITY es-CL "الأسبانية (تشيلي)">
+<!ENTITY es-CU "الأسبانية (كوبا)">
+<!ENTITY es-CO "الأسبانية (كولومبيا)">
+<!ENTITY es-CR "الأسبانية (كوستا ريكا)">
+<!ENTITY es-DO "الأسبانية (جمهورية الدومينيكان)">
+<!ENTITY es-EC "الأسبانية (الاكوادور)">
+<!ENTITY es-ES "الأسبانية (اسبانيا)">
+<!ENTITY es-ES-ts "الأسبانية (اسبانيا – نوع تقليدي)">
+<!ENTITY es-GT "الأسبانية (غواتيمالا)">
+<!ENTITY es-HN "الأسبانية (هندوراس)">
+<!ENTITY es-MX "الأسبانية (المكسيك)">
+<!ENTITY es-NI "الأسبانية (نيكراغوا)">
+<!ENTITY es-PA "الأسبانية (بنما)">
+<!ENTITY es-PE "الأسبانية (البيرو)">
+<!ENTITY es-PR "الأسبانية (بورتوريكو)">
+<!ENTITY es-PY "الأسبانية (البارغواي)">
+<!ENTITY es-SV "الأسبانية (السلفادور)">
+<!ENTITY es-UY "الأسبانية (الأوروغواي)">
+<!ENTITY es-US "الأسبانية (الولايات المتحدة)">
+<!ENTITY es-VE "الأسبانية (فنزويلا)">
+<!ENTITY et-EE "الإستونية (استونيا)">
+<!ENTITY eu-ES "الباسكية (بلاد الباسك)">
+<!ENTITY fa-IR "الفارسية (إيران)">
+<!ENTITY fi-FI "الفنلندية (فنلندة)">
+<!ENTITY fil-PH "الفلبينية (الفلبين)">
+<!ENTITY fo-FO "الفايرووية (جزر الفايرو)">
+<!ENTITY fr-BE "الفرنسية (بلجيكا)">
+<!ENTITY fr-CA "الفرنسية (كندا)">
+<!ENTITY fr-CH "الفرنسية (سويسرا)">
+<!ENTITY fr-FR "الفرنسية (فرنسا)">
+<!ENTITY fr-LU "الفرنسية (لوكسمبرغ)">
+<!ENTITY fr-MC "الفرنسية (موناكو)">
+<!ENTITY fur-IT "الفريولية (إيطاليا)">
+<!ENTITY fy-NL "الفريزلندية (هولندا)">
+<!ENTITY ga-IE "الأيرلندية (أيرلندا)">
+<!ENTITY gbz-AF "الدارية الفارسية (أفغانستان)">
+<!ENTITY gd-GB "gd-GB - Gaelic (United Kingdom)">
+<!ENTITY gl-ES "الغاليسية (غاليسيا)">
+<!ENTITY gsw-FR "الألزاسية (فرنسا)">
+<!ENTITY gu-IN "الغوجاراتية (الهند)">
+<!ENTITY ha-NG-Latn "الهوسة (نيجيريا)">
+<!ENTITY he-IL "العبرية">
+<!ENTITY hi-IN "الهندية (الهند)">
+<!ENTITY hr-BA "الكرواتية (البوسنة والهرسك, لاتيني)">
+<!ENTITY hr-HR "الكرواتية (كرواتيا)">
+<!ENTITY hu-HU "المجرية (المجر)">
+<!ENTITY hy-AM "الارمنية (أرمينيا)">
+<!ENTITY id-ID "الأندونيسي (أندونيسيا)">
+<!ENTITY ii-CN "لغة اليي (جمهورية الصين الشعبية)">
+<!ENTITY is-IS "الإسلندية (إسلنديا)">
+<!ENTITY it-CH "الإيطالية (سويسرا)">
+<!ENTITY it-IT "الإيطالية (إيطاليا)">
+<!ENTITY iu-CA-Cans "الإنوكيتوتية (كندا, مقطعيّ)">
+<!ENTITY iu-CA-Latn "الإنوكيتوتية (كندا, لاتيني)">
+<!ENTITY ja-JP "اليابانية (اليابان)">
+<!ENTITY ja-JP-mac "اليابانية (اليابان,لهجة ماك)">
+<!ENTITY ka-GE "الجورجية (دولة جورجيا)">
+<!ENTITY kk-KZ "الكزخية (كزخستان)">
+<!ENTITY kl-GL "الجرينلندية (جرينلندة)">
+<!ENTITY km-KH "الخمير (كمبوديا)">
+<!ENTITY kn-IN "القنادية (الهند)">
+<!ENTITY kok-IN "الكونكانية (الهند)">
+<!ENTITY ko-KR "الكورية (كوريا)">
+<!ENTITY ky-KG "القيرغزيا (قيرغزتان)">
+<!ENTITY lb-LU "اللوكسمبورغية (لوكسمبورغ)">
+<!ENTITY lo-LA "اللاوية (لاوس)">
+<!ENTITY lt-LT "الليثوانية (ليثوانيا)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "اللاتفية (لاتفيا)">
+<!ENTITY mi-NZ "الماوورية (نيوزيلندة)">
+<!ENTITY mk-MK "المقدونية (مقدونيا)">
+<!ENTITY ml-IN "المالايالامية (الهند)">
+<!ENTITY mn-CN "المنغولية (جمهورية الصين الشعبية)">
+<!ENTITY mn-MN "المنغولية (منغوليا)">
+<!ENTITY moh-CA "الموهوكية (كندا)">
+<!ENTITY mr-IN "الماراثية (الهند)">
+<!ENTITY ms-BN "لغة الملايو (سلطنة بروناي)">
+<!ENTITY ms-MY "لغة الملايو (ماليزيا)">
+<!ENTITY mt-MT "المالطية (مالطة)">
+<!ENTITY nb-NO "النرويجية-بوكمال (النرويج)">
+<!ENTITY ne-NP "النيبالية (نيبال)">
+<!ENTITY nl-BE "الهولندية (بلجيكا)">
+<!ENTITY nl-NL "الهولندية (هولندا)">
+<!ENTITY nn-NO "النرويجية-نينورسك(النرويج)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (South Africa)">
+<!ENTITY oc-FR "الوكسيتانية (فرنسا)">
+<!ENTITY or-IN "لغة الوريا (الهند)">
+<!ENTITY pa-IN "البنجابية (الهند)">
+<!ENTITY pl-PL "البولندية (بولندا)">
+<!ENTITY ps-AF "البشتونية (أفغانستان)">
+<!ENTITY pt-BR "البرتغالية (البرازيل)">
+<!ENTITY pt-PT "البرتغالية (البرتغال)">
+<!ENTITY qut-GT "الكيشية (غواتيمالا)">
+<!ENTITY quz-BO "لغة القيشوة (بوليفيا)">
+<!ENTITY quz-EC "لغة القيشوة (الإكوادور)">
+<!ENTITY quz-PE "لغة القيشوة (بيرو)">
+<!ENTITY rm-CH "الرومانية (سويسرا)">
+<!ENTITY ro-RO "الرومانية (رومانيا)">
+<!ENTITY ru-RU "الروسية (روسيا)">
+<!ENTITY rw-RW "الكينيروندي (روندا)">
+<!ENTITY sah-RU "الياقوتية (سيبيريا, روسيا)">
+<!ENTITY sa-IN "السنسكريتية (الهند)">
+<!ENTITY se-FI "لغة سامي (شمال فنلندا)">
+<!ENTITY se-NO "لغة سامي (شمال النرويج)">
+<!ENTITY se-SE "لغة سامي (شمال السويد)">
+<!ENTITY si-LK "السنهالية (سري لانكا)">
+<!ENTITY sk-SK "السلوفاكية (سلوفاكيا)">
+<!ENTITY sl-SI "السلوفانية (سلوفانيا)">
+<!ENTITY sma-NO "لغة سامي (جنوب النرويج)">
+<!ENTITY sma-SE "لغة سامي (جنوب النرويج)">
+<!ENTITY smj-NO "لغة سامي (لولي, النرويج)">
+<!ENTITY smj-SE "لغة سامي (لولي, السويد)">
+<!ENTITY smn-FI "لغة سامي (أناري, فنلندا)">
+<!ENTITY sms-FI "لغة سامي (سكولت, فنلندا)">
+<!ENTITY son-NE "son-NE - Songhay (Niger)">
+<!ENTITY sq-AL "الألبانية (ألبانيا)">
+<!ENTITY sr-BA-Cyrl "الصربية (البوسنة والهرسك,سيريلي)">
+<!ENTITY sr-BA-Latn "الصربية (البوسنة والهرسك,لاتيني)">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbian (Serbia)">
+<!ENTITY sv-FI "السويدي (فنلندا)">
+<!ENTITY sv-SE "السويدي (السويد)">
+<!ENTITY sw-KE "سواحلي (كينيا)">
+<!ENTITY syr-SY "السريانية (سوريا)">
+<!ENTITY ta-IN "التاميلية (الهند)">
+<!ENTITY ta-LK "التاميلية - سري لانكا">
+<!ENTITY te-IN "لغة تلوغو (الهند)">
+<!ENTITY tg-TJ-Cyrl "الطاجيكية (طجكستان, سيريلي)">
+<!ENTITY th-TH "التايلندية (تايلاند)">
+<!ENTITY tk-TM "التركمانية (تركمنستان)">
+<!ENTITY tn-ZA "التسوانية (جنوب أفريقيا)">
+<!ENTITY ur-IN "الأوردو (الهند)">
+<!ENTITY tr-TR "التركية (تركيا)">
+<!ENTITY tt-RU "التتر (روسيا)">
+<!ENTITY ug-CN "الأويغور (جمهورية الصين الشعبية)">
+<!ENTITY uk-UA "الاوكرانية (أوكرانيا)">
+<!ENTITY ur-PK "الاوردو (الباكستان)">
+<!ENTITY uz-UZ-Cyrl "الاوزبكية (أوزبكستان,سيريلي)">
+<!ENTITY uz-UZ-Latn "الاوزبكية (أوزبكستان,لاتيني)">
+<!ENTITY vi-VN "الفيتنامي (الفيتنام)">
+<!ENTITY wa-BE "الوالون - بلجيكا">
+<!ENTITY dsb-DE "dsb-DE - Lower Sorbian (Germany)">
+<!ENTITY hsb-DE "hsb-DE - Upper Sorbian (Germany)">
+<!ENTITY wo-SN "الولوفية (سنغال)">
+<!ENTITY xh-ZA "الشهوزية (جنوب أفريقيا)">
+<!ENTITY yo-NG "اليوربية (نيجيريا)">
+<!ENTITY zh-CHS "الصينية (المسهلة)">
+<!ENTITY zh-CHT "الصينية (التقليدية)">
+<!ENTITY zh-CN "الصينية (جمهورية الصين الشعبية)">
+<!ENTITY zh-HK "الصينية (هونغ كونغ)">
+<!ENTITY zh-MO "الصينية (ماكاو)">
+<!ENTITY zh-SG "الصينية (سنغافورة)">
+<!ENTITY zh-TW "الصينية (تايوان)">
+<!ENTITY zu-ZA "الزولو (جنوب أفريقيا)">

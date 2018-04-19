@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Ndryshoni shpejt parapëlqimin general.useragent.locale.">
+<!ENTITY qls.createdby "Krijuar prej:">
+<!ENTITY qls.restoredefault "Rikthe parazgjedhjen">
+<!ENTITY qls.notifyrestart "Mos e shfaq sërish këtë mesazh.">
+<!ENTITY qls.restartmessage "Vendorja u ndryshua. Mund t\'ju duhet të rinisni shfletuesin tuaj që të shihni ndryshimet.">
+<!ENTITY qls.askrestartmessage "Vendorja u ndryshua. Do të donit të riniset e të shihni tani ndryshimet?">
+<!ENTITY qls.pleasewait "Po zbatohet vendorja e re...">
+<!ENTITY qls.settings "Mundësi...">
+<!ENTITY qls.settings.title "Mundësi për Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Zbatoje">
+<!ENTITY qls.settings.description "Shtoni te menuja vendoret tuaja. (p.sh. el-GR ose it-IT)">
+<!ENTITY qls.settings.locale "Vendore">
+<!ENTITY qls.settings.label "Etiketë">
+<!ENTITY qls.settings.pane.general "Të përgjithshme">
+<!ENTITY qls.settings.pane.locales "Vendore">
+<!ENTITY qls.settings.pane.autoswitch "Vetëndërrim">
+<!ENTITY qls.settings.visiblemenuitems "Përzgjidhni zërat që doni të shfaqen në menu.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Përzgjidhni krejt zërat">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Çpërzgjidhni krejt zërat">
+<!ENTITY qls.settings.switchwhat "Ndërro rregullimet vijuese të lidhura me vendoren">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (Ndërfaqe Përdoruesi)">
+<!ENTITY qls.settings.switch.contentlocale "Gjuhë lënde (Fjalor Drejtshkrimi dhe titull për Pranim HTTP Gjuhësh)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Mos e ndërro kurrë titullin tim për gjuhë të pranuara">
+<!ENTITY qls.settings.switch.alwaysask "Pyetmë përherë cilat rregullimet dua të ndërroj">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Ringarko site-n web të tanishëm pas ndryshimit të gjuhës së lëndës">
+<!ENTITY qls.settings.restartreload "Rinise / Ringarko mundësitë">
+<!ENTITY qls.settings.autorestart.ask "Sinjalizomë përpara rinisjes së zbatimit">
+<!ENTITY qls.statusbar.main "Vendoret e tanishme të përzgjedhura te Quick Locale Switcher">
+<!ENTITY qls.statusbar.tooltip.content "Lëndë: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Ndërfaqe Përdoruesi: &#37;1">
+<!ENTITY qls.useautoswitch.title "Këmbeje vetvetiu">
+<!ENTITY qls.useautoswitch "Depozitoni vetvetiu për çdo site parapëlqime lënde web dhe fjalori drejtshkrimi">
+<!ENTITY qls.useautoswitch.tldbased "Vetëndërrim i bazuar në Përkatësinë e Nivelit të Epërm (.sq .gr .it)">
+<!ENTITY qls.useautoswitch.delete "Ricaktoni site-e Vetëndërrues">
+<!ENTITY qls.useautoswitch.open "Administroni site me Vetëndërrim">
+<!ENTITY qls.autoswitch.filter "Kërko">
+<!ENTITY qls.autoswitch.clearfilter "Pastroje">
+<!ENTITY qls.autoswitch.title "Site-e me Vetëndërrim">
+<!ENTITY qls.autoswitch.site "Site Web (vendore)">
+<!ENTITY qls.autoswitch.remove "Hiqi site-et vetëndërrues të përzgjedhur">
+<!ENTITY qls.autoswitch.removeall "Hiqi krejt site-et vetëndërrues">
+<!ENTITY qls.autoswitch.close "Mbylle">
+<!ENTITY qls-askswitchsettings-title "Ndërro rregullimet vijuese të lidhura me vendoren">
+<!ENTITY qls.visiblemenuitems.search "Kërko">
+<!ENTITY qls.settings.display "Mundësi paraqitjeje">
+<!ENTITY qls.settings.display.hide_tools "Fshihe elementin e menusë Mjete">
+<!ENTITY qls.settings.display.hide_statusbar "Fshihe ikonën e shtyllës së gjendjes">
+<!ENTITY qls.settings.display.statusbarmode "Mënyrë shfaqjeje e shtyllës së gjendjes">
+<!ENTITY qls.settings.display.statusbarmode.icon "Ikonë">
+<!ENTITY qls.settings.display.statusbarmode.text "Tekst">
+<!ENTITY qls.settings.display.statusbarmode.full "Ikonë dhe Tekst">
+<!ENTITY qls.settings.getlanguagepacks "Merrni më tepër paketa gjuhësore">
+<!ENTITY qls.settings.getdictionaries "Merrni më tepër fjalorë">
+<!ENTITY af-ZA "af-ZA (Afrikaans (Afrikë e Jugut))">
+<!ENTITY am-ET "am-ET (Amharike (Etiopi))">
+<!ENTITY ar-AE "ar-AE (Arabisht (UAE))">
+<!ENTITY ar-BH "ar-BH (Arabisht (Bahrein))">
+<!ENTITY ar-DZ "ar-DZ (Arabisht (Algjeri))">
+<!ENTITY ar-EG "ar-EG (Arabisht (Egjipt))">
+<!ENTITY ar-IQ "ar-IQ (Arabisht (Irak))">
+<!ENTITY ar-JO "ar-JO (Arabisht (Jordani))">
+<!ENTITY ar-KW "ar-KW (Arabisht (Kuvajt))">
+<!ENTITY ar-LB "ar-LB (Arabisht (Liban))">
+<!ENTITY ar-LY "ar-LY (Arabisht (Libi))">
+<!ENTITY ar-MA "ar-MA (Arabisht (Marok))">
+<!ENTITY ar-OM "ar-OM (Arabisht (Oman))">
+<!ENTITY ar-QA "ar-QA (Arabisht (Katar))">
+<!ENTITY ar-SA "ar-SA (Arabisht (Arabia Saudite))">
+<!ENTITY ar-SY "ar-SY (Arabisht (Siri))">
+<!ENTITY ar-TN "ar-TN (Arabisht (Tunizi))">
+<!ENTITY ar-YE "ar-YE (Arabisht (Jemen))">
+<!ENTITY arn-CL "arn-CL (Mapudungun (Kili))">
+<!ENTITY as-IN "as-IN (Asameze (Indi))">
+<!ENTITY ast-ES "ast-ES (Asturiane)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl (Azeri (Cirilike))">
+<!ENTITY az-AZ-Latn "az-AZ-Latn (Azeri (Latine))">
+<!ENTITY ba-RU "ba-RU (Bashkire (Rusi))">
+<!ENTITY be-BY "be-BY (Bjellorusisht (Bjellorusi))">
+<!ENTITY ber-DZ "ber-DZ (Tamaziht (Algjeri, Latine))">
+<!ENTITY bg-BG "bg-BG (Bullgarisht (Bullgari))">
+<!ENTITY bn-BD "bn-BD - Bengali (Bangladesh)">
+<!ENTITY bn-IN "bn-IN (Bengali (Indi))">
+<!ENTITY bo-BT "bo-BT (Tibetane (Butan))">
+<!ENTITY bo-CN "bo-CN (Tibetane (RPK))">
+<!ENTITY br-FR "br-FR (Bretone (Francë))">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl (Boshnjake (Bosnjë dhe Hercegovinë, Cirilike))">
+<!ENTITY bs-BA-Latn "bs-BA-Latn (Boshnjake (Bosnjë dhe Hercegovinë, Cirilike))">
+<!ENTITY ca-AD "ca-AD (Katalane (Andorra))">
+<!ENTITY ca-ES "ca-ES (Katalane (Spanjë))">
+<!ENTITY ca-FR "ca-FR (Katalane (Francë))">
+<!ENTITY ca-valencia "ca-valencia - Valenciane (Bashkësia Valenciane)">
+<!ENTITY co-FR "co-FR (Korsikane (Francë))">
+<!ENTITY cs-CZ "cs-CZ (Çekisht (Republika Çeke))">
+<!ENTITY cy-GB "cy-GB (Uellsiane (Mbretëri e Bashkuar))">
+<!ENTITY da-DK "da-DK (Daneze (Danimarkë))">
+<!ENTITY de-AT "de-AT (Gjermanisht (Austri))">
+<!ENTITY de-CH "de-CH (Gjermanisht (Zvicër))">
+<!ENTITY de-DE "de-DE (Gjermanisht (Gjermani))">
+<!ENTITY de-LI "de-LI (Gjermanisht (Lihtenshtein))">
+<!ENTITY de-LU "de-LU (Gjermanisht (Luksemburg))">
+<!ENTITY div-MV "div-MV (Divehi (Maldive))">
+<!ENTITY el-GR "el-GR (Greqisht (Greqi))">
+<!ENTITY en-AU "en-AU (Anglisht (Australi))">
+<!ENTITY en-BZ "en-BZ (Anglisht (Belize))">
+<!ENTITY en-CA "en-CA (Anglisht (Kanada))">
+<!ENTITY en-CB "en-CB (Anglisht (Karaibe))">
+<!ENTITY en-GB "en-GB (Anglisht (Mbretëri e Bashkuar))">
+<!ENTITY en-IE "en-IE (Anglisht (Irlandë))">
+<!ENTITY en-IN "en-IN (Anglisht (Indi))">
+<!ENTITY en-JA "en-JA (Anglisht (Xhamaikë))">
+<!ENTITY en-MY "en-MY (Anglisht (Malajzi))">
+<!ENTITY en-NZ "en-NZ (Anglisht (Zelandë e Re))">
+<!ENTITY en-PH "en-PH (Anglisht (Filipine))">
+<!ENTITY en-SG "en-SG (Anglisht (Singapur))">
+<!ENTITY en-TT "en-TT (Anglisht (Trinidad))">
+<!ENTITY en-US "en-US (Anglisht (Shtetet e Bashkuara))">
+<!ENTITY en-ZA "en-ZA (Anglisht (Afrikë e Jugut))">
+<!ENTITY en-ZW "en-ZW (Anglisht (Zimbabve))">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR (Spanjisht (Argjentinë))">
+<!ENTITY es-BO "es-BO (Spanjisht (Bolivi))">
+<!ENTITY es-CL "es-CL (Spanjisht (Kili))">
+<!ENTITY es-CU "es-CU - Spanjisht (Kubë)">
+<!ENTITY es-CO "es-CO (Spanjisht (Kolumbi))">
+<!ENTITY es-CR "es-CR (Spanjisht (Kosta Rika))">
+<!ENTITY es-DO "es-DO (Spanjisht (Republika Domenikane))">
+<!ENTITY es-EC "es-EC (Spanjisht (Ekuador))">
+<!ENTITY es-ES "es-ES (Spanjisht (Spanjë))">
+<!ENTITY es-ES-ts "es-ES-ts (Spanjisht (Spanjë, Traditional Sort))">
+<!ENTITY es-GT "es-GT (Spanjisht (Guatemalë))">
+<!ENTITY es-HN "es-HN (Spanjisht (Honduras))">
+<!ENTITY es-MX "es-MX (Spanjisht (Meksikë))">
+<!ENTITY es-NI "es-NI (Spanjisht (Nikaragua))">
+<!ENTITY es-PA "es-PA (Spanjisht (Panama))">
+<!ENTITY es-PE "es-PE (Spanjisht (Peru))">
+<!ENTITY es-PR "es-PR (Spanjisht (Porto Riko))">
+<!ENTITY es-PY "es-PY (Spanjisht (Paraguaj))">
+<!ENTITY es-SV "es-SV (Spanjisht (El Salvador))">
+<!ENTITY es-UY "es-UY - Spanish (Uruguay)">
+<!ENTITY es-US "es-US (Spanjisht (Shtetet e Bashkuara))">
+<!ENTITY es-VE "es-VE (Spanjisht (Venezuelë))">
+<!ENTITY et-EE "et-EE (Estonisht (Estoni))">
+<!ENTITY eu-ES "eu-ES (Baske (Vendet Baske))">
+<!ENTITY fa-IR "fa-IR (Persisht (Iran))">
+<!ENTITY fi-FI "fi-FI (Finlandisht (Finlandë))">
+<!ENTITY fil-PH "fil-PH (Filipine (Filipine))">
+<!ENTITY fo-FO "fo-FO (Faroeze (Ishujt Faeroe))">
+<!ENTITY fr-BE "fr-BE (Frënge (Belgjikë))">
+<!ENTITY fr-CA "fr-CA (Frënge (Kanada))">
+<!ENTITY fr-CH "fr-CH (Frënge (Zvicër))">
+<!ENTITY fr-FR "fr-FR (Frënge (Francë))">
+<!ENTITY fr-LU "fr-LU (Frënge (Luksemburg))">
+<!ENTITY fr-MC "fr-MC (Frënge (Monako))">
+<!ENTITY fur-IT "fur-IT (Friulian (Italy))">
+<!ENTITY fy-NL "fy-NL (Frisiane (Holandë))">
+<!ENTITY ga-IE "ga-IE (Irlandisht (Irlandë))">
+<!ENTITY gbz-AF "gbz-AF (Dari (Afganistan))">
+<!ENTITY gd-GB "gd-GB - Gaelike (Mbretëri e Bashkuar)">
+<!ENTITY gl-ES "gl-ES (Galiciane (Galici))">
+<!ENTITY gsw-FR "gsw-FR (Alzasiane (Francë))">
+<!ENTITY gu-IN "gu-IN (Gujarati (Indi))">
+<!ENTITY ha-NG-Latn "ha-NG-Latn (Hausa (Nigeri))">
+<!ENTITY he-IL "he-IL (Hebraisht (Izrael))">
+<!ENTITY hi-IN "hi-IN (Hinduisht (Indi))">
+<!ENTITY hr-BA "hr-BA (Kroatisht (Bosnjë dhe Hercegovinë, Latine))">
+<!ENTITY hr-HR "hr-HR (Kroatisht (Kroaci))">
+<!ENTITY hu-HU "hu-HU (Hungarisht (Hungari))">
+<!ENTITY hy-AM "hy-AM (Armenisht (Armeni))">
+<!ENTITY id-ID "id-ID (Indoneziane)">
+<!ENTITY ii-CN "ii-CN (Yi (RPK))">
+<!ENTITY is-IS "is-IS (Islandisht (Islandë))">
+<!ENTITY it-CH "it-CH (Italisht (Zvicër))">
+<!ENTITY it-IT "it-IT (Italisht (Itali))">
+<!ENTITY iu-CA-Cans "iu-CA-Cans (Inuktitut (Kanada, Silabike))">
+<!ENTITY iu-CA-Latn "iu-CA-Latn (Inuktitute (Kanada, Latine))">
+<!ENTITY ja-JP "ja-JP (Japonisht (Japoni))">
+<!ENTITY ja-JP-mac "ja-JP-mac (Japonisht (Japoni, Mac))">
+<!ENTITY ka-GE "ka-GE (Georgjisht (Gjeorgji))">
+<!ENTITY kk-KZ "kk-KZ (Kazake (Kazakistan))">
+<!ENTITY kl-GL "kl-GL (Groenlandike (Groenlandë))">
+<!ENTITY km-KH "km-KH (Khmere (Kamboxhia))">
+<!ENTITY kn-IN "kn-IN (Kannada (Indi))">
+<!ENTITY kok-IN "kok-IN (Konkani (Indi))">
+<!ENTITY ko-KR "ko-KR (Koreane (Kore))">
+<!ENTITY ky-KG "ky-KG (Kirgiz (Kirgizstan))">
+<!ENTITY lb-LU "lb-LU (Luksemburgeze (Luksemburg))">
+<!ENTITY lo-LA "lo-LA (Lao (Lao PDR))">
+<!ENTITY lt-LT "lt-LT (Lituanisht (Lituani))">
+<!ENTITY lug-UG "lug-UG - Luganda (Ugandë)">
+<!ENTITY lv-LV "lv-LV (Letonishte (Letoni))">
+<!ENTITY mi-NZ "mi-NZ (Maori (Zelandë e Re))">
+<!ENTITY mk-MK "mk-MK (Maqedonisht (Maqedoni))">
+<!ENTITY ml-IN "ml-IN (Malajalame (Indi))">
+<!ENTITY mn-CN "mn-CN (Mongolishte (RPK))">
+<!ENTITY mn-MN "mn-MN (Mongoleze (Mongoli))">
+<!ENTITY moh-CA "moh-CA (Mohouk (Kanada))">
+<!ENTITY mr-IN "mr-IN (Maratisht (Indi))">
+<!ENTITY ms-BN "ms-BN (Malaje (Brunei Daresalam))">
+<!ENTITY ms-MY "ms-MY (Malaje (Malajzi))">
+<!ENTITY mt-MT "mt-MT (Malteze (Maltë))">
+<!ENTITY nb-NO "nb-NO (Norvegjisht - Bokmål (Norvegji))">
+<!ENTITY ne-NP "ne-NP (Nepaleze (Nepal))">
+<!ENTITY nl-BE "nl-BE (Holandisht (Belgjikë))">
+<!ENTITY nl-NL "nl-NL (Holandisht (Holandë))">
+<!ENTITY nn-NO "nn-NO (Norvegjisht - Nynorsk (Norvegji))">
+<!ENTITY nso-ZA "nso-ZA - Sesoto sa Leboa (Afrikë e Jugut)">
+<!ENTITY oc-FR "oc-FR (Oçitane (Francë))">
+<!ENTITY or-IN "or-IN (Orija (Indi))">
+<!ENTITY pa-IN "pa-IN (Panxhabe (Indi))">
+<!ENTITY pl-PL "pl-PL (Polonisht (Poloni))">
+<!ENTITY ps-AF "ps-AF (Pashtune (Afganistan))">
+<!ENTITY pt-BR "pt-BR (Portugeze (Brazil))">
+<!ENTITY pt-PT "pt-PT (Portugeze (Portugali))">
+<!ENTITY qut-GT "qut-GT (K&apos;ike (Guatemalë))">
+<!ENTITY quz-BO "quz-BO (Kueçua (Bolivi))">
+<!ENTITY quz-EC "quz-EC (Kueçua (Ekuador))">
+<!ENTITY quz-PE "quz-PE (Kueçua (Peru))">
+<!ENTITY rm-CH "rm-CH (Romanshe (Zvicër))">
+<!ENTITY ro-RO "ro-RO (Rumanisht (Rumani))">
+<!ENTITY ru-RU "ru-RU (Rusisht (Rusi))">
+<!ENTITY rw-RW "rw-RW (Kinxharuanda (Ruanda))">
+<!ENTITY sah-RU "sah-RU (Jakut (Rusi))">
+<!ENTITY sa-IN "sa-IN (Sanskritisht (Indi))">
+<!ENTITY se-FI "se-FI (Sami (Veriore, Finlandisht))">
+<!ENTITY se-NO "se-NO (Sami (Veriore, Norvegji))">
+<!ENTITY se-SE "se-SE (Sami (Veriore, Suedi))">
+<!ENTITY si-LK "si-LK (Sinala (Sri Lankë))">
+<!ENTITY sk-SK "sk-SK (Slovakisht (Slovaki))">
+<!ENTITY sl-SI "sl-SI (Slovenisht (Sloveni))">
+<!ENTITY sma-NO "sma-NO (Sami (Jugore, Norvegji))">
+<!ENTITY sma-SE "sma-SE (Sami (Jugore, Suedi))">
+<!ENTITY smj-NO "smj-NO (Sami (Lule, Norvegji))">
+<!ENTITY smj-SE "smj-SE (Sami (Lule, Suedi))">
+<!ENTITY smn-FI "smn-FI (Sami (Inari, Finlandë))">
+<!ENTITY sms-FI "sms-FI (Sami (Skolt, Finlandë))">
+<!ENTITY son-NE "son-NE - Songaj (Niger)">
+<!ENTITY sq-AL "sq-AL (Shqip (Shqipëri))">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl (Serbisht (Bosnjë dhe Hercegovinë, Cirilike))">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (Serbisht (Bosnjë dhe Hercegovinë, Latine))">
+<!ENTITY sr-ME "sr-ME - Malazeze (Mal i Zi)">
+<!ENTITY sr-RS "sr-RS - Serbisht (Serbi)">
+<!ENTITY sv-FI "sv-FI (Suedisht (Finlandë))">
+<!ENTITY sv-SE "sv-SE (Suedisht (Suedi))">
+<!ENTITY sw-KE "sw-KE (Suahili (Kenia))">
+<!ENTITY syr-SY "syr-SY (Sirisht (Siri))">
+<!ENTITY ta-IN "ta-IN (Tamil (Indi))">
+<!ENTITY ta-LK "ta-LK - Tamil (Sri Lankë)">
+<!ENTITY te-IN "te-IN (Telugu (Indi))">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl (Taxhike (Taxhikistan))">
+<!ENTITY th-TH "th-TH (Tailandeze (Tailandë))">
+<!ENTITY tk-TM "tk-TM (Turkmene (Turkmenistan))">
+<!ENTITY tn-ZA "tn-ZA (Secvana/Cvana (Afrikë e Jugut))">
+<!ENTITY ur-IN "ur-IN - Urdu (Indi)">
+<!ENTITY tr-TR "tr-TR (Turqisht (Turqi))">
+<!ENTITY tt-RU "tt-RU (Tatare (Rusi))">
+<!ENTITY ug-CN "ug-CN (Ujgure (RPK))">
+<!ENTITY uk-UA "uk-UA (Ukrainase (Ukrainë))">
+<!ENTITY ur-PK "ur-PK (Urdu (Pakistan))">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl (Uzbeke (Uzbekistan, Cirilike))">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn (Uzbeke (Uzbekistan, Latine))">
+<!ENTITY vi-VN "vi-VN (Vietnameze (Vietnam))">
+<!ENTITY wa-BE "wa-BE - Valone (Belgjikë)">
+<!ENTITY dsb-DE "dsb-DE - Sorbiane e Poshtme (Gjermani)">
+<!ENTITY hsb-DE "hsb-DE - Sorbiane e Sipërme (Gjermani)">
+<!ENTITY wo-SN "wo-SN (Uolof (Senegal))">
+<!ENTITY xh-ZA "xh-ZA (isiXhosa/Xhosa (Afrikë e Jugut))">
+<!ENTITY yo-NG "yo-NG (Joruba (Nigeri))">
+<!ENTITY zh-CHS "zh-CHS (Kinezçe (E thjeshtuar))">
+<!ENTITY zh-CHT "zh-CHT (Kinezçe (Tradicionale))">
+<!ENTITY zh-CN "zh-CN (Kinezçe (RPK))">
+<!ENTITY zh-HK "zh-HK (Kinezçe (Hong Kong SAR, PRC))">
+<!ENTITY zh-MO "zh-MO (Kinezçe (Makao SAR))">
+<!ENTITY zh-SG "zh-SG (Kinezçe (Singapur))">
+<!ENTITY zh-TW "zh-TW (Kinezçe (Taivan))">
+<!ENTITY zu-ZA "zu-ZA (isiZulu/Zulu (Afrikë e Jugut))">

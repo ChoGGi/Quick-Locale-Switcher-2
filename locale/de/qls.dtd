@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Schnelles Wechseln und Anwenden verschiedener Spracheinstellungen">
+<!ENTITY qls.createdby "Erstellt von:">
+<!ENTITY qls.restoredefault "Standard wiederherstellen">
+<!ENTITY qls.notifyrestart "Diese Meldung nicht mehr anzeigen.">
+<!ENTITY qls.restartmessage "Spracheinstellung geändert. Zum Aktivieren der Änderungen muss eventuell das Programm neu gestartet werden.">
+<!ENTITY qls.askrestartmessage "Spracheinstellung geändert. Soll das Programm neu gestartet werden, um die Änderungen zu übernehmen?">
+<!ENTITY qls.pleasewait "Neue Spracheinstellungen übernehmen...">
+<!ENTITY qls.settings "Einstellungen...">
+<!ENTITY qls.settings.title "Quick Locale Switcher - Einstellungen">
+<!ENTITY qls.settings.apply "Übernehmen">
+<!ENTITY qls.settings.description "Eigene Spracheinstellungen zum Menü hinzufügen (z.B. en-US-mac oder ja-JPM)">
+<!ENTITY qls.settings.locale "Sprache">
+<!ENTITY qls.settings.label "Beschriftung">
+<!ENTITY qls.settings.pane.general "Allgemein">
+<!ENTITY qls.settings.pane.locales "Sprachen">
+<!ENTITY qls.settings.pane.autoswitch "Automatischer Wechsel">
+<!ENTITY qls.settings.visiblemenuitems "Auswahl der Sprachen, die im Menü angezeigt werden sollen">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Alle Sprachen auswählen">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Keine Sprache auswählen">
+<!ENTITY qls.settings.switchwhat "Folgende sprachbezogene Einstellungen wechseln">
+<!ENTITY qls.settings.switch.gulocale "Für die Benutzeroberfläche (general.useragent.locale)">
+<!ENTITY qls.settings.switch.contentlocale "Für Web-Inhalte (Wörterbuch für die Rechtschreibprüfung und HTTP-Accept-Languages-Header)">
+<!ENTITY qls.settings.switch.dontswitchalheader "HTTP-Accept-Languages-Header nie wechseln">
+<!ENTITY qls.settings.switch.alwaysask "Immer nachfragen, welche Einstellungen gewechselt werden sollen">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Nach dem Wechseln der Sprache für Web-Inhalte die aktuelle Seite neu laden">
+<!ENTITY qls.settings.restartreload "Anwendung neu starten / Seite neu laden">
+<!ENTITY qls.settings.autorestart.ask "Vor dem Neustart bestätigen">
+<!ENTITY qls.statusbar.main "Quick Locale Switcher: Aktuell gewählte Sprache">
+<!ENTITY qls.statusbar.tooltip.content "Web-Inhalte: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Benutzeroberfläche: &#37;1">
+<!ENTITY qls.useautoswitch.title "Automatischer Wechsel für Websites">
+<!ENTITY qls.useautoswitch "Einstellungen für Web-Inhalte und Rechtschreibprüfung automatisch speichern">
+<!ENTITY qls.useautoswitch.tldbased "Automatischer Wechsel nach Top-Level-Domain (.de .nl .fr. pt)">
+<!ENTITY qls.useautoswitch.delete "Automatischen Wechsel für Websites zurücksetzen">
+<!ENTITY qls.useautoswitch.open "Automatischen Wechsel verwalten">
+<!ENTITY qls.autoswitch.filter "Suchen">
+<!ENTITY qls.autoswitch.clearfilter "Löschen">
+<!ENTITY qls.autoswitch.title "Automatischer Wechsel für Websites">
+<!ENTITY qls.autoswitch.site "Website (Sprachauswahl)">
+<!ENTITY qls.autoswitch.remove "Website entfernen">
+<!ENTITY qls.autoswitch.removeall "Alle Websites entfernen">
+<!ENTITY qls.autoswitch.close "Schließen">
+<!ENTITY qls-askswitchsettings-title "Sprachbezogene Einstellungen wechseln">
+<!ENTITY qls.visiblemenuitems.search "Suchen">
+<!ENTITY qls.settings.display "Anzeigeoptionen">
+<!ENTITY qls.settings.display.hide_tools "Eintrag im Menü &quot;Extras&quot; ausblenden">
+<!ENTITY qls.settings.display.hide_statusbar "Symbol in der Statusleiste ausblenden">
+<!ENTITY qls.settings.display.statusbarmode "Anzeigemodus für die Statusleiste">
+<!ENTITY qls.settings.display.statusbarmode.icon "Symbol">
+<!ENTITY qls.settings.display.statusbarmode.text "Text">
+<!ENTITY qls.settings.display.statusbarmode.full "Symbol und Text">
+<!ENTITY qls.settings.getlanguagepacks "Weitere Sprachpakete herunterladen">
+<!ENTITY qls.settings.getdictionaries "Weitere Wörterbücher herunterladen">
+<!ENTITY af-ZA "af-ZA - Afrikaans (Südafrika)">
+<!ENTITY am-ET "am-ET - Amharisch (Äthiopien)">
+<!ENTITY ar-AE "ar-AE - Arabisch (Vereinigte Arabische Emirate)">
+<!ENTITY ar-BH "ar-BH - Arabisch (Bahrain)">
+<!ENTITY ar-DZ "ar-DZ - Arabisch (Algerien)">
+<!ENTITY ar-EG "ar-EG - Arabisch (Ägypten)">
+<!ENTITY ar-IQ "ar-IQ - Arabisch (Irak)">
+<!ENTITY ar-JO "ar-JO - Arabisch (Jordanien)">
+<!ENTITY ar-KW "ar-KW - Arabisch (Kuwait)">
+<!ENTITY ar-LB "ar-LB - Arabisch (Libanon)">
+<!ENTITY ar-LY "ar-LY - Arabisch (Libyen)">
+<!ENTITY ar-MA "ar-MA - Arabisch (Marokko)">
+<!ENTITY ar-OM "ar-OM - Arabisch (Oman)">
+<!ENTITY ar-QA "ar-QA - Arabisch (Katar)">
+<!ENTITY ar-SA "ar-SA - Arabisch (Saudi-Arabien)">
+<!ENTITY ar-SY "ar-SY - Arabisch (Syrien)">
+<!ENTITY ar-TN "ar-TN - Arabisch (Tunesien)">
+<!ENTITY ar-YE "ar-YE - Arabisch (Jemen)">
+<!ENTITY arn-CL "arn-CL - Mapudungun (Chile)">
+<!ENTITY as-IN "as-IN - Asamiya (Indien)">
+<!ENTITY ast-ES "ast-ES - Asturisch (Spanien)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Aseri/Aserbaidschanisch (Kyrillisch)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Aseri/Aserbaidschanisch (Lateinisch)">
+<!ENTITY ba-RU "ba-RU - Baschkirisch (Russland)">
+<!ENTITY be-BY "be-BY - Weißrussisch (Weißrussland)">
+<!ENTITY ber-DZ "ber-DZ - Tamazight (Algerien, Lateinisch)">
+<!ENTITY bg-BG "bg-BG - Bulgarisch (Bulgarien)">
+<!ENTITY bn-BD "bn-BD - Bengalisch (Bangladesch)">
+<!ENTITY bn-IN "bn-IN - Bengalisch (Indien)">
+<!ENTITY bo-BT "bo-BT - Tibetisch (Bhutan)">
+<!ENTITY bo-CN "bo-CN - Tibetisch (Volksrepublik China)">
+<!ENTITY br-FR "br-FR - Bretonisch (Frankreich)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Bosnisch (Bosnien und Herzegowina, Kyrillisch)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Bosnisch (Bosnien und Herzegowina, Lateinisch)">
+<!ENTITY ca-AD "ca-AD - Katalanisch (Andorra)">
+<!ENTITY ca-ES "ca-ES - Katalanisch (Spanien)">
+<!ENTITY ca-FR "ca-FR - Katalanisch (Frankreich)">
+<!ENTITY ca-valencia "ca-valencia - Valencianisch (Valencianische Gemeinschaft)">
+<!ENTITY co-FR "co-FR - Korsisch (Frankreich)">
+<!ENTITY cs-CZ "cs-CZ - Tschechisch (Tschechische Republik)">
+<!ENTITY cy-GB "cy-GB - Walisisch (Großbritannien)">
+<!ENTITY da-DK "da-DK - Dänisch (Dänemark)">
+<!ENTITY de-AT "de-AT - Deutsch (Österreich)">
+<!ENTITY de-CH "de-CH - Deutsch (Schweiz)">
+<!ENTITY de-DE "de-DE - Deutsch (Deutschland)">
+<!ENTITY de-LI "de-LI - Deutsch (Liechtenstein)">
+<!ENTITY de-LU "de-LU - Deutsch (Luxemburg)">
+<!ENTITY div-MV "div-MV - Dhivehi (Malediven)">
+<!ENTITY el-GR "el-GR - Griechisch (Griechenland)">
+<!ENTITY en-AU "en-AU - Englisch (Australien)">
+<!ENTITY en-BZ "en-BZ - Englisch (Belize)">
+<!ENTITY en-CA "en-CA - Englisch (Kanada)">
+<!ENTITY en-CB "en-CB - Englisch (Karibik)">
+<!ENTITY en-GB "en-GB - Englisch (Großbritannien)">
+<!ENTITY en-IE "en-IE - Englisch (Irland)">
+<!ENTITY en-IN "en-IN - Englisch (Indien)">
+<!ENTITY en-JA "en-JA - Englisch (Jamaika)">
+<!ENTITY en-MY "en-MY - Englisch (Malaysia)">
+<!ENTITY en-NZ "en-NZ - Englisch (Neuseeland)">
+<!ENTITY en-PH "en-PH - Englisch (Philippinen)">
+<!ENTITY en-SG "en-SG - Englisch (Singapur)">
+<!ENTITY en-TT "en-TT - Englisch (Trinidad)">
+<!ENTITY en-US "en-US - Englisch (Vereinigte Staaten)">
+<!ENTITY en-ZA "en-ZA - Englisch (Südafrika)">
+<!ENTITY en-ZW "en-ZW - Englisch (Simbabwe)">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR - Spanisch (Argentinien)">
+<!ENTITY es-BO "es-BO - Spanisch (Bolivien)">
+<!ENTITY es-CL "es-CL - Spanisch (Chile)">
+<!ENTITY es-CU "es-CU - Spanisch (Kuba)">
+<!ENTITY es-CO "es-CO - Spanisch (Kolumbien)">
+<!ENTITY es-CR "es-CR - Spanisch (Costa Rica)">
+<!ENTITY es-DO "es-DO - Spanisch (Dominikanische Republik)">
+<!ENTITY es-EC "es-EC - Spanisch (Ecuador)">
+<!ENTITY es-ES "es-ES - Spanisch (Spanien)">
+<!ENTITY es-ES-ts "es-ES-ts - Spanisch (Spanien, Traditionelle Art)">
+<!ENTITY es-GT "es-GT - Spanisch (Guatemala)">
+<!ENTITY es-HN "es-HN - Spanisch (Honduras)">
+<!ENTITY es-MX "es-MX - Spanisch (Mexiko)">
+<!ENTITY es-NI "es-NI - Spanisch (Nicaragua)">
+<!ENTITY es-PA "es-PA - Spanisch (Panama)">
+<!ENTITY es-PE "es-PE - Spanisch (Peru)">
+<!ENTITY es-PR "es-PR - Spanisch (Puerto Rico)">
+<!ENTITY es-PY "es-PY - Spanisch (Paraguay)">
+<!ENTITY es-SV "es-SV - Spanisch (El Salvador)">
+<!ENTITY es-UY "es-UY - Spanisch (Uruguay)">
+<!ENTITY es-US "es-US - Spanisch (Vereinigte Staaten)">
+<!ENTITY es-VE "es-VE - Spanisch (Venezuela)">
+<!ENTITY et-EE "et-EE - Estnisch (Estland)">
+<!ENTITY eu-ES "eu-ES - Baskisch (Spanien, Baskenland))">
+<!ENTITY fa-IR "fa-IR - Persisch (Iran)">
+<!ENTITY fi-FI "fi-FI - Finnisch (Finnland)">
+<!ENTITY fil-PH "fil-PH - Filipino (Philippinen)">
+<!ENTITY fo-FO "fo-FO - Färöisch (Färöer Inseln)">
+<!ENTITY fr-BE "fr-BE - Französisch (Belgien)">
+<!ENTITY fr-CA "fr-CA - Französisch (Kanada)">
+<!ENTITY fr-CH "fr-CH - Französisch (Schweiz)">
+<!ENTITY fr-FR "fr-FR - Französisch (Frankreich)">
+<!ENTITY fr-LU "fr-LU - Französisch (Luxemburg)">
+<!ENTITY fr-MC "fr-MC - Französisch (Monaco)">
+<!ENTITY fur-IT "fur-IT - Furlanisch (Italien)">
+<!ENTITY fy-NL "fy-NL - Friesisch (Niederlande)">
+<!ENTITY ga-IE "ga-IE - Irisch-Gälisch (Irland)">
+<!ENTITY gbz-AF "gbz-AF - Dari (Afghanistan)">
+<!ENTITY gd-GB "gd-GB - Gälisch (Großbritannien)">
+<!ENTITY gl-ES "gl-ES - Galicisch (Spanien, Galicien)">
+<!ENTITY gsw-FR "gsw-FR - Elsässisch (Frankreich)">
+<!ENTITY gu-IN "gu-IN - Gujarati (Indien)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hausa (Nigeria)">
+<!ENTITY he-IL "he-IL - Hebräisch (Israel)">
+<!ENTITY hi-IN "hi-IN - Hindi (Indien)">
+<!ENTITY hr-BA "hr-BA - Kroatisch (Bosnien und Herzegowina, Lateinisch)">
+<!ENTITY hr-HR "hr-HR - Kroatisch (Kroatien)">
+<!ENTITY hu-HU "hu-HU - Ungarisch (Ungarn)">
+<!ENTITY hy-AM "hy-AM - Armenisch (Armenien)">
+<!ENTITY id-ID "id-ID - Indonesisch (Indonesien)">
+<!ENTITY ii-CN "ii-CN - Yi (Volksrepublik China)">
+<!ENTITY is-IS "is-IS - Isländisch (Island)">
+<!ENTITY it-CH "it-CH - Italienisch (Schweiz)">
+<!ENTITY it-IT "it-IT - Italienisch (Italien)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktitut (Kanada, Silbenschrift)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktitut (Kanada, Lateinisch)">
+<!ENTITY ja-JP "ja-JP - Japanisch (Japan)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Japanisch (Japan, Mac)">
+<!ENTITY ka-GE "ka-GE - Georgisch (Georgien)">
+<!ENTITY kk-KZ "kk-KZ - Kasachisch (Kasachstan)">
+<!ENTITY kl-GL "kl-GL - Grönländisch (Grönland)">
+<!ENTITY km-KH "km-KH - Khmer (Kambodscha)">
+<!ENTITY kn-IN "kn-IN - Kannada (Indien">
+<!ENTITY kok-IN "kok-IN - Konkani (Indien)">
+<!ENTITY ko-KR "ko-KR - Koreanisch (Korea)">
+<!ENTITY ky-KG "ky-KG - Kirgisisch (Kirgisistan)">
+<!ENTITY lb-LU "lb-LU - Luxemburgisch (Luxemburg)">
+<!ENTITY lo-LA "lo-LA - Lao (Demokratische Volksrepublik Laos)">
+<!ENTITY lt-LT "lt-LT - Litauisch (Litauen)">
+<!ENTITY lug-UG "lug-UG - Luganda (Uganda)">
+<!ENTITY lv-LV "lv-LV - Lettisch (Lettland)">
+<!ENTITY mi-NZ "mi-NZ - Maori (Neuseeland)">
+<!ENTITY mk-MK "mk-MK - Mazedonisch (Mazedonien)">
+<!ENTITY ml-IN "ml-IN - Malayalam (Indien)">
+<!ENTITY mn-CN "mn-CN - Mongolisch (Volksrepublik China)">
+<!ENTITY mn-MN "mn-MN - Mongolisch (Mongolei)">
+<!ENTITY moh-CA "moh-CA - Mohawk (Kanada)">
+<!ENTITY mr-IN "mr-IN - Marathi (Indien)">
+<!ENTITY ms-BN "ms-BN - Malaiisch (Brunei)">
+<!ENTITY ms-MY "ms-MY - Malaiisch (Malaysia)">
+<!ENTITY mt-MT "mt-MT - Maltesisch (Malta)">
+<!ENTITY nb-NO "nb-NO - Norwegisch/Bokmål (Norwegen)">
+<!ENTITY ne-NP "ne-NP - Nepali/Nepalesisch (Nepal)">
+<!ENTITY nl-BE "nl-BE - Niederländisch (Belgien)">
+<!ENTITY nl-NL "nl-NL - Niederländisch (Niederlande)">
+<!ENTITY nn-NO "nn-NO - Norwegisch/Nynorsk (Norwegen)">
+<!ENTITY nso-ZA "nso-ZA - Nord-Sotho (Südafrika)">
+<!ENTITY oc-FR "oc-FR - Okzitanisch (Frankreich)">
+<!ENTITY or-IN "or-IN - Oriya (Indien)">
+<!ENTITY pa-IN "pa-IN - Punjabi (Indien)">
+<!ENTITY pl-PL "pl-PL - Polnisch (Polen)">
+<!ENTITY ps-AF "ps-AF - Paschtu (Afghanistan)">
+<!ENTITY pt-BR "pt-BR - Portugiesisch (Brasilien)">
+<!ENTITY pt-PT "pt-PT - Portugiesisch (Portugal)">
+<!ENTITY qut-GT "qut-GT - Quiché (Guatemala)">
+<!ENTITY quz-BO "quz-BO - Quechua (Bolivien)">
+<!ENTITY quz-EC "quz-EC - Quechua (Ecuador)">
+<!ENTITY quz-PE "quz-PE - Quechua (Peru)">
+<!ENTITY rm-CH "rm-CH - Rätoromanisch/Romantsch (Schweiz)">
+<!ENTITY ro-RO "ro-RO - Rumänisch (Rumänien)">
+<!ENTITY ru-RU "ru-RU - Russisch (Russland)">
+<!ENTITY rw-RW "rw-RW - Kinyarwanda (Ruanda)">
+<!ENTITY sah-RU "sah-RU - Jakutisch (Russland)">
+<!ENTITY sa-IN "sa-IN - Sanskrit (Indien)">
+<!ENTITY se-FI "se-FI - Samisch (Nördlich, Finnland)">
+<!ENTITY se-NO "se-NO - Samisch (Nördlich, Norwegen)">
+<!ENTITY se-SE "se-SE - Samisch (Nördlich, Schweden)">
+<!ENTITY si-LK "si-LK - Sinhala (Sri Lanka)">
+<!ENTITY sk-SK "sk-SK - Slowakisch (Slowakei)">
+<!ENTITY sl-SI "sl-SI - Slowenisch (Slowenien)">
+<!ENTITY sma-NO "sma-NO - Sami (Südlich, Norwegen)">
+<!ENTITY sma-SE "sma-SE - Sami (Südlich, Schweden)">
+<!ENTITY smj-NO "smj-NO - Sami (Lule, Norwegen)">
+<!ENTITY smj-SE "smj-SE - Sami (Lule, Schweden)">
+<!ENTITY smn-FI "smn-FI - Sami (Inari, Finnland)">
+<!ENTITY sms-FI "sms-FI - Sami (Skolt, Finnland)">
+<!ENTITY son-NE "son-NE - Songhai (Niger)">
+<!ENTITY sq-AL "sq-AL - Albanisch (Albanien)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Serbisch (Bosnien und Herzegowina, Kyrillisch)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - Serbisch (Bosnien und Herzegowina, Lateinisch)">
+<!ENTITY sr-ME "sr-ME - Montenegrinisch (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbisch (Serbien)">
+<!ENTITY sv-FI "sv-FI - Schwedisch (Finnland)">
+<!ENTITY sv-SE "sv-SE - Schwedisch (Schweden)">
+<!ENTITY sw-KE "sw-KE - Swahili (Kenia)">
+<!ENTITY syr-SY "syr-SY - Syrisch (Syrien)">
+<!ENTITY ta-IN "ta-IN - Tamilisch (Indien)">
+<!ENTITY ta-LK "ta-LK - Tamilisch (Sri Lanka)">
+<!ENTITY te-IN "te-IN - Telugu (Indien)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Tadschikisch (Tadschikistan)">
+<!ENTITY th-TH "th-TH - Thai (Thailand)">
+<!ENTITY tk-TM "tk-TM - Turkmenisch (Turkmenistan)">
+<!ENTITY tn-ZA "tn-ZA - Setswana/Tswana (Südafrika)">
+<!ENTITY ur-IN "ur-IN - Urdu (Indien)">
+<!ENTITY tr-TR "tr-TR - Türkisch (Türkei)">
+<!ENTITY tt-RU "tt-RU - Tatarisch (Russland)">
+<!ENTITY ug-CN "ug-CN - Uigurisch (Volksrepublik China)">
+<!ENTITY uk-UA "uk-UA - Ukrainisch (Ukraine)">
+<!ENTITY ur-PK "ur-PK - Urdu (Pakistan)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Usbekisch (Usbekistan, Kyrillisch)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Usbekisch (Usbekistan, Lateinisch)">
+<!ENTITY vi-VN "vi-VN - Vietnamesisch (Vietnam)">
+<!ENTITY wa-BE "wa-BE - Wallonisch (Belgien)">
+<!ENTITY dsb-DE "dsb-DE - Niedersorbisch (Deutschland)">
+<!ENTITY hsb-DE "hsb-DE - Obersorbisch (Deutschland)">
+<!ENTITY wo-SN "wo-SN - Wolof (Senegal)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/Xhosa (Südafrika)">
+<!ENTITY yo-NG "yo-NG - Yoruba (Nigeria)">
+<!ENTITY zh-CHS "zh-CHS - Chinesisch (Vereinfacht)">
+<!ENTITY zh-CHT "zh-CHT - Chinesisch (Traditionell)">
+<!ENTITY zh-CN "zh-CN - Chinesisch (Volksrepublik China)">
+<!ENTITY zh-HK "zh-HK - Chinesisch (Sonderverwaltungszone Hongkong, Volksrepublik China)">
+<!ENTITY zh-MO "zh-MO - Chinesisch (Sonderverwaltungszone Macao)">
+<!ENTITY zh-SG "zh-SG - Chinesisch (Singapur)">
+<!ENTITY zh-TW "zh-TW - Chinesisch (Taiwan)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulu (Südafrika)">

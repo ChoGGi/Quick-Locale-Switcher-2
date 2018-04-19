@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://qls/skin/qls.css" type="text/css"?>
+<?xml-stylesheet href="chrome://qls/skin/qlsaskswitchsettings.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://qls/locale/qls.dtd">
+
+<dialog id="qls-askswitchsettings"
+  onload="InitWindow();"
+  ondialogaccept="return ApplyAndClose();"
+  title="&qls-askswitchsettings-title;"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://qls/content/qlsaskswitchsettings.js"/>
+
+  <hbox flex="1" style="margin: 10px 30px">
+    <groupbox>
+      <caption label="&qls.settings.switchwhat;"/>
+      <checkbox ui_checked="true" id="switch_gulocale" label="&qls.settings.switch.gulocale;"/>
+      <checkbox content_checked="true" id="switch_contentlocale" label="&qls.settings.switch.contentlocale;"/>
+      <vbox style="height: 10px"/>
+      <checkbox id="switch_alwaysask" label="&qls.settings.switch.alwaysask;"/>
+    </groupbox>
+  </hbox>
+
+</dialog>

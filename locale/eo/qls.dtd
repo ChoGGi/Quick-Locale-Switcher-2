@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Rapide ŝanĝi la agordon general.useragent.locale.">
+<!ENTITY qls.createdby "Kreita de:">
+<!ENTITY qls.restoredefault "Restaŭri defaŭlton">
+<!ENTITY qls.notifyrestart "Ne plu montri ĉi tiun mesaĝon.">
+<!ENTITY qls.restartmessage "Lokaĵaro ŝanĝita. Eble vi devas restartigi vian foliumilon por vidi la ŝanĝojn.">
+<!ENTITY qls.askrestartmessage "Lokaĵaro ŝanĝita. Ĉu vi volas restartigi por vidi la ŝanĝojn nun?">
+<!ENTITY qls.pleasewait "Nova lokaĵaro aplikiĝas...">
+<!ENTITY qls.settings "Opcioj...">
+<!ENTITY qls.settings.title "Opcioj de Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Apliki">
+<!ENTITY qls.settings.description "Aldonu viajn proprajn lokaĵarojn al la menuo. (ekz. en-US-mac aŭ de-FY)">
+<!ENTITY qls.settings.locale "Lokaĵaro">
+<!ENTITY qls.settings.label "Etikedo">
+<!ENTITY qls.settings.pane.general "Ĝenerala">
+<!ENTITY qls.settings.pane.locales "Lokaĵaroj">
+<!ENTITY qls.settings.pane.autoswitch "Aŭtomate ŝalti">
+<!ENTITY qls.settings.visiblemenuitems "Elektu la enskribojn, kiujn vi volas montri en la menuo.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Elektu ĉiujn enskribojn">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Malelektu ĉiujn enskribojn">
+<!ENTITY qls.settings.switchwhat "Ŝalti la jenajn agordojn rilatajn al lokaĵaro">
+<!ENTITY qls.settings.switch.gulocale "Uzantinterfaca lingvo (agordo general.useragent.locale)">
+<!ENTITY qls.settings.switch.contentlocale "Enhava lingvo (literumilo kaj HTTP accept languages header)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Neniam ŝalti mian accept languages header">
+<!ENTITY qls.settings.switch.alwaysask "Ĉiam demandi, kiujn agordojn mi volas ŝalti">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Reŝargi aktualan retejon post ŝaltado de la enhava lingvo">
+<!ENTITY qls.settings.restartreload "Restartigi / Reŝargi opciojn">
+<!ENTITY qls.settings.autorestart.ask "Averti antaŭ restartigo de la aplikaĵo">
+<!ENTITY qls.statusbar.main "Aktuale elektita lokaĵaro de Quick Locale Switcher">
+<!ENTITY qls.statusbar.tooltip.content "Enhavo: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Uzantinferfaco: &#37;1">
+<!ENTITY qls.useautoswitch.title "Aŭtomate ŝalti">
+<!ENTITY qls.useautoswitch "Aŭtomate konservi viajn retenhavon kaj literumilan agordon por ĉiu retejo aŭ retpoŝta adreso">
+<!ENTITY qls.useautoswitch.tldbased "Aŭotmate ŝalti surbaze de supra retregiono (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "Restaŭri aŭtomate ŝaltitajn retejojn">
+<!ENTITY qls.useautoswitch.open "Administri aŭtomate ŝaltitajn retejojn">
+<!ENTITY qls.autoswitch.filter "Serĉi">
+<!ENTITY qls.autoswitch.clearfilter "Forigi">
+<!ENTITY qls.autoswitch.title "Aŭtomate ŝalti retejojn">
+<!ENTITY qls.autoswitch.site "Retejo (lokaĵaro)">
+<!ENTITY qls.autoswitch.remove "Forigi elektitajn aŭtomate ŝaltitajn retejojn">
+<!ENTITY qls.autoswitch.removeall "Forigi ĉiujn aŭtomate ŝaltitajn retejojn">
+<!ENTITY qls.autoswitch.close "Fermi">
+<!ENTITY qls-askswitchsettings-title "Ŝalti la jenajn agordojn rilatajn al lokaĵaro">
+<!ENTITY qls.visiblemenuitems.search "Serĉi">
+<!ENTITY qls.settings.display "Vidigi opciojn">
+<!ENTITY qls.settings.display.hide_tools "Kaŝi enskribon en la menuo Iloj">
+<!ENTITY qls.settings.display.hide_statusbar "Kaŝi la simbolon de la stata strio">
+<!ENTITY qls.settings.display.statusbarmode "Vidiga reĝimo de la stata strio">
+<!ENTITY qls.settings.display.statusbarmode.icon "Simbolo">
+<!ENTITY qls.settings.display.statusbarmode.text "Teksto">
+<!ENTITY qls.settings.display.statusbarmode.full "Simbolo kaj teksto">
+<!ENTITY qls.settings.getlanguagepacks "Havigi pliajn lingvopakojn">
+<!ENTITY qls.settings.getdictionaries "Havigi pliajn vortarojn">
+<!ENTITY af-ZA "af-ZA - Afrikansa (Sud-Afriko)">
+<!ENTITY am-ET "am-ET - Amhara (Etiopio)">
+<!ENTITY ar-AE "ar-AE - Araba(UAE)">
+<!ENTITY ar-BH "ar-BH - Araba (Bahrajno)">
+<!ENTITY ar-DZ "ar-DZ - Araba (Alĝerio)">
+<!ENTITY ar-EG "ar-EG - Araba (Egiptio)">
+<!ENTITY ar-IQ "ar-IQ - Araba (Irako)">
+<!ENTITY ar-JO "ar-JO - Araba (Jordanio)">
+<!ENTITY ar-KW "ar-KW - Araba (Kuvajto)">
+<!ENTITY ar-LB "ar-LB - Araba (Libano)">
+<!ENTITY ar-LY "ar-LY - Araba (Libio)">
+<!ENTITY ar-MA "ar-MA - Araba (Maroko)">
+<!ENTITY ar-OM "ar-OM - Araba (Omano)">
+<!ENTITY ar-QA "ar-QA - Araba (Kataro)">
+<!ENTITY ar-SA "ar-SA - Araba (Saŭdi-Arabio)">
+<!ENTITY ar-SY "ar-SY - Araba (Sirio)">
+<!ENTITY ar-TN "ar-TN - Araba (Tunizio)">
+<!ENTITY ar-YE "ar-YE - Araba (Jemeno)">
+<!ENTITY arn-CL "arn-CL (Mapudunguna (Ĉilio)">
+<!ENTITY as-IN "as-IN - Asama (Hindio)">
+<!ENTITY ast-ES "ast-ES - (Asturia)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Azerbajĝana (cirila)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Azerbajĝana (latina)">
+<!ENTITY ba-RU "ba-RU - Baŝkira(Rusio)">
+<!ENTITY be-BY "be-BY - Belorusa (Belorusio)">
+<!ENTITY ber-DZ "ber-DZ - Tamaziĥta(Alĝerio, latina)">
+<!ENTITY bg-BG "bg-BG - Bulgara (Bulgario)">
+<!ENTITY bn-BD "bn-BD - Bengala (Bangladeŝo)">
+<!ENTITY bn-IN "bn-IN - Bengala (Hindio)">
+<!ENTITY bo-BT "bo-BT - Tibeta (Butano)">
+<!ENTITY bo-CN "bo-CN - Tibeta (PRĈ)">
+<!ENTITY br-FR "br-FR - Bretona (Francio)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Bosnia (Bosnio kaj Hercegovino, cyrila)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Bosnia (Bosnio kaj Hercegovino, latina)">
+<!ENTITY ca-AD "ca-AD - Katalana (Andoro)">
+<!ENTITY ca-ES "ca-ES - Katalana (Hispanio)">
+<!ENTITY ca-FR "ca-FR - Katalana (Francio)">
+<!ENTITY ca-valencia "ca-valencia - Valencia (Valencia komunumo)">
+<!ENTITY co-FR "co-FR - Korsika (Francio)">
+<!ENTITY cs-CZ "cs-CZ - Ĉeĥa (Ĉeha Respubliko)">
+<!ENTITY cy-GB "cy-GB - Kimra (Unuiĝinta Reĝlando)">
+<!ENTITY da-DK "da-DK - Dana (Danio)">
+<!ENTITY de-AT "de-AT - Germana (Aŭstrio)">
+<!ENTITY de-CH "de-CH - Germana (Svisio)">
+<!ENTITY de-DE "de-DE - Germana (Germanio)">
+<!ENTITY de-LI "de-LI - Germana (Liĥtenŝtejno)">
+<!ENTITY de-LU "de-LU - Germana (Luksemburgio)">
+<!ENTITY div-MV "div-MV - Divehi (Maldivoj)">
+<!ENTITY el-GR "el-GR - Greka (Grekio)">
+<!ENTITY en-AU "en-AU - Angla (Aŭstralio)">
+<!ENTITY en-BZ "en-BZ - Angla (Belizo)">
+<!ENTITY en-CA "en-CA - Angla (Kanado)">
+<!ENTITY en-CB "en-CB - Angla (Kariba Maro)">
+<!ENTITY en-GB "en-GB - Angla (Unuiĝinta Reĝlando)">
+<!ENTITY en-IE "en-IE - Angla (Irlando)">
+<!ENTITY en-IN "en-IN - Angla (Hindio)">
+<!ENTITY en-JA "en-JA - Angla (Ĵamaiko)">
+<!ENTITY en-MY "en-MY - Angla (Malayzio)">
+<!ENTITY en-NZ "en-NZ - Angla (Nov-Zelando)">
+<!ENTITY en-PH "en-PH - Angla (Filipinoj)">
+<!ENTITY en-SG "en-SG - Angla (Singapuro)">
+<!ENTITY en-TT "en-TT - Angla (Trinidado)">
+<!ENTITY en-US "en-US - Angla (Unuiĝintaj Ŝtatoj)">
+<!ENTITY en-ZA "en-ZA - Angla (Sud-Afriko)">
+<!ENTITY en-ZW "en-ZW - Angla (Zimbabvo)">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR - Hispana (Argentino)">
+<!ENTITY es-BO "es-BO - Hispana (Bolivio)">
+<!ENTITY es-CL "es-CL - Hispana (Ĉilio)">
+<!ENTITY es-CU "es-CU - Hispana (Kubo)">
+<!ENTITY es-CO "es-CO - Hispana (Kolombio)">
+<!ENTITY es-CR "es-CR - Hispana (Kostariko)">
+<!ENTITY es-DO "es-DO - Hispana (Dominika Respubliko)">
+<!ENTITY es-EC "es-EC - Hispana (Ekvadoro)">
+<!ENTITY es-ES "es-ES - Hispana (Hispanio)">
+<!ENTITY es-ES-ts "es-ES-ts - Hispana (Hispanio, tradicia speco)">
+<!ENTITY es-GT "es-GT - Hispana (Gvatemalo)">
+<!ENTITY es-HN "es-HN - Hispana (Honduraso)">
+<!ENTITY es-MX "es-MX - Hispana (Meksikio)">
+<!ENTITY es-NI "es-NI - Hispana (Nikaragvo)">
+<!ENTITY es-PA "es-PA - Hispana (Panamo)">
+<!ENTITY es-PE "es-PE - Hispana (Peruo)">
+<!ENTITY es-PR "es-PR - Hispana (Portoriko)">
+<!ENTITY es-PY "es-PY - Hispana (Paragvajo)">
+<!ENTITY es-SV "es-SV - Hispana (Salvadoro)">
+<!ENTITY es-UY "es-UY - Hispana (Urugvajo)">
+<!ENTITY es-US "es-US - Hispana (Unuiĝintaj Ŝtatoj)">
+<!ENTITY es-VE "es-VE - Hispana (Venezuelo)">
+<!ENTITY et-EE "et-EE - Estona (Estonio)">
+<!ENTITY eu-ES "eu-ES - Vaskae (Vaskio)">
+<!ENTITY fa-IR "fa-IR - Persa (Irano)">
+<!ENTITY fi-FI "fi-FI - Finna (Finnlando)">
+<!ENTITY fil-PH "fil-PH - Filipino (Filipinoj)">
+<!ENTITY fo-FO "fo-FO - Feroa (Feroaj Insuloj)">
+<!ENTITY fr-BE "fr-BE - Franca (Belgio)">
+<!ENTITY fr-CA "fr-CA - Franca (Kanado)">
+<!ENTITY fr-CH "fr-CH - Franca (Svisio)">
+<!ENTITY fr-FR "fr-FR - Franca (Francio)">
+<!ENTITY fr-LU "fr-LU - Franca (Luksemburgio)">
+<!ENTITY fr-MC "fr-MC - Franca (Monako)">
+<!ENTITY fur-IT "fur-IT - Friula (Italio)">
+<!ENTITY fy-NL "fy-NL - Frisa (Nederlando)">
+<!ENTITY ga-IE "ga-IE - Irlanda (Irlando)">
+<!ENTITY gbz-AF "gbz-AF - Daria (Afganio)">
+<!ENTITY gd-GB "gd-GB - Gaela (Unuiĝinta Reĝlando)">
+<!ENTITY gl-ES "gl-ES - Galega (Galegio)">
+<!ENTITY gsw-FR "gsw-FR - Alzaca (Francio)">
+<!ENTITY gu-IN "gu-IN - Guĝarata (Hindio)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hausa (Niĝerio)">
+<!ENTITY he-IL "he-IL - Hebrea (Israelo)">
+<!ENTITY hi-IN "hi-IN - Hindia (Hindio)">
+<!ENTITY hr-BA "hr-BA - Kroata (Bosnio kaj Hercegovino, latina)">
+<!ENTITY hr-HR "hr-HR - Kroata (Kroatio)">
+<!ENTITY hu-HU "hu-HU - Hungara (Hungario)">
+<!ENTITY hy-AM "hy-AM - Armena (Armenio)">
+<!ENTITY id-ID "id-ID - Indonezia (Indonezio)">
+<!ENTITY ii-CN "ii-CN - Jia (PRĈ)">
+<!ENTITY is-IS "is-IS - Islanda (Islando)">
+<!ENTITY it-CH "it-CH - Itala (Svisio)">
+<!ENTITY it-IT "it-IT - Itala (Italio)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktituta (Kanado, sylabaro)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktituta (Kanada, latina)">
+<!ENTITY ja-JP "ja-JP - Japana (Japanio)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Japana (Japanio, Mac)">
+<!ENTITY ka-GE "ka-GE - Kartvela (Kartvelio)">
+<!ENTITY kk-KZ "kk-KZ - Kazaĥa (Kazaĥio)">
+<!ENTITY kl-GL "kl-GL - Gronlanda (Gronlando)">
+<!ENTITY km-KH "km-KH - Ĥmera (Kamboĝio)">
+<!ENTITY kn-IN "kn-IN - Kanara (Hindio)">
+<!ENTITY kok-IN "kok-IN - Konkana (Hindio)">
+<!ENTITY ko-KR "ko-KR - Korea (Koreio)">
+<!ENTITY ky-KG "ky-KG - Kirgiza (Kirgizio)">
+<!ENTITY lb-LU "lb-LU - Luksemburga (Luksemburgio)">
+<!ENTITY lo-LA "lo-LA - Laosa (PDR Laoso)">
+<!ENTITY lt-LT "lt-LT - Litova (Litovio)">
+<!ENTITY lug-UG "lug-UG - Luganda (Ugando)">
+<!ENTITY lv-LV "lv-LV - Latva (Latvio)">
+<!ENTITY mi-NZ "mi-NZ - Maoria (Nov-Zelando)">
+<!ENTITY mk-MK "mk-MK - Makedona (Makedonio)">
+<!ENTITY ml-IN "ml-IN - Malajalamo (Hindio)">
+<!ENTITY mn-CN "mn-CN - Mongola (PRĈ)">
+<!ENTITY mn-MN "mn-MN - Mongola (Mongolio)">
+<!ENTITY moh-CA "moh-CA - Mohaŭka (Kanado)">
+<!ENTITY mr-IN "mr-IN - Maratia (Hindio)">
+<!ENTITY ms-BN "ms-BN - Malaja (Brunei Darussalam)">
+<!ENTITY ms-MY "ms-MY - Malaja (Malajzio)">
+<!ENTITY mt-MT "mt-MT - Malta (Malto)">
+<!ENTITY nb-NO "nb-NO - Norvega - Bokmål (Norvegio)">
+<!ENTITY ne-NP "ne-NP - Nepala (Nepalo)">
+<!ENTITY nl-BE "nl-BE - Nederlanda (Belgio)">
+<!ENTITY nl-NL "nl-NL - Nederlanda (Nederlando)">
+<!ENTITY nn-NO "nn-NO - Norvega - Nynorsk (Norvegio)">
+<!ENTITY nso-ZA "nso-ZA - Sesoto sa Leboa (Sud-Afriko)">
+<!ENTITY oc-FR "oc-FR - Okcitana (Francio)">
+<!ENTITY or-IN "or-IN - Orija (Hindio)">
+<!ENTITY pa-IN "pa-IN - Panĝaba (Hindio)">
+<!ENTITY pl-PL "pl-PL - Pola (Pollando)">
+<!ENTITY ps-AF "ps-AF - Paŝtua (Afganio)">
+<!ENTITY pt-BR "pt-BR - Portugala (Brazilo)">
+<!ENTITY pt-PT "pt-PT - Portugala (Portugalio)">
+<!ENTITY qut-GT "qut-GT - Kiĉea (Gvatemalo)">
+<!ENTITY quz-BO "quz-BO - Keĉua (Bolivio)">
+<!ENTITY quz-EC "quz-EC - Keĉua (Ekvadoro)">
+<!ENTITY quz-PE "quz-PE - Keĉua (Peruo)">
+<!ENTITY rm-CH "rm-CH - Romanĉo (Svisio)">
+<!ENTITY ro-RO "ro-RO - Rumuna (Rumanio)">
+<!ENTITY ru-RU "ru-RU - Rusa (Rusio)">
+<!ENTITY rw-RW "rw-RW - Ruanda (Ruando)">
+<!ENTITY sah-RU "sah-RU - Jakuta (Rusio)">
+<!ENTITY sa-IN "sa-IN - Sanskrito (Hindio)">
+<!ENTITY se-FI "se-FI - Samea (Norda, Finnlando)">
+<!ENTITY se-NO "se-NO - Samea(Norda, Norvegio)">
+<!ENTITY se-SE "se-SE - Samea (Norda, Svedio)">
+<!ENTITY si-LK "si-LK - Sinhalo (Sri-Lanka)">
+<!ENTITY sk-SK "sk-SK - Slovaka (Slovakio)">
+<!ENTITY sl-SI "sl-SI - Slovena (Slovenio)">
+<!ENTITY sma-NO "sma-NO - Samea (Suda, Norvegio)">
+<!ENTITY sma-SE "sma-SE - Samea (Suda, Svedio)">
+<!ENTITY smj-NO "smj-NO - Samea (Lule, Norvegio)">
+<!ENTITY smj-SE "smj-SE - Samea (Lule, Svedio)">
+<!ENTITY smn-FI "smn-FI - Samea (Inari, Finnlando)">
+<!ENTITY sms-FI "sms-FI - Samea (Skolt, Finnlando)">
+<!ENTITY son-NE "son-NE - Songaja (Niĝerlando)">
+<!ENTITY sq-AL "sq-AL - Albana (Albanio)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Serba (Bosnio kaj Hercegovino, cyrila)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - Serbian (Bosnio kaj Hercegovino, latina)">
+<!ENTITY sr-ME "sr-ME - Montenegra (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serba (Serbio)">
+<!ENTITY sv-FI "sv-FI - Sveda (Finnlando)">
+<!ENTITY sv-SE "sv-SE - Sveda (Svedio)">
+<!ENTITY sw-KE "sw-KE - Svahila (Kenjo)">
+<!ENTITY syr-SY "syr-SY - Siriaka (Sirio)">
+<!ENTITY ta-IN "ta-IN - Tamila (Hindio)">
+<!ENTITY ta-LK "ta-LK - Tamila (Sri-Lanko)">
+<!ENTITY te-IN "te-IN - Telugua (Hindio)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Taĝika (Taĝikio)">
+<!ENTITY th-TH "th-TH - Taja (Tajlando)">
+<!ENTITY tk-TM "tk-TM - Turkmena (Turkmenio)">
+<!ENTITY tn-ZA "tn-ZA - Setswana/Tsvana (Sud-Afriko)">
+<!ENTITY ur-IN "ur-IN - Urdua (Hindio)">
+<!ENTITY tr-TR "tr-TR - Turka (Turkio)">
+<!ENTITY tt-RU "tt-RU - Tatara (Rusio)">
+<!ENTITY ug-CN "ug-CN - Ujgura (PRĈ)">
+<!ENTITY uk-UA "uk-UA - Ukraina (Ukraino)">
+<!ENTITY ur-PK "ur-PK - Urdua (Pakistano)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Uzbeka (Uzbekio, cirila)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Uzbeka (Uzbekio, latina)">
+<!ENTITY vi-VN "vi-VN - Vietnama (Vietnamo)">
+<!ENTITY wa-BE "wa-BE - Valona (Belgio)">
+<!ENTITY dsb-DE "dsb-DE - Malsupra Soraba (Germanio)">
+<!ENTITY hsb-DE "hsb-DE - Supra soraba (Germanio)">
+<!ENTITY wo-SN "wo-SN - Volofa (Senegalio)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/Ksosa (Sud-Afrika)">
+<!ENTITY yo-NG "yo-NG - Joruba (Niĝerio)">
+<!ENTITY zh-CHS "zh-CHS - Ĉina (Simpligita)">
+<!ENTITY zh-CHT "zh-CHT - Ĉina (Tradicia)">
+<!ENTITY zh-CN "zh-CN - Ĉina (PRĈ)">
+<!ENTITY zh-HK "zh-HK - Ĉina (Hong Kong SAR, PRC)">
+<!ENTITY zh-MO "zh-MO - Ĉina (Macao SAR)">
+<!ENTITY zh-SG "zh-SG - Ĉina (Singapore)">
+<!ENTITY zh-TW "zh-TW - Ĉina (Taiwan)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulua (Sud-Afriko)">

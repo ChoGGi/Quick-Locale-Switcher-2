@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Breyta general.useragent.locale stillingu.">
+<!ENTITY qls.createdby "Höfundur:">
+<!ENTITY qls.restoredefault "Virkja sjálfgefið tungumál">
+<!ENTITY qls.notifyrestart "Ekki sýna þessi skilaboð aftur.">
+<!ENTITY qls.restartmessage "Tungumáli breytt. Þú gætir þurft að endurræsa vefskoðara til sjá breytingar.">
+<!ENTITY qls.askrestartmessage "Tungumáli breytt. Viltu endurræsa til að sjá breytingar strax?">
+<!ENTITY qls.pleasewait "Geri nýtt tungumál virkt...">
+<!ENTITY qls.settings "Stillingar...">
+<!ENTITY qls.settings.title "Quick Locale Switcher Stillingar">
+<!ENTITY qls.settings.apply "Virkja">
+<!ENTITY qls.settings.description "Bæta við eigin tungumálum í valmynd. (t.d en-US-mac eða de-FY)">
+<!ENTITY qls.settings.locale "Tungumál">
+<!ENTITY qls.settings.label "Titill">
+<!ENTITY qls.settings.pane.general "Almennt">
+<!ENTITY qls.settings.pane.locales "Tungumál">
+<!ENTITY qls.settings.pane.autoswitch "Skipta sjálfvirkt">
+<!ENTITY qls.settings.visiblemenuitems "Veldu þau tungumál sem þú vilt sjá í valmyndinni.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Velja alla hluti">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Afvelja alla hluti">
+<!ENTITY qls.settings.switchwhat "Breyta eftirfarandi tungumála stillingum">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (Viðmót)">
+<!ENTITY qls.settings.switch.contentlocale "Efni tungumáls (Stafsetning og HTTP Accept tungumála haus)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Aldrei skipta um Accept tungumála haus">
+<!ENTITY qls.settings.switch.alwaysask "Spyrja alltaf hvaða stillingar á að nota">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Endurhlaða núverandi vefsvæði eftir að skipt hefur verið um tungumál">
+<!ENTITY qls.settings.restartreload "Endurræsa/Endurhlaða valmöguleikar">
+<!ENTITY qls.settings.autorestart.ask "Vara við áður en forrit er endurræst">
+<!ENTITY qls.statusbar.main "Breyta tungumáli fyrir valið tungumál">
+<!ENTITY qls.statusbar.tooltip.content "Efni: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Viðmót: &#37;1">
+<!ENTITY qls.useautoswitch.title "Skipta sjálfvirkt">
+<!ENTITY qls.useautoswitch "Geyma sjálfvirkt gögn og stafsetningar stillingar fyrir hvert vefsvæði">
+<!ENTITY qls.useautoswitch.tldbased "Skipta sjálfvirkt miðað við seinustu lén endingu (.nl .fr .pt)">
+<!ENTITY qls.useautoswitch.delete "Endurstilla sjálfvirka skiptingu á vefsvæðum">
+<!ENTITY qls.useautoswitch.open "Breyta sjálfvirkri skiptingu á vefsvæðum">
+<!ENTITY qls.autoswitch.filter "Leita">
+<!ENTITY qls.autoswitch.clearfilter "Hreinsa">
+<!ENTITY qls.autoswitch.title "Sjálfvirk skipting á vefsvæðum">
+<!ENTITY qls.autoswitch.site "Vefsvæði (tungumál)">
+<!ENTITY qls.autoswitch.remove "Fjarlægja valið vefsvæði">
+<!ENTITY qls.autoswitch.removeall "Fjarlægja öll vefsvæði">
+<!ENTITY qls.autoswitch.close "Loka">
+<!ENTITY qls-askswitchsettings-title "Skipta samkvæmt eftirfarandi tungumála stillingum">
+<!ENTITY qls.visiblemenuitems.search "Leita">
+<!ENTITY qls.settings.display "Sýnilegar stillingar">
+<!ENTITY qls.settings.display.hide_tools "Fela verkfæra valmynd">
+<!ENTITY qls.settings.display.hide_statusbar "Fela stöðurein">
+<!ENTITY qls.settings.display.statusbarmode "Hvernig á að sýna stöðurein">
+<!ENTITY qls.settings.display.statusbarmode.icon "Smámynd">
+<!ENTITY qls.settings.display.statusbarmode.text "Texti">
+<!ENTITY qls.settings.display.statusbarmode.full "Smámynd og texti">
+<!ENTITY qls.settings.getlanguagepacks "Ná í fleiri tungumálapakka">
+<!ENTITY qls.settings.getdictionaries "Ná í fleiri orðabækur">
+<!ENTITY af-ZA "af-ZA - Afríska (Suður Afríka)">
+<!ENTITY am-ET "am-ET - amharíska (Eþíópía)">
+<!ENTITY ar-AE "ar-AE - Arabíska (UAE)">
+<!ENTITY ar-BH "ar-BH - Arabíska (Bahrain)">
+<!ENTITY ar-DZ "ar-DZ - Arabíska (Algería)">
+<!ENTITY ar-EG "ar-EG - Arabíska (Egyptaland)">
+<!ENTITY ar-IQ "ar-IQ - Arabíska (Írak)">
+<!ENTITY ar-JO "ar-JO - Arabíska (Jórdan)">
+<!ENTITY ar-KW "ar-KW - Arabíska (Kúveit)">
+<!ENTITY ar-LB "ar-LB - Arabíska (Líbanon)">
+<!ENTITY ar-LY "ar-LY - Arabíska (Líbýa)">
+<!ENTITY ar-MA "ar-MA - Arabíska (Marokkó)">
+<!ENTITY ar-OM "ar-OM - Arabíska (Oman)">
+<!ENTITY ar-QA "ar-QA - Arabíska (Qatar)">
+<!ENTITY ar-SA "ar-SA - Arabíska (Sádí Arabía)">
+<!ENTITY ar-SY "ar-SY - Arabíska (Sýrland)">
+<!ENTITY ar-TN "ar-TN - Arabíska (Túnis)">
+<!ENTITY ar-YE "ar-YE - Arabíska (Jemen)">
+<!ENTITY arn-CL "arn-CL (Mapudungun (Chile)">
+<!ENTITY as-IN "as-IN - Assamese (Indland)">
+<!ENTITY ast-ES "ast-ES - (Asturian)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl - Azeri (Cyrillic)">
+<!ENTITY az-AZ-Latn "az-AZ-Latn - Azeri (Latin)">
+<!ENTITY ba-RU "ba-RU - Bashkir (Rússland)">
+<!ENTITY be-BY "be-BY - Belarusian (Belarus)">
+<!ENTITY ber-DZ "ber-DZ - Tamazight(Algeria, Latin)">
+<!ENTITY bg-BG "bg-BG - Búlgarska (Búlgaría)">
+<!ENTITY bn-BD "bn-BD - Bengali (Bangladesh)">
+<!ENTITY bn-IN "bn-IN - Bengali (Indland)">
+<!ENTITY bo-BT "bo-BT - Tibetan (Bhutan)">
+<!ENTITY bo-CN "bo-CN - Tibetan (PRC)">
+<!ENTITY br-FR "br-FR - Breton (Frakkland)">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl - Bosníska (Bosnía og Hersegóvína, Cyrillic)">
+<!ENTITY bs-BA-Latn "bs-BA-Latn - Bosníska (Bosnía og Hersegóvína, Latin)">
+<!ENTITY ca-AD "ca-AD - Katalónska (Andorra)">
+<!ENTITY ca-ES "ca-ES - Katalónska (Spánn)">
+<!ENTITY ca-FR "ca-FR - Katalónska (Frakkland)">
+<!ENTITY ca-valencia "ca-valencia - Valensía (Vatíkanið)">
+<!ENTITY co-FR "co-FR - Korsíska (Frakkland)">
+<!ENTITY cs-CZ "cs-CZ - Tékkneska (Tékkland)">
+<!ENTITY cy-GB "cy-GB - Velska (Bretland)">
+<!ENTITY da-DK "da-DK - Danska (Danmörk)">
+<!ENTITY de-AT "de-AT - Þýska (Austurríki)">
+<!ENTITY de-CH "de-CH - Þýska (Sviss)">
+<!ENTITY de-DE "de-DE - Þýska (Þýskaland)">
+<!ENTITY de-LI "de-LI - Þýska (Liechtenstein)">
+<!ENTITY de-LU "de-LU - Þýska (Lúxemborg)">
+<!ENTITY div-MV "div-MV - Divehi (Malavía)">
+<!ENTITY el-GR "el-GR - Gríska (Grikkland)">
+<!ENTITY en-AU "en-AU - Enska (Ástralía)">
+<!ENTITY en-BZ "en-BZ - Enska (Belize)">
+<!ENTITY en-CA "en-CA - Enska (Kanada)">
+<!ENTITY en-CB "en-CB - Enska (Caribbean)">
+<!ENTITY en-GB "en-GB - Enska (Bretland)">
+<!ENTITY en-IE "en-IE - Enska (Írland)">
+<!ENTITY en-IN "en-IN - Enska (Indland)">
+<!ENTITY en-JA "en-JA - Enska (Jamaíka)">
+<!ENTITY en-MY "en-MY - Enska (Malasía)">
+<!ENTITY en-NZ "en-NZ - Enska (Nýja Sjáland)">
+<!ENTITY en-PH "en-PH - Enska (Filippseyjar)">
+<!ENTITY en-SG "en-SG - Enska (Singapore)">
+<!ENTITY en-TT "en-TT - Enska (Trinidad)">
+<!ENTITY en-US "en-US - Enska (Bandaríkin)">
+<!ENTITY en-ZA "en-ZA - Enska (Suður Afríka)">
+<!ENTITY en-ZW "en-ZW - Enska (Simbabve)">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR - Spænska (Argentína)">
+<!ENTITY es-BO "es-BO - Spænska (Bólevía)">
+<!ENTITY es-CL "es-CL - Spænska (Chile)">
+<!ENTITY es-CU "es-CU - Spænska (Kúpa)">
+<!ENTITY es-CO "es-CO - Spænska (Cólombía)">
+<!ENTITY es-CR "es-CR - Spænska (Kosta Ríka)">
+<!ENTITY es-DO "es-DO - Spænska (Dóminíka)">
+<!ENTITY es-EC "es-EC - Spænska (Ekvador)">
+<!ENTITY es-ES "es-ES - Spænska (Spánn)">
+<!ENTITY es-ES-ts "es-ES-ts - Spænska (Spánn, Hefbundið)">
+<!ENTITY es-GT "es-GT - Spænska (Gvatemala)">
+<!ENTITY es-HN "es-HN - Spænska (Hondúras)">
+<!ENTITY es-MX "es-MX - Spænska (Mexíkó)">
+<!ENTITY es-NI "es-NI - Spænska (Níkaragva )">
+<!ENTITY es-PA "es-PA - Spænska (Panama)">
+<!ENTITY es-PE "es-PE - Spænska (Perú)">
+<!ENTITY es-PR "es-PR - Spænska (Puerto Ríkó)">
+<!ENTITY es-PY "es-PY - Spænska (Paragvæ)">
+<!ENTITY es-SV "es-SV - Spænska (El Salvador)">
+<!ENTITY es-UY "es-UY - Spænska (Úrúgvæ)">
+<!ENTITY es-US "es-US - Spænska (Bandaríkin)">
+<!ENTITY es-VE "es-VE - Spænska (Venesúela)">
+<!ENTITY et-EE "et-EE - Eistneska (Eistland)">
+<!ENTITY eu-ES "eu-ES - Basque (Basque Country)">
+<!ENTITY fa-IR "fa-IR - Persneska (Íran)">
+<!ENTITY fi-FI "fi-FI - Finnska (Finnland)">
+<!ENTITY fil-PH "fil-PH - Filipino (Filippseyjar)">
+<!ENTITY fo-FO "fo-FO - Færeyska (Færeyjar)">
+<!ENTITY fr-BE "fr-BE - Franska (Belgía)">
+<!ENTITY fr-CA "fr-CA - Franska (Kanada)">
+<!ENTITY fr-CH "fr-CH - Franska (Sviss)">
+<!ENTITY fr-FR "fr-FR - Franska (Frakkland)">
+<!ENTITY fr-LU "fr-LU - Franska (Lúxemborg)">
+<!ENTITY fr-MC "fr-MC - Franska (Monakó)">
+<!ENTITY fur-IT "fur-IT - Friulian (Ítalía)">
+<!ENTITY fy-NL "fy-NL - Frisian (Holland)">
+<!ENTITY ga-IE "ga-IE - Írska (Írland)">
+<!ENTITY gbz-AF "gbz-AF - Dari (Afghanistan)">
+<!ENTITY gd-GB "gd-GB - Gelíska (Bretland)">
+<!ENTITY gl-ES "gl-ES - Galician (Galicia)">
+<!ENTITY gsw-FR "gsw-FR - Alsatian (Frakkland)">
+<!ENTITY gu-IN "gu-IN - Gujarati (Indland)">
+<!ENTITY ha-NG-Latn "ha-NG-Latn - Hausa (Nígería)">
+<!ENTITY he-IL "he-IL - Hebreska (Ísrael)">
+<!ENTITY hi-IN "hi-IN - Hindi (Indland)">
+<!ENTITY hr-BA "hr-BA - Króatíska (Bosnía og Hersegóvína, Latin)">
+<!ENTITY hr-HR "hr-HR - Króatíska (Króatía)">
+<!ENTITY hu-HU "hu-HU - Ungverska (Ungverjaland)">
+<!ENTITY hy-AM "hy-AM - Armenska (Armenía)">
+<!ENTITY id-ID "id-ID - (Indonesian)">
+<!ENTITY ii-CN "ii-CN - Yi (PRC)">
+<!ENTITY is-IS "is-IS - Íslenska (Ísland)">
+<!ENTITY it-CH "it-CH - Ítalska (Sviss)">
+<!ENTITY it-IT "it-IT - Ítalska (Ítalía)">
+<!ENTITY iu-CA-Cans "iu-CA-Cans - Inuktitut (Kanada, Syllabics)">
+<!ENTITY iu-CA-Latn "iu-CA-Latn - Inuktitut (Kanada, Latin)">
+<!ENTITY ja-JP "ja-JP - Japanska (Japan)">
+<!ENTITY ja-JP-mac "ja-JP-mac - Japanska (Japan, Mac)">
+<!ENTITY ka-GE "ka-GE - Georgíska (Georgía)">
+<!ENTITY kk-KZ "kk-KZ - Kasakska (Kasakstan)">
+<!ENTITY kl-GL "kl-GL - Grænlenska (Grænland)">
+<!ENTITY km-KH "km-KH - kambódíska (Kambódía)">
+<!ENTITY kn-IN "kn-IN - Kannada (Indland)">
+<!ENTITY kok-IN "kok-IN - Konkani (Indland)">
+<!ENTITY ko-KR "ko-KR - Kórenska (Kórea)">
+<!ENTITY ky-KG "ky-KG - kirgiska (Kirgistan)">
+<!ENTITY lb-LU "lb-LU - Lúxemborgíska (Lúxemborg)">
+<!ENTITY lo-LA "lo-LA - Lao (Lao PDR)">
+<!ENTITY lt-LT "lt-LT - Litáíska (Litháen)">
+<!ENTITY lug-UG "lug-UG - Luganda (Úganda)">
+<!ENTITY lv-LV "lv-LV - Lettneska (Lettland)">
+<!ENTITY mi-NZ "mi-NZ - Maori (Nýja Sjáland)">
+<!ENTITY mk-MK "mk-MK - Makedóníska (Makedónía)">
+<!ENTITY ml-IN "ml-IN - Malasíska (Indland)">
+<!ENTITY mn-CN "mn-CN - Mongólska (PRC)">
+<!ENTITY mn-MN "mn-MN - Mongólska (Mongólía)">
+<!ENTITY moh-CA "moh-CA - Mohawk (Kanada)">
+<!ENTITY mr-IN "mr-IN - Marathi (Indland)">
+<!ENTITY ms-BN "ms-BN - Malay (Brunei Darussalam)">
+<!ENTITY ms-MY "ms-MY - Malay (Malasía)">
+<!ENTITY mt-MT "mt-MT - Maltneska (Malta)">
+<!ENTITY nb-NO "nb-NO - Norska - Bókmál (Noregur)">
+<!ENTITY ne-NP "ne-NP - Nepali (Nepal)">
+<!ENTITY nl-BE "nl-BE - Hollenska (Belgía)">
+<!ENTITY nl-NL "nl-NL - Hollenska (Holland)">
+<!ENTITY nn-NO "nn-NO - Norska - Nýnorska (Noregur)">
+<!ENTITY nso-ZA "nso-ZA - Sesotho sa Leboa (Suður-Afríka)">
+<!ENTITY oc-FR "oc-FR - Occitan (Frakkland)">
+<!ENTITY or-IN "or-IN - Oriya (Indland)">
+<!ENTITY pa-IN "pa-IN - Punjabi (Indland)">
+<!ENTITY pl-PL "pl-PL - Pólska (Póland)">
+<!ENTITY ps-AF "ps-AF - Pashto (Afganistan)">
+<!ENTITY pt-BR "pt-BR - Portúgalska (Brazil)">
+<!ENTITY pt-PT "pt-PT - Portúgalska (Portúgal)">
+<!ENTITY qut-GT "qut-GT - K&apos;iche (Gúatemala)">
+<!ENTITY quz-BO "quz-BO - Quechua (Bólivía)">
+<!ENTITY quz-EC "quz-EC - Quechua (Ekvador)">
+<!ENTITY quz-PE "quz-PE - Quechua (Perú)">
+<!ENTITY rm-CH "rm-CH - Romansh (Sviss)">
+<!ENTITY ro-RO "ro-RO - Rúmenska (Rómanía)">
+<!ENTITY ru-RU "ru-RU - Rússneska (Rússland)">
+<!ENTITY rw-RW "rw-RW - Rúandíska (Rúanda)">
+<!ENTITY sah-RU "sah-RU - Yakut (Rússland)">
+<!ENTITY sa-IN "sa-IN - Sanskrít (Indland)">
+<!ENTITY se-FI "se-FI - Samóíska (Norður, Finnland)">
+<!ENTITY se-NO "se-NO - Samóíska (Norður, Noregur)">
+<!ENTITY se-SE "se-SE - Samóíska (Norður, Svíþjóð)">
+<!ENTITY si-LK "si-LK - Sinhala (Sri Lanka)">
+<!ENTITY sk-SK "sk-SK - Slóvakíska (Slóvakia)">
+<!ENTITY sl-SI "sl-SI - Slóvenska (Slóvenía)">
+<!ENTITY sma-NO "sma-NO - Samóíska (Suður, Noregur)">
+<!ENTITY sma-SE "sma-SE - Samóíska (Suður, Svíþjóð)">
+<!ENTITY smj-NO "smj-NO - Samóíska (Lule, Noregur)">
+<!ENTITY smj-SE "smj-SE - Samóíska (Lule, Svíþjóð)">
+<!ENTITY smn-FI "smn-FI - Samóíska (Inari, Finnland)">
+<!ENTITY sms-FI "sms-FI - Samóíska (Skolt, Finnland)">
+<!ENTITY son-NE "son-NE - Songhay (Nígería)">
+<!ENTITY sq-AL "sq-AL - Albanska (Albanía)">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl - Serbneska (Bosnía og Hersegóvína, Cyrillic)">
+<!ENTITY sr-BA-Latn "sr-BA-Latn - Serbneska (Bosnía og Hersegóvína, Latin)">
+<!ENTITY sr-ME "sr-ME - Montenegrin (Montenegro)">
+<!ENTITY sr-RS "sr-RS - Serbneska (Serbía)">
+<!ENTITY sv-FI "sv-FI - Sænska (Finnland)">
+<!ENTITY sv-SE "sv-SE - Sænska (Svíþjóð)">
+<!ENTITY sw-KE "sw-KE - Swahili (Kenía)">
+<!ENTITY syr-SY "syr-SY - Sýrlenska (Sýrland)">
+<!ENTITY ta-IN "ta-IN - Tamil (Indland)">
+<!ENTITY ta-LK "ta-LK - Tamil (Sri Lanka)">
+<!ENTITY te-IN "te-IN - Telugu (Indland)">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl - Tajik (Tajikistan)">
+<!ENTITY th-TH "th-TH - Taílenska (Taíland)">
+<!ENTITY tk-TM "tk-TM - Túrkmenska (Túrkmenista)">
+<!ENTITY tn-ZA "tn-ZA - Setswana/Tswana (Suður Afríka)">
+<!ENTITY ur-IN "ur-IN - Úrdú (Indland)">
+<!ENTITY tr-TR "tr-TR - Tyrkneska (Tyrkland)">
+<!ENTITY tt-RU "tt-RU - Tatar (Rússland)">
+<!ENTITY ug-CN "ug-CN - Uighur (PRC)">
+<!ENTITY uk-UA "uk-UA - Úkraníska (Úkranía)">
+<!ENTITY ur-PK "ur-PK - Urdu (Pakistan)">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl - Uzbek (Uzbekistan, Cyrillic)">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn - Uzbek (Uzbekistan, Latin)">
+<!ENTITY vi-VN "vi-VN - Víetnamska (Víetnam)">
+<!ENTITY wa-BE "wa-BE - Vallónska (Belgía)">
+<!ENTITY dsb-DE "dsb-DE - Neðri Sorbía (Þýskaland)">
+<!ENTITY hsb-DE "hsb-DE - Efri Sorbía (Þýskaland)">
+<!ENTITY wo-SN "wo-SN - Wolof (Senegal)">
+<!ENTITY xh-ZA "xh-ZA - isiXhosa/Xhosa (Suður Afríka)">
+<!ENTITY yo-NG "yo-NG - Yoruba (Nígería)">
+<!ENTITY zh-CHS "zh-CHS - Kínverska (Einfaldað)">
+<!ENTITY zh-CHT "zh-CHT - Kínverska (Hefðbundið)">
+<!ENTITY zh-CN "zh-CN - Kínverska (PRC)">
+<!ENTITY zh-HK "zh-HK - Kínverska (Hong Kong SAR, PRC)">
+<!ENTITY zh-MO "zh-MO - Kínverska (Macao SAR)">
+<!ENTITY zh-SG "zh-SG - Kínverska (Singapore)">
+<!ENTITY zh-TW "zh-TW - Kínverska (Taíwan)">
+<!ENTITY zu-ZA "zu-ZA - isiZulu/Zulu (Suður Afríka)">

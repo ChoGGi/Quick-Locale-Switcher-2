@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <vbox id="clientBox" flex="1">
+    <vbox flex="1" id="contributorsBox" class="indent" style="max-height: 300px; overflow: auto;" height="300px"/>
+  </vbox>
+</overlay>
+

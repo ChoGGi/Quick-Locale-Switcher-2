@@ -1,0 +1,276 @@
+<!ENTITY qls.context.main "Quick Locale Switcher">
+<!ENTITY qls.description "Atharraich an roghainn general.useragent.locale gu luath.">
+<!ENTITY qls.createdby "Air a chruthachadh le:">
+<!ENTITY qls.restoredefault "Aisig na roghainnean bunaiteach">
+<!ENTITY qls.notifyrestart "Na seall dhomh an teachdaireachd seo a-rithist.">
+<!ENTITY qls.restartmessage "Dh\'atharraich thu do sgeama ionadail. Faodaidh gum bi agad am brabhsair agad tòiseachadh a-rithist mus faic thu na dh\'atharraich thu.">
+<!ENTITY qls.askrestartmessage "Dh\'atharraich thu do sgeama ionadail. A bheil thu airson an siostam agad tòiseachadh a-rithist gus na dh\'atharraich thu a chur an sàs ann?">
+<!ENTITY qls.pleasewait "A\' cur an sàs an àite ùir...">
+<!ENTITY qls.settings "Roghainnean...">
+<!ENTITY qls.settings.title "Roghainnean an Quick Locale Switcher">
+<!ENTITY qls.settings.apply "Cuir an sàs">
+<!ENTITY qls.settings.description "Cuir sgeamannan ionadail gnàthaichte ris a\' chlàr-taice, (m.e. en-US-mac no de-FY)">
+<!ENTITY qls.settings.locale "Sgeama ionadail">
+<!ENTITY qls.settings.label "Leubail">
+<!ENTITY qls.settings.pane.general "Coitcheann">
+<!ENTITY qls.settings.pane.locales "Sgeamannan ionadail">
+<!ENTITY qls.settings.pane.autoswitch "Fèin-suids">
+<!ENTITY qls.settings.visiblemenuitems "Tagh na rudan a bu toigh leat fhaicinn sa chlàr-taice.">
+<!ENTITY qls.settings.visiblemenuitems.selectall "Tagh a h-uile rud">
+<!ENTITY qls.settings.visiblemenuitems.deselectall "Dì-thagh a h-uile rud">
+<!ENTITY qls.settings.switchwhat "Dèan suids eadar na sgeamannan ionadail a leanas">
+<!ENTITY qls.settings.switch.gulocale "general.useragent.locale (Eadar-aghaidh a\' chleachdaiche)">
+<!ENTITY qls.settings.switch.contentlocale "Cànan na susbainte (Faclair an dearbhair-litreachaidh is bann-cinn HTTP nan cànan a ghabhar ris)">
+<!ENTITY qls.settings.switch.dontswitchalheader "Na dèan suids eadar bannan-cinn nan cànan idir">
+<!ENTITY qls.settings.switch.alwaysask "Faighnich dhìom an-còmhnaidh am bu toigh leam suids a dhèanamh">
+<!ENTITY qls.settings.switch.reloadbrowserafterhalswitch "Ath-luchdaich an làrach làithreach as dèidh dhomh cànan na susbainte atharrachadh">
+<!ENTITY qls.settings.restartreload "Roghainnean an ath-thòiseachaidh / ath-luchdachaidh">
+<!ENTITY qls.settings.autorestart.ask "Thoir dhomh rabhadh mus dèid am prògram a thòiseachadh a-rithist">
+<!ENTITY qls.statusbar.main "Sgeama ionadail làithreach an Quick Locale Switcher">
+<!ENTITY qls.statusbar.tooltip.content "Susbaint: &#37;1">
+<!ENTITY qls.statusbar.tooltip.gu "Eadar-aghaidh: &#37;1">
+<!ENTITY qls.useautoswitch.title "Dèan suids gu fèin-obrachail">
+<!ENTITY qls.useautoswitch "Sàbhail roghainnean airson susbaint-lìn agus faclair an dearbhaidh-litreachaidh gu fèin-obrachail airson gach làrach">
+<!ENTITY qls.useautoswitch.tldbased "Dèan fèin-suidseadh a-rèir na h-àrd-àrainne (.ie .im .fr)">
+<!ENTITY qls.useautoswitch.delete "Aisig bun-roghainnean nan làraichean a nì fèin-suidseadh">
+<!ENTITY qls.useautoswitch.open "Rianaich na làraichain a nì fèin-suidseadh">
+<!ENTITY qls.autoswitch.filter "Lorg">
+<!ENTITY qls.autoswitch.clearfilter "Falamhaich">
+<!ENTITY qls.autoswitch.title "Làraichean a nì fèin-suidseadh">
+<!ENTITY qls.autoswitch.site "Làrach (sgeama ionadail)">
+<!ENTITY qls.autoswitch.remove "Thoir air falbh gach làrach fèin-suidsidh a thagh thu">
+<!ENTITY qls.autoswitch.removeall "Thoir air falbh gach làrach a nì fèin-suidseadh">
+<!ENTITY qls.autoswitch.close "Dùin">
+<!ENTITY qls-askswitchsettings-title "Dèan suids eadar roghainnean a\' sgeama ionadail a leanas">
+<!ENTITY qls.visiblemenuitems.search "Lorg">
+<!ENTITY qls.settings.display "Roghainnean taisbeanaidh">
+<!ENTITY qls.settings.display.hide_tools "Cuir an rud seo am falach air a\' chlàr-taice">
+<!ENTITY qls.settings.display.hide_statusbar "Cuir am falach ìomhaigheag na h-inbhe">
+<!ENTITY qls.settings.display.statusbarmode "Modh taisbeanaidh bàr na h-inbhe">
+<!ENTITY qls.settings.display.statusbarmode.icon "Ìomhaigheag">
+<!ENTITY qls.settings.display.statusbarmode.text "Teacsa">
+<!ENTITY qls.settings.display.statusbarmode.full "Ìomhaigheag is teacsa">
+<!ENTITY qls.settings.getlanguagepacks "Faigh barrachd pacaidean cànain">
+<!ENTITY qls.settings.getdictionaries "Faigh barrachd fhaclairean">
+<!ENTITY af-ZA "af-ZA (Afrikaans (Afraga a Deas))">
+<!ENTITY am-ET "am-ET (Amthara (An Itiop))">
+<!ENTITY ar-AE "ar-AE (Arabais (Na h-Iomaratan Arabach Aonaichte))">
+<!ENTITY ar-BH "ar-BH (Arabais (Bachrain))">
+<!ENTITY ar-DZ "ar-DZ (Arabais (Aildiria))">
+<!ENTITY ar-EG "ar-EG (Arabais (An Èiphit))">
+<!ENTITY ar-IQ "ar-IQ (Arabais (Iràc))">
+<!ENTITY ar-JO "ar-JO (Arabais (Iòrdan))">
+<!ENTITY ar-KW "ar-KW (Arabais (Cuibhéit))">
+<!ENTITY ar-LB "ar-LB (Arabais (Leabanon))">
+<!ENTITY ar-LY "ar-LY (Arabais (Libia))">
+<!ENTITY ar-MA "ar-MA (Arabais (Maroco))">
+<!ENTITY ar-OM "ar-OM (Arabais (Omàn))">
+<!ENTITY ar-QA "ar-QA (Arabais (Catar))">
+<!ENTITY ar-SA "ar-SA (Arabais (Aràibia nan Sabhd))">
+<!ENTITY ar-SY "ar-SY (Arabais (Siridhea))">
+<!ENTITY ar-TN "ar-TN (Arabais (Tuinisea))">
+<!ENTITY ar-YE "ar-YE (Arabais (An Eaman))">
+<!ENTITY arn-CL "arn-CL (Mapudungun (An t-Sile))">
+<!ENTITY as-IN "as-IN (Asamais (Na h-Innseachan))">
+<!ENTITY ast-ES "ast-ES (Asturais)">
+<!ENTITY az-AZ-Cyrl "az-AZ-Cyrl (Azeri (Cirilis))">
+<!ENTITY az-AZ-Latn "az-AZ-Latn (Azeri (Laideann))">
+<!ENTITY ba-RU "ba-RU (Bashkir (An Ruis))">
+<!ENTITY be-BY "be-BY (Bealaruisis (A\' Bhealaruis))">
+<!ENTITY ber-DZ "ber-DZ (Tamazight(Aildiria, Laideann))">
+<!ENTITY bg-BG "bg-BG (Bulgairis (A\' Bhulgair))">
+<!ENTITY bn-BD "bn-BD - Beangailis (Bangladais)">
+<!ENTITY bn-IN "bn-IN (Beangailis (Na h-Innseachan))">
+<!ENTITY bo-BT "bo-BT (Tibeitis (Butàn))">
+<!ENTITY bo-CN "bo-CN (Tibeitis (SPS))">
+<!ENTITY br-FR "br-FR (Breatnais (An Fhraing))">
+<!ENTITY bs-BA-Cyrl "bs-BA-Cyrl (Bosnais (Bosna is Hearsagobhana, Cirilis))">
+<!ENTITY bs-BA-Latn "bs-BA-Latn (Bosnais (Bosna is Hearsagobhana, Laideann))">
+<!ENTITY ca-AD "ca-AD (Catalanais (Andorra))">
+<!ENTITY ca-ES "ca-ES (Catalanais (An Spàinn))">
+<!ENTITY ca-FR "ca-FR (Catalanais (An Fhraing))">
+<!ENTITY ca-valencia "ca-valencia - Catalanais Valencia (Coimhearsnachd Valencia)">
+<!ENTITY co-FR "co-FR (Corsais (An Fhraing))">
+<!ENTITY cs-CZ "cs-CZ (Seicis (Poblachd na Seice))">
+<!ENTITY cy-GB "cy-GB (Cuimris (An Rìoghachd Aonaichte))">
+<!ENTITY da-DK "da-DK (Danmhairgis (An Danmhairg))">
+<!ENTITY de-AT "de-AT (Gearmailtis (An Ostair))">
+<!ENTITY de-CH "de-CH (Gearmailtis (An Eilbheis))">
+<!ENTITY de-DE "de-DE (Gearmailtis (A\' Ghearmailt))">
+<!ENTITY de-LI "de-LI (Gearmailtis (Liechtenstein))">
+<!ENTITY de-LU "de-LU (Gearmailtis (Lugsamburg))">
+<!ENTITY div-MV "div-MV (Divehi (Na h-Eileanan Mhaladaibh))">
+<!ENTITY el-GR "el-GR (Grèigis (A\' Ghrèig))">
+<!ENTITY en-AU "en-AU (Beurla (Astràilia))">
+<!ENTITY en-BZ "en-BZ (Beurla (Beilìs))">
+<!ENTITY en-CA "en-CA (Beurla (Canada))">
+<!ENTITY en-CB "en-CB (Beurla (Caraibeach))">
+<!ENTITY en-GB "en-GB (Beurla (An Rìoghachd Aonaichte))">
+<!ENTITY en-IE "en-IE (Beurla (Èirinn))">
+<!ENTITY en-IN "en-IN (Beurla (Na h-Innseachan))">
+<!ENTITY en-JA "en-JA (Beurla (Diameuga))">
+<!ENTITY en-MY "en-MY (Beurla (Malaidhsea))">
+<!ENTITY en-NZ "en-NZ (Beurla (Sealainn Nuadh))">
+<!ENTITY en-PH "en-PH (Beurla (Na h-Eileanan Filipineach))">
+<!ENTITY en-SG "en-SG (Beurla (Singeapòr))">
+<!ENTITY en-TT "en-TT (Beurla (Trianaid))">
+<!ENTITY en-US "en-US (Beurla (Na Stàitean Aonaichte))">
+<!ENTITY en-ZA "en-ZA (Beurla (Afraga a Deas))">
+<!ENTITY en-ZW "en-ZW (Beurla (An t-Sìombab))">
+<!ENTITY eo-EO "eo-EO - Esperanto">
+<!ENTITY es-AR "es-AR (Spàinntis (An Argantain))">
+<!ENTITY es-BO "es-BO (Spàinntis (Boilibhia))">
+<!ENTITY es-CL "es-CL (Spàinntis (An t-Sile))">
+<!ENTITY es-CU "es-CU - Spàinntis (Cùba)">
+<!ENTITY es-CO "es-CO (Spàinntis (Coloimbia))">
+<!ENTITY es-CR "es-CR (Spàinntis (Costa Rìcea))">
+<!ENTITY es-DO "es-DO (Spàinntis (A\' Phoblachd Dhoiminiceach))">
+<!ENTITY es-EC "es-EC (Spàinntis (Eacuador))">
+<!ENTITY es-ES "es-ES (Spàinntis (An Spàinn))">
+<!ENTITY es-ES-ts "es-ES-ts (Spàinntis (An Spàinn, seòrsachadh tradaiseanta))">
+<!ENTITY es-GT "es-GT (Spàinntis (Guatamala))">
+<!ENTITY es-HN "es-HN (Spàinntis (Hondùras))">
+<!ENTITY es-MX "es-MX (Spàinntis (Meagsago))">
+<!ENTITY es-NI "es-NI (Spàinntis (Niocaragua))">
+<!ENTITY es-PA "es-PA (Spàinntis (Panama))">
+<!ENTITY es-PE "es-PE (Spàinntis (Pearù))">
+<!ENTITY es-PR "es-PR (Spàinntis (Am Port Rìcea))">
+<!ENTITY es-PY "es-PY (Spàinntis (Paraguaidh))">
+<!ENTITY es-SV "es-SV (Spàinntis (An Salbhador))">
+<!ENTITY es-UY "es-UY - Spàinntis (Uruguaidh)">
+<!ENTITY es-US "es-US (Spàinntis (Na Stàitean Aonaichte))">
+<!ENTITY es-VE "es-VE (Spàinntis (A\' Bheiniseala))">
+<!ENTITY et-EE "et-EE (Eastonais (An Eastoin))">
+<!ENTITY eu-ES "eu-ES (Basgais (Dùthaich nam Basgach))">
+<!ENTITY fa-IR "fa-IR (Farsi (Ioràn))">
+<!ENTITY fi-FI "fi-FI (Fionnlannais (An Fhionnlann))">
+<!ENTITY fil-PH "fil-PH (Filipino (Na h-Eileanan Filipineach))">
+<!ENTITY fo-FO "fo-FO (Fàrothais (Na h-Eileanan Fàro))">
+<!ENTITY fr-BE "fr-BE (Frangais (A\' Bheilg))">
+<!ENTITY fr-CA "fr-CA (Frangais (Canada))">
+<!ENTITY fr-CH "fr-CH (Frangais (An Eilbheis))">
+<!ENTITY fr-FR "fr-FR (Frangais (An Fhraing))">
+<!ENTITY fr-LU "fr-LU (Frangais (Lugsamburg))">
+<!ENTITY fr-MC "fr-MC (Frangais (Monaco))">
+<!ENTITY fur-IT "fur-IT (Friuli (An Eadailt))">
+<!ENTITY fy-NL "fy-NL (Frìsis (Na Tìrean Ìsle))">
+<!ENTITY ga-IE "ga-IE (Gaeilge (Èirinn))">
+<!ENTITY gbz-AF "gbz-AF (Dari (Afghanastàn))">
+<!ENTITY gd-GB "(Gàidhlig (An Rìoghachd Aonaichte)">
+<!ENTITY gl-ES "gl-ES (Galìsis (Gailìsia))">
+<!ENTITY gsw-FR "gsw-FR (Alsasais (An Fhraing))">
+<!ENTITY gu-IN "gu-IN (Gujarati (Na h-Innseachan))">
+<!ENTITY ha-NG-Latn "ha-NG-Latn (Hausa (Nigèiria))">
+<!ENTITY he-IL "he-IL (Eabhra (Iosrael))">
+<!ENTITY hi-IN "hi-IN (Hindis (Na h-Innseachan))">
+<!ENTITY hr-BA "hr-BA (Cròthaisis (Bosna is Hearsagobhana, Laideann))">
+<!ENTITY hr-HR "hr-HR (Cròthaisis (A\' Chròthais))">
+<!ENTITY hu-HU "hu-HU (Ungairis (An Ungair))">
+<!ENTITY hy-AM "hy-AM (Airmeinis (Airmeinia))">
+<!ENTITY id-ID "id-ID (Innd-Innsis)">
+<!ENTITY ii-CN "ii-CN (Yi (SPS))">
+<!ENTITY is-IS "is-IS (Inis Tìlis (Inis Tìle))">
+<!ENTITY it-CH "it-CH (Eadailtis (An Eilbhis))">
+<!ENTITY it-IT "it-IT (Eadailtis (An Eadailt))">
+<!ENTITY iu-CA-Cans "iu-CA-Cans (Inuktitut (Canada, Sgrìobhadh Lideach))">
+<!ENTITY iu-CA-Latn "iu-CA-Latn (Inuktitut (Canada, Laideann))">
+<!ENTITY ja-JP "ja-JP (Seapanais (An t-Seapan))">
+<!ENTITY ja-JP-mac "ja-JP-mac (Seapanais (An t-Seapan, Mac))">
+<!ENTITY ka-GE "ka-GE (Cairtbheilis (A\' Chairtbheil))">
+<!ENTITY kk-KZ "kk-KZ (Casachais (Casachstàn))">
+<!ENTITY kl-GL "kl-GL (Graonlannais (A\' Ghraonlann))">
+<!ENTITY km-KH "km-KH (Cmèar (Cambuidea))">
+<!ENTITY kn-IN "kn-IN (Kannada (Na h-Innseachan))">
+<!ENTITY kok-IN "kok-IN (Konkani (Na h-Innseachan))">
+<!ENTITY ko-KR "ko-KR (Coirèanais (Coirèa))">
+<!ENTITY ky-KG "ky-KG (Cìorgaisis (Cìorgastan))">
+<!ENTITY lb-LU "lb-LU (Lugsamburgais (Lugsamburg))">
+<!ENTITY lo-LA "lo-LA (Lao (Lao SPD))">
+<!ENTITY lt-LT "lt-LT (Liotuainis (An Liotuain))">
+<!ENTITY lug-UG "lug-UG (Luganda (Uganda))">
+<!ENTITY lv-LV "lv-LV (Laitbheis (An Laitbhe))">
+<!ENTITY mi-NZ "mi-NZ (Māori (Sealainn Nuadh))">
+<!ENTITY mk-MK "mk-MK (Masadonais (A\' Mhasadon))">
+<!ENTITY ml-IN "ml-IN (Malayalam (Na h-Innseachan))">
+<!ENTITY mn-CN "mn-CN (Mongolais (SPS))">
+<!ENTITY mn-MN "mn-MN (Mongolais (Dùthaich nam Mongol))">
+<!ENTITY moh-CA "moh-CA (Mohawk (Canada))">
+<!ENTITY mr-IN "mr-IN (Marathi (Na h-Innseachan))">
+<!ENTITY ms-BN "ms-BN (Malaidhis (Brùnaigh Dàr as-Salàm))">
+<!ENTITY ms-MY "ms-MY (Malaidhis (Malaidhsea))">
+<!ENTITY mt-MT "mt-MT (Maltais (Malta))">
+<!ENTITY nb-NO "nb-NO (Nirribhis - Bokmål (An Nirribhidh))">
+<!ENTITY ne-NP "ne-NP (Neapalais (Neapal))">
+<!ENTITY nl-BE "nl-BE (Duitis (A\' Bheilg))">
+<!ENTITY nl-NL "nl-NL (Duitis (Na Tìrean Ìsle))">
+<!ENTITY nn-NO "nn-NO (Nirribhis - Nynorsk (An Nirribhidh))">
+<!ENTITY nso-ZA "nso-ZA (Sesotho (Afraga a Deas))">
+<!ENTITY oc-FR "oc-FR (Ogsatanais (An Fhraing))">
+<!ENTITY or-IN "or-IN (Oriya (Na h-Innseachan))">
+<!ENTITY pa-IN "pa-IN (Panjabi (Na h-Innseachan))">
+<!ENTITY pl-PL "pl-PL (Pòlainnis (A\' Phòlainn))">
+<!ENTITY ps-AF "ps-AF (Pashto (Afghanastàn))">
+<!ENTITY pt-BR "pt-BR (Portagailis (Braisil))">
+<!ENTITY pt-PT "pt-PT (Portagailis (A\' Phortagail))">
+<!ENTITY qut-GT "qut-GT (K\'iche\' (Guatamala))">
+<!ENTITY quz-BO "quz-BO (Quechua (Boilibhia))">
+<!ENTITY quz-EC "quz-EC (Quechua (Eacuador))">
+<!ENTITY quz-PE "quz-PE (Quechua (Pearù))">
+<!ENTITY rm-CH "rm-CH (Rumantsch (An Eilbhis))">
+<!ENTITY ro-RO "ro-RO (Romàinis (Romàinia))">
+<!ENTITY ru-RU "ru-RU (Ruisis (An Ruis))">
+<!ENTITY rw-RW "rw-RW (Kinyarwanda (Ruanda))">
+<!ENTITY sah-RU "sah-RU (Yakut (An Ruis))">
+<!ENTITY sa-IN "sa-IN (Sanskrit (Na h-Innseachan))">
+<!ENTITY se-FI "se-FI (Sámi (a Tuath, An Fhionnlann))">
+<!ENTITY se-NO "se-NO (Sámi (a Tuath, Nirribhidh))">
+<!ENTITY se-SE "se-SE (Sámi (a Tuath, An t-Suain))">
+<!ENTITY si-LK "si-LK (Sinhala (Sri Lanca))">
+<!ENTITY sk-SK "sk-SK (Slòbhacais (An t-Slòbhac))">
+<!ENTITY sl-SI "sl-SI (Slòbhanais (An t-Slòbhain))">
+<!ENTITY sma-NO "sma-NO (Sámi (a Deas, Nirribhidh))">
+<!ENTITY sma-SE "sma-SE (Sámi (a Deas, An t-Suain))">
+<!ENTITY smj-NO "smj-NO (Sámi (Lule, Nirribhidh))">
+<!ENTITY smj-SE "smj-SE (Sámi (Lule, An t-Suain))">
+<!ENTITY smn-FI "smn-FI (Sámi (Inari, An Fhionnlann))">
+<!ENTITY sms-FI "sms-FI (Sámi (Skolt, An Fhionnlann))">
+<!ENTITY son-NE "son-NE (Songhai)">
+<!ENTITY sq-AL "sq-AL (Albàinis (Albàinia))">
+<!ENTITY sr-BA-Cyrl "sr-BA-Cyrl (Sèarbais (Bosna is Hearsagobhana, Cirilis))">
+<!ENTITY sr-BA-Latn "sr-BA-Latn (Sèarbais (Bosna is Hearsagobhana, Laideann))">
+<!ENTITY sr-ME "sr-ME - Monadh Neagrais (Am Monadh Neagrach)">
+<!ENTITY sr-RS "sr-RS - Sèarbais (An t-Sèarb)">
+<!ENTITY sv-FI "sv-FI (Suainis (An Fhionnlann))">
+<!ENTITY sv-SE "sv-SE (Suainis (An t-Suain))">
+<!ENTITY sw-KE "sw-KE (Swahili (Ceinia))">
+<!ENTITY syr-SY "syr-SY (Syriac (Siridha))">
+<!ENTITY ta-IN "ta-IN (Taimilis (Na h-Innseachan))">
+<!ENTITY ta-LK "ta-LK - Taimilis (Sri Lanka)">
+<!ENTITY te-IN "te-IN (Telugu (Na h-Innseachan))">
+<!ENTITY tg-TJ-Cyrl "tg-TJ-Cyrl (Taidigis (Taidigeastàn))">
+<!ENTITY th-TH "th-TH (Tàidh (Dùthaich nan Tàidh))">
+<!ENTITY tk-TM "tk-TM (Turcmanais (Turcmanastàn))">
+<!ENTITY tn-ZA "tn-ZA (Setswana/Tswana (Afraga a Deas))">
+<!ENTITY ur-IN "ur-IN - Urdu (Na h-Innseachan)">
+<!ENTITY tr-TR "tr-TR (Tucais (An Tuircy))">
+<!ENTITY tt-RU "tt-RU (Tatar (An Ruis))">
+<!ENTITY ug-CN "ug-CN (Uigiurais (SPS))">
+<!ENTITY uk-UA "uk-UA (Ucràinis (An Ucràin))">
+<!ENTITY ur-PK "ur-PK (Urdu (Pagastàn))">
+<!ENTITY uz-UZ-Cyrl "uz-UZ-Cyrl (Usbagais (Usbagastàn, Cirilis))">
+<!ENTITY uz-UZ-Latn "uz-UZ-Latn (Usbagais (Usbagastàn, Laideann))">
+<!ENTITY vi-VN "vi-VN (Bhiet-Namais (Bhiet-Nam))">
+<!ENTITY wa-BE "wa-BE - Walon (A\' Bheilg)">
+<!ENTITY dsb-DE "dsb-DE - Sòrbais Ìochdarach (A\' Ghearmailt)">
+<!ENTITY hsb-DE "hsb-DE - Sòrbais Uachdarach (A\' Ghearmailt)">
+<!ENTITY wo-SN "wo-SN (Wolof (Seanagal))">
+<!ENTITY xh-ZA "xh-ZA (isiXhosa/Xhosa (Afraga a Deas))">
+<!ENTITY yo-NG "yo-NG (Yoruba (Nigèiria))">
+<!ENTITY zh-CHS "zh-CHS (Sìnis (Simplichte))">
+<!ENTITY zh-CHT "zh-CHT (Sìnis (Tradaiseanta))">
+<!ENTITY zh-CN "zh-CN (Sìnis (SPS))">
+<!ENTITY zh-HK "zh-HK (Sìnis (Hong Kong SAR, PRC))">
+<!ENTITY zh-MO "zh-MO (Sìnis (Macao SAR))">
+<!ENTITY zh-SG "zh-SG (Sìnis (Singeapòr))">
+<!ENTITY zh-TW "zh-TW (Sìnis (Taidh-Bhàn))">
+<!ENTITY zu-ZA "zu-ZA (isiZulu/Zulu (Afraga a Deas))">
